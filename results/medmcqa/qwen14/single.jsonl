@@ -1,0 +1,300 @@
+{"id": "m000", "gold": "B", "step": "Anatomy", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 125, "output_tokens": 18}
+{"id": "m001", "gold": "D", "step": "Dental", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 130, "output_tokens": 18}
+{"id": "m002", "gold": "A", "step": "Dental", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 92, "output_tokens": 18}
+{"id": "m003", "gold": "D", "step": "Surgery", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 107, "output_tokens": 18}
+{"id": "m004", "gold": "A", "step": "Pathology", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 132, "output_tokens": 18}
+{"id": "m005", "gold": "A", "step": "Medicine", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 103, "output_tokens": 5}
+{"id": "m006", "gold": "B", "step": "Pathology", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 91, "output_tokens": 18}
+{"id": "m007", "gold": "B", "step": "Biochemistry", "pred": "B", "response": "B. Hormone-sensitive lipase\n\nANSWER: B", "prompt_tokens": 106, "output_tokens": 13}
+{"id": "m008", "gold": "B", "step": "ENT", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 90, "output_tokens": 18}
+{"id": "m009", "gold": "A", "step": "Dental", "pred": "D", "response": "The soft tissue tooth interface that forms after flap surgery in a previously denuded area is typically a connective tissue attachment, as the junctional epithelium is often disrupted and replaced by a fibrous connective tissue attachment during healing.\n\nANSWER: D", "prompt_tokens": 107, "output_tokens": 52}
+{"id": "m010", "gold": "B", "step": "Dental", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 94, "output_tokens": 18}
+{"id": "m011", "gold": "B", "step": "Microbiology", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 114, "output_tokens": 18}
+{"id": "m012", "gold": "B", "step": "Dental", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 113, "output_tokens": 18}
+{"id": "m013", "gold": "B", "step": "Anatomy", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 101, "output_tokens": 5}
+{"id": "m014", "gold": "B", "step": "ENT", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 112, "output_tokens": 18}
+{"id": "m015", "gold": "B", "step": "Dental", "pred": "B", "response": "B. Fibroblasts\n\nANSWER: B", "prompt_tokens": 110, "output_tokens": 12}
+{"id": "m016", "gold": "A", "step": "Pathology", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 97, "output_tokens": 18}
+{"id": "m017", "gold": "C", "step": "Dental", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 117, "output_tokens": 18}
+{"id": "m018", "gold": "A", "step": "Social & Preventive Medicine", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 138, "output_tokens": 5}
+{"id": "m019", "gold": "B", "step": "Surgery", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 114, "output_tokens": 18}
+{"id": "m020", "gold": "B", "step": "Forensic Medicine", "pred": "B", "response": "B. Nerin\n\nANSWER: B", "prompt_tokens": 91, "output_tokens": 10}
+{"id": "m021", "gold": "A", "step": "Biochemistry", "pred": "C", "response": "C. Next generation sequencing  \nANSWER: C", "prompt_tokens": 92, "output_tokens": 11}
+{"id": "m022", "gold": "B", "step": "Pharmacology", "pred": "B", "response": "B. Phenytoin\n\nANSWER: B", "prompt_tokens": 95, "output_tokens": 12}
+{"id": "m023", "gold": "C", "step": "Microbiology", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 90, "output_tokens": 5}
+{"id": "m024", "gold": "B", "step": "Forensic Medicine", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 98, "output_tokens": 18}
+{"id": "m025", "gold": "B", "step": "Anatomy", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 147, "output_tokens": 5}
+{"id": "m026", "gold": "C", "step": "Social & Preventive Medicine", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 178, "output_tokens": 18}
+{"id": "m027", "gold": "C", "step": "Physiology", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 111, "output_tokens": 18}
+{"id": "m028", "gold": "A", "step": "ENT", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 94, "output_tokens": 18}
+{"id": "m029", "gold": "A", "step": "Dental", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 96, "output_tokens": 18}
+{"id": "m030", "gold": "A", "step": "Pharmacology", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 101, "output_tokens": 18}
+{"id": "m031", "gold": "C", "step": "Dental", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 105, "output_tokens": 18}
+{"id": "m032", "gold": "D", "step": "Dental", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 145, "output_tokens": 5}
+{"id": "m033", "gold": "C", "step": "Dental", "pred": "C", "response": "C. Rhinomanometry.\n\nANSWER: C", "prompt_tokens": 100, "output_tokens": 12}
+{"id": "m034", "gold": "A", "step": "Gynaecology & Obstetrics", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 100, "output_tokens": 18}
+{"id": "m035", "gold": "C", "step": "Surgery", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 94, "output_tokens": 18}
+{"id": "m036", "gold": "A", "step": "Microbiology", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 106, "output_tokens": 5}
+{"id": "m037", "gold": "B", "step": "Pediatrics", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 125, "output_tokens": 18}
+{"id": "m038", "gold": "D", "step": "Biochemistry", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 90, "output_tokens": 5}
+{"id": "m039", "gold": "A", "step": "Dental", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 105, "output_tokens": 18}
+{"id": "m040", "gold": "A", "step": "Gynaecology & Obstetrics", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 107, "output_tokens": 18}
+{"id": "m041", "gold": "D", "step": "Surgery", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 107, "output_tokens": 5}
+{"id": "m042", "gold": "B", "step": "Dental", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 97, "output_tokens": 18}
+{"id": "m043", "gold": "A", "step": "Anatomy", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 123, "output_tokens": 18}
+{"id": "m044", "gold": "A", "step": "Surgery", "pred": "A", "response": "A. Gloves  \nANSWER: A", "prompt_tokens": 93, "output_tokens": 9}
+{"id": "m045", "gold": "A", "step": "Dental", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 107, "output_tokens": 5}
+{"id": "m046", "gold": "B", "step": "Surgery", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 135, "output_tokens": 18}
+{"id": "m047", "gold": "A", "step": "Surgery", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 123, "output_tokens": 5}
+{"id": "m048", "gold": "A", "step": "Pediatrics", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 105, "output_tokens": 18}
+{"id": "m049", "gold": "B", "step": "Dental", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 121, "output_tokens": 5}
+{"id": "m050", "gold": "A", "step": "Pathology", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 102, "output_tokens": 18}
+{"id": "m051", "gold": "A", "step": "Physiology", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 126, "output_tokens": 5}
+{"id": "m052", "gold": "B", "step": "Dental", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 101, "output_tokens": 18}
+{"id": "m053", "gold": "C", "step": "Dental", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 99, "output_tokens": 18}
+{"id": "m054", "gold": "D", "step": "Pediatrics", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 114, "output_tokens": 18}
+{"id": "m055", "gold": "D", "step": "ENT", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 101, "output_tokens": 18}
+{"id": "m056", "gold": "C", "step": "Pathology", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 145, "output_tokens": 18}
+{"id": "m057", "gold": "B", "step": "Dental", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 98, "output_tokens": 18}
+{"id": "m058", "gold": "B", "step": "Anatomy", "pred": "B", "response": "B. Mylohyoid\n\nANSWER: B", "prompt_tokens": 109, "output_tokens": 12}
+{"id": "m059", "gold": "B", "step": "Pediatrics", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 215, "output_tokens": 18}
+{"id": "m060", "gold": "B", "step": "Pathology", "pred": "B", "response": "B. DMT-1\n\nANSWER: B", "prompt_tokens": 100, "output_tokens": 12}
+{"id": "m061", "gold": "C", "step": "Dental", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 125, "output_tokens": 18}
+{"id": "m062", "gold": "D", "step": "Medicine", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 150, "output_tokens": 18}
+{"id": "m063", "gold": "B", "step": "Social & Preventive Medicine", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 106, "output_tokens": 18}
+{"id": "m064", "gold": "A", "step": "Medicine", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 96, "output_tokens": 18}
+{"id": "m065", "gold": "D", "step": "Dental", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 104, "output_tokens": 18}
+{"id": "m066", "gold": "A", "step": "Pathology", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 95, "output_tokens": 18}
+{"id": "m067", "gold": "A", "step": "Anatomy", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 143, "output_tokens": 18}
+{"id": "m068", "gold": "A", "step": "Gynaecology & Obstetrics", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 99, "output_tokens": 5}
+{"id": "m069", "gold": "B", "step": "Pediatrics", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 176, "output_tokens": 5}
+{"id": "m070", "gold": "A", "step": "Dental", "pred": "C", "response": "C. Avulsion\n\nANSWER: C", "prompt_tokens": 94, "output_tokens": 10}
+{"id": "m071", "gold": "B", "step": "Dental", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 94, "output_tokens": 18}
+{"id": "m072", "gold": "B", "step": "Medicine", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 89, "output_tokens": 18}
+{"id": "m073", "gold": "B", "step": "Pathology", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 107, "output_tokens": 18}
+{"id": "m074", "gold": "A", "step": "Dental", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 105, "output_tokens": 18}
+{"id": "m075", "gold": "B", "step": "Dental", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 99, "output_tokens": 5}
+{"id": "m076", "gold": "A", "step": "Surgery", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 126, "output_tokens": 18}
+{"id": "m077", "gold": "C", "step": "Dental", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 105, "output_tokens": 5}
+{"id": "m078", "gold": "A", "step": "Surgery", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 92, "output_tokens": 5}
+{"id": "m079", "gold": "D", "step": "Anaesthesia", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 130, "output_tokens": 5}
+{"id": "m080", "gold": "D", "step": "Anatomy", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 101, "output_tokens": 18}
+{"id": "m081", "gold": "A", "step": "Pathology", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 99, "output_tokens": 5}
+{"id": "m082", "gold": "B", "step": "Pharmacology", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 109, "output_tokens": 18}
+{"id": "m083", "gold": "D", "step": "Social & Preventive Medicine", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 135, "output_tokens": 18}
+{"id": "m084", "gold": "A", "step": "Dental", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 120, "output_tokens": 18}
+{"id": "m085", "gold": "C", "step": "Dental", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 148, "output_tokens": 5}
+{"id": "m086", "gold": "B", "step": "Radiology", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 100, "output_tokens": 18}
+{"id": "m087", "gold": "A", "step": "Pharmacology", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 148, "output_tokens": 5}
+{"id": "m088", "gold": "C", "step": "Pharmacology", "pred": "C", "response": "ANSWER: C (C. Edaravone)", "prompt_tokens": 106, "output_tokens": 13}
+{"id": "m089", "gold": "D", "step": "Medicine", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 141, "output_tokens": 18}
+{"id": "m090", "gold": "C", "step": "Gynaecology & Obstetrics", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 108, "output_tokens": 18}
+{"id": "m091", "gold": "C", "step": "Social & Preventive Medicine", "pred": "C", "response": "C. Stratified random sampling\n\nANSWER: C", "prompt_tokens": 105, "output_tokens": 12}
+{"id": "m092", "gold": "C", "step": "Dental", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 134, "output_tokens": 18}
+{"id": "m093", "gold": "A", "step": "Surgery", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 100, "output_tokens": 18}
+{"id": "m094", "gold": "A", "step": "Medicine", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 150, "output_tokens": 18}
+{"id": "m095", "gold": "D", "step": "Dental", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 111, "output_tokens": 18}
+{"id": "m096", "gold": "B", "step": "Pathology", "pred": "B", "response": "B. Dendritic cell\n\nANSWER: B", "prompt_tokens": 94, "output_tokens": 12}
+{"id": "m097", "gold": "B", "step": "Social & Preventive Medicine", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 110, "output_tokens": 18}
+{"id": "m098", "gold": "A", "step": "Gynaecology & Obstetrics", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 98, "output_tokens": 18}
+{"id": "m099", "gold": "D", "step": "Surgery", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 94, "output_tokens": 18}
+{"id": "m100", "gold": "D", "step": "Biochemistry", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 131, "output_tokens": 18}
+{"id": "m101", "gold": "A", "step": "Pediatrics", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 118, "output_tokens": 18}
+{"id": "m102", "gold": "A", "step": "Pathology", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 141, "output_tokens": 18}
+{"id": "m103", "gold": "C", "step": "Dental", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 144, "output_tokens": 18}
+{"id": "m104", "gold": "C", "step": "Dental", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 102, "output_tokens": 18}
+{"id": "m105", "gold": "A", "step": "ENT", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 110, "output_tokens": 18}
+{"id": "m106", "gold": "A", "step": "Dental", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 97, "output_tokens": 18}
+{"id": "m107", "gold": "D", "step": "Pediatrics", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 153, "output_tokens": 5}
+{"id": "m108", "gold": "D", "step": "Anatomy", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 106, "output_tokens": 18}
+{"id": "m109", "gold": "A", "step": "Dental", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 108, "output_tokens": 18}
+{"id": "m110", "gold": "B", "step": "Dental", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 92, "output_tokens": 18}
+{"id": "m111", "gold": "D", "step": "Social & Preventive Medicine", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 150, "output_tokens": 5}
+{"id": "m112", "gold": "D", "step": "Gynaecology & Obstetrics", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 118, "output_tokens": 18}
+{"id": "m113", "gold": "D", "step": "Radiology", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 102, "output_tokens": 18}
+{"id": "m114", "gold": "D", "step": "Dental", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 124, "output_tokens": 18}
+{"id": "m115", "gold": "A", "step": "Microbiology", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 119, "output_tokens": 18}
+{"id": "m116", "gold": "A", "step": "Anaesthesia", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 99, "output_tokens": 18}
+{"id": "m117", "gold": "B", "step": "Medicine", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 94, "output_tokens": 18}
+{"id": "m118", "gold": "A", "step": "Gynaecology & Obstetrics", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 98, "output_tokens": 5}
+{"id": "m119", "gold": "B", "step": "Pathology", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 107, "output_tokens": 18}
+{"id": "m120", "gold": "A", "step": "Pathology", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 115, "output_tokens": 18}
+{"id": "m121", "gold": "C", "step": "Radiology", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 104, "output_tokens": 18}
+{"id": "m122", "gold": "B", "step": "Surgery", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 123, "output_tokens": 18}
+{"id": "m123", "gold": "A", "step": "Anatomy", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 104, "output_tokens": 18}
+{"id": "m124", "gold": "B", "step": "Dental", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 95, "output_tokens": 18}
+{"id": "m125", "gold": "A", "step": "Dental", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 102, "output_tokens": 5}
+{"id": "m126", "gold": "D", "step": "Pathology", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 93, "output_tokens": 5}
+{"id": "m127", "gold": "C", "step": "Biochemistry", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 98, "output_tokens": 5}
+{"id": "m128", "gold": "D", "step": "Pathology", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 110, "output_tokens": 18}
+{"id": "m129", "gold": "B", "step": "Medicine", "pred": "B", "response": "B. Dengue virus  \nANSWER: B", "prompt_tokens": 99, "output_tokens": 11}
+{"id": "m130", "gold": "A", "step": "Dental", "pred": "A", "response": "A. Spoon shaped depression with the apex towards the center of the tooth\n\nANSWER: A", "prompt_tokens": 107, "output_tokens": 20}
+{"id": "m131", "gold": "C", "step": "Pathology", "pred": "C", "response": "C. scarlet fever  \nANSWER: C", "prompt_tokens": 94, "output_tokens": 11}
+{"id": "m132", "gold": "B", "step": "Pharmacology", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 123, "output_tokens": 18}
+{"id": "m133", "gold": "B", "step": "Pediatrics", "pred": "B", "response": "B. NPHS 2\n\nANSWER: B", "prompt_tokens": 100, "output_tokens": 13}
+{"id": "m134", "gold": "D", "step": "Anatomy", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 94, "output_tokens": 18}
+{"id": "m135", "gold": "D", "step": "Anatomy", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 95, "output_tokens": 18}
+{"id": "m136", "gold": "B", "step": "ENT", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 130, "output_tokens": 18}
+{"id": "m137", "gold": "A", "step": "Dental", "pred": "A", "response": "Sealants are most effective in preventing initial caries by sealing off deep grooves and pits in the teeth where food particles and bacteria can accumulate.\n\nANSWER: A", "prompt_tokens": 93, "output_tokens": 35}
+{"id": "m138", "gold": "B", "step": "Dental", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 100, "output_tokens": 18}
+{"id": "m139", "gold": "C", "step": "Dental", "pred": "C", "response": "C. Profilometer\n\nANSWER: C", "prompt_tokens": 100, "output_tokens": 11}
+{"id": "m140", "gold": "A", "step": "Forensic Medicine", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 104, "output_tokens": 5}
+{"id": "m141", "gold": "B", "step": "Gynaecology & Obstetrics", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 104, "output_tokens": 18}
+{"id": "m142", "gold": "D", "step": "Medicine", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 112, "output_tokens": 5}
+{"id": "m143", "gold": "A", "step": "Anatomy", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 89, "output_tokens": 18}
+{"id": "m144", "gold": "A", "step": "Pathology", "pred": "A", "response": "A. Neutrophilia\n\nANSWER: A", "prompt_tokens": 97, "output_tokens": 12}
+{"id": "m145", "gold": "D", "step": "Dental", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 96, "output_tokens": 18}
+{"id": "m146", "gold": "B", "step": "Pathology", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 113, "output_tokens": 18}
+{"id": "m147", "gold": "B", "step": "Surgery", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 127, "output_tokens": 18}
+{"id": "m148", "gold": "D", "step": "Dental", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 105, "output_tokens": 5}
+{"id": "m149", "gold": "B", "step": "Forensic Medicine", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 124, "output_tokens": 18}
+{"id": "m150", "gold": "A", "step": "Dental", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 108, "output_tokens": 18}
+{"id": "m151", "gold": "D", "step": "Ophthalmology", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 102, "output_tokens": 18}
+{"id": "m152", "gold": "D", "step": "Medicine", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 101, "output_tokens": 5}
+{"id": "m153", "gold": "A", "step": "Pharmacology", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 100, "output_tokens": 5}
+{"id": "m154", "gold": "D", "step": "Biochemistry", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 101, "output_tokens": 5}
+{"id": "m155", "gold": "D", "step": "Forensic Medicine", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 95, "output_tokens": 18}
+{"id": "m156", "gold": "A", "step": "Physiology", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 108, "output_tokens": 5}
+{"id": "m157", "gold": "D", "step": "Physiology", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 100, "output_tokens": 5}
+{"id": "m158", "gold": "B", "step": "Biochemistry", "pred": "B", "response": "B. Protein  \nANSWER: B", "prompt_tokens": 94, "output_tokens": 9}
+{"id": "m159", "gold": "A", "step": "Dental", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 113, "output_tokens": 18}
+{"id": "m160", "gold": "A", "step": "Dental", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 96, "output_tokens": 18}
+{"id": "m161", "gold": "A", "step": "Dental", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 99, "output_tokens": 18}
+{"id": "m162", "gold": "B", "step": "Forensic Medicine", "pred": "B", "response": "B. Helsinki declaration  \nANSWER: B", "prompt_tokens": 97, "output_tokens": 10}
+{"id": "m163", "gold": "D", "step": "Physiology", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 135, "output_tokens": 5}
+{"id": "m164", "gold": "A", "step": "Dental", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 95, "output_tokens": 18}
+{"id": "m165", "gold": "C", "step": "Ophthalmology", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 100, "output_tokens": 18}
+{"id": "m166", "gold": "C", "step": "Gynaecology & Obstetrics", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 96, "output_tokens": 18}
+{"id": "m167", "gold": "C", "step": "Dental", "pred": "C", "response": "C. Microorganisms  \nANSWER: C", "prompt_tokens": 89, "output_tokens": 10}
+{"id": "m168", "gold": "A", "step": "ENT", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D)  \nANSWER: A", "prompt_tokens": 118, "output_tokens": 23}
+{"id": "m169", "gold": "A", "step": "Dental", "pred": "A", "response": "A. Gates glidden drill  \nANSWER: A", "prompt_tokens": 97, "output_tokens": 12}
+{"id": "m170", "gold": "A", "step": "Dental", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 92, "output_tokens": 5}
+{"id": "m171", "gold": "C", "step": "Surgery", "pred": "C", "response": "C. Nuclear palisading\n\nANSWER: C", "prompt_tokens": 95, "output_tokens": 12}
+{"id": "m172", "gold": "C", "step": "Pharmacology", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 102, "output_tokens": 18}
+{"id": "m173", "gold": "A", "step": "Dental", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 111, "output_tokens": 18}
+{"id": "m174", "gold": "C", "step": "Dental", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 99, "output_tokens": 18}
+{"id": "m175", "gold": "B", "step": "Pharmacology", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 101, "output_tokens": 18}
+{"id": "m176", "gold": "B", "step": "Forensic Medicine", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 100, "output_tokens": 18}
+{"id": "m177", "gold": "B", "step": "Dental", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 98, "output_tokens": 18}
+{"id": "m178", "gold": "D", "step": "Medicine", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 182, "output_tokens": 18}
+{"id": "m179", "gold": "B", "step": "Dental", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 91, "output_tokens": 18}
+{"id": "m180", "gold": "D", "step": "Pediatrics", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 102, "output_tokens": 18}
+{"id": "m181", "gold": "A", "step": "Social & Preventive Medicine", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 126, "output_tokens": 18}
+{"id": "m182", "gold": "D", "step": "Medicine", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 168, "output_tokens": 18}
+{"id": "m183", "gold": "C", "step": "Biochemistry", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 89, "output_tokens": 18}
+{"id": "m184", "gold": "B", "step": "Dental", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 121, "output_tokens": 18}
+{"id": "m185", "gold": "D", "step": "Dental", "pred": "D", "response": "Sclerotic dentin is characterized by increased mineralization and is typically found in response to caries or other stimuli. It is generally resistant to further caries due to its dense structure.\n\nANSWER: D", "prompt_tokens": 95, "output_tokens": 44}
+{"id": "m186", "gold": "C", "step": "Physiology", "pred": "B", "response": "ANSWER: B (70-79%)", "prompt_tokens": 122, "output_tokens": 12}
+{"id": "m187", "gold": "D", "step": "Physiology", "pred": "D", "response": "The minimum blood pressure is in:\n\nD. Venules\n\nANSWER: D", "prompt_tokens": 89, "output_tokens": 18}
+{"id": "m188", "gold": "D", "step": "Dental", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 108, "output_tokens": 18}
+{"id": "m189", "gold": "A", "step": "Surgery", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 121, "output_tokens": 18}
+{"id": "m190", "gold": "C", "step": "Dental", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 110, "output_tokens": 5}
+{"id": "m191", "gold": "D", "step": "Surgery", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 124, "output_tokens": 18}
+{"id": "m192", "gold": "B", "step": "Pharmacology", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 95, "output_tokens": 18}
+{"id": "m193", "gold": "A", "step": "Medicine", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 164, "output_tokens": 18}
+{"id": "m194", "gold": "D", "step": "Pathology", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 106, "output_tokens": 18}
+{"id": "m195", "gold": "A", "step": "Dental", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 99, "output_tokens": 5}
+{"id": "m196", "gold": "A", "step": "Dental", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 118, "output_tokens": 18}
+{"id": "m197", "gold": "B", "step": "Gynaecology & Obstetrics", "pred": "C", "response": "ANSWER: C. G5P1 2+0+1", "prompt_tokens": 176, "output_tokens": 16}
+{"id": "m198", "gold": "D", "step": "Anatomy", "pred": "D", "response": "The mandibular fossa is a part of the temporal bone, which forms the articulation with the mandible (jawbone) in the temporomandibular joint.\n\nANSWER: D", "prompt_tokens": 96, "output_tokens": 41}
+{"id": "m199", "gold": "A", "step": "Dental", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 95, "output_tokens": 18}
+{"id": "m200", "gold": "B", "step": "Pathology", "pred": "B", "response": "B. Lymphatics\n\nANSWER: B", "prompt_tokens": 96, "output_tokens": 11}
+{"id": "m201", "gold": "C", "step": "Pathology", "pred": "B", "response": "B. Prostaglandin E2  \nC. Histamine  \nD. Serotonin  \n\nANSWER: B, C, D", "prompt_tokens": 97, "output_tokens": 28}
+{"id": "m202", "gold": "A", "step": "Medicine", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 139, "output_tokens": 18}
+{"id": "m203", "gold": "D", "step": "Surgery", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 88, "output_tokens": 18}
+{"id": "m204", "gold": "D", "step": "Gynaecology & Obstetrics", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 117, "output_tokens": 18}
+{"id": "m205", "gold": "A", "step": "Surgery", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 91, "output_tokens": 18}
+{"id": "m206", "gold": "D", "step": "Microbiology", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 108, "output_tokens": 5}
+{"id": "m207", "gold": "C", "step": "Pathology", "pred": "C", "response": "C. High buffering capacity for acids  \nANSWER: C", "prompt_tokens": 103, "output_tokens": 13}
+{"id": "m208", "gold": "C", "step": "Dental", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 110, "output_tokens": 18}
+{"id": "m209", "gold": "B", "step": "Biochemistry", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 101, "output_tokens": 18}
+{"id": "m210", "gold": "A", "step": "Microbiology", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 119, "output_tokens": 18}
+{"id": "m211", "gold": "A", "step": "Anatomy", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 141, "output_tokens": 18}
+{"id": "m212", "gold": "B", "step": "Dental", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 95, "output_tokens": 18}
+{"id": "m213", "gold": "B", "step": "Pharmacology", "pred": "B", "response": "B. Naloxone\n\nANSWER: B", "prompt_tokens": 112, "output_tokens": 12}
+{"id": "m214", "gold": "D", "step": "Physiology", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 98, "output_tokens": 5}
+{"id": "m215", "gold": "C", "step": "Pharmacology", "pred": "C", "response": "C. The substrate concentration at half maximal velocity\n\nANSWER: C", "prompt_tokens": 97, "output_tokens": 15}
+{"id": "m216", "gold": "B", "step": "Ophthalmology", "pred": "B", "response": "B. Cornea  \nANSWER: B", "prompt_tokens": 94, "output_tokens": 10}
+{"id": "m217", "gold": "A", "step": "Dental", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 102, "output_tokens": 18}
+{"id": "m218", "gold": "A", "step": "Pathology", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 102, "output_tokens": 18}
+{"id": "m219", "gold": "C", "step": "Dental", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 105, "output_tokens": 18}
+{"id": "m220", "gold": "D", "step": "Medicine", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 136, "output_tokens": 18}
+{"id": "m221", "gold": "A", "step": "Dental", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 105, "output_tokens": 5}
+{"id": "m222", "gold": "A", "step": "Medicine", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 124, "output_tokens": 18}
+{"id": "m223", "gold": "A", "step": "Surgery", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 143, "output_tokens": 18}
+{"id": "m224", "gold": "D", "step": "Gynaecology & Obstetrics", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 115, "output_tokens": 18}
+{"id": "m225", "gold": "C", "step": "Pharmacology", "pred": "C", "response": "ANSWER: C (C. Doxycycline)", "prompt_tokens": 100, "output_tokens": 14}
+{"id": "m226", "gold": "C", "step": "Biochemistry", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 123, "output_tokens": 5}
+{"id": "m227", "gold": "D", "step": "Dental", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 104, "output_tokens": 18}
+{"id": "m228", "gold": "C", "step": "Dental", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 98, "output_tokens": 18}
+{"id": "m229", "gold": "B", "step": "Dental", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 104, "output_tokens": 18}
+{"id": "m230", "gold": "D", "step": "Psychiatry", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 97, "output_tokens": 5}
+{"id": "m231", "gold": "A", "step": "Pediatrics", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 105, "output_tokens": 18}
+{"id": "m232", "gold": "A", "step": "Dental", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 111, "output_tokens": 18}
+{"id": "m233", "gold": "A", "step": "Dental", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 96, "output_tokens": 18}
+{"id": "m234", "gold": "A", "step": "Dental", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 133, "output_tokens": 5}
+{"id": "m235", "gold": "B", "step": "Physiology", "pred": "B", "response": "B. S3\n\nANSWER: B", "prompt_tokens": 101, "output_tokens": 10}
+{"id": "m236", "gold": "A", "step": "ENT", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 114, "output_tokens": 18}
+{"id": "m237", "gold": "D", "step": "Surgery", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 104, "output_tokens": 18}
+{"id": "m238", "gold": "B", "step": "Pathology", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 122, "output_tokens": 18}
+{"id": "m239", "gold": "A", "step": "Anatomy", "pred": "C", "response": "ANSWER: C (C. Pterygomandibular raphae)", "prompt_tokens": 105, "output_tokens": 18}
+{"id": "m240", "gold": "C", "step": "Physiology", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 113, "output_tokens": 5}
+{"id": "m241", "gold": "C", "step": "Gynaecology & Obstetrics", "pred": "B", "response": "ANSWER: B (B. 3)", "prompt_tokens": 156, "output_tokens": 11}
+{"id": "m242", "gold": "B", "step": "Medicine", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 161, "output_tokens": 18}
+{"id": "m243", "gold": "B", "step": "Dental", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 105, "output_tokens": 18}
+{"id": "m244", "gold": "B", "step": "Social & Preventive Medicine", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 89, "output_tokens": 18}
+{"id": "m245", "gold": "C", "step": "Pharmacology", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 133, "output_tokens": 18}
+{"id": "m246", "gold": "C", "step": "Pathology", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 100, "output_tokens": 18}
+{"id": "m247", "gold": "A", "step": "Pharmacology", "pred": "A", "response": "Cholinomimetic drugs mimic the action of acetylcholine and are used in conditions where there is a deficiency or blockade of cholinergic activity. They are not used in conditions where their action would be harmful or counterproductive.\n\n- **A. Bradycardia**: Cholinomimetics can slow the heart rate, so they are not used in bradycardia.\n- **B. Glaucoma**: Cholinomimetics (e.g., pilocarpine) are used in glaucoma to reduce intraocular pressure.\n- **C. Myasthenia gravis**: Cholinomimetics (e.g., neostigmine) are used to improve muscle strength in myasthenia gravis.\n- **D. Post-surgical atony or ileus**: Cholinomimetics can stimulate gastrointestinal motility, so they are used in post-surgical ileus.\n\nANSWER: A", "prompt_tokens": 107, "output_tokens": 193}
+{"id": "m248", "gold": "A", "step": "Social & Preventive Medicine", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 122, "output_tokens": 5}
+{"id": "m249", "gold": "C", "step": "Social & Preventive Medicine", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 133, "output_tokens": 18}
+{"id": "m250", "gold": "D", "step": "Dental", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 92, "output_tokens": 18}
+{"id": "m251", "gold": "D", "step": "Gynaecology & Obstetrics", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 109, "output_tokens": 18}
+{"id": "m252", "gold": "D", "step": "Anatomy", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 98, "output_tokens": 18}
+{"id": "m253", "gold": "D", "step": "Biochemistry", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 114, "output_tokens": 5}
+{"id": "m254", "gold": "D", "step": "Gynaecology & Obstetrics", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 105, "output_tokens": 5}
+{"id": "m255", "gold": "B", "step": "Microbiology", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 112, "output_tokens": 18}
+{"id": "m256", "gold": "C", "step": "Dental", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 104, "output_tokens": 18}
+{"id": "m257", "gold": "B", "step": "Dental", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 103, "output_tokens": 18}
+{"id": "m258", "gold": "C", "step": "Dental", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 113, "output_tokens": 18}
+{"id": "m259", "gold": "C", "step": "Dental", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 101, "output_tokens": 18}
+{"id": "m260", "gold": "A", "step": "Gynaecology & Obstetrics", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 148, "output_tokens": 18}
+{"id": "m261", "gold": "B", "step": "Surgery", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 135, "output_tokens": 18}
+{"id": "m262", "gold": "C", "step": "Gynaecology & Obstetrics", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 138, "output_tokens": 18}
+{"id": "m263", "gold": "B", "step": "Dental", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 97, "output_tokens": 18}
+{"id": "m264", "gold": "A", "step": "Forensic Medicine", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 105, "output_tokens": 18}
+{"id": "m265", "gold": "A", "step": "Pediatrics", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 113, "output_tokens": 18}
+{"id": "m266", "gold": "C", "step": "Biochemistry", "pred": "C", "response": "C. RNA editing\n\nANSWER: C", "prompt_tokens": 97, "output_tokens": 10}
+{"id": "m267", "gold": "A", "step": "Orthopaedics", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 150, "output_tokens": 18}
+{"id": "m268", "gold": "B", "step": "Pediatrics", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 133, "output_tokens": 18}
+{"id": "m269", "gold": "B", "step": "Dental", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 102, "output_tokens": 18}
+{"id": "m270", "gold": "A", "step": "Dental", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 103, "output_tokens": 18}
+{"id": "m271", "gold": "A", "step": "Dental", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 97, "output_tokens": 18}
+{"id": "m272", "gold": "A", "step": "Dental", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 98, "output_tokens": 18}
+{"id": "m273", "gold": "D", "step": "Dental", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 92, "output_tokens": 18}
+{"id": "m274", "gold": "A", "step": "Pathology", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 100, "output_tokens": 5}
+{"id": "m275", "gold": "A", "step": "Dental", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 128, "output_tokens": 18}
+{"id": "m276", "gold": "A", "step": "Gynaecology & Obstetrics", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 107, "output_tokens": 18}
+{"id": "m277", "gold": "B", "step": "Pediatrics", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 134, "output_tokens": 18}
+{"id": "m278", "gold": "B", "step": "ENT", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 100, "output_tokens": 18}
+{"id": "m279", "gold": "B", "step": "Dental", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 92, "output_tokens": 18}
+{"id": "m280", "gold": "C", "step": "Medicine", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 104, "output_tokens": 18}
+{"id": "m281", "gold": "A", "step": "Dental", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 115, "output_tokens": 18}
+{"id": "m282", "gold": "A", "step": "Biochemistry", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 98, "output_tokens": 5}
+{"id": "m283", "gold": "B", "step": "Surgery", "pred": "B", "response": "B. Postoperative ecchymosis\n\nANSWER: B", "prompt_tokens": 118, "output_tokens": 14}
+{"id": "m284", "gold": "A", "step": "Dental", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 112, "output_tokens": 18}
+{"id": "m285", "gold": "C", "step": "Gynaecology & Obstetrics", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 103, "output_tokens": 18}
+{"id": "m286", "gold": "D", "step": "Dental", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 95, "output_tokens": 18}
+{"id": "m287", "gold": "A", "step": "Medicine", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 95, "output_tokens": 18}
+{"id": "m288", "gold": "A", "step": "Gynaecology & Obstetrics", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 120, "output_tokens": 18}
+{"id": "m289", "gold": "D", "step": "Biochemistry", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 136, "output_tokens": 18}
+{"id": "m290", "gold": "B", "step": "Pediatrics", "pred": "C", "response": "C. PSGN  \nANSWER: C", "prompt_tokens": 132, "output_tokens": 10}
+{"id": "m291", "gold": "C", "step": "Dental", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 95, "output_tokens": 18}
+{"id": "m292", "gold": "D", "step": "Medicine", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 131, "output_tokens": 18}
+{"id": "m293", "gold": "A", "step": "Pediatrics", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 121, "output_tokens": 18}
+{"id": "m294", "gold": "C", "step": "Medicine", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 137, "output_tokens": 5}
+{"id": "m295", "gold": "C", "step": "Microbiology", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 136, "output_tokens": 18}
+{"id": "m296", "gold": "A", "step": "Pediatrics", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 101, "output_tokens": 5}
+{"id": "m297", "gold": "C", "step": "Dental", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 109, "output_tokens": 18}
+{"id": "m298", "gold": "D", "step": "Dental", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 106, "output_tokens": 18}
+{"id": "m299", "gold": "A", "step": "Pharmacology", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 153, "output_tokens": 18}

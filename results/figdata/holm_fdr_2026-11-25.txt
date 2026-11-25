@@ -1,0 +1,234 @@
+Multiple-comparison check, alpha 0.05; bootstrap p = 2*min(#<=0, #>=0)+1 / (B+1)
+
+================ RQ1 (stats.py)
+
+--- RQ1 acc R2 vs R1 (McNemar)  (m = 24)
+   medqa qwen4        est    2.000  p 0.8238  uncorr    Holm    BH  
+   medqa qwen8        est    7.000  p 0.0923  uncorr    Holm    BH  
+   medqa qwen14       est   -5.000  p 0.1797  uncorr    Holm    BH  
+   medqa qwen32       est    1.000  p 1.0000  uncorr    Holm    BH  
+   medqa gemma12      est   -7.000  p 0.4270  uncorr    Holm    BH  
+   medqa llama8       est  -12.000  p 0.0357  uncorr *  Holm    BH  
+   medmcqa qwen4      est    0.000  p 1.0000  uncorr    Holm    BH  
+   medmcqa qwen8      est   -1.000  p 1.0000  uncorr    Holm    BH  
+   medmcqa qwen14     est    1.000  p 1.0000  uncorr    Holm    BH  
+   medmcqa qwen32     est   -1.000  p 1.0000  uncorr    Holm    BH  
+   medmcqa gemma12    est   -4.000  p 0.6989  uncorr    Holm    BH  
+   medmcqa llama8     est    4.000  p 0.5847  uncorr    Holm    BH  
+   law qwen4          est    2.000  p 0.7905  uncorr    Holm    BH  
+   law qwen8          est   -4.000  p 0.5413  uncorr    Holm    BH  
+   law qwen14         est   12.000  p 0.0357  uncorr *  Holm    BH  
+   law qwen32         est    5.000  p 0.4244  uncorr    Holm    BH  
+   law gemma12        est    5.000  p 0.6305  uncorr    Holm    BH  
+   law llama8         est  -12.000  p 0.0652  uncorr    Holm    BH  
+   gpqa qwen4         est   11.000  p 0.0074  uncorr *  Holm    BH  
+   gpqa qwen8         est   13.000  p 0.0044  uncorr *  Holm    BH  
+   gpqa qwen14        est    8.000  p 0.1338  uncorr    Holm    BH  
+   gpqa qwen32        est    0.000  p 1.0000  uncorr    Holm    BH  
+   gpqa gemma12       est    3.000  p 0.7111  uncorr    Holm    BH  
+   gpqa llama8        est  -16.000  p 0.0052  uncorr *  Holm    BH  
+   SUMMARY RQ1 acc R2 vs R1 (McNemar)               uncorrected  5 (+3/-2) | Holm  0 (+0/-0) | BH  0 (+0/-0) | est>0 13
+
+--- RQ1 acc R2 vs SC-6 (McNemar)  (m = 24)
+   medqa qwen4        est    0.000  p 1.0000  uncorr    Holm    BH  
+   medqa qwen8        est    3.000  p 0.7111  uncorr    Holm    BH  
+   medqa qwen14       est    1.000  p 1.0000  uncorr    Holm    BH  
+   medqa qwen32       est    4.000  p 0.5716  uncorr    Holm    BH  
+   medqa gemma12      est   -9.000  p 0.3057  uncorr    Holm    BH  
+   medqa llama8       est  -21.000  p 0.0015  uncorr *  Holm *  BH *
+   medmcqa qwen4      est   11.000  p 0.0708  uncorr    Holm    BH  
+   medmcqa qwen8      est   -2.000  p 0.8746  uncorr    Holm    BH  
+   medmcqa qwen14     est   -3.000  p 0.7111  uncorr    Holm    BH  
+   medmcqa qwen32     est   -9.000  p 0.1078  uncorr    Holm    BH  
+   medmcqa gemma12    est   -1.000  p 1.0000  uncorr    Holm    BH  
+   medmcqa llama8     est   -2.000  p 0.8957  uncorr    Holm    BH  
+   law qwen4          est    3.000  p 0.7754  uncorr    Holm    BH  
+   law qwen8          est   -8.000  p 0.2559  uncorr    Holm    BH  
+   law qwen14         est   -1.000  p 1.0000  uncorr    Holm    BH  
+   law qwen32         est    7.000  p 0.2962  uncorr    Holm    BH  
+   law gemma12        est    7.000  p 0.4426  uncorr    Holm    BH  
+   law llama8         est  -12.000  p 0.1818  uncorr    Holm    BH  
+   gpqa qwen4         est   14.000  p 0.0161  uncorr *  Holm    BH  
+   gpqa qwen8         est    6.000  p 0.4177  uncorr    Holm    BH  
+   gpqa qwen14        est    7.000  p 0.3105  uncorr    Holm    BH  
+   gpqa qwen32        est    6.000  p 0.4296  uncorr    Holm    BH  
+   gpqa gemma12       est   -1.000  p 1.0000  uncorr    Holm    BH  
+   gpqa llama8        est  -11.000  p 0.2000  uncorr    Holm    BH  
+   SUMMARY RQ1 acc R2 vs SC-6 (McNemar)             uncorrected  2 (+1/-1) | Holm  1 (+0/-1) | BH  1 (+0/-1) | est>0 11
+
+--- RQ1 AUROC R2 - R1  (m = 24)
+   medqa qwen4        est   -0.044  p 0.1269  uncorr    Holm    BH  
+   medqa qwen8        est   -0.095  p 0.0040  uncorr *  Holm    BH *
+   medqa qwen14       est   -0.104  p 0.0040  uncorr *  Holm    BH *
+   medqa qwen32       est   -0.179  p 0.0010  uncorr *  Holm *  BH *
+   medqa gemma12      est   -0.026  p 0.4768  uncorr    Holm    BH  
+   medqa llama8       est   -0.075  p 0.0050  uncorr *  Holm    BH *
+   medmcqa qwen4      est   -0.077  p 0.0040  uncorr *  Holm    BH *
+   medmcqa qwen8      est   -0.069  p 0.0210  uncorr *  Holm    BH  
+   medmcqa qwen14     est   -0.050  p 0.1309  uncorr    Holm    BH  
+   medmcqa qwen32     est   -0.057  p 0.1149  uncorr    Holm    BH  
+   medmcqa gemma12    est   -0.064  p 0.0620  uncorr    Holm    BH  
+   medmcqa llama8     est   -0.084  p 0.0050  uncorr *  Holm    BH *
+   law qwen4          est   -0.075  p 0.0090  uncorr *  Holm    BH *
+   law qwen8          est   -0.026  p 0.3928  uncorr    Holm    BH  
+   law qwen14         est   -0.062  p 0.0380  uncorr *  Holm    BH  
+   law qwen32         est   -0.038  p 0.2209  uncorr    Holm    BH  
+   law gemma12        est   -0.014  p 0.6327  uncorr    Holm    BH  
+   law llama8         est    0.014  p 0.6377  uncorr    Holm    BH  
+   gpqa qwen4         est   -0.126  p 0.0020  uncorr *  Holm *  BH *
+   gpqa qwen8         est   -0.084  p 0.0310  uncorr *  Holm    BH  
+   gpqa qwen14        est   -0.048  p 0.2359  uncorr    Holm    BH  
+   gpqa qwen32        est   -0.006  p 0.9165  uncorr    Holm    BH  
+   gpqa gemma12       est   -0.068  p 0.0980  uncorr    Holm    BH  
+   gpqa llama8        est    0.109  p 0.0180  uncorr *  Holm    BH *
+   SUMMARY RQ1 AUROC R2 - R1                        uncorrected 12 (+1/-11) | Holm  2 (+0/-2) | BH  9 (+1/-8) | est>0 2
+
+================ RQ1 granularity + RQ2 (step1_review_analyses.py)
+
+--- RQ1 AUROC R1 - SC3  (m = 24)
+   medqa qwen4        est    0.044  p 0.2189  uncorr    Holm    BH  
+   medqa qwen8        est    0.016  p 0.6907  uncorr    Holm    BH  
+   medqa qwen14       est    0.022  p 0.5877  uncorr    Holm    BH  
+   medqa qwen32       est    0.092  p 0.0380  uncorr *  Holm    BH  
+   medqa gemma12      est    0.051  p 0.1849  uncorr    Holm    BH  
+   medqa llama8       est    0.086  p 0.0260  uncorr *  Holm    BH  
+   medmcqa qwen4      est   -0.037  p 0.2409  uncorr    Holm    BH  
+   medmcqa qwen8      est   -0.020  p 0.5487  uncorr    Holm    BH  
+   medmcqa qwen14     est   -0.024  p 0.4798  uncorr    Holm    BH  
+   medmcqa qwen32     est   -0.026  p 0.5177  uncorr    Holm    BH  
+   medmcqa gemma12    est    0.015  p 0.6487  uncorr    Holm    BH  
+   medmcqa llama8     est    0.025  p 0.4998  uncorr    Holm    BH  
+   law qwen4          est    0.044  p 0.2149  uncorr    Holm    BH  
+   law qwen8          est   -0.023  p 0.4778  uncorr    Holm    BH  
+   law qwen14         est    0.030  p 0.3918  uncorr    Holm    BH  
+   law qwen32         est   -0.002  p 0.9835  uncorr    Holm    BH  
+   law gemma12        est    0.043  p 0.2129  uncorr    Holm    BH  
+   law llama8         est   -0.048  p 0.2239  uncorr    Holm    BH  
+   gpqa qwen4         est   -0.029  p 0.4788  uncorr    Holm    BH  
+   gpqa qwen8         est    0.035  p 0.4228  uncorr    Holm    BH  
+   gpqa qwen14        est   -0.025  p 0.5657  uncorr    Holm    BH  
+   gpqa qwen32        est   -0.052  p 0.2299  uncorr    Holm    BH  
+   gpqa gemma12       est    0.023  p 0.5697  uncorr    Holm    BH  
+   gpqa llama8        est   -0.085  p 0.0970  uncorr    Holm    BH  
+   SUMMARY RQ1 AUROC R1 - SC3                       uncorrected  2 (+2/-0) | Holm  0 (+0/-0) | BH  0 (+0/-0) | est>0 13
+
+--- RQ1 AUROC pool6 - R2  (m = 24)
+   medqa qwen4        est    0.047  p 0.0170  uncorr *  Holm    BH *
+   medqa qwen8        est    0.064  p 0.0140  uncorr *  Holm    BH *
+   medqa qwen14       est    0.146  p 0.0010  uncorr *  Holm *  BH *
+   medqa qwen32       est    0.202  p 0.0010  uncorr *  Holm *  BH *
+   medqa gemma12      est    0.067  p 0.0010  uncorr *  Holm *  BH *
+   medqa llama8       est    0.113  p 0.0010  uncorr *  Holm *  BH *
+   medmcqa qwen4      est    0.077  p 0.0010  uncorr *  Holm *  BH *
+   medmcqa qwen8      est    0.080  p 0.0020  uncorr *  Holm *  BH *
+   medmcqa qwen14     est    0.058  p 0.0090  uncorr *  Holm    BH *
+   medmcqa qwen32     est    0.071  p 0.0030  uncorr *  Holm *  BH *
+   medmcqa gemma12    est    0.091  p 0.0010  uncorr *  Holm *  BH *
+   medmcqa llama8     est    0.068  p 0.0010  uncorr *  Holm *  BH *
+   law qwen4          est    0.069  p 0.0030  uncorr *  Holm *  BH *
+   law qwen8          est    0.053  p 0.0110  uncorr *  Holm    BH *
+   law qwen14         est    0.009  p 0.6717  uncorr    Holm    BH  
+   law qwen32         est    0.029  p 0.1699  uncorr    Holm    BH  
+   law gemma12        est    0.017  p 0.1259  uncorr    Holm    BH  
+   law llama8         est    0.041  p 0.0040  uncorr *  Holm    BH *
+   gpqa qwen4         est    0.024  p 0.3368  uncorr    Holm    BH  
+   gpqa qwen8         est   -0.009  p 0.6967  uncorr    Holm    BH  
+   gpqa qwen14        est    0.017  p 0.5167  uncorr    Holm    BH  
+   gpqa qwen32        est    0.037  p 0.1609  uncorr    Holm    BH  
+   gpqa gemma12       est    0.059  p 0.0070  uncorr *  Holm    BH *
+   gpqa llama8        est    0.040  p 0.1309  uncorr    Holm    BH  
+   SUMMARY RQ1 AUROC pool6 - R2                     uncorrected 16 (+16/-0) | Holm 10 (+10/-0) | BH 16 (+16/-0) | est>0 23
+
+--- RQ1 AUROC SC6 - pool6  (m = 24)
+   medqa qwen4        est    0.019  p 0.6147  uncorr    Holm    BH  
+   medqa qwen8        est    0.063  p 0.0910  uncorr    Holm    BH  
+   medqa qwen14       est   -0.020  p 0.6017  uncorr    Holm    BH  
+   medqa qwen32       est    0.010  p 0.8246  uncorr    Holm    BH  
+   medqa gemma12      est    0.007  p 0.8246  uncorr    Holm    BH  
+   medqa llama8       est   -0.086  p 0.0210  uncorr *  Holm    BH  
+   medmcqa qwen4      est    0.062  p 0.0620  uncorr    Holm    BH  
+   medmcqa qwen8      est    0.012  p 0.7666  uncorr    Holm    BH  
+   medmcqa qwen14     est    0.067  p 0.0790  uncorr    Holm    BH  
+   medmcqa qwen32     est    0.062  p 0.1399  uncorr    Holm    BH  
+   medmcqa gemma12    est    0.036  p 0.3018  uncorr    Holm    BH  
+   medmcqa llama8     est    0.059  p 0.0970  uncorr    Holm    BH  
+   law qwen4          est   -0.019  p 0.5957  uncorr    Holm    BH  
+   law qwen8          est    0.030  p 0.3788  uncorr    Holm    BH  
+   law qwen14         est    0.085  p 0.0180  uncorr *  Holm    BH  
+   law qwen32         est    0.026  p 0.4438  uncorr    Holm    BH  
+   law gemma12        est   -0.005  p 0.8826  uncorr    Holm    BH  
+   law llama8         est   -0.000  p 0.9945  uncorr    Holm    BH  
+   gpqa qwen4         est    0.140  p 0.0030  uncorr *  Holm    BH  
+   gpqa qwen8         est    0.084  p 0.0570  uncorr    Holm    BH  
+   gpqa qwen14        est    0.113  p 0.0070  uncorr *  Holm    BH  
+   gpqa qwen32        est    0.057  p 0.1839  uncorr    Holm    BH  
+   gpqa gemma12       est   -0.020  p 0.6697  uncorr    Holm    BH  
+   gpqa llama8        est   -0.043  p 0.3818  uncorr    Holm    BH  
+   SUMMARY RQ1 AUROC SC6 - pool6                    uncorrected  4 (+3/-1) | Holm  0 (+0/-0) | BH  0 (+0/-0) | est>0 17
+
+--- RQ2 quality C strong - flawed  (m = 6)
+   qwen4              est    0.000  p 1.0000  uncorr    Holm    BH  
+   qwen8              est    4.000  p 0.2369  uncorr    Holm    BH  
+   qwen14             est    3.700  p 0.3428  uncorr    Holm    BH  
+   qwen32             est    6.500  p 0.0900  uncorr    Holm    BH  
+   gemma12            est    1.700  p 0.5277  uncorr    Holm    BH  
+   llama8             est    4.700  p 0.0820  uncorr    Holm    BH  
+   SUMMARY RQ2 quality C strong - flawed            uncorrected  0 (+0/-0) | Holm  0 (+0/-0) | BH  0 (+0/-0) | est>0 5
+
+--- RQ2 adopt|hit strong - flawed  (m = 6)
+   qwen4              est    0.800  p 0.8656  uncorr    Holm    BH  
+   qwen8              est    5.200  p 0.1279  uncorr    Holm    BH  
+   qwen14             est    4.000  p 0.3428  uncorr    Holm    BH  
+   qwen32             est    6.700  p 0.0900  uncorr    Holm    BH  
+   gemma12            est    2.300  p 0.3498  uncorr    Holm    BH  
+   llama8             est    4.400  p 0.1169  uncorr    Holm    BH  
+   SUMMARY RQ2 adopt|hit strong - flawed            uncorrected  0 (+0/-0) | Holm  0 (+0/-0) | BH  0 (+0/-0) | est>0 6
+
+================ Step 3 (step3_analysis.py)
+
+--- Step3 strong - decisive, all usable  (m = 6)
+   qwen4              est    0.000  p 1.0000  uncorr    Holm    BH  
+   qwen8              est    0.000  p 1.0000  uncorr    Holm    BH  
+   qwen14             est   15.200  p 0.1469  uncorr    Holm    BH  
+   qwen32             est   -6.500  p 0.6317  uncorr    Holm    BH  
+   gemma12            est   22.200  p 0.0010  uncorr *  Holm *  BH *
+   llama8             est   10.000  p 0.1109  uncorr    Holm    BH  
+   SUMMARY Step3 strong - decisive, all usable      uncorrected  1 (+1/-0) | Holm  1 (+1/-0) | BH  1 (+1/-0) | est>0 3
+
+--- Step3 strong - decisive, verified  (m = 6)
+   qwen4              est    5.000  p 0.7396  uncorr    Holm    BH  
+   qwen8              est   -7.100  p 0.7546  uncorr    Holm    BH  
+   qwen14             est   23.100  p 0.3572  uncorr    Holm    BH  
+   qwen32             est  -18.200  p 0.2649  uncorr    Holm    BH  
+   gemma12            est   17.400  p 0.0350  uncorr *  Holm    BH  
+   llama8             est   15.800  p 0.3068  uncorr    Holm    BH  
+   SUMMARY Step3 strong - decisive, verified        uncorrected  1 (+1/-0) | Holm  0 (+0/-0) | BH  0 (+0/-0) | est>0 4
+
+--- Step3 strong - decisive, num  (m = 6)
+   qwen4              est    0.000  p 1.0000  uncorr    Holm    BH  
+   qwen8              est    0.000  p 1.0000  uncorr    Holm    BH  
+   qwen14             est    8.700  p 0.5667  uncorr    Holm    BH  
+   qwen32             est   -5.000  p 0.9635  uncorr    Holm    BH  
+   gemma12            est   23.300  p 0.0030  uncorr *  Holm *  BH *
+   llama8             est    0.000  p 1.0000  uncorr    Holm    BH  
+   SUMMARY Step3 strong - decisive, num             uncorrected  1 (+1/-0) | Holm  1 (+1/-0) | BH  1 (+1/-0) | est>0 2
+
+--- Step3 strong - decisive, finding  (m = 6)
+   qwen4              est    0.000  p 1.0000  uncorr    Holm    BH  
+   qwen8              est    0.000  p 1.0000  uncorr    Holm    BH  
+   qwen14             est   30.000  p 0.2974  uncorr    Holm    BH  
+   qwen32             est   -9.100  p 0.8000  uncorr    Holm    BH  
+   gemma12            est   21.200  p 0.0020  uncorr *  Holm *  BH *
+   llama8             est   20.700  p 0.0400  uncorr *  Holm    BH  
+   SUMMARY Step3 strong - decisive, finding         uncorrected  2 (+2/-0) | Holm  1 (+1/-0) | BH  1 (+1/-0) | est>0 3
+   pooled: reference   same questions, old RQ2 minor flaw: strong - flawed    2.2 [  -5.2,   10.0]  p 0.7806
+   pooled: reference   same questions, old RQ2 minor flaw: strong - flawed    5.1 [  -7.4,   20.5]  p 0.6037
+   pooled: reference   same questions, old RQ2 minor flaw: strong - flawed    6.1 [ -12.5,   25.8]  p 0.6167
+   pooled: reference   same questions, old RQ2 minor flaw: strong - flawed    3.8 [  -9.1,   17.6]  p 0.8076
+   pooled: reference   same questions, old RQ2 minor flaw: strong - flawed    4.1 [  -7.3,   15.4]  p 0.5907
+   pooled: reference   same questions, old RQ2 minor flaw: strong - flawed    2.0 [  -6.5,   10.9]  p 0.8216
+   pooled: all usable               strong - flaw    6.8 [   0.5,   13.6] *  (6 models)  p 0.0330
+   pooled: verified                 strong - flaw    6.0 [  -3.6,   15.6]    (6 models)  p 0.2309
+   pooled: num                      strong - flaw    4.5 [  -4.7,   14.1]    (6 models)  p 0.3348
+   pooled: finding                  strong - flaw   10.5 [   0.1,   20.9] *  (6 models)  p 0.0470
+   pooled: OLD minor flaw, same q   strong - flaw    3.9 [  -1.7,   10.1]    (6 models)  p 0.1709

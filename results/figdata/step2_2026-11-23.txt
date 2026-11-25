@@ -1,0 +1,50 @@
+====================================================================================================
+1) Qwen3-32B relevance labels for 344 edits (unparsed: 0)
+   changes answer YES 95 (27.6%) | weakens reasoning YES 205 (59.6%) | importance mean 3.31, >=4: 160, <=2: 111
+
+2) counterfactual (Qwen3-32B answers the edited question): gold share original 80.9% -> edited 77.8%
+   edits whose gold share drops by >= 1/3: 23/344; rises by >= 1/3: 9
+   mean drop when judge says changes=YES  8.6 pp (n=95)
+   mean drop when judge says changes=NO   1.0 pp (n=249)
+
+3) agreement with Claude Opus 5.5 labels on 50 hand-check edits
+   changes_answer     Claude YES  5, Qwen YES 20, agree 66%, kappa 0.19
+   weakens_reasoning  Claude YES 12, Qwen YES 37, agree 46%, kappa 0.14
+   importance Spearman rho 0.48 (p=0.000)
+   counterfactual drop: Claude says changes=YES 33.3 pp (n=5), NO 3.7 pp (n=45)
+
+4) manipulation check: misstates question / quote locates the change / convincing (1-5)
+   gemma12 C-flawed  misstates 207/233 ( 88.8%)  located 203  convincing 3.86
+   gemma12 C-strong  misstates  22/233 (  9.4%)  located   -  convincing 4.57
+   gemma12 W-flawed  misstates 214/223 ( 96.0%)  located 198  convincing 2.11
+   gemma12 W-strong  misstates 154/223 ( 69.1%)  located   -  convincing 2.22
+   qwen32  C-flawed  misstates 228/233 ( 97.9%)  located 225  convincing 3.50
+   qwen32  C-strong  misstates  34/233 ( 14.6%)  located   -  convincing 4.60
+   qwen32  W-flawed  misstates 222/223 ( 99.6%)  located 208  convincing 2.51
+   qwen32  W-strong  misstates 208/223 ( 93.3%)  located   -  convincing 2.81
+
+5) RQ2 quality effect C (strong - flawed), pp, split by whether the flaw matters
+   --- judge: changes or weakens: matters 158 questions, does not 75
+   qwen4    matters    0.9 [  -4.8,    6.8]        not   -2.6 [  -8.7,    0.0]
+   qwen8    matters    2.1 [  -3.6,    8.9]        not    9.4 [   0.0,   24.5]
+   qwen14   matters    4.9 [  -3.5,   14.3]        not    0.0 [ -10.7,   11.1]
+   qwen32   matters    6.7 [   0.0,   13.8]        not    5.9 [ -19.1,   35.7]
+   gemma12  matters    3.8 [  -1.8,    9.8]        not   -4.1 [ -10.7,    0.0]
+   llama8   matters    3.3 [  -2.3,    9.1]        not    8.2 [  -2.4,   20.0]
+   POOLED   matters    3.6 [   0.8,    6.7] *      not    2.8 [  -3.2,    9.9]        difference    0.8 [  -6.5,    7.6]
+   --- judge: importance >= 4: matters 125 questions, does not 108
+   qwen4    matters   -2.4 [  -8.6,    3.5]        not    2.8 [  -3.6,   10.2]
+   qwen8    matters    0.0 [  -5.7,    5.9]        not    8.8 [  -1.6,   20.4]
+   qwen14   matters    6.6 [  -2.4,   16.7]        not    0.0 [ -10.5,   11.1]
+   qwen32   matters    9.3 [   2.2,   18.0] *      not    2.6 [ -10.4,   17.0]
+   gemma12  matters    4.2 [  -3.4,   12.2]        not   -1.2 [  -5.5,    2.8]
+   llama8   matters    4.4 [  -2.3,   11.5]        not    4.9 [  -2.5,   13.3]
+   POOLED   matters    3.7 [   0.5,    7.4] *      not    3.0 [  -0.8,    7.3]        difference    0.7 [  -4.6,    6.1]
+   --- counterfactual drop >= 1/3: matters 17 questions, does not 216
+   qwen4    matters    6.2 [   0.0,   20.0]        not   -0.7 [  -5.3,    4.2]
+   qwen8    matters    7.7 [   0.0,   25.0]        not    3.5 [  -2.7,   10.1]
+   qwen14   matters   30.8 [   0.0,   62.5]        not    0.0 [  -6.2,    6.8]
+   qwen32   matters    0.0 [   0.0,    0.0]        not    7.1 [   0.0,   15.5]
+   gemma12  matters    5.9 [   0.0,   18.8]        not    1.2 [  -3.7,    6.1]
+   llama8   matters    5.6 [   0.0,   18.8]        not    4.6 [  -0.7,   10.1]
+   POOLED   matters    9.4 [   2.1,   19.0] *      not    2.6 [   0.2,    5.2] *      difference    6.7 [  -1.3,   16.7]

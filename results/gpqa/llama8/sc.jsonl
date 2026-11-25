@@ -1,0 +1,1188 @@
+{"id": "g000", "gold": "D", "step": "Physics (general)", "sample": 0, "pred": "B", "prompt_tokens": 189, "output_tokens": 247}
+{"id": "g000", "gold": "D", "step": "Physics (general)", "sample": 1, "pred": "B", "prompt_tokens": 189, "output_tokens": 242}
+{"id": "g000", "gold": "D", "step": "Physics (general)", "sample": 2, "pred": null, "prompt_tokens": 189, "output_tokens": 512}
+{"id": "g000", "gold": "D", "step": "Physics (general)", "sample": 3, "pred": "C", "prompt_tokens": 189, "output_tokens": 387}
+{"id": "g000", "gold": "D", "step": "Physics (general)", "sample": 4, "pred": "B", "prompt_tokens": 189, "output_tokens": 386}
+{"id": "g000", "gold": "D", "step": "Physics (general)", "sample": 5, "pred": "B", "prompt_tokens": 189, "output_tokens": 308}
+{"id": "g001", "gold": "D", "step": "Organic Chemistry", "sample": 0, "pred": "A", "prompt_tokens": 199, "output_tokens": 450}
+{"id": "g001", "gold": "D", "step": "Organic Chemistry", "sample": 1, "pred": "A", "prompt_tokens": 199, "output_tokens": 303}
+{"id": "g001", "gold": "D", "step": "Organic Chemistry", "sample": 2, "pred": "B", "prompt_tokens": 199, "output_tokens": 505}
+{"id": "g001", "gold": "D", "step": "Organic Chemistry", "sample": 3, "pred": "C", "prompt_tokens": 199, "output_tokens": 273}
+{"id": "g001", "gold": "D", "step": "Organic Chemistry", "sample": 4, "pred": "D", "prompt_tokens": 199, "output_tokens": 316}
+{"id": "g001", "gold": "D", "step": "Organic Chemistry", "sample": 5, "pred": "B", "prompt_tokens": 199, "output_tokens": 378}
+{"id": "g002", "gold": "B", "step": "Quantum Mechanics", "sample": 0, "pred": null, "prompt_tokens": 224, "output_tokens": 2048}
+{"id": "g002", "gold": "B", "step": "Quantum Mechanics", "sample": 1, "pred": "C", "prompt_tokens": 224, "output_tokens": 620}
+{"id": "g002", "gold": "B", "step": "Quantum Mechanics", "sample": 2, "pred": "B", "prompt_tokens": 224, "output_tokens": 554}
+{"id": "g002", "gold": "B", "step": "Quantum Mechanics", "sample": 3, "pred": "D", "prompt_tokens": 224, "output_tokens": 537}
+{"id": "g002", "gold": "B", "step": "Quantum Mechanics", "sample": 4, "pred": "C", "prompt_tokens": 224, "output_tokens": 290}
+{"id": "g002", "gold": "B", "step": "Quantum Mechanics", "sample": 5, "pred": "C", "prompt_tokens": 224, "output_tokens": 415}
+{"id": "g003", "gold": "A", "step": "Electromagnetism and Photonics", "sample": 0, "pred": "D", "prompt_tokens": 199, "output_tokens": 328}
+{"id": "g003", "gold": "A", "step": "Electromagnetism and Photonics", "sample": 1, "pred": "C", "prompt_tokens": 199, "output_tokens": 261}
+{"id": "g003", "gold": "A", "step": "Electromagnetism and Photonics", "sample": 2, "pred": "B", "prompt_tokens": 199, "output_tokens": 296}
+{"id": "g003", "gold": "A", "step": "Electromagnetism and Photonics", "sample": 3, "pred": "D", "prompt_tokens": 199, "output_tokens": 176}
+{"id": "g003", "gold": "A", "step": "Electromagnetism and Photonics", "sample": 4, "pred": "D", "prompt_tokens": 199, "output_tokens": 230}
+{"id": "g003", "gold": "A", "step": "Electromagnetism and Photonics", "sample": 5, "pred": "D", "prompt_tokens": 199, "output_tokens": 229}
+{"id": "g004", "gold": "D", "step": "Quantum Mechanics", "sample": 0, "pred": "D", "prompt_tokens": 430, "output_tokens": 484}
+{"id": "g004", "gold": "D", "step": "Quantum Mechanics", "sample": 1, "pred": "D", "prompt_tokens": 430, "output_tokens": 289}
+{"id": "g004", "gold": "D", "step": "Quantum Mechanics", "sample": 2, "pred": null, "prompt_tokens": 430, "output_tokens": 2048}
+{"id": "g004", "gold": "D", "step": "Quantum Mechanics", "sample": 3, "pred": "D", "prompt_tokens": 430, "output_tokens": 402}
+{"id": "g004", "gold": "D", "step": "Quantum Mechanics", "sample": 4, "pred": "A", "prompt_tokens": 430, "output_tokens": 716}
+{"id": "g004", "gold": "D", "step": "Quantum Mechanics", "sample": 5, "pred": "D", "prompt_tokens": 430, "output_tokens": 455}
+{"id": "g005", "gold": "C", "step": "Quantum Mechanics", "sample": 0, "pred": "C", "prompt_tokens": 248, "output_tokens": 363}
+{"id": "g005", "gold": "C", "step": "Quantum Mechanics", "sample": 1, "pred": "B", "prompt_tokens": 248, "output_tokens": 370}
+{"id": "g005", "gold": "C", "step": "Quantum Mechanics", "sample": 2, "pred": "B", "prompt_tokens": 248, "output_tokens": 471}
+{"id": "g005", "gold": "C", "step": "Quantum Mechanics", "sample": 3, "pred": "B", "prompt_tokens": 248, "output_tokens": 594}
+{"id": "g005", "gold": "C", "step": "Quantum Mechanics", "sample": 4, "pred": "B", "prompt_tokens": 248, "output_tokens": 298}
+{"id": "g005", "gold": "C", "step": "Quantum Mechanics", "sample": 5, "pred": null, "prompt_tokens": 248, "output_tokens": 2048}
+{"id": "g006", "gold": "C", "step": "High-energy particle physics", "sample": 0, "pred": "D", "prompt_tokens": 238, "output_tokens": 1939}
+{"id": "g006", "gold": "C", "step": "High-energy particle physics", "sample": 1, "pred": null, "prompt_tokens": 238, "output_tokens": 2048}
+{"id": "g006", "gold": "C", "step": "High-energy particle physics", "sample": 2, "pred": null, "prompt_tokens": 238, "output_tokens": 2048}
+{"id": "g006", "gold": "C", "step": "High-energy particle physics", "sample": 3, "pred": "C", "prompt_tokens": 238, "output_tokens": 624}
+{"id": "g006", "gold": "C", "step": "High-energy particle physics", "sample": 4, "pred": "B", "prompt_tokens": 238, "output_tokens": 621}
+{"id": "g006", "gold": "C", "step": "High-energy particle physics", "sample": 5, "pred": "C", "prompt_tokens": 238, "output_tokens": 441}
+{"id": "g007", "gold": "D", "step": "Genetics", "sample": 0, "pred": "C", "prompt_tokens": 512, "output_tokens": 306}
+{"id": "g007", "gold": "D", "step": "Genetics", "sample": 1, "pred": "D", "prompt_tokens": 512, "output_tokens": 245}
+{"id": "g007", "gold": "D", "step": "Genetics", "sample": 2, "pred": "D", "prompt_tokens": 512, "output_tokens": 294}
+{"id": "g007", "gold": "D", "step": "Genetics", "sample": 3, "pred": "C", "prompt_tokens": 512, "output_tokens": 356}
+{"id": "g007", "gold": "D", "step": "Genetics", "sample": 4, "pred": "C", "prompt_tokens": 512, "output_tokens": 296}
+{"id": "g007", "gold": "D", "step": "Genetics", "sample": 5, "pred": "C", "prompt_tokens": 512, "output_tokens": 429}
+{"id": "g008", "gold": "A", "step": "Organic Chemistry", "sample": 0, "pred": "A", "prompt_tokens": 303, "output_tokens": 312}
+{"id": "g008", "gold": "A", "step": "Organic Chemistry", "sample": 1, "pred": "A", "prompt_tokens": 303, "output_tokens": 384}
+{"id": "g008", "gold": "A", "step": "Organic Chemistry", "sample": 2, "pred": "A", "prompt_tokens": 303, "output_tokens": 380}
+{"id": "g008", "gold": "A", "step": "Organic Chemistry", "sample": 3, "pred": "A", "prompt_tokens": 303, "output_tokens": 349}
+{"id": "g008", "gold": "A", "step": "Organic Chemistry", "sample": 4, "pred": "A", "prompt_tokens": 303, "output_tokens": 328}
+{"id": "g008", "gold": "A", "step": "Organic Chemistry", "sample": 5, "pred": "A", "prompt_tokens": 303, "output_tokens": 368}
+{"id": "g009", "gold": "B", "step": "Astrophysics", "sample": 0, "pred": "A", "prompt_tokens": 196, "output_tokens": 217}
+{"id": "g009", "gold": "B", "step": "Astrophysics", "sample": 1, "pred": "D", "prompt_tokens": 196, "output_tokens": 241}
+{"id": "g009", "gold": "B", "step": "Astrophysics", "sample": 2, "pred": "A", "prompt_tokens": 196, "output_tokens": 264}
+{"id": "g009", "gold": "B", "step": "Astrophysics", "sample": 3, "pred": "B", "prompt_tokens": 196, "output_tokens": 234}
+{"id": "g009", "gold": "B", "step": "Astrophysics", "sample": 4, "pred": "B", "prompt_tokens": 196, "output_tokens": 317}
+{"id": "g009", "gold": "B", "step": "Astrophysics", "sample": 5, "pred": "A", "prompt_tokens": 196, "output_tokens": 259}
+{"id": "g010", "gold": "C", "step": "Molecular Biology", "sample": 0, "pred": "C", "prompt_tokens": 442, "output_tokens": 280}
+{"id": "g010", "gold": "C", "step": "Molecular Biology", "sample": 1, "pred": "C", "prompt_tokens": 442, "output_tokens": 293}
+{"id": "g010", "gold": "C", "step": "Molecular Biology", "sample": 2, "pred": "B", "prompt_tokens": 442, "output_tokens": 337}
+{"id": "g010", "gold": "C", "step": "Molecular Biology", "sample": 3, "pred": "D", "prompt_tokens": 442, "output_tokens": 322}
+{"id": "g010", "gold": "C", "step": "Molecular Biology", "sample": 4, "pred": "B", "prompt_tokens": 442, "output_tokens": 523}
+{"id": "g010", "gold": "C", "step": "Molecular Biology", "sample": 5, "pred": "A", "prompt_tokens": 442, "output_tokens": 363}
+{"id": "g011", "gold": "A", "step": "High-energy particle physics", "sample": 0, "pred": "C", "prompt_tokens": 211, "output_tokens": 573}
+{"id": "g011", "gold": "A", "step": "High-energy particle physics", "sample": 1, "pred": "C", "prompt_tokens": 211, "output_tokens": 1334}
+{"id": "g011", "gold": "A", "step": "High-energy particle physics", "sample": 2, "pred": "B", "prompt_tokens": 211, "output_tokens": 319}
+{"id": "g011", "gold": "A", "step": "High-energy particle physics", "sample": 3, "pred": null, "prompt_tokens": 211, "output_tokens": 2048}
+{"id": "g011", "gold": "A", "step": "High-energy particle physics", "sample": 4, "pred": null, "prompt_tokens": 211, "output_tokens": 355}
+{"id": "g011", "gold": "A", "step": "High-energy particle physics", "sample": 5, "pred": "B", "prompt_tokens": 211, "output_tokens": 972}
+{"id": "g012", "gold": "A", "step": "Organic Chemistry", "sample": 0, "pred": "B", "prompt_tokens": 388, "output_tokens": 334}
+{"id": "g012", "gold": "A", "step": "Organic Chemistry", "sample": 1, "pred": "A", "prompt_tokens": 388, "output_tokens": 298}
+{"id": "g012", "gold": "A", "step": "Organic Chemistry", "sample": 2, "pred": "A", "prompt_tokens": 388, "output_tokens": 423}
+{"id": "g012", "gold": "A", "step": "Organic Chemistry", "sample": 3, "pred": "A", "prompt_tokens": 388, "output_tokens": 318}
+{"id": "g012", "gold": "A", "step": "Organic Chemistry", "sample": 4, "pred": "A", "prompt_tokens": 388, "output_tokens": 338}
+{"id": "g012", "gold": "A", "step": "Organic Chemistry", "sample": 5, "pred": "A", "prompt_tokens": 388, "output_tokens": 362}
+{"id": "g013", "gold": "D", "step": "Molecular Biology", "sample": 0, "pred": "D", "prompt_tokens": 196, "output_tokens": 179}
+{"id": "g013", "gold": "D", "step": "Molecular Biology", "sample": 1, "pred": "D", "prompt_tokens": 196, "output_tokens": 327}
+{"id": "g013", "gold": "D", "step": "Molecular Biology", "sample": 2, "pred": "D", "prompt_tokens": 196, "output_tokens": 241}
+{"id": "g013", "gold": "D", "step": "Molecular Biology", "sample": 3, "pred": "D", "prompt_tokens": 196, "output_tokens": 264}
+{"id": "g013", "gold": "D", "step": "Molecular Biology", "sample": 4, "pred": "D", "prompt_tokens": 196, "output_tokens": 260}
+{"id": "g013", "gold": "D", "step": "Molecular Biology", "sample": 5, "pred": "D", "prompt_tokens": 196, "output_tokens": 255}
+{"id": "g014", "gold": "D", "step": "Physics (general)", "sample": 0, "pred": "C", "prompt_tokens": 349, "output_tokens": 211}
+{"id": "g014", "gold": "D", "step": "Physics (general)", "sample": 1, "pred": "D", "prompt_tokens": 349, "output_tokens": 375}
+{"id": "g014", "gold": "D", "step": "Physics (general)", "sample": 2, "pred": "D", "prompt_tokens": 349, "output_tokens": 778}
+{"id": "g014", "gold": "D", "step": "Physics (general)", "sample": 3, "pred": "B", "prompt_tokens": 349, "output_tokens": 423}
+{"id": "g014", "gold": "D", "step": "Physics (general)", "sample": 4, "pred": "D", "prompt_tokens": 349, "output_tokens": 280}
+{"id": "g014", "gold": "D", "step": "Physics (general)", "sample": 5, "pred": null, "prompt_tokens": 349, "output_tokens": 1029}
+{"id": "g015", "gold": "D", "step": "Organic Chemistry", "sample": 0, "pred": "D", "prompt_tokens": 269, "output_tokens": 503}
+{"id": "g015", "gold": "D", "step": "Organic Chemistry", "sample": 1, "pred": "B", "prompt_tokens": 269, "output_tokens": 438}
+{"id": "g015", "gold": "D", "step": "Organic Chemistry", "sample": 2, "pred": "B", "prompt_tokens": 269, "output_tokens": 519}
+{"id": "g015", "gold": "D", "step": "Organic Chemistry", "sample": 3, "pred": "B", "prompt_tokens": 269, "output_tokens": 450}
+{"id": "g015", "gold": "D", "step": "Organic Chemistry", "sample": 4, "pred": "D", "prompt_tokens": 269, "output_tokens": 380}
+{"id": "g015", "gold": "D", "step": "Organic Chemistry", "sample": 5, "pred": "B", "prompt_tokens": 269, "output_tokens": 372}
+{"id": "g016", "gold": "C", "step": "Chemistry (general)", "sample": 0, "pred": null, "prompt_tokens": 198, "output_tokens": 452}
+{"id": "g016", "gold": "C", "step": "Chemistry (general)", "sample": 1, "pred": "C", "prompt_tokens": 198, "output_tokens": 507}
+{"id": "g016", "gold": "C", "step": "Chemistry (general)", "sample": 2, "pred": "D", "prompt_tokens": 198, "output_tokens": 916}
+{"id": "g016", "gold": "C", "step": "Chemistry (general)", "sample": 3, "pred": null, "prompt_tokens": 198, "output_tokens": 2048}
+{"id": "g016", "gold": "C", "step": "Chemistry (general)", "sample": 4, "pred": "B", "prompt_tokens": 198, "output_tokens": 393}
+{"id": "g016", "gold": "C", "step": "Chemistry (general)", "sample": 5, "pred": "A", "prompt_tokens": 198, "output_tokens": 305}
+{"id": "g017", "gold": "C", "step": "Physics (general)", "sample": 0, "pred": "C", "prompt_tokens": 288, "output_tokens": 381}
+{"id": "g017", "gold": "C", "step": "Physics (general)", "sample": 1, "pred": "A", "prompt_tokens": 288, "output_tokens": 744}
+{"id": "g017", "gold": "C", "step": "Physics (general)", "sample": 2, "pred": "A", "prompt_tokens": 288, "output_tokens": 376}
+{"id": "g017", "gold": "C", "step": "Physics (general)", "sample": 3, "pred": "D", "prompt_tokens": 288, "output_tokens": 846}
+{"id": "g017", "gold": "C", "step": "Physics (general)", "sample": 4, "pred": null, "prompt_tokens": 288, "output_tokens": 2048}
+{"id": "g017", "gold": "C", "step": "Physics (general)", "sample": 5, "pred": "A", "prompt_tokens": 288, "output_tokens": 436}
+{"id": "g018", "gold": "B", "step": "Organic Chemistry", "sample": 0, "pred": "A", "prompt_tokens": 591, "output_tokens": 360}
+{"id": "g018", "gold": "B", "step": "Organic Chemistry", "sample": 1, "pred": "A", "prompt_tokens": 591, "output_tokens": 435}
+{"id": "g018", "gold": "B", "step": "Organic Chemistry", "sample": 2, "pred": "B", "prompt_tokens": 591, "output_tokens": 430}
+{"id": "g018", "gold": "B", "step": "Organic Chemistry", "sample": 3, "pred": "A", "prompt_tokens": 591, "output_tokens": 540}
+{"id": "g018", "gold": "B", "step": "Organic Chemistry", "sample": 4, "pred": "A", "prompt_tokens": 591, "output_tokens": 326}
+{"id": "g018", "gold": "B", "step": "Organic Chemistry", "sample": 5, "pred": "A", "prompt_tokens": 591, "output_tokens": 280}
+{"id": "g019", "gold": "C", "step": "Quantum Mechanics", "sample": 0, "pred": "C", "prompt_tokens": 246, "output_tokens": 235}
+{"id": "g019", "gold": "C", "step": "Quantum Mechanics", "sample": 1, "pred": "B", "prompt_tokens": 246, "output_tokens": 227}
+{"id": "g019", "gold": "C", "step": "Quantum Mechanics", "sample": 2, "pred": "C", "prompt_tokens": 246, "output_tokens": 246}
+{"id": "g019", "gold": "C", "step": "Quantum Mechanics", "sample": 3, "pred": "C", "prompt_tokens": 246, "output_tokens": 275}
+{"id": "g019", "gold": "C", "step": "Quantum Mechanics", "sample": 4, "pred": "C", "prompt_tokens": 246, "output_tokens": 231}
+{"id": "g019", "gold": "C", "step": "Quantum Mechanics", "sample": 5, "pred": "C", "prompt_tokens": 246, "output_tokens": 466}
+{"id": "g020", "gold": "C", "step": "Organic Chemistry", "sample": 0, "pred": "D", "prompt_tokens": 325, "output_tokens": 288}
+{"id": "g020", "gold": "C", "step": "Organic Chemistry", "sample": 1, "pred": "D", "prompt_tokens": 325, "output_tokens": 273}
+{"id": "g020", "gold": "C", "step": "Organic Chemistry", "sample": 2, "pred": "D", "prompt_tokens": 325, "output_tokens": 334}
+{"id": "g020", "gold": "C", "step": "Organic Chemistry", "sample": 3, "pred": "D", "prompt_tokens": 325, "output_tokens": 273}
+{"id": "g020", "gold": "C", "step": "Organic Chemistry", "sample": 4, "pred": "D", "prompt_tokens": 325, "output_tokens": 279}
+{"id": "g020", "gold": "C", "step": "Organic Chemistry", "sample": 5, "pred": "D", "prompt_tokens": 325, "output_tokens": 285}
+{"id": "g021", "gold": "A", "step": "Chemistry (general)", "sample": 0, "pred": "B", "prompt_tokens": 185, "output_tokens": 180}
+{"id": "g021", "gold": "A", "step": "Chemistry (general)", "sample": 1, "pred": "C", "prompt_tokens": 185, "output_tokens": 197}
+{"id": "g021", "gold": "A", "step": "Chemistry (general)", "sample": 2, "pred": "B", "prompt_tokens": 185, "output_tokens": 268}
+{"id": "g021", "gold": "A", "step": "Chemistry (general)", "sample": 3, "pred": "B", "prompt_tokens": 185, "output_tokens": 189}
+{"id": "g021", "gold": "A", "step": "Chemistry (general)", "sample": 4, "pred": "B", "prompt_tokens": 185, "output_tokens": 142}
+{"id": "g021", "gold": "A", "step": "Chemistry (general)", "sample": 5, "pred": "A", "prompt_tokens": 185, "output_tokens": 204}
+{"id": "g022", "gold": "C", "step": "Organic Chemistry", "sample": 0, "pred": "D", "prompt_tokens": 323, "output_tokens": 247}
+{"id": "g022", "gold": "C", "step": "Organic Chemistry", "sample": 1, "pred": "B", "prompt_tokens": 323, "output_tokens": 393}
+{"id": "g022", "gold": "C", "step": "Organic Chemistry", "sample": 2, "pred": "D", "prompt_tokens": 323, "output_tokens": 299}
+{"id": "g022", "gold": "C", "step": "Organic Chemistry", "sample": 3, "pred": "B", "prompt_tokens": 323, "output_tokens": 188}
+{"id": "g022", "gold": "C", "step": "Organic Chemistry", "sample": 4, "pred": "B", "prompt_tokens": 323, "output_tokens": 285}
+{"id": "g022", "gold": "C", "step": "Organic Chemistry", "sample": 5, "pred": "B", "prompt_tokens": 323, "output_tokens": 209}
+{"id": "g023", "gold": "A", "step": "Organic Chemistry", "sample": 0, "pred": "B", "prompt_tokens": 267, "output_tokens": 462}
+{"id": "g023", "gold": "A", "step": "Organic Chemistry", "sample": 1, "pred": null, "prompt_tokens": 267, "output_tokens": 538}
+{"id": "g023", "gold": "A", "step": "Organic Chemistry", "sample": 2, "pred": null, "prompt_tokens": 267, "output_tokens": 415}
+{"id": "g023", "gold": "A", "step": "Organic Chemistry", "sample": 3, "pred": null, "prompt_tokens": 267, "output_tokens": 2048}
+{"id": "g023", "gold": "A", "step": "Organic Chemistry", "sample": 4, "pred": null, "prompt_tokens": 267, "output_tokens": 347}
+{"id": "g023", "gold": "A", "step": "Organic Chemistry", "sample": 5, "pred": "B", "prompt_tokens": 267, "output_tokens": 699}
+{"id": "g024", "gold": "D", "step": "Organic Chemistry", "sample": 0, "pred": "C", "prompt_tokens": 411, "output_tokens": 467}
+{"id": "g024", "gold": "D", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 411, "output_tokens": 267}
+{"id": "g024", "gold": "D", "step": "Organic Chemistry", "sample": 2, "pred": "C", "prompt_tokens": 411, "output_tokens": 276}
+{"id": "g024", "gold": "D", "step": "Organic Chemistry", "sample": 3, "pred": "C", "prompt_tokens": 411, "output_tokens": 225}
+{"id": "g024", "gold": "D", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 411, "output_tokens": 325}
+{"id": "g024", "gold": "D", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 411, "output_tokens": 241}
+{"id": "g025", "gold": "D", "step": "Organic Chemistry", "sample": 0, "pred": "D", "prompt_tokens": 420, "output_tokens": 488}
+{"id": "g025", "gold": "D", "step": "Organic Chemistry", "sample": 1, "pred": "B", "prompt_tokens": 420, "output_tokens": 244}
+{"id": "g025", "gold": "D", "step": "Organic Chemistry", "sample": 2, "pred": "C", "prompt_tokens": 420, "output_tokens": 221}
+{"id": "g025", "gold": "D", "step": "Organic Chemistry", "sample": 3, "pred": "B", "prompt_tokens": 420, "output_tokens": 313}
+{"id": "g025", "gold": "D", "step": "Organic Chemistry", "sample": 4, "pred": "B", "prompt_tokens": 420, "output_tokens": 333}
+{"id": "g025", "gold": "D", "step": "Organic Chemistry", "sample": 5, "pred": "B", "prompt_tokens": 420, "output_tokens": 532}
+{"id": "g026", "gold": "B", "step": "Molecular Biology", "sample": 0, "pred": "B", "prompt_tokens": 211, "output_tokens": 268}
+{"id": "g026", "gold": "B", "step": "Molecular Biology", "sample": 1, "pred": "B", "prompt_tokens": 211, "output_tokens": 253}
+{"id": "g026", "gold": "B", "step": "Molecular Biology", "sample": 2, "pred": "A", "prompt_tokens": 211, "output_tokens": 240}
+{"id": "g026", "gold": "B", "step": "Molecular Biology", "sample": 3, "pred": null, "prompt_tokens": 211, "output_tokens": 389}
+{"id": "g026", "gold": "B", "step": "Molecular Biology", "sample": 4, "pred": "D", "prompt_tokens": 211, "output_tokens": 187}
+{"id": "g026", "gold": "B", "step": "Molecular Biology", "sample": 5, "pred": "D", "prompt_tokens": 211, "output_tokens": 147}
+{"id": "g027", "gold": "D", "step": "Organic Chemistry", "sample": 0, "pred": "B", "prompt_tokens": 375, "output_tokens": 315}
+{"id": "g027", "gold": "D", "step": "Organic Chemistry", "sample": 1, "pred": "B", "prompt_tokens": 375, "output_tokens": 374}
+{"id": "g027", "gold": "D", "step": "Organic Chemistry", "sample": 2, "pred": "C", "prompt_tokens": 375, "output_tokens": 326}
+{"id": "g027", "gold": "D", "step": "Organic Chemistry", "sample": 3, "pred": "B", "prompt_tokens": 375, "output_tokens": 393}
+{"id": "g027", "gold": "D", "step": "Organic Chemistry", "sample": 4, "pred": "A", "prompt_tokens": 375, "output_tokens": 298}
+{"id": "g027", "gold": "D", "step": "Organic Chemistry", "sample": 5, "pred": "B", "prompt_tokens": 375, "output_tokens": 311}
+{"id": "g028", "gold": "D", "step": "Genetics", "sample": 0, "pred": "C", "prompt_tokens": 448, "output_tokens": 237}
+{"id": "g028", "gold": "D", "step": "Genetics", "sample": 1, "pred": "C", "prompt_tokens": 448, "output_tokens": 242}
+{"id": "g028", "gold": "D", "step": "Genetics", "sample": 2, "pred": "B", "prompt_tokens": 448, "output_tokens": 255}
+{"id": "g028", "gold": "D", "step": "Genetics", "sample": 3, "pred": "D", "prompt_tokens": 448, "output_tokens": 259}
+{"id": "g028", "gold": "D", "step": "Genetics", "sample": 4, "pred": "D", "prompt_tokens": 448, "output_tokens": 256}
+{"id": "g028", "gold": "D", "step": "Genetics", "sample": 5, "pred": "B", "prompt_tokens": 448, "output_tokens": 248}
+{"id": "g029", "gold": "B", "step": "Organic Chemistry", "sample": 0, "pred": "D", "prompt_tokens": 147, "output_tokens": 280}
+{"id": "g029", "gold": "B", "step": "Organic Chemistry", "sample": 1, "pred": null, "prompt_tokens": 147, "output_tokens": 287}
+{"id": "g029", "gold": "B", "step": "Organic Chemistry", "sample": 2, "pred": "C", "prompt_tokens": 147, "output_tokens": 558}
+{"id": "g029", "gold": "B", "step": "Organic Chemistry", "sample": 3, "pred": "D", "prompt_tokens": 147, "output_tokens": 190}
+{"id": "g029", "gold": "B", "step": "Organic Chemistry", "sample": 4, "pred": "D", "prompt_tokens": 147, "output_tokens": 297}
+{"id": "g029", "gold": "B", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 147, "output_tokens": 273}
+{"id": "g030", "gold": "D", "step": "Organic Chemistry", "sample": 0, "pred": "D", "prompt_tokens": 183, "output_tokens": 311}
+{"id": "g030", "gold": "D", "step": "Organic Chemistry", "sample": 1, "pred": "A", "prompt_tokens": 183, "output_tokens": 305}
+{"id": "g030", "gold": "D", "step": "Organic Chemistry", "sample": 2, "pred": "D", "prompt_tokens": 183, "output_tokens": 319}
+{"id": "g030", "gold": "D", "step": "Organic Chemistry", "sample": 3, "pred": "D", "prompt_tokens": 183, "output_tokens": 217}
+{"id": "g030", "gold": "D", "step": "Organic Chemistry", "sample": 4, "pred": "D", "prompt_tokens": 183, "output_tokens": 233}
+{"id": "g030", "gold": "D", "step": "Organic Chemistry", "sample": 5, "pred": "D", "prompt_tokens": 183, "output_tokens": 352}
+{"id": "g031", "gold": "C", "step": "High-energy particle physics", "sample": 0, "pred": "B", "prompt_tokens": 191, "output_tokens": 349}
+{"id": "g031", "gold": "C", "step": "High-energy particle physics", "sample": 1, "pred": "A", "prompt_tokens": 191, "output_tokens": 409}
+{"id": "g031", "gold": "C", "step": "High-energy particle physics", "sample": 2, "pred": "A", "prompt_tokens": 191, "output_tokens": 352}
+{"id": "g031", "gold": "C", "step": "High-energy particle physics", "sample": 3, "pred": "A", "prompt_tokens": 191, "output_tokens": 754}
+{"id": "g031", "gold": "C", "step": "High-energy particle physics", "sample": 4, "pred": null, "prompt_tokens": 191, "output_tokens": 2048}
+{"id": "g031", "gold": "C", "step": "High-energy particle physics", "sample": 5, "pred": "A", "prompt_tokens": 191, "output_tokens": 434}
+{"id": "g032", "gold": "D", "step": "Organic Chemistry", "sample": 0, "pred": "A", "prompt_tokens": 371, "output_tokens": 290}
+{"id": "g032", "gold": "D", "step": "Organic Chemistry", "sample": 1, "pred": "A", "prompt_tokens": 371, "output_tokens": 203}
+{"id": "g032", "gold": "D", "step": "Organic Chemistry", "sample": 2, "pred": "A", "prompt_tokens": 371, "output_tokens": 304}
+{"id": "g032", "gold": "D", "step": "Organic Chemistry", "sample": 3, "pred": "A", "prompt_tokens": 371, "output_tokens": 233}
+{"id": "g032", "gold": "D", "step": "Organic Chemistry", "sample": 4, "pred": "A", "prompt_tokens": 371, "output_tokens": 241}
+{"id": "g032", "gold": "D", "step": "Organic Chemistry", "sample": 5, "pred": "A", "prompt_tokens": 371, "output_tokens": 252}
+{"id": "g033", "gold": "A", "step": "Organic Chemistry", "sample": 0, "pred": "C", "prompt_tokens": 520, "output_tokens": 385}
+{"id": "g033", "gold": "A", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 520, "output_tokens": 343}
+{"id": "g033", "gold": "A", "step": "Organic Chemistry", "sample": 2, "pred": "D", "prompt_tokens": 520, "output_tokens": 187}
+{"id": "g033", "gold": "A", "step": "Organic Chemistry", "sample": 3, "pred": "B", "prompt_tokens": 520, "output_tokens": 455}
+{"id": "g033", "gold": "A", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 520, "output_tokens": 371}
+{"id": "g033", "gold": "A", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 520, "output_tokens": 345}
+{"id": "g034", "gold": "A", "step": "Physics (general)", "sample": 0, "pred": "C", "prompt_tokens": 365, "output_tokens": 329}
+{"id": "g034", "gold": "A", "step": "Physics (general)", "sample": 1, "pred": "A", "prompt_tokens": 365, "output_tokens": 713}
+{"id": "g034", "gold": "A", "step": "Physics (general)", "sample": 2, "pred": "A", "prompt_tokens": 365, "output_tokens": 414}
+{"id": "g034", "gold": "A", "step": "Physics (general)", "sample": 3, "pred": "D", "prompt_tokens": 365, "output_tokens": 642}
+{"id": "g034", "gold": "A", "step": "Physics (general)", "sample": 4, "pred": "A", "prompt_tokens": 365, "output_tokens": 782}
+{"id": "g034", "gold": "A", "step": "Physics (general)", "sample": 5, "pred": "C", "prompt_tokens": 365, "output_tokens": 353}
+{"id": "g035", "gold": "B", "step": "Astrophysics", "sample": 0, "pred": "B", "prompt_tokens": 202, "output_tokens": 209}
+{"id": "g035", "gold": "B", "step": "Astrophysics", "sample": 1, "pred": "B", "prompt_tokens": 202, "output_tokens": 257}
+{"id": "g035", "gold": "B", "step": "Astrophysics", "sample": 2, "pred": "D", "prompt_tokens": 202, "output_tokens": 190}
+{"id": "g035", "gold": "B", "step": "Astrophysics", "sample": 3, "pred": "B", "prompt_tokens": 202, "output_tokens": 182}
+{"id": "g035", "gold": "B", "step": "Astrophysics", "sample": 4, "pred": "B", "prompt_tokens": 202, "output_tokens": 183}
+{"id": "g035", "gold": "B", "step": "Astrophysics", "sample": 5, "pred": "B", "prompt_tokens": 202, "output_tokens": 173}
+{"id": "g036", "gold": "C", "step": "Organic Chemistry", "sample": 0, "pred": "A", "prompt_tokens": 209, "output_tokens": 312}
+{"id": "g036", "gold": "C", "step": "Organic Chemistry", "sample": 1, "pred": "B", "prompt_tokens": 209, "output_tokens": 317}
+{"id": "g036", "gold": "C", "step": "Organic Chemistry", "sample": 2, "pred": "C", "prompt_tokens": 209, "output_tokens": 358}
+{"id": "g036", "gold": "C", "step": "Organic Chemistry", "sample": 3, "pred": "B", "prompt_tokens": 209, "output_tokens": 450}
+{"id": "g036", "gold": "C", "step": "Organic Chemistry", "sample": 4, "pred": "B", "prompt_tokens": 209, "output_tokens": 458}
+{"id": "g036", "gold": "C", "step": "Organic Chemistry", "sample": 5, "pred": "B", "prompt_tokens": 209, "output_tokens": 375}
+{"id": "g037", "gold": "A", "step": "Organic Chemistry", "sample": 0, "pred": "D", "prompt_tokens": 351, "output_tokens": 327}
+{"id": "g037", "gold": "A", "step": "Organic Chemistry", "sample": 1, "pred": "D", "prompt_tokens": 351, "output_tokens": 313}
+{"id": "g037", "gold": "A", "step": "Organic Chemistry", "sample": 2, "pred": "D", "prompt_tokens": 351, "output_tokens": 388}
+{"id": "g037", "gold": "A", "step": "Organic Chemistry", "sample": 3, "pred": "B", "prompt_tokens": 351, "output_tokens": 349}
+{"id": "g037", "gold": "A", "step": "Organic Chemistry", "sample": 4, "pred": "D", "prompt_tokens": 351, "output_tokens": 307}
+{"id": "g037", "gold": "A", "step": "Organic Chemistry", "sample": 5, "pred": "D", "prompt_tokens": 351, "output_tokens": 521}
+{"id": "g038", "gold": "A", "step": "Quantum Mechanics", "sample": 0, "pred": "C", "prompt_tokens": 286, "output_tokens": 590}
+{"id": "g038", "gold": "A", "step": "Quantum Mechanics", "sample": 1, "pred": null, "prompt_tokens": 286, "output_tokens": 2048}
+{"id": "g038", "gold": "A", "step": "Quantum Mechanics", "sample": 2, "pred": "D", "prompt_tokens": 286, "output_tokens": 614}
+{"id": "g038", "gold": "A", "step": "Quantum Mechanics", "sample": 3, "pred": "C", "prompt_tokens": 286, "output_tokens": 352}
+{"id": "g038", "gold": "A", "step": "Quantum Mechanics", "sample": 4, "pred": "C", "prompt_tokens": 286, "output_tokens": 196}
+{"id": "g038", "gold": "A", "step": "Quantum Mechanics", "sample": 5, "pred": "C", "prompt_tokens": 286, "output_tokens": 336}
+{"id": "g039", "gold": "A", "step": "Organic Chemistry", "sample": 0, "pred": "B", "prompt_tokens": 222, "output_tokens": 225}
+{"id": "g039", "gold": "A", "step": "Organic Chemistry", "sample": 1, "pred": "B", "prompt_tokens": 222, "output_tokens": 230}
+{"id": "g039", "gold": "A", "step": "Organic Chemistry", "sample": 2, "pred": "C", "prompt_tokens": 222, "output_tokens": 270}
+{"id": "g039", "gold": "A", "step": "Organic Chemistry", "sample": 3, "pred": "B", "prompt_tokens": 222, "output_tokens": 134}
+{"id": "g039", "gold": "A", "step": "Organic Chemistry", "sample": 4, "pred": "B", "prompt_tokens": 222, "output_tokens": 240}
+{"id": "g039", "gold": "A", "step": "Organic Chemistry", "sample": 5, "pred": "B", "prompt_tokens": 222, "output_tokens": 246}
+{"id": "g040", "gold": "A", "step": "Relativistic Mechanics", "sample": 0, "pred": "B", "prompt_tokens": 195, "output_tokens": 354}
+{"id": "g040", "gold": "A", "step": "Relativistic Mechanics", "sample": 1, "pred": "B", "prompt_tokens": 195, "output_tokens": 334}
+{"id": "g040", "gold": "A", "step": "Relativistic Mechanics", "sample": 2, "pred": "B", "prompt_tokens": 195, "output_tokens": 330}
+{"id": "g040", "gold": "A", "step": "Relativistic Mechanics", "sample": 3, "pred": "B", "prompt_tokens": 195, "output_tokens": 431}
+{"id": "g040", "gold": "A", "step": "Relativistic Mechanics", "sample": 4, "pred": "B", "prompt_tokens": 195, "output_tokens": 292}
+{"id": "g040", "gold": "A", "step": "Relativistic Mechanics", "sample": 5, "pred": "B", "prompt_tokens": 195, "output_tokens": 363}
+{"id": "g041", "gold": "B", "step": "Astrophysics", "sample": 0, "pred": "B", "prompt_tokens": 279, "output_tokens": 503}
+{"id": "g041", "gold": "B", "step": "Astrophysics", "sample": 1, "pred": null, "prompt_tokens": 279, "output_tokens": 2048}
+{"id": "g041", "gold": "B", "step": "Astrophysics", "sample": 2, "pred": "A", "prompt_tokens": 279, "output_tokens": 439}
+{"id": "g041", "gold": "B", "step": "Astrophysics", "sample": 3, "pred": "B", "prompt_tokens": 279, "output_tokens": 570}
+{"id": "g041", "gold": "B", "step": "Astrophysics", "sample": 4, "pred": "B", "prompt_tokens": 279, "output_tokens": 1026}
+{"id": "g041", "gold": "B", "step": "Astrophysics", "sample": 5, "pred": null, "prompt_tokens": 279, "output_tokens": 2048}
+{"id": "g042", "gold": "C", "step": "Organic Chemistry", "sample": 0, "pred": "A", "prompt_tokens": 318, "output_tokens": 241}
+{"id": "g042", "gold": "C", "step": "Organic Chemistry", "sample": 1, "pred": null, "prompt_tokens": 318, "output_tokens": 199}
+{"id": "g042", "gold": "C", "step": "Organic Chemistry", "sample": 2, "pred": "A", "prompt_tokens": 318, "output_tokens": 313}
+{"id": "g042", "gold": "C", "step": "Organic Chemistry", "sample": 3, "pred": "A", "prompt_tokens": 318, "output_tokens": 242}
+{"id": "g042", "gold": "C", "step": "Organic Chemistry", "sample": 4, "pred": "A", "prompt_tokens": 318, "output_tokens": 246}
+{"id": "g042", "gold": "C", "step": "Organic Chemistry", "sample": 5, "pred": "A", "prompt_tokens": 318, "output_tokens": 259}
+{"id": "g043", "gold": "B", "step": "Molecular Biology", "sample": 0, "pred": "C", "prompt_tokens": 359, "output_tokens": 331}
+{"id": "g043", "gold": "B", "step": "Molecular Biology", "sample": 1, "pred": "C", "prompt_tokens": 359, "output_tokens": 311}
+{"id": "g043", "gold": "B", "step": "Molecular Biology", "sample": 2, "pred": "C", "prompt_tokens": 359, "output_tokens": 311}
+{"id": "g043", "gold": "B", "step": "Molecular Biology", "sample": 3, "pred": "C", "prompt_tokens": 359, "output_tokens": 271}
+{"id": "g043", "gold": "B", "step": "Molecular Biology", "sample": 4, "pred": "C", "prompt_tokens": 359, "output_tokens": 518}
+{"id": "g043", "gold": "B", "step": "Molecular Biology", "sample": 5, "pred": "C", "prompt_tokens": 359, "output_tokens": 319}
+{"id": "g044", "gold": "D", "step": "Quantum Mechanics", "sample": 0, "pred": "B", "prompt_tokens": 218, "output_tokens": 680}
+{"id": "g044", "gold": "D", "step": "Quantum Mechanics", "sample": 1, "pred": "B", "prompt_tokens": 218, "output_tokens": 374}
+{"id": "g044", "gold": "D", "step": "Quantum Mechanics", "sample": 2, "pred": null, "prompt_tokens": 218, "output_tokens": 754}
+{"id": "g044", "gold": "D", "step": "Quantum Mechanics", "sample": 3, "pred": "B", "prompt_tokens": 218, "output_tokens": 1207}
+{"id": "g044", "gold": "D", "step": "Quantum Mechanics", "sample": 4, "pred": "B", "prompt_tokens": 218, "output_tokens": 1080}
+{"id": "g044", "gold": "D", "step": "Quantum Mechanics", "sample": 5, "pred": "A", "prompt_tokens": 218, "output_tokens": 322}
+{"id": "g045", "gold": "B", "step": "Organic Chemistry", "sample": 0, "pred": "D", "prompt_tokens": 147, "output_tokens": 509}
+{"id": "g045", "gold": "B", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 147, "output_tokens": 356}
+{"id": "g045", "gold": "B", "step": "Organic Chemistry", "sample": 2, "pred": "C", "prompt_tokens": 147, "output_tokens": 366}
+{"id": "g045", "gold": "B", "step": "Organic Chemistry", "sample": 3, "pred": "C", "prompt_tokens": 147, "output_tokens": 286}
+{"id": "g045", "gold": "B", "step": "Organic Chemistry", "sample": 4, "pred": "A", "prompt_tokens": 147, "output_tokens": 284}
+{"id": "g045", "gold": "B", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 147, "output_tokens": 265}
+{"id": "g046", "gold": "C", "step": "Organic Chemistry", "sample": 0, "pred": "C", "prompt_tokens": 258, "output_tokens": 506}
+{"id": "g046", "gold": "C", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 258, "output_tokens": 367}
+{"id": "g046", "gold": "C", "step": "Organic Chemistry", "sample": 2, "pred": "A", "prompt_tokens": 258, "output_tokens": 348}
+{"id": "g046", "gold": "C", "step": "Organic Chemistry", "sample": 3, "pred": "C", "prompt_tokens": 258, "output_tokens": 334}
+{"id": "g046", "gold": "C", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 258, "output_tokens": 438}
+{"id": "g046", "gold": "C", "step": "Organic Chemistry", "sample": 5, "pred": "A", "prompt_tokens": 258, "output_tokens": 320}
+{"id": "g047", "gold": "D", "step": "Organic Chemistry", "sample": 0, "pred": "D", "prompt_tokens": 202, "output_tokens": 423}
+{"id": "g047", "gold": "D", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 202, "output_tokens": 359}
+{"id": "g047", "gold": "D", "step": "Organic Chemistry", "sample": 2, "pred": "C", "prompt_tokens": 202, "output_tokens": 404}
+{"id": "g047", "gold": "D", "step": "Organic Chemistry", "sample": 3, "pred": "D", "prompt_tokens": 202, "output_tokens": 379}
+{"id": "g047", "gold": "D", "step": "Organic Chemistry", "sample": 4, "pred": "D", "prompt_tokens": 202, "output_tokens": 700}
+{"id": "g047", "gold": "D", "step": "Organic Chemistry", "sample": 5, "pred": "B", "prompt_tokens": 202, "output_tokens": 433}
+{"id": "g048", "gold": "B", "step": "Organic Chemistry", "sample": 0, "pred": "D", "prompt_tokens": 475, "output_tokens": 400}
+{"id": "g048", "gold": "B", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 475, "output_tokens": 395}
+{"id": "g048", "gold": "B", "step": "Organic Chemistry", "sample": 2, "pred": "B", "prompt_tokens": 475, "output_tokens": 344}
+{"id": "g048", "gold": "B", "step": "Organic Chemistry", "sample": 3, "pred": "B", "prompt_tokens": 475, "output_tokens": 345}
+{"id": "g048", "gold": "B", "step": "Organic Chemistry", "sample": 4, "pred": "B", "prompt_tokens": 475, "output_tokens": 347}
+{"id": "g048", "gold": "B", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 475, "output_tokens": 422}
+{"id": "g049", "gold": "D", "step": "High-energy particle physics", "sample": 0, "pred": "D", "prompt_tokens": 249, "output_tokens": 355}
+{"id": "g049", "gold": "D", "step": "High-energy particle physics", "sample": 1, "pred": "B", "prompt_tokens": 249, "output_tokens": 235}
+{"id": "g049", "gold": "D", "step": "High-energy particle physics", "sample": 2, "pred": "B", "prompt_tokens": 249, "output_tokens": 170}
+{"id": "g049", "gold": "D", "step": "High-energy particle physics", "sample": 3, "pred": "C", "prompt_tokens": 249, "output_tokens": 244}
+{"id": "g049", "gold": "D", "step": "High-energy particle physics", "sample": 4, "pred": "B", "prompt_tokens": 249, "output_tokens": 454}
+{"id": "g049", "gold": "D", "step": "High-energy particle physics", "sample": 5, "pred": "C", "prompt_tokens": 249, "output_tokens": 387}
+{"id": "g050", "gold": "A", "step": "Electromagnetism and Photonics", "sample": 0, "pred": "B", "prompt_tokens": 217, "output_tokens": 705}
+{"id": "g050", "gold": "A", "step": "Electromagnetism and Photonics", "sample": 1, "pred": "D", "prompt_tokens": 217, "output_tokens": 925}
+{"id": "g050", "gold": "A", "step": "Electromagnetism and Photonics", "sample": 2, "pred": "D", "prompt_tokens": 217, "output_tokens": 282}
+{"id": "g050", "gold": "A", "step": "Electromagnetism and Photonics", "sample": 3, "pred": "C", "prompt_tokens": 217, "output_tokens": 299}
+{"id": "g050", "gold": "A", "step": "Electromagnetism and Photonics", "sample": 4, "pred": "B", "prompt_tokens": 217, "output_tokens": 241}
+{"id": "g050", "gold": "A", "step": "Electromagnetism and Photonics", "sample": 5, "pred": "C", "prompt_tokens": 217, "output_tokens": 274}
+{"id": "g051", "gold": "A", "step": "Astrophysics", "sample": 0, "pred": "D", "prompt_tokens": 294, "output_tokens": 637}
+{"id": "g051", "gold": "A", "step": "Astrophysics", "sample": 1, "pred": "C", "prompt_tokens": 294, "output_tokens": 312}
+{"id": "g051", "gold": "A", "step": "Astrophysics", "sample": 2, "pred": "C", "prompt_tokens": 294, "output_tokens": 560}
+{"id": "g051", "gold": "A", "step": "Astrophysics", "sample": 3, "pred": "D", "prompt_tokens": 294, "output_tokens": 356}
+{"id": "g051", "gold": "A", "step": "Astrophysics", "sample": 4, "pred": null, "prompt_tokens": 294, "output_tokens": 667}
+{"id": "g051", "gold": "A", "step": "Astrophysics", "sample": 5, "pred": null, "prompt_tokens": 294, "output_tokens": 817}
+{"id": "g052", "gold": "C", "step": "Chemistry (general)", "sample": 0, "pred": "A", "prompt_tokens": 263, "output_tokens": 376}
+{"id": "g052", "gold": "C", "step": "Chemistry (general)", "sample": 1, "pred": "A", "prompt_tokens": 263, "output_tokens": 353}
+{"id": "g052", "gold": "C", "step": "Chemistry (general)", "sample": 2, "pred": "C", "prompt_tokens": 263, "output_tokens": 272}
+{"id": "g052", "gold": "C", "step": "Chemistry (general)", "sample": 3, "pred": "B", "prompt_tokens": 263, "output_tokens": 284}
+{"id": "g052", "gold": "C", "step": "Chemistry (general)", "sample": 4, "pred": "A", "prompt_tokens": 263, "output_tokens": 798}
+{"id": "g052", "gold": "C", "step": "Chemistry (general)", "sample": 5, "pred": null, "prompt_tokens": 263, "output_tokens": 670}
+{"id": "g053", "gold": "B", "step": "Organic Chemistry", "sample": 0, "pred": "A", "prompt_tokens": 234, "output_tokens": 237}
+{"id": "g053", "gold": "B", "step": "Organic Chemistry", "sample": 1, "pred": "A", "prompt_tokens": 234, "output_tokens": 265}
+{"id": "g053", "gold": "B", "step": "Organic Chemistry", "sample": 2, "pred": "D", "prompt_tokens": 234, "output_tokens": 273}
+{"id": "g053", "gold": "B", "step": "Organic Chemistry", "sample": 3, "pred": "B", "prompt_tokens": 234, "output_tokens": 216}
+{"id": "g053", "gold": "B", "step": "Organic Chemistry", "sample": 4, "pred": "A", "prompt_tokens": 234, "output_tokens": 283}
+{"id": "g053", "gold": "B", "step": "Organic Chemistry", "sample": 5, "pred": "A", "prompt_tokens": 234, "output_tokens": 195}
+{"id": "g054", "gold": "A", "step": "Chemistry (general)", "sample": 0, "pred": "D", "prompt_tokens": 250, "output_tokens": 366}
+{"id": "g054", "gold": "A", "step": "Chemistry (general)", "sample": 1, "pred": "C", "prompt_tokens": 250, "output_tokens": 239}
+{"id": "g054", "gold": "A", "step": "Chemistry (general)", "sample": 2, "pred": "D", "prompt_tokens": 250, "output_tokens": 351}
+{"id": "g054", "gold": "A", "step": "Chemistry (general)", "sample": 3, "pred": "C", "prompt_tokens": 250, "output_tokens": 242}
+{"id": "g054", "gold": "A", "step": "Chemistry (general)", "sample": 4, "pred": "A", "prompt_tokens": 250, "output_tokens": 216}
+{"id": "g054", "gold": "A", "step": "Chemistry (general)", "sample": 5, "pred": "D", "prompt_tokens": 250, "output_tokens": 293}
+{"id": "g055", "gold": "A", "step": "Quantum Mechanics", "sample": 0, "pred": "A", "prompt_tokens": 308, "output_tokens": 519}
+{"id": "g055", "gold": "A", "step": "Quantum Mechanics", "sample": 1, "pred": "A", "prompt_tokens": 308, "output_tokens": 377}
+{"id": "g055", "gold": "A", "step": "Quantum Mechanics", "sample": 2, "pred": "A", "prompt_tokens": 308, "output_tokens": 332}
+{"id": "g055", "gold": "A", "step": "Quantum Mechanics", "sample": 3, "pred": "A", "prompt_tokens": 308, "output_tokens": 302}
+{"id": "g055", "gold": "A", "step": "Quantum Mechanics", "sample": 4, "pred": "C", "prompt_tokens": 308, "output_tokens": 267}
+{"id": "g055", "gold": "A", "step": "Quantum Mechanics", "sample": 5, "pred": "C", "prompt_tokens": 308, "output_tokens": 549}
+{"id": "g056", "gold": "B", "step": "Quantum Mechanics", "sample": 0, "pred": null, "prompt_tokens": 217, "output_tokens": 1307}
+{"id": "g056", "gold": "B", "step": "Quantum Mechanics", "sample": 1, "pred": null, "prompt_tokens": 217, "output_tokens": 2048}
+{"id": "g056", "gold": "B", "step": "Quantum Mechanics", "sample": 2, "pred": "D", "prompt_tokens": 217, "output_tokens": 484}
+{"id": "g056", "gold": "B", "step": "Quantum Mechanics", "sample": 3, "pred": "B", "prompt_tokens": 217, "output_tokens": 975}
+{"id": "g056", "gold": "B", "step": "Quantum Mechanics", "sample": 4, "pred": "D", "prompt_tokens": 217, "output_tokens": 697}
+{"id": "g056", "gold": "B", "step": "Quantum Mechanics", "sample": 5, "pred": "D", "prompt_tokens": 217, "output_tokens": 640}
+{"id": "g057", "gold": "B", "step": "High-energy particle physics", "sample": 0, "pred": "C", "prompt_tokens": 135, "output_tokens": 208}
+{"id": "g057", "gold": "B", "step": "High-energy particle physics", "sample": 1, "pred": "C", "prompt_tokens": 135, "output_tokens": 314}
+{"id": "g057", "gold": "B", "step": "High-energy particle physics", "sample": 2, "pred": "B", "prompt_tokens": 135, "output_tokens": 254}
+{"id": "g057", "gold": "B", "step": "High-energy particle physics", "sample": 3, "pred": "B", "prompt_tokens": 135, "output_tokens": 194}
+{"id": "g057", "gold": "B", "step": "High-energy particle physics", "sample": 4, "pred": "C", "prompt_tokens": 135, "output_tokens": 305}
+{"id": "g057", "gold": "B", "step": "High-energy particle physics", "sample": 5, "pred": "C", "prompt_tokens": 135, "output_tokens": 316}
+{"id": "g058", "gold": "A", "step": "Chemistry (general)", "sample": 0, "pred": null, "prompt_tokens": 174, "output_tokens": 820}
+{"id": "g058", "gold": "A", "step": "Chemistry (general)", "sample": 1, "pred": "D", "prompt_tokens": 174, "output_tokens": 1659}
+{"id": "g058", "gold": "A", "step": "Chemistry (general)", "sample": 2, "pred": "B", "prompt_tokens": 174, "output_tokens": 1091}
+{"id": "g058", "gold": "A", "step": "Chemistry (general)", "sample": 3, "pred": "A", "prompt_tokens": 174, "output_tokens": 617}
+{"id": "g058", "gold": "A", "step": "Chemistry (general)", "sample": 4, "pred": null, "prompt_tokens": 174, "output_tokens": 2030}
+{"id": "g058", "gold": "A", "step": "Chemistry (general)", "sample": 5, "pred": null, "prompt_tokens": 174, "output_tokens": 2048}
+{"id": "g059", "gold": "A", "step": "Relativistic Mechanics", "sample": 0, "pred": "C", "prompt_tokens": 241, "output_tokens": 419}
+{"id": "g059", "gold": "A", "step": "Relativistic Mechanics", "sample": 1, "pred": "C", "prompt_tokens": 241, "output_tokens": 712}
+{"id": "g059", "gold": "A", "step": "Relativistic Mechanics", "sample": 2, "pred": "B", "prompt_tokens": 241, "output_tokens": 229}
+{"id": "g059", "gold": "A", "step": "Relativistic Mechanics", "sample": 3, "pred": null, "prompt_tokens": 241, "output_tokens": 2048}
+{"id": "g059", "gold": "A", "step": "Relativistic Mechanics", "sample": 4, "pred": "B", "prompt_tokens": 241, "output_tokens": 530}
+{"id": "g059", "gold": "A", "step": "Relativistic Mechanics", "sample": 5, "pred": "C", "prompt_tokens": 241, "output_tokens": 325}
+{"id": "g060", "gold": "A", "step": "Organic Chemistry", "sample": 0, "pred": "A", "prompt_tokens": 275, "output_tokens": 372}
+{"id": "g060", "gold": "A", "step": "Organic Chemistry", "sample": 1, "pred": "D", "prompt_tokens": 275, "output_tokens": 247}
+{"id": "g060", "gold": "A", "step": "Organic Chemistry", "sample": 2, "pred": "A", "prompt_tokens": 275, "output_tokens": 322}
+{"id": "g060", "gold": "A", "step": "Organic Chemistry", "sample": 3, "pred": "A", "prompt_tokens": 275, "output_tokens": 398}
+{"id": "g060", "gold": "A", "step": "Organic Chemistry", "sample": 4, "pred": "A", "prompt_tokens": 275, "output_tokens": 306}
+{"id": "g060", "gold": "A", "step": "Organic Chemistry", "sample": 5, "pred": "A", "prompt_tokens": 275, "output_tokens": 456}
+{"id": "g061", "gold": "B", "step": "Organic Chemistry", "sample": 0, "pred": "B", "prompt_tokens": 301, "output_tokens": 231}
+{"id": "g061", "gold": "B", "step": "Organic Chemistry", "sample": 1, "pred": "A", "prompt_tokens": 301, "output_tokens": 255}
+{"id": "g061", "gold": "B", "step": "Organic Chemistry", "sample": 2, "pred": "C", "prompt_tokens": 301, "output_tokens": 334}
+{"id": "g061", "gold": "B", "step": "Organic Chemistry", "sample": 3, "pred": "C", "prompt_tokens": 301, "output_tokens": 270}
+{"id": "g061", "gold": "B", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 301, "output_tokens": 315}
+{"id": "g061", "gold": "B", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 301, "output_tokens": 156}
+{"id": "g062", "gold": "D", "step": "Quantum Mechanics", "sample": 0, "pred": null, "prompt_tokens": 284, "output_tokens": 2048}
+{"id": "g062", "gold": "D", "step": "Quantum Mechanics", "sample": 1, "pred": "D", "prompt_tokens": 284, "output_tokens": 625}
+{"id": "g062", "gold": "D", "step": "Quantum Mechanics", "sample": 2, "pred": "B", "prompt_tokens": 284, "output_tokens": 859}
+{"id": "g062", "gold": "D", "step": "Quantum Mechanics", "sample": 3, "pred": null, "prompt_tokens": 284, "output_tokens": 671}
+{"id": "g062", "gold": "D", "step": "Quantum Mechanics", "sample": 4, "pred": "B", "prompt_tokens": 284, "output_tokens": 1282}
+{"id": "g062", "gold": "D", "step": "Quantum Mechanics", "sample": 5, "pred": null, "prompt_tokens": 284, "output_tokens": 515}
+{"id": "g063", "gold": "B", "step": "Inorganic Chemistry", "sample": 0, "pred": "D", "prompt_tokens": 279, "output_tokens": 1596}
+{"id": "g063", "gold": "B", "step": "Inorganic Chemistry", "sample": 1, "pred": null, "prompt_tokens": 279, "output_tokens": 442}
+{"id": "g063", "gold": "B", "step": "Inorganic Chemistry", "sample": 2, "pred": "D", "prompt_tokens": 279, "output_tokens": 857}
+{"id": "g063", "gold": "B", "step": "Inorganic Chemistry", "sample": 3, "pred": "C", "prompt_tokens": 279, "output_tokens": 698}
+{"id": "g063", "gold": "B", "step": "Inorganic Chemistry", "sample": 4, "pred": "A", "prompt_tokens": 279, "output_tokens": 300}
+{"id": "g063", "gold": "B", "step": "Inorganic Chemistry", "sample": 5, "pred": null, "prompt_tokens": 279, "output_tokens": 2048}
+{"id": "g064", "gold": "C", "step": "Organic Chemistry", "sample": 0, "pred": "D", "prompt_tokens": 338, "output_tokens": 348}
+{"id": "g064", "gold": "C", "step": "Organic Chemistry", "sample": 1, "pred": "D", "prompt_tokens": 338, "output_tokens": 264}
+{"id": "g064", "gold": "C", "step": "Organic Chemistry", "sample": 2, "pred": "D", "prompt_tokens": 338, "output_tokens": 275}
+{"id": "g064", "gold": "C", "step": "Organic Chemistry", "sample": 3, "pred": "D", "prompt_tokens": 338, "output_tokens": 243}
+{"id": "g064", "gold": "C", "step": "Organic Chemistry", "sample": 4, "pred": "D", "prompt_tokens": 338, "output_tokens": 257}
+{"id": "g064", "gold": "C", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 338, "output_tokens": 260}
+{"id": "g065", "gold": "A", "step": "High-energy particle physics", "sample": 0, "pred": "A", "prompt_tokens": 172, "output_tokens": 267}
+{"id": "g065", "gold": "A", "step": "High-energy particle physics", "sample": 1, "pred": "A", "prompt_tokens": 172, "output_tokens": 302}
+{"id": "g065", "gold": "A", "step": "High-energy particle physics", "sample": 2, "pred": "A", "prompt_tokens": 172, "output_tokens": 276}
+{"id": "g065", "gold": "A", "step": "High-energy particle physics", "sample": 3, "pred": "A", "prompt_tokens": 172, "output_tokens": 355}
+{"id": "g065", "gold": "A", "step": "High-energy particle physics", "sample": 4, "pred": "A", "prompt_tokens": 172, "output_tokens": 310}
+{"id": "g065", "gold": "A", "step": "High-energy particle physics", "sample": 5, "pred": "A", "prompt_tokens": 172, "output_tokens": 370}
+{"id": "g066", "gold": "B", "step": "Quantum Mechanics", "sample": 0, "pred": "B", "prompt_tokens": 290, "output_tokens": 363}
+{"id": "g066", "gold": "B", "step": "Quantum Mechanics", "sample": 1, "pred": "B", "prompt_tokens": 290, "output_tokens": 565}
+{"id": "g066", "gold": "B", "step": "Quantum Mechanics", "sample": 2, "pred": "B", "prompt_tokens": 290, "output_tokens": 511}
+{"id": "g066", "gold": "B", "step": "Quantum Mechanics", "sample": 3, "pred": "C", "prompt_tokens": 290, "output_tokens": 363}
+{"id": "g066", "gold": "B", "step": "Quantum Mechanics", "sample": 4, "pred": "B", "prompt_tokens": 290, "output_tokens": 509}
+{"id": "g066", "gold": "B", "step": "Quantum Mechanics", "sample": 5, "pred": "B", "prompt_tokens": 290, "output_tokens": 352}
+{"id": "g067", "gold": "C", "step": "Quantum Mechanics", "sample": 0, "pred": "D", "prompt_tokens": 209, "output_tokens": 337}
+{"id": "g067", "gold": "C", "step": "Quantum Mechanics", "sample": 1, "pred": "C", "prompt_tokens": 209, "output_tokens": 233}
+{"id": "g067", "gold": "C", "step": "Quantum Mechanics", "sample": 2, "pred": "C", "prompt_tokens": 209, "output_tokens": 427}
+{"id": "g067", "gold": "C", "step": "Quantum Mechanics", "sample": 3, "pred": "C", "prompt_tokens": 209, "output_tokens": 177}
+{"id": "g067", "gold": "C", "step": "Quantum Mechanics", "sample": 4, "pred": "C", "prompt_tokens": 209, "output_tokens": 301}
+{"id": "g067", "gold": "C", "step": "Quantum Mechanics", "sample": 5, "pred": "C", "prompt_tokens": 209, "output_tokens": 241}
+{"id": "g068", "gold": "B", "step": "High-energy particle physics", "sample": 0, "pred": "B", "prompt_tokens": 241, "output_tokens": 292}
+{"id": "g068", "gold": "B", "step": "High-energy particle physics", "sample": 1, "pred": "B", "prompt_tokens": 241, "output_tokens": 665}
+{"id": "g068", "gold": "B", "step": "High-energy particle physics", "sample": 2, "pred": "B", "prompt_tokens": 241, "output_tokens": 540}
+{"id": "g068", "gold": "B", "step": "High-energy particle physics", "sample": 3, "pred": "B", "prompt_tokens": 241, "output_tokens": 876}
+{"id": "g068", "gold": "B", "step": "High-energy particle physics", "sample": 4, "pred": "B", "prompt_tokens": 241, "output_tokens": 371}
+{"id": "g068", "gold": "B", "step": "High-energy particle physics", "sample": 5, "pred": "B", "prompt_tokens": 241, "output_tokens": 196}
+{"id": "g069", "gold": "A", "step": "Chemistry (general)", "sample": 0, "pred": "C", "prompt_tokens": 214, "output_tokens": 453}
+{"id": "g069", "gold": "A", "step": "Chemistry (general)", "sample": 1, "pred": "A", "prompt_tokens": 214, "output_tokens": 354}
+{"id": "g069", "gold": "A", "step": "Chemistry (general)", "sample": 2, "pred": null, "prompt_tokens": 214, "output_tokens": 262}
+{"id": "g069", "gold": "A", "step": "Chemistry (general)", "sample": 3, "pred": "C", "prompt_tokens": 214, "output_tokens": 333}
+{"id": "g069", "gold": "A", "step": "Chemistry (general)", "sample": 4, "pred": "A", "prompt_tokens": 214, "output_tokens": 337}
+{"id": "g069", "gold": "A", "step": "Chemistry (general)", "sample": 5, "pred": "A", "prompt_tokens": 214, "output_tokens": 316}
+{"id": "g070", "gold": "A", "step": "Physics (general)", "sample": 0, "pred": null, "prompt_tokens": 216, "output_tokens": 2048}
+{"id": "g070", "gold": "A", "step": "Physics (general)", "sample": 1, "pred": "D", "prompt_tokens": 216, "output_tokens": 314}
+{"id": "g070", "gold": "A", "step": "Physics (general)", "sample": 2, "pred": "C", "prompt_tokens": 216, "output_tokens": 244}
+{"id": "g070", "gold": "A", "step": "Physics (general)", "sample": 3, "pred": "C", "prompt_tokens": 216, "output_tokens": 444}
+{"id": "g070", "gold": "A", "step": "Physics (general)", "sample": 4, "pred": "D", "prompt_tokens": 216, "output_tokens": 382}
+{"id": "g070", "gold": "A", "step": "Physics (general)", "sample": 5, "pred": null, "prompt_tokens": 216, "output_tokens": 282}
+{"id": "g071", "gold": "D", "step": "Organic Chemistry", "sample": 0, "pred": "C", "prompt_tokens": 243, "output_tokens": 443}
+{"id": "g071", "gold": "D", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 243, "output_tokens": 380}
+{"id": "g071", "gold": "D", "step": "Organic Chemistry", "sample": 2, "pred": "D", "prompt_tokens": 243, "output_tokens": 341}
+{"id": "g071", "gold": "D", "step": "Organic Chemistry", "sample": 3, "pred": "D", "prompt_tokens": 243, "output_tokens": 431}
+{"id": "g071", "gold": "D", "step": "Organic Chemistry", "sample": 4, "pred": "B", "prompt_tokens": 243, "output_tokens": 363}
+{"id": "g071", "gold": "D", "step": "Organic Chemistry", "sample": 5, "pred": "B", "prompt_tokens": 243, "output_tokens": 333}
+{"id": "g072", "gold": "B", "step": "Relativistic Mechanics", "sample": 0, "pred": "B", "prompt_tokens": 231, "output_tokens": 541}
+{"id": "g072", "gold": "B", "step": "Relativistic Mechanics", "sample": 1, "pred": null, "prompt_tokens": 231, "output_tokens": 2048}
+{"id": "g072", "gold": "B", "step": "Relativistic Mechanics", "sample": 2, "pred": null, "prompt_tokens": 231, "output_tokens": 1091}
+{"id": "g072", "gold": "B", "step": "Relativistic Mechanics", "sample": 3, "pred": "D", "prompt_tokens": 231, "output_tokens": 328}
+{"id": "g072", "gold": "B", "step": "Relativistic Mechanics", "sample": 4, "pred": "B", "prompt_tokens": 231, "output_tokens": 756}
+{"id": "g072", "gold": "B", "step": "Relativistic Mechanics", "sample": 5, "pred": "A", "prompt_tokens": 231, "output_tokens": 816}
+{"id": "g073", "gold": "C", "step": "Physics (general)", "sample": 0, "pred": "A", "prompt_tokens": 207, "output_tokens": 588}
+{"id": "g073", "gold": "C", "step": "Physics (general)", "sample": 1, "pred": "D", "prompt_tokens": 207, "output_tokens": 191}
+{"id": "g073", "gold": "C", "step": "Physics (general)", "sample": 2, "pred": "D", "prompt_tokens": 207, "output_tokens": 296}
+{"id": "g073", "gold": "C", "step": "Physics (general)", "sample": 3, "pred": "B", "prompt_tokens": 207, "output_tokens": 687}
+{"id": "g073", "gold": "C", "step": "Physics (general)", "sample": 4, "pred": "B", "prompt_tokens": 207, "output_tokens": 696}
+{"id": "g073", "gold": "C", "step": "Physics (general)", "sample": 5, "pred": null, "prompt_tokens": 207, "output_tokens": 2048}
+{"id": "g074", "gold": "C", "step": "Molecular Biology", "sample": 0, "pred": "C", "prompt_tokens": 684, "output_tokens": 247}
+{"id": "g074", "gold": "C", "step": "Molecular Biology", "sample": 1, "pred": "C", "prompt_tokens": 684, "output_tokens": 375}
+{"id": "g074", "gold": "C", "step": "Molecular Biology", "sample": 2, "pred": "D", "prompt_tokens": 684, "output_tokens": 276}
+{"id": "g074", "gold": "C", "step": "Molecular Biology", "sample": 3, "pred": "C", "prompt_tokens": 684, "output_tokens": 161}
+{"id": "g074", "gold": "C", "step": "Molecular Biology", "sample": 4, "pred": "C", "prompt_tokens": 684, "output_tokens": 177}
+{"id": "g074", "gold": "C", "step": "Molecular Biology", "sample": 5, "pred": "C", "prompt_tokens": 684, "output_tokens": 138}
+{"id": "g075", "gold": "C", "step": "Molecular Biology", "sample": 0, "pred": "C", "prompt_tokens": 266, "output_tokens": 335}
+{"id": "g075", "gold": "C", "step": "Molecular Biology", "sample": 1, "pred": "C", "prompt_tokens": 266, "output_tokens": 198}
+{"id": "g075", "gold": "C", "step": "Molecular Biology", "sample": 2, "pred": "C", "prompt_tokens": 266, "output_tokens": 220}
+{"id": "g075", "gold": "C", "step": "Molecular Biology", "sample": 3, "pred": "C", "prompt_tokens": 266, "output_tokens": 197}
+{"id": "g075", "gold": "C", "step": "Molecular Biology", "sample": 4, "pred": "C", "prompt_tokens": 266, "output_tokens": 219}
+{"id": "g075", "gold": "C", "step": "Molecular Biology", "sample": 5, "pred": "D", "prompt_tokens": 266, "output_tokens": 353}
+{"id": "g076", "gold": "B", "step": "Organic Chemistry", "sample": 0, "pred": "B", "prompt_tokens": 604, "output_tokens": 380}
+{"id": "g076", "gold": "B", "step": "Organic Chemistry", "sample": 1, "pred": "B", "prompt_tokens": 604, "output_tokens": 415}
+{"id": "g076", "gold": "B", "step": "Organic Chemistry", "sample": 2, "pred": "B", "prompt_tokens": 604, "output_tokens": 340}
+{"id": "g076", "gold": "B", "step": "Organic Chemistry", "sample": 3, "pred": "C", "prompt_tokens": 604, "output_tokens": 290}
+{"id": "g076", "gold": "B", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 604, "output_tokens": 379}
+{"id": "g076", "gold": "B", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 604, "output_tokens": 412}
+{"id": "g077", "gold": "C", "step": "Electromagnetism and Photonics", "sample": 0, "pred": "C", "prompt_tokens": 563, "output_tokens": 497}
+{"id": "g077", "gold": "C", "step": "Electromagnetism and Photonics", "sample": 1, "pred": "C", "prompt_tokens": 563, "output_tokens": 345}
+{"id": "g077", "gold": "C", "step": "Electromagnetism and Photonics", "sample": 2, "pred": "A", "prompt_tokens": 563, "output_tokens": 452}
+{"id": "g077", "gold": "C", "step": "Electromagnetism and Photonics", "sample": 3, "pred": "C", "prompt_tokens": 563, "output_tokens": 687}
+{"id": "g077", "gold": "C", "step": "Electromagnetism and Photonics", "sample": 4, "pred": "C", "prompt_tokens": 563, "output_tokens": 413}
+{"id": "g077", "gold": "C", "step": "Electromagnetism and Photonics", "sample": 5, "pred": "C", "prompt_tokens": 563, "output_tokens": 280}
+{"id": "g078", "gold": "C", "step": "Organic Chemistry", "sample": 0, "pred": "C", "prompt_tokens": 407, "output_tokens": 379}
+{"id": "g078", "gold": "C", "step": "Organic Chemistry", "sample": 1, "pred": "D", "prompt_tokens": 407, "output_tokens": 326}
+{"id": "g078", "gold": "C", "step": "Organic Chemistry", "sample": 2, "pred": "C", "prompt_tokens": 407, "output_tokens": 371}
+{"id": "g078", "gold": "C", "step": "Organic Chemistry", "sample": 3, "pred": "C", "prompt_tokens": 407, "output_tokens": 262}
+{"id": "g078", "gold": "C", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 407, "output_tokens": 276}
+{"id": "g078", "gold": "C", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 407, "output_tokens": 368}
+{"id": "g079", "gold": "D", "step": "Molecular Biology", "sample": 0, "pred": null, "prompt_tokens": 155, "output_tokens": 2048}
+{"id": "g079", "gold": "D", "step": "Molecular Biology", "sample": 1, "pred": null, "prompt_tokens": 155, "output_tokens": 2048}
+{"id": "g079", "gold": "D", "step": "Molecular Biology", "sample": 2, "pred": "C", "prompt_tokens": 155, "output_tokens": 357}
+{"id": "g079", "gold": "D", "step": "Molecular Biology", "sample": 3, "pred": "B", "prompt_tokens": 155, "output_tokens": 1248}
+{"id": "g079", "gold": "D", "step": "Molecular Biology", "sample": 4, "pred": "B", "prompt_tokens": 155, "output_tokens": 690}
+{"id": "g079", "gold": "D", "step": "Molecular Biology", "sample": 5, "pred": null, "prompt_tokens": 155, "output_tokens": 2048}
+{"id": "g080", "gold": "A", "step": "Organic Chemistry", "sample": 0, "pred": "C", "prompt_tokens": 295, "output_tokens": 368}
+{"id": "g080", "gold": "A", "step": "Organic Chemistry", "sample": 1, "pred": "A", "prompt_tokens": 295, "output_tokens": 272}
+{"id": "g080", "gold": "A", "step": "Organic Chemistry", "sample": 2, "pred": "A", "prompt_tokens": 295, "output_tokens": 276}
+{"id": "g080", "gold": "A", "step": "Organic Chemistry", "sample": 3, "pred": "A", "prompt_tokens": 295, "output_tokens": 282}
+{"id": "g080", "gold": "A", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 295, "output_tokens": 351}
+{"id": "g080", "gold": "A", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 295, "output_tokens": 352}
+{"id": "g081", "gold": "D", "step": "Organic Chemistry", "sample": 0, "pred": "A", "prompt_tokens": 837, "output_tokens": 278}
+{"id": "g081", "gold": "D", "step": "Organic Chemistry", "sample": 1, "pred": "A", "prompt_tokens": 837, "output_tokens": 304}
+{"id": "g081", "gold": "D", "step": "Organic Chemistry", "sample": 2, "pred": "D", "prompt_tokens": 837, "output_tokens": 291}
+{"id": "g081", "gold": "D", "step": "Organic Chemistry", "sample": 3, "pred": "B", "prompt_tokens": 837, "output_tokens": 326}
+{"id": "g081", "gold": "D", "step": "Organic Chemistry", "sample": 4, "pred": "A", "prompt_tokens": 837, "output_tokens": 294}
+{"id": "g081", "gold": "D", "step": "Organic Chemistry", "sample": 5, "pred": "A", "prompt_tokens": 837, "output_tokens": 288}
+{"id": "g082", "gold": "B", "step": "Chemistry (general)", "sample": 0, "pred": "C", "prompt_tokens": 224, "output_tokens": 799}
+{"id": "g082", "gold": "B", "step": "Chemistry (general)", "sample": 1, "pred": null, "prompt_tokens": 224, "output_tokens": 2048}
+{"id": "g082", "gold": "B", "step": "Chemistry (general)", "sample": 2, "pred": null, "prompt_tokens": 224, "output_tokens": 1243}
+{"id": "g082", "gold": "B", "step": "Chemistry (general)", "sample": 3, "pred": "C", "prompt_tokens": 224, "output_tokens": 846}
+{"id": "g082", "gold": "B", "step": "Chemistry (general)", "sample": 4, "pred": null, "prompt_tokens": 224, "output_tokens": 1886}
+{"id": "g082", "gold": "B", "step": "Chemistry (general)", "sample": 5, "pred": null, "prompt_tokens": 224, "output_tokens": 616}
+{"id": "g083", "gold": "C", "step": "Physics (general)", "sample": 0, "pred": "C", "prompt_tokens": 176, "output_tokens": 158}
+{"id": "g083", "gold": "C", "step": "Physics (general)", "sample": 1, "pred": "C", "prompt_tokens": 176, "output_tokens": 247}
+{"id": "g083", "gold": "C", "step": "Physics (general)", "sample": 2, "pred": "C", "prompt_tokens": 176, "output_tokens": 347}
+{"id": "g083", "gold": "C", "step": "Physics (general)", "sample": 3, "pred": "C", "prompt_tokens": 176, "output_tokens": 352}
+{"id": "g083", "gold": "C", "step": "Physics (general)", "sample": 4, "pred": "C", "prompt_tokens": 176, "output_tokens": 180}
+{"id": "g083", "gold": "C", "step": "Physics (general)", "sample": 5, "pred": "C", "prompt_tokens": 176, "output_tokens": 249}
+{"id": "g084", "gold": "D", "step": "Astrophysics", "sample": 0, "pred": "D", "prompt_tokens": 326, "output_tokens": 759}
+{"id": "g084", "gold": "D", "step": "Astrophysics", "sample": 1, "pred": "D", "prompt_tokens": 326, "output_tokens": 509}
+{"id": "g084", "gold": "D", "step": "Astrophysics", "sample": 2, "pred": "B", "prompt_tokens": 326, "output_tokens": 468}
+{"id": "g084", "gold": "D", "step": "Astrophysics", "sample": 3, "pred": "B", "prompt_tokens": 326, "output_tokens": 457}
+{"id": "g084", "gold": "D", "step": "Astrophysics", "sample": 4, "pred": null, "prompt_tokens": 326, "output_tokens": 1410}
+{"id": "g084", "gold": "D", "step": "Astrophysics", "sample": 5, "pred": null, "prompt_tokens": 326, "output_tokens": 2048}
+{"id": "g085", "gold": "D", "step": "Organic Chemistry", "sample": 0, "pred": "C", "prompt_tokens": 383, "output_tokens": 303}
+{"id": "g085", "gold": "D", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 383, "output_tokens": 284}
+{"id": "g085", "gold": "D", "step": "Organic Chemistry", "sample": 2, "pred": "C", "prompt_tokens": 383, "output_tokens": 267}
+{"id": "g085", "gold": "D", "step": "Organic Chemistry", "sample": 3, "pred": "C", "prompt_tokens": 383, "output_tokens": 242}
+{"id": "g085", "gold": "D", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 383, "output_tokens": 307}
+{"id": "g085", "gold": "D", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 383, "output_tokens": 307}
+{"id": "g086", "gold": "A", "step": "Chemistry (general)", "sample": 0, "pred": "D", "prompt_tokens": 357, "output_tokens": 339}
+{"id": "g086", "gold": "A", "step": "Chemistry (general)", "sample": 1, "pred": "A", "prompt_tokens": 357, "output_tokens": 312}
+{"id": "g086", "gold": "A", "step": "Chemistry (general)", "sample": 2, "pred": "D", "prompt_tokens": 357, "output_tokens": 191}
+{"id": "g086", "gold": "A", "step": "Chemistry (general)", "sample": 3, "pred": "D", "prompt_tokens": 357, "output_tokens": 411}
+{"id": "g086", "gold": "A", "step": "Chemistry (general)", "sample": 4, "pred": "A", "prompt_tokens": 357, "output_tokens": 482}
+{"id": "g086", "gold": "A", "step": "Chemistry (general)", "sample": 5, "pred": "D", "prompt_tokens": 357, "output_tokens": 318}
+{"id": "g087", "gold": "C", "step": "Molecular Biology", "sample": 0, "pred": "B", "prompt_tokens": 216, "output_tokens": 259}
+{"id": "g087", "gold": "C", "step": "Molecular Biology", "sample": 1, "pred": "C", "prompt_tokens": 216, "output_tokens": 420}
+{"id": "g087", "gold": "C", "step": "Molecular Biology", "sample": 2, "pred": "B", "prompt_tokens": 216, "output_tokens": 252}
+{"id": "g087", "gold": "C", "step": "Molecular Biology", "sample": 3, "pred": "C", "prompt_tokens": 216, "output_tokens": 343}
+{"id": "g087", "gold": "C", "step": "Molecular Biology", "sample": 4, "pred": "B", "prompt_tokens": 216, "output_tokens": 276}
+{"id": "g087", "gold": "C", "step": "Molecular Biology", "sample": 5, "pred": "B", "prompt_tokens": 216, "output_tokens": 213}
+{"id": "g088", "gold": "A", "step": "Organic Chemistry", "sample": 0, "pred": "D", "prompt_tokens": 294, "output_tokens": 324}
+{"id": "g088", "gold": "A", "step": "Organic Chemistry", "sample": 1, "pred": "D", "prompt_tokens": 294, "output_tokens": 282}
+{"id": "g088", "gold": "A", "step": "Organic Chemistry", "sample": 2, "pred": "D", "prompt_tokens": 294, "output_tokens": 445}
+{"id": "g088", "gold": "A", "step": "Organic Chemistry", "sample": 3, "pred": "D", "prompt_tokens": 294, "output_tokens": 266}
+{"id": "g088", "gold": "A", "step": "Organic Chemistry", "sample": 4, "pred": "D", "prompt_tokens": 294, "output_tokens": 273}
+{"id": "g088", "gold": "A", "step": "Organic Chemistry", "sample": 5, "pred": "D", "prompt_tokens": 294, "output_tokens": 333}
+{"id": "g089", "gold": "B", "step": "Organic Chemistry", "sample": 0, "pred": "D", "prompt_tokens": 253, "output_tokens": 329}
+{"id": "g089", "gold": "B", "step": "Organic Chemistry", "sample": 1, "pred": "B", "prompt_tokens": 253, "output_tokens": 378}
+{"id": "g089", "gold": "B", "step": "Organic Chemistry", "sample": 2, "pred": "B", "prompt_tokens": 253, "output_tokens": 404}
+{"id": "g089", "gold": "B", "step": "Organic Chemistry", "sample": 3, "pred": "A", "prompt_tokens": 253, "output_tokens": 374}
+{"id": "g089", "gold": "B", "step": "Organic Chemistry", "sample": 4, "pred": "B", "prompt_tokens": 253, "output_tokens": 376}
+{"id": "g089", "gold": "B", "step": "Organic Chemistry", "sample": 5, "pred": "B", "prompt_tokens": 253, "output_tokens": 240}
+{"id": "g090", "gold": "C", "step": "Organic Chemistry", "sample": 0, "pred": "A", "prompt_tokens": 284, "output_tokens": 309}
+{"id": "g090", "gold": "C", "step": "Organic Chemistry", "sample": 1, "pred": "B", "prompt_tokens": 284, "output_tokens": 229}
+{"id": "g090", "gold": "C", "step": "Organic Chemistry", "sample": 2, "pred": "A", "prompt_tokens": 284, "output_tokens": 288}
+{"id": "g090", "gold": "C", "step": "Organic Chemistry", "sample": 3, "pred": "B", "prompt_tokens": 284, "output_tokens": 386}
+{"id": "g090", "gold": "C", "step": "Organic Chemistry", "sample": 4, "pred": "B", "prompt_tokens": 284, "output_tokens": 321}
+{"id": "g090", "gold": "C", "step": "Organic Chemistry", "sample": 5, "pred": "B", "prompt_tokens": 284, "output_tokens": 302}
+{"id": "g091", "gold": "A", "step": "Chemistry (general)", "sample": 0, "pred": "C", "prompt_tokens": 234, "output_tokens": 630}
+{"id": "g091", "gold": "A", "step": "Chemistry (general)", "sample": 1, "pred": "C", "prompt_tokens": 234, "output_tokens": 458}
+{"id": "g091", "gold": "A", "step": "Chemistry (general)", "sample": 2, "pred": "D", "prompt_tokens": 234, "output_tokens": 492}
+{"id": "g091", "gold": "A", "step": "Chemistry (general)", "sample": 3, "pred": "C", "prompt_tokens": 234, "output_tokens": 406}
+{"id": "g091", "gold": "A", "step": "Chemistry (general)", "sample": 4, "pred": null, "prompt_tokens": 234, "output_tokens": 1177}
+{"id": "g091", "gold": "A", "step": "Chemistry (general)", "sample": 5, "pred": "D", "prompt_tokens": 234, "output_tokens": 2005}
+{"id": "g092", "gold": "B", "step": "Molecular Biology", "sample": 0, "pred": "A", "prompt_tokens": 416, "output_tokens": 212}
+{"id": "g092", "gold": "B", "step": "Molecular Biology", "sample": 1, "pred": "B", "prompt_tokens": 416, "output_tokens": 285}
+{"id": "g092", "gold": "B", "step": "Molecular Biology", "sample": 2, "pred": "B", "prompt_tokens": 416, "output_tokens": 244}
+{"id": "g092", "gold": "B", "step": "Molecular Biology", "sample": 3, "pred": "C", "prompt_tokens": 416, "output_tokens": 298}
+{"id": "g092", "gold": "B", "step": "Molecular Biology", "sample": 4, "pred": "A", "prompt_tokens": 416, "output_tokens": 200}
+{"id": "g092", "gold": "B", "step": "Molecular Biology", "sample": 5, "pred": "C", "prompt_tokens": 416, "output_tokens": 219}
+{"id": "g093", "gold": "A", "step": "Organic Chemistry", "sample": 0, "pred": "C", "prompt_tokens": 243, "output_tokens": 201}
+{"id": "g093", "gold": "A", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 243, "output_tokens": 320}
+{"id": "g093", "gold": "A", "step": "Organic Chemistry", "sample": 2, "pred": "A", "prompt_tokens": 243, "output_tokens": 198}
+{"id": "g093", "gold": "A", "step": "Organic Chemistry", "sample": 3, "pred": "B", "prompt_tokens": 243, "output_tokens": 400}
+{"id": "g093", "gold": "A", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 243, "output_tokens": 240}
+{"id": "g093", "gold": "A", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 243, "output_tokens": 209}
+{"id": "g094", "gold": "B", "step": "Organic Chemistry", "sample": 0, "pred": "B", "prompt_tokens": 304, "output_tokens": 197}
+{"id": "g094", "gold": "B", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 304, "output_tokens": 326}
+{"id": "g094", "gold": "B", "step": "Organic Chemistry", "sample": 2, "pred": "A", "prompt_tokens": 304, "output_tokens": 255}
+{"id": "g094", "gold": "B", "step": "Organic Chemistry", "sample": 3, "pred": "C", "prompt_tokens": 304, "output_tokens": 235}
+{"id": "g094", "gold": "B", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 304, "output_tokens": 291}
+{"id": "g094", "gold": "B", "step": "Organic Chemistry", "sample": 5, "pred": "A", "prompt_tokens": 304, "output_tokens": 241}
+{"id": "g095", "gold": "D", "step": "Physics (general)", "sample": 0, "pred": "B", "prompt_tokens": 187, "output_tokens": 474}
+{"id": "g095", "gold": "D", "step": "Physics (general)", "sample": 1, "pred": "D", "prompt_tokens": 187, "output_tokens": 725}
+{"id": "g095", "gold": "D", "step": "Physics (general)", "sample": 2, "pred": "A", "prompt_tokens": 187, "output_tokens": 389}
+{"id": "g095", "gold": "D", "step": "Physics (general)", "sample": 3, "pred": "A", "prompt_tokens": 187, "output_tokens": 683}
+{"id": "g095", "gold": "D", "step": "Physics (general)", "sample": 4, "pred": "A", "prompt_tokens": 187, "output_tokens": 436}
+{"id": "g095", "gold": "D", "step": "Physics (general)", "sample": 5, "pred": "C", "prompt_tokens": 187, "output_tokens": 460}
+{"id": "g096", "gold": "A", "step": "Molecular Biology", "sample": 0, "pred": "D", "prompt_tokens": 320, "output_tokens": 392}
+{"id": "g096", "gold": "A", "step": "Molecular Biology", "sample": 1, "pred": "D", "prompt_tokens": 320, "output_tokens": 314}
+{"id": "g096", "gold": "A", "step": "Molecular Biology", "sample": 2, "pred": "C", "prompt_tokens": 320, "output_tokens": 448}
+{"id": "g096", "gold": "A", "step": "Molecular Biology", "sample": 3, "pred": "B", "prompt_tokens": 320, "output_tokens": 568}
+{"id": "g096", "gold": "A", "step": "Molecular Biology", "sample": 4, "pred": "D", "prompt_tokens": 320, "output_tokens": 412}
+{"id": "g096", "gold": "A", "step": "Molecular Biology", "sample": 5, "pred": "D", "prompt_tokens": 320, "output_tokens": 199}
+{"id": "g097", "gold": "D", "step": "Organic Chemistry", "sample": 0, "pred": "B", "prompt_tokens": 226, "output_tokens": 187}
+{"id": "g097", "gold": "D", "step": "Organic Chemistry", "sample": 1, "pred": "B", "prompt_tokens": 226, "output_tokens": 182}
+{"id": "g097", "gold": "D", "step": "Organic Chemistry", "sample": 2, "pred": "B", "prompt_tokens": 226, "output_tokens": 364}
+{"id": "g097", "gold": "D", "step": "Organic Chemistry", "sample": 3, "pred": "C", "prompt_tokens": 226, "output_tokens": 189}
+{"id": "g097", "gold": "D", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 226, "output_tokens": 163}
+{"id": "g097", "gold": "D", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 226, "output_tokens": 309}
+{"id": "g098", "gold": "D", "step": "Chemistry (general)", "sample": 0, "pred": "A", "prompt_tokens": 404, "output_tokens": 342}
+{"id": "g098", "gold": "D", "step": "Chemistry (general)", "sample": 1, "pred": "A", "prompt_tokens": 404, "output_tokens": 275}
+{"id": "g098", "gold": "D", "step": "Chemistry (general)", "sample": 2, "pred": "D", "prompt_tokens": 404, "output_tokens": 293}
+{"id": "g098", "gold": "D", "step": "Chemistry (general)", "sample": 3, "pred": "D", "prompt_tokens": 404, "output_tokens": 244}
+{"id": "g098", "gold": "D", "step": "Chemistry (general)", "sample": 4, "pred": "C", "prompt_tokens": 404, "output_tokens": 257}
+{"id": "g098", "gold": "D", "step": "Chemistry (general)", "sample": 5, "pred": "A", "prompt_tokens": 404, "output_tokens": 414}
+{"id": "g099", "gold": "D", "step": "Organic Chemistry", "sample": 0, "pred": "C", "prompt_tokens": 275, "output_tokens": 585}
+{"id": "g099", "gold": "D", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 275, "output_tokens": 442}
+{"id": "g099", "gold": "D", "step": "Organic Chemistry", "sample": 2, "pred": "A", "prompt_tokens": 275, "output_tokens": 473}
+{"id": "g099", "gold": "D", "step": "Organic Chemistry", "sample": 3, "pred": "D", "prompt_tokens": 275, "output_tokens": 498}
+{"id": "g099", "gold": "D", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 275, "output_tokens": 576}
+{"id": "g099", "gold": "D", "step": "Organic Chemistry", "sample": 5, "pred": "B", "prompt_tokens": 275, "output_tokens": 436}
+{"id": "g100", "gold": "C", "step": "Organic Chemistry", "sample": 0, "pred": "C", "prompt_tokens": 270, "output_tokens": 234}
+{"id": "g100", "gold": "C", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 270, "output_tokens": 346}
+{"id": "g100", "gold": "C", "step": "Organic Chemistry", "sample": 2, "pred": "C", "prompt_tokens": 270, "output_tokens": 284}
+{"id": "g100", "gold": "C", "step": "Organic Chemistry", "sample": 3, "pred": "C", "prompt_tokens": 270, "output_tokens": 306}
+{"id": "g100", "gold": "C", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 270, "output_tokens": 244}
+{"id": "g100", "gold": "C", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 270, "output_tokens": 402}
+{"id": "g101", "gold": "C", "step": "Molecular Biology", "sample": 0, "pred": "B", "prompt_tokens": 482, "output_tokens": 296}
+{"id": "g101", "gold": "C", "step": "Molecular Biology", "sample": 1, "pred": "B", "prompt_tokens": 482, "output_tokens": 259}
+{"id": "g101", "gold": "C", "step": "Molecular Biology", "sample": 2, "pred": "B", "prompt_tokens": 482, "output_tokens": 420}
+{"id": "g101", "gold": "C", "step": "Molecular Biology", "sample": 3, "pred": "C", "prompt_tokens": 482, "output_tokens": 389}
+{"id": "g101", "gold": "C", "step": "Molecular Biology", "sample": 4, "pred": "B", "prompt_tokens": 482, "output_tokens": 359}
+{"id": "g101", "gold": "C", "step": "Molecular Biology", "sample": 5, "pred": "A", "prompt_tokens": 482, "output_tokens": 383}
+{"id": "g102", "gold": "C", "step": "Organic Chemistry", "sample": 0, "pred": "C", "prompt_tokens": 393, "output_tokens": 481}
+{"id": "g102", "gold": "C", "step": "Organic Chemistry", "sample": 1, "pred": "D", "prompt_tokens": 393, "output_tokens": 230}
+{"id": "g102", "gold": "C", "step": "Organic Chemistry", "sample": 2, "pred": "B", "prompt_tokens": 393, "output_tokens": 232}
+{"id": "g102", "gold": "C", "step": "Organic Chemistry", "sample": 3, "pred": "B", "prompt_tokens": 393, "output_tokens": 287}
+{"id": "g102", "gold": "C", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 393, "output_tokens": 621}
+{"id": "g102", "gold": "C", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 393, "output_tokens": 442}
+{"id": "g103", "gold": "B", "step": "Physics (general)", "sample": 0, "pred": null, "prompt_tokens": 263, "output_tokens": 484}
+{"id": "g103", "gold": "B", "step": "Physics (general)", "sample": 1, "pred": "C", "prompt_tokens": 263, "output_tokens": 498}
+{"id": "g103", "gold": "B", "step": "Physics (general)", "sample": 2, "pred": "D", "prompt_tokens": 263, "output_tokens": 305}
+{"id": "g103", "gold": "B", "step": "Physics (general)", "sample": 3, "pred": null, "prompt_tokens": 263, "output_tokens": 346}
+{"id": "g103", "gold": "B", "step": "Physics (general)", "sample": 4, "pred": "C", "prompt_tokens": 263, "output_tokens": 323}
+{"id": "g103", "gold": "B", "step": "Physics (general)", "sample": 5, "pred": "A", "prompt_tokens": 263, "output_tokens": 309}
+{"id": "g104", "gold": "C", "step": "Astrophysics", "sample": 0, "pred": "C", "prompt_tokens": 280, "output_tokens": 423}
+{"id": "g104", "gold": "C", "step": "Astrophysics", "sample": 1, "pred": "C", "prompt_tokens": 280, "output_tokens": 529}
+{"id": "g104", "gold": "C", "step": "Astrophysics", "sample": 2, "pred": "B", "prompt_tokens": 280, "output_tokens": 1865}
+{"id": "g104", "gold": "C", "step": "Astrophysics", "sample": 3, "pred": "D", "prompt_tokens": 280, "output_tokens": 494}
+{"id": "g104", "gold": "C", "step": "Astrophysics", "sample": 4, "pred": "B", "prompt_tokens": 280, "output_tokens": 617}
+{"id": "g104", "gold": "C", "step": "Astrophysics", "sample": 5, "pred": "D", "prompt_tokens": 280, "output_tokens": 392}
+{"id": "g105", "gold": "A", "step": "Organic Chemistry", "sample": 0, "pred": "B", "prompt_tokens": 347, "output_tokens": 246}
+{"id": "g105", "gold": "A", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 347, "output_tokens": 293}
+{"id": "g105", "gold": "A", "step": "Organic Chemistry", "sample": 2, "pred": "C", "prompt_tokens": 347, "output_tokens": 223}
+{"id": "g105", "gold": "A", "step": "Organic Chemistry", "sample": 3, "pred": "B", "prompt_tokens": 347, "output_tokens": 235}
+{"id": "g105", "gold": "A", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 347, "output_tokens": 213}
+{"id": "g105", "gold": "A", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 347, "output_tokens": 492}
+{"id": "g106", "gold": "B", "step": "Molecular Biology", "sample": 0, "pred": "C", "prompt_tokens": 329, "output_tokens": 209}
+{"id": "g106", "gold": "B", "step": "Molecular Biology", "sample": 1, "pred": "C", "prompt_tokens": 329, "output_tokens": 249}
+{"id": "g106", "gold": "B", "step": "Molecular Biology", "sample": 2, "pred": "C", "prompt_tokens": 329, "output_tokens": 278}
+{"id": "g106", "gold": "B", "step": "Molecular Biology", "sample": 3, "pred": "B", "prompt_tokens": 329, "output_tokens": 281}
+{"id": "g106", "gold": "B", "step": "Molecular Biology", "sample": 4, "pred": "B", "prompt_tokens": 329, "output_tokens": 185}
+{"id": "g106", "gold": "B", "step": "Molecular Biology", "sample": 5, "pred": "B", "prompt_tokens": 329, "output_tokens": 231}
+{"id": "g107", "gold": "D", "step": "Quantum Mechanics", "sample": 0, "pred": "D", "prompt_tokens": 238, "output_tokens": 619}
+{"id": "g107", "gold": "D", "step": "Quantum Mechanics", "sample": 1, "pred": "D", "prompt_tokens": 238, "output_tokens": 590}
+{"id": "g107", "gold": "D", "step": "Quantum Mechanics", "sample": 2, "pred": "D", "prompt_tokens": 238, "output_tokens": 668}
+{"id": "g107", "gold": "D", "step": "Quantum Mechanics", "sample": 3, "pred": "D", "prompt_tokens": 238, "output_tokens": 425}
+{"id": "g107", "gold": "D", "step": "Quantum Mechanics", "sample": 4, "pred": "D", "prompt_tokens": 238, "output_tokens": 522}
+{"id": "g107", "gold": "D", "step": "Quantum Mechanics", "sample": 5, "pred": "D", "prompt_tokens": 238, "output_tokens": 531}
+{"id": "g108", "gold": "B", "step": "Quantum Mechanics", "sample": 0, "pred": "C", "prompt_tokens": 327, "output_tokens": 566}
+{"id": "g108", "gold": "B", "step": "Quantum Mechanics", "sample": 1, "pred": "D", "prompt_tokens": 327, "output_tokens": 633}
+{"id": "g108", "gold": "B", "step": "Quantum Mechanics", "sample": 2, "pred": null, "prompt_tokens": 327, "output_tokens": 356}
+{"id": "g108", "gold": "B", "step": "Quantum Mechanics", "sample": 3, "pred": "D", "prompt_tokens": 327, "output_tokens": 419}
+{"id": "g108", "gold": "B", "step": "Quantum Mechanics", "sample": 4, "pred": "B", "prompt_tokens": 327, "output_tokens": 822}
+{"id": "g108", "gold": "B", "step": "Quantum Mechanics", "sample": 5, "pred": "B", "prompt_tokens": 327, "output_tokens": 529}
+{"id": "g109", "gold": "B", "step": "Astrophysics", "sample": 0, "pred": "B", "prompt_tokens": 543, "output_tokens": 589}
+{"id": "g109", "gold": "B", "step": "Astrophysics", "sample": 1, "pred": "A", "prompt_tokens": 543, "output_tokens": 613}
+{"id": "g109", "gold": "B", "step": "Astrophysics", "sample": 2, "pred": "A", "prompt_tokens": 543, "output_tokens": 444}
+{"id": "g109", "gold": "B", "step": "Astrophysics", "sample": 3, "pred": "B", "prompt_tokens": 543, "output_tokens": 341}
+{"id": "g109", "gold": "B", "step": "Astrophysics", "sample": 4, "pred": "B", "prompt_tokens": 543, "output_tokens": 594}
+{"id": "g109", "gold": "B", "step": "Astrophysics", "sample": 5, "pred": null, "prompt_tokens": 543, "output_tokens": 1069}
+{"id": "g110", "gold": "B", "step": "Organic Chemistry", "sample": 0, "pred": "B", "prompt_tokens": 392, "output_tokens": 258}
+{"id": "g110", "gold": "B", "step": "Organic Chemistry", "sample": 1, "pred": "B", "prompt_tokens": 392, "output_tokens": 322}
+{"id": "g110", "gold": "B", "step": "Organic Chemistry", "sample": 2, "pred": "B", "prompt_tokens": 392, "output_tokens": 420}
+{"id": "g110", "gold": "B", "step": "Organic Chemistry", "sample": 3, "pred": "B", "prompt_tokens": 392, "output_tokens": 239}
+{"id": "g110", "gold": "B", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 392, "output_tokens": 360}
+{"id": "g110", "gold": "B", "step": "Organic Chemistry", "sample": 5, "pred": "B", "prompt_tokens": 392, "output_tokens": 319}
+{"id": "g111", "gold": "C", "step": "Quantum Mechanics", "sample": 0, "pred": "B", "prompt_tokens": 288, "output_tokens": 1831}
+{"id": "g111", "gold": "C", "step": "Quantum Mechanics", "sample": 1, "pred": "B", "prompt_tokens": 288, "output_tokens": 1279}
+{"id": "g111", "gold": "C", "step": "Quantum Mechanics", "sample": 2, "pred": "D", "prompt_tokens": 288, "output_tokens": 1433}
+{"id": "g111", "gold": "C", "step": "Quantum Mechanics", "sample": 3, "pred": null, "prompt_tokens": 288, "output_tokens": 2048}
+{"id": "g111", "gold": "C", "step": "Quantum Mechanics", "sample": 4, "pred": "B", "prompt_tokens": 288, "output_tokens": 738}
+{"id": "g111", "gold": "C", "step": "Quantum Mechanics", "sample": 5, "pred": "D", "prompt_tokens": 288, "output_tokens": 666}
+{"id": "g112", "gold": "A", "step": "Chemistry (general)", "sample": 0, "pred": "B", "prompt_tokens": 277, "output_tokens": 285}
+{"id": "g112", "gold": "A", "step": "Chemistry (general)", "sample": 1, "pred": "B", "prompt_tokens": 277, "output_tokens": 306}
+{"id": "g112", "gold": "A", "step": "Chemistry (general)", "sample": 2, "pred": "A", "prompt_tokens": 277, "output_tokens": 274}
+{"id": "g112", "gold": "A", "step": "Chemistry (general)", "sample": 3, "pred": "A", "prompt_tokens": 277, "output_tokens": 253}
+{"id": "g112", "gold": "A", "step": "Chemistry (general)", "sample": 4, "pred": "A", "prompt_tokens": 277, "output_tokens": 422}
+{"id": "g112", "gold": "A", "step": "Chemistry (general)", "sample": 5, "pred": "B", "prompt_tokens": 277, "output_tokens": 325}
+{"id": "g113", "gold": "A", "step": "Organic Chemistry", "sample": 0, "pred": "D", "prompt_tokens": 236, "output_tokens": 286}
+{"id": "g113", "gold": "A", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 236, "output_tokens": 304}
+{"id": "g113", "gold": "A", "step": "Organic Chemistry", "sample": 2, "pred": "A", "prompt_tokens": 236, "output_tokens": 266}
+{"id": "g113", "gold": "A", "step": "Organic Chemistry", "sample": 3, "pred": "C", "prompt_tokens": 236, "output_tokens": 329}
+{"id": "g113", "gold": "A", "step": "Organic Chemistry", "sample": 4, "pred": "A", "prompt_tokens": 236, "output_tokens": 258}
+{"id": "g113", "gold": "A", "step": "Organic Chemistry", "sample": 5, "pred": "A", "prompt_tokens": 236, "output_tokens": 407}
+{"id": "g114", "gold": "B", "step": "Physics (general)", "sample": 0, "pred": null, "prompt_tokens": 225, "output_tokens": 586}
+{"id": "g114", "gold": "B", "step": "Physics (general)", "sample": 1, "pred": "D", "prompt_tokens": 225, "output_tokens": 356}
+{"id": "g114", "gold": "B", "step": "Physics (general)", "sample": 2, "pred": null, "prompt_tokens": 225, "output_tokens": 2048}
+{"id": "g114", "gold": "B", "step": "Physics (general)", "sample": 3, "pred": null, "prompt_tokens": 225, "output_tokens": 2048}
+{"id": "g114", "gold": "B", "step": "Physics (general)", "sample": 4, "pred": "D", "prompt_tokens": 225, "output_tokens": 346}
+{"id": "g114", "gold": "B", "step": "Physics (general)", "sample": 5, "pred": null, "prompt_tokens": 225, "output_tokens": 511}
+{"id": "g115", "gold": "C", "step": "Organic Chemistry", "sample": 0, "pred": "A", "prompt_tokens": 316, "output_tokens": 359}
+{"id": "g115", "gold": "C", "step": "Organic Chemistry", "sample": 1, "pred": "A", "prompt_tokens": 316, "output_tokens": 464}
+{"id": "g115", "gold": "C", "step": "Organic Chemistry", "sample": 2, "pred": "A", "prompt_tokens": 316, "output_tokens": 319}
+{"id": "g115", "gold": "C", "step": "Organic Chemistry", "sample": 3, "pred": "A", "prompt_tokens": 316, "output_tokens": 440}
+{"id": "g115", "gold": "C", "step": "Organic Chemistry", "sample": 4, "pred": "A", "prompt_tokens": 316, "output_tokens": 365}
+{"id": "g115", "gold": "C", "step": "Organic Chemistry", "sample": 5, "pred": "A", "prompt_tokens": 316, "output_tokens": 321}
+{"id": "g116", "gold": "C", "step": "Organic Chemistry", "sample": 0, "pred": "D", "prompt_tokens": 274, "output_tokens": 266}
+{"id": "g116", "gold": "C", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 274, "output_tokens": 261}
+{"id": "g116", "gold": "C", "step": "Organic Chemistry", "sample": 2, "pred": "A", "prompt_tokens": 274, "output_tokens": 318}
+{"id": "g116", "gold": "C", "step": "Organic Chemistry", "sample": 3, "pred": "C", "prompt_tokens": 274, "output_tokens": 294}
+{"id": "g116", "gold": "C", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 274, "output_tokens": 273}
+{"id": "g116", "gold": "C", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 274, "output_tokens": 322}
+{"id": "g117", "gold": "C", "step": "Organic Chemistry", "sample": 0, "pred": "A", "prompt_tokens": 220, "output_tokens": 273}
+{"id": "g117", "gold": "C", "step": "Organic Chemistry", "sample": 1, "pred": "D", "prompt_tokens": 220, "output_tokens": 199}
+{"id": "g117", "gold": "C", "step": "Organic Chemistry", "sample": 2, "pred": "A", "prompt_tokens": 220, "output_tokens": 182}
+{"id": "g117", "gold": "C", "step": "Organic Chemistry", "sample": 3, "pred": "A", "prompt_tokens": 220, "output_tokens": 226}
+{"id": "g117", "gold": "C", "step": "Organic Chemistry", "sample": 4, "pred": "B", "prompt_tokens": 220, "output_tokens": 257}
+{"id": "g117", "gold": "C", "step": "Organic Chemistry", "sample": 5, "pred": "A", "prompt_tokens": 220, "output_tokens": 227}
+{"id": "g118", "gold": "D", "step": "Organic Chemistry", "sample": 0, "pred": "A", "prompt_tokens": 367, "output_tokens": 342}
+{"id": "g118", "gold": "D", "step": "Organic Chemistry", "sample": 1, "pred": "D", "prompt_tokens": 367, "output_tokens": 233}
+{"id": "g118", "gold": "D", "step": "Organic Chemistry", "sample": 2, "pred": "D", "prompt_tokens": 367, "output_tokens": 372}
+{"id": "g118", "gold": "D", "step": "Organic Chemistry", "sample": 3, "pred": "D", "prompt_tokens": 367, "output_tokens": 412}
+{"id": "g118", "gold": "D", "step": "Organic Chemistry", "sample": 4, "pred": "D", "prompt_tokens": 367, "output_tokens": 234}
+{"id": "g118", "gold": "D", "step": "Organic Chemistry", "sample": 5, "pred": "D", "prompt_tokens": 367, "output_tokens": 274}
+{"id": "g119", "gold": "B", "step": "Physics (general)", "sample": 0, "pred": "C", "prompt_tokens": 170, "output_tokens": 236}
+{"id": "g119", "gold": "B", "step": "Physics (general)", "sample": 1, "pred": "C", "prompt_tokens": 170, "output_tokens": 250}
+{"id": "g119", "gold": "B", "step": "Physics (general)", "sample": 2, "pred": "C", "prompt_tokens": 170, "output_tokens": 227}
+{"id": "g119", "gold": "B", "step": "Physics (general)", "sample": 3, "pred": "A", "prompt_tokens": 170, "output_tokens": 175}
+{"id": "g119", "gold": "B", "step": "Physics (general)", "sample": 4, "pred": "B", "prompt_tokens": 170, "output_tokens": 310}
+{"id": "g119", "gold": "B", "step": "Physics (general)", "sample": 5, "pred": "C", "prompt_tokens": 170, "output_tokens": 318}
+{"id": "g120", "gold": "D", "step": "Organic Chemistry", "sample": 0, "pred": "C", "prompt_tokens": 341, "output_tokens": 271}
+{"id": "g120", "gold": "D", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 341, "output_tokens": 214}
+{"id": "g120", "gold": "D", "step": "Organic Chemistry", "sample": 2, "pred": "C", "prompt_tokens": 341, "output_tokens": 305}
+{"id": "g120", "gold": "D", "step": "Organic Chemistry", "sample": 3, "pred": "B", "prompt_tokens": 341, "output_tokens": 256}
+{"id": "g120", "gold": "D", "step": "Organic Chemistry", "sample": 4, "pred": "A", "prompt_tokens": 341, "output_tokens": 242}
+{"id": "g120", "gold": "D", "step": "Organic Chemistry", "sample": 5, "pred": "B", "prompt_tokens": 341, "output_tokens": 274}
+{"id": "g121", "gold": "B", "step": "Organic Chemistry", "sample": 0, "pred": "D", "prompt_tokens": 255, "output_tokens": 410}
+{"id": "g121", "gold": "B", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 255, "output_tokens": 464}
+{"id": "g121", "gold": "B", "step": "Organic Chemistry", "sample": 2, "pred": "C", "prompt_tokens": 255, "output_tokens": 495}
+{"id": "g121", "gold": "B", "step": "Organic Chemistry", "sample": 3, "pred": "A", "prompt_tokens": 255, "output_tokens": 418}
+{"id": "g121", "gold": "B", "step": "Organic Chemistry", "sample": 4, "pred": "B", "prompt_tokens": 255, "output_tokens": 1031}
+{"id": "g121", "gold": "B", "step": "Organic Chemistry", "sample": 5, "pred": "D", "prompt_tokens": 255, "output_tokens": 454}
+{"id": "g122", "gold": "D", "step": "Relativistic Mechanics", "sample": 0, "pred": null, "prompt_tokens": 252, "output_tokens": 2048}
+{"id": "g122", "gold": "D", "step": "Relativistic Mechanics", "sample": 1, "pred": "A", "prompt_tokens": 252, "output_tokens": 386}
+{"id": "g122", "gold": "D", "step": "Relativistic Mechanics", "sample": 2, "pred": "A", "prompt_tokens": 252, "output_tokens": 366}
+{"id": "g122", "gold": "D", "step": "Relativistic Mechanics", "sample": 3, "pred": "B", "prompt_tokens": 252, "output_tokens": 695}
+{"id": "g122", "gold": "D", "step": "Relativistic Mechanics", "sample": 4, "pred": "A", "prompt_tokens": 252, "output_tokens": 416}
+{"id": "g122", "gold": "D", "step": "Relativistic Mechanics", "sample": 5, "pred": "B", "prompt_tokens": 252, "output_tokens": 1931}
+{"id": "g123", "gold": "D", "step": "Relativistic Mechanics", "sample": 0, "pred": "B", "prompt_tokens": 203, "output_tokens": 289}
+{"id": "g123", "gold": "D", "step": "Relativistic Mechanics", "sample": 1, "pred": "B", "prompt_tokens": 203, "output_tokens": 300}
+{"id": "g123", "gold": "D", "step": "Relativistic Mechanics", "sample": 2, "pred": "B", "prompt_tokens": 203, "output_tokens": 441}
+{"id": "g123", "gold": "D", "step": "Relativistic Mechanics", "sample": 3, "pred": "B", "prompt_tokens": 203, "output_tokens": 461}
+{"id": "g123", "gold": "D", "step": "Relativistic Mechanics", "sample": 4, "pred": "D", "prompt_tokens": 203, "output_tokens": 611}
+{"id": "g123", "gold": "D", "step": "Relativistic Mechanics", "sample": 5, "pred": "B", "prompt_tokens": 203, "output_tokens": 468}
+{"id": "g124", "gold": "A", "step": "Quantum Mechanics", "sample": 0, "pred": "B", "prompt_tokens": 290, "output_tokens": 411}
+{"id": "g124", "gold": "A", "step": "Quantum Mechanics", "sample": 1, "pred": "A", "prompt_tokens": 290, "output_tokens": 727}
+{"id": "g124", "gold": "A", "step": "Quantum Mechanics", "sample": 2, "pred": "A", "prompt_tokens": 290, "output_tokens": 1320}
+{"id": "g124", "gold": "A", "step": "Quantum Mechanics", "sample": 3, "pred": "A", "prompt_tokens": 290, "output_tokens": 235}
+{"id": "g124", "gold": "A", "step": "Quantum Mechanics", "sample": 4, "pred": null, "prompt_tokens": 290, "output_tokens": 2048}
+{"id": "g124", "gold": "A", "step": "Quantum Mechanics", "sample": 5, "pred": null, "prompt_tokens": 290, "output_tokens": 2048}
+{"id": "g125", "gold": "C", "step": "Organic Chemistry", "sample": 0, "pred": "D", "prompt_tokens": 306, "output_tokens": 428}
+{"id": "g125", "gold": "C", "step": "Organic Chemistry", "sample": 1, "pred": "D", "prompt_tokens": 306, "output_tokens": 353}
+{"id": "g125", "gold": "C", "step": "Organic Chemistry", "sample": 2, "pred": "A", "prompt_tokens": 306, "output_tokens": 582}
+{"id": "g125", "gold": "C", "step": "Organic Chemistry", "sample": 3, "pred": "A", "prompt_tokens": 306, "output_tokens": 389}
+{"id": "g125", "gold": "C", "step": "Organic Chemistry", "sample": 4, "pred": "A", "prompt_tokens": 306, "output_tokens": 253}
+{"id": "g125", "gold": "C", "step": "Organic Chemistry", "sample": 5, "pred": "A", "prompt_tokens": 306, "output_tokens": 409}
+{"id": "g126", "gold": "D", "step": "Organic Chemistry", "sample": 0, "pred": "B", "prompt_tokens": 191, "output_tokens": 280}
+{"id": "g126", "gold": "D", "step": "Organic Chemistry", "sample": 1, "pred": "A", "prompt_tokens": 191, "output_tokens": 156}
+{"id": "g126", "gold": "D", "step": "Organic Chemistry", "sample": 2, "pred": "C", "prompt_tokens": 191, "output_tokens": 261}
+{"id": "g126", "gold": "D", "step": "Organic Chemistry", "sample": 3, "pred": "A", "prompt_tokens": 191, "output_tokens": 253}
+{"id": "g126", "gold": "D", "step": "Organic Chemistry", "sample": 4, "pred": "B", "prompt_tokens": 191, "output_tokens": 269}
+{"id": "g126", "gold": "D", "step": "Organic Chemistry", "sample": 5, "pred": "B", "prompt_tokens": 191, "output_tokens": 208}
+{"id": "g127", "gold": "B", "step": "Molecular Biology", "sample": 0, "pred": "A", "prompt_tokens": 2859, "output_tokens": 265}
+{"id": "g127", "gold": "B", "step": "Molecular Biology", "sample": 1, "pred": "B", "prompt_tokens": 2859, "output_tokens": 216}
+{"id": "g127", "gold": "B", "step": "Molecular Biology", "sample": 2, "pred": "B", "prompt_tokens": 2859, "output_tokens": 300}
+{"id": "g127", "gold": "B", "step": "Molecular Biology", "sample": 3, "pred": "D", "prompt_tokens": 2859, "output_tokens": 250}
+{"id": "g127", "gold": "B", "step": "Molecular Biology", "sample": 4, "pred": "B", "prompt_tokens": 2859, "output_tokens": 184}
+{"id": "g127", "gold": "B", "step": "Molecular Biology", "sample": 5, "pred": "A", "prompt_tokens": 2859, "output_tokens": 452}
+{"id": "g128", "gold": "A", "step": "Organic Chemistry", "sample": 0, "pred": "B", "prompt_tokens": 323, "output_tokens": 325}
+{"id": "g128", "gold": "A", "step": "Organic Chemistry", "sample": 1, "pred": "B", "prompt_tokens": 323, "output_tokens": 411}
+{"id": "g128", "gold": "A", "step": "Organic Chemistry", "sample": 2, "pred": "B", "prompt_tokens": 323, "output_tokens": 384}
+{"id": "g128", "gold": "A", "step": "Organic Chemistry", "sample": 3, "pred": "D", "prompt_tokens": 323, "output_tokens": 819}
+{"id": "g128", "gold": "A", "step": "Organic Chemistry", "sample": 4, "pred": "B", "prompt_tokens": 323, "output_tokens": 295}
+{"id": "g128", "gold": "A", "step": "Organic Chemistry", "sample": 5, "pred": "B", "prompt_tokens": 323, "output_tokens": 327}
+{"id": "g129", "gold": "B", "step": "Physics (general)", "sample": 0, "pred": "B", "prompt_tokens": 173, "output_tokens": 251}
+{"id": "g129", "gold": "B", "step": "Physics (general)", "sample": 1, "pred": "B", "prompt_tokens": 173, "output_tokens": 312}
+{"id": "g129", "gold": "B", "step": "Physics (general)", "sample": 2, "pred": "A", "prompt_tokens": 173, "output_tokens": 239}
+{"id": "g129", "gold": "B", "step": "Physics (general)", "sample": 3, "pred": "A", "prompt_tokens": 173, "output_tokens": 136}
+{"id": "g129", "gold": "B", "step": "Physics (general)", "sample": 4, "pred": "A", "prompt_tokens": 173, "output_tokens": 243}
+{"id": "g129", "gold": "B", "step": "Physics (general)", "sample": 5, "pred": "D", "prompt_tokens": 173, "output_tokens": 311}
+{"id": "g130", "gold": "C", "step": "Organic Chemistry", "sample": 0, "pred": "A", "prompt_tokens": 400, "output_tokens": 634}
+{"id": "g130", "gold": "C", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 400, "output_tokens": 413}
+{"id": "g130", "gold": "C", "step": "Organic Chemistry", "sample": 2, "pred": "C", "prompt_tokens": 400, "output_tokens": 468}
+{"id": "g130", "gold": "C", "step": "Organic Chemistry", "sample": 3, "pred": "D", "prompt_tokens": 400, "output_tokens": 359}
+{"id": "g130", "gold": "C", "step": "Organic Chemistry", "sample": 4, "pred": "B", "prompt_tokens": 400, "output_tokens": 406}
+{"id": "g130", "gold": "C", "step": "Organic Chemistry", "sample": 5, "pred": "A", "prompt_tokens": 400, "output_tokens": 434}
+{"id": "g131", "gold": "A", "step": "Chemistry (general)", "sample": 0, "pred": "C", "prompt_tokens": 377, "output_tokens": 266}
+{"id": "g131", "gold": "A", "step": "Chemistry (general)", "sample": 1, "pred": "C", "prompt_tokens": 377, "output_tokens": 254}
+{"id": "g131", "gold": "A", "step": "Chemistry (general)", "sample": 2, "pred": "C", "prompt_tokens": 377, "output_tokens": 298}
+{"id": "g131", "gold": "A", "step": "Chemistry (general)", "sample": 3, "pred": "C", "prompt_tokens": 377, "output_tokens": 301}
+{"id": "g131", "gold": "A", "step": "Chemistry (general)", "sample": 4, "pred": "C", "prompt_tokens": 377, "output_tokens": 288}
+{"id": "g131", "gold": "A", "step": "Chemistry (general)", "sample": 5, "pred": "A", "prompt_tokens": 377, "output_tokens": 274}
+{"id": "g132", "gold": "D", "step": "Chemistry (general)", "sample": 0, "pred": null, "prompt_tokens": 274, "output_tokens": 2048}
+{"id": "g132", "gold": "D", "step": "Chemistry (general)", "sample": 1, "pred": null, "prompt_tokens": 274, "output_tokens": 2048}
+{"id": "g132", "gold": "D", "step": "Chemistry (general)", "sample": 2, "pred": "A", "prompt_tokens": 274, "output_tokens": 1224}
+{"id": "g132", "gold": "D", "step": "Chemistry (general)", "sample": 3, "pred": null, "prompt_tokens": 274, "output_tokens": 1179}
+{"id": "g132", "gold": "D", "step": "Chemistry (general)", "sample": 4, "pred": "B", "prompt_tokens": 274, "output_tokens": 1301}
+{"id": "g132", "gold": "D", "step": "Chemistry (general)", "sample": 5, "pred": null, "prompt_tokens": 274, "output_tokens": 1009}
+{"id": "g133", "gold": "C", "step": "Chemistry (general)", "sample": 0, "pred": null, "prompt_tokens": 178, "output_tokens": 690}
+{"id": "g133", "gold": "C", "step": "Chemistry (general)", "sample": 1, "pred": "A", "prompt_tokens": 178, "output_tokens": 639}
+{"id": "g133", "gold": "C", "step": "Chemistry (general)", "sample": 2, "pred": "D", "prompt_tokens": 178, "output_tokens": 1313}
+{"id": "g133", "gold": "C", "step": "Chemistry (general)", "sample": 3, "pred": null, "prompt_tokens": 178, "output_tokens": 517}
+{"id": "g133", "gold": "C", "step": "Chemistry (general)", "sample": 4, "pred": "D", "prompt_tokens": 178, "output_tokens": 905}
+{"id": "g133", "gold": "C", "step": "Chemistry (general)", "sample": 5, "pred": "A", "prompt_tokens": 178, "output_tokens": 792}
+{"id": "g134", "gold": "D", "step": "High-energy particle physics", "sample": 0, "pred": "D", "prompt_tokens": 407, "output_tokens": 439}
+{"id": "g134", "gold": "D", "step": "High-energy particle physics", "sample": 1, "pred": "D", "prompt_tokens": 407, "output_tokens": 286}
+{"id": "g134", "gold": "D", "step": "High-energy particle physics", "sample": 2, "pred": "D", "prompt_tokens": 407, "output_tokens": 341}
+{"id": "g134", "gold": "D", "step": "High-energy particle physics", "sample": 3, "pred": "D", "prompt_tokens": 407, "output_tokens": 383}
+{"id": "g134", "gold": "D", "step": "High-energy particle physics", "sample": 4, "pred": "C", "prompt_tokens": 407, "output_tokens": 321}
+{"id": "g134", "gold": "D", "step": "High-energy particle physics", "sample": 5, "pred": "C", "prompt_tokens": 407, "output_tokens": 464}
+{"id": "g135", "gold": "A", "step": "Electromagnetism and Photonics", "sample": 0, "pred": "D", "prompt_tokens": 233, "output_tokens": 633}
+{"id": "g135", "gold": "A", "step": "Electromagnetism and Photonics", "sample": 1, "pred": "D", "prompt_tokens": 233, "output_tokens": 545}
+{"id": "g135", "gold": "A", "step": "Electromagnetism and Photonics", "sample": 2, "pred": null, "prompt_tokens": 233, "output_tokens": 581}
+{"id": "g135", "gold": "A", "step": "Electromagnetism and Photonics", "sample": 3, "pred": "D", "prompt_tokens": 233, "output_tokens": 265}
+{"id": "g135", "gold": "A", "step": "Electromagnetism and Photonics", "sample": 4, "pred": "D", "prompt_tokens": 233, "output_tokens": 795}
+{"id": "g135", "gold": "A", "step": "Electromagnetism and Photonics", "sample": 5, "pred": "D", "prompt_tokens": 233, "output_tokens": 631}
+{"id": "g136", "gold": "D", "step": "High-energy particle physics", "sample": 0, "pred": "D", "prompt_tokens": 266, "output_tokens": 431}
+{"id": "g136", "gold": "D", "step": "High-energy particle physics", "sample": 1, "pred": "C", "prompt_tokens": 266, "output_tokens": 410}
+{"id": "g136", "gold": "D", "step": "High-energy particle physics", "sample": 2, "pred": null, "prompt_tokens": 266, "output_tokens": 2048}
+{"id": "g136", "gold": "D", "step": "High-energy particle physics", "sample": 3, "pred": "C", "prompt_tokens": 266, "output_tokens": 495}
+{"id": "g136", "gold": "D", "step": "High-energy particle physics", "sample": 4, "pred": "C", "prompt_tokens": 266, "output_tokens": 320}
+{"id": "g136", "gold": "D", "step": "High-energy particle physics", "sample": 5, "pred": null, "prompt_tokens": 266, "output_tokens": 2048}
+{"id": "g137", "gold": "C", "step": "Chemistry (general)", "sample": 0, "pred": "A", "prompt_tokens": 219, "output_tokens": 339}
+{"id": "g137", "gold": "C", "step": "Chemistry (general)", "sample": 1, "pred": null, "prompt_tokens": 219, "output_tokens": 170}
+{"id": "g137", "gold": "C", "step": "Chemistry (general)", "sample": 2, "pred": "C", "prompt_tokens": 219, "output_tokens": 283}
+{"id": "g137", "gold": "C", "step": "Chemistry (general)", "sample": 3, "pred": "C", "prompt_tokens": 219, "output_tokens": 306}
+{"id": "g137", "gold": "C", "step": "Chemistry (general)", "sample": 4, "pred": "A", "prompt_tokens": 219, "output_tokens": 256}
+{"id": "g137", "gold": "C", "step": "Chemistry (general)", "sample": 5, "pred": "C", "prompt_tokens": 219, "output_tokens": 245}
+{"id": "g138", "gold": "C", "step": "Organic Chemistry", "sample": 0, "pred": "C", "prompt_tokens": 342, "output_tokens": 299}
+{"id": "g138", "gold": "C", "step": "Organic Chemistry", "sample": 1, "pred": "B", "prompt_tokens": 342, "output_tokens": 303}
+{"id": "g138", "gold": "C", "step": "Organic Chemistry", "sample": 2, "pred": "B", "prompt_tokens": 342, "output_tokens": 299}
+{"id": "g138", "gold": "C", "step": "Organic Chemistry", "sample": 3, "pred": "C", "prompt_tokens": 342, "output_tokens": 306}
+{"id": "g138", "gold": "C", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 342, "output_tokens": 327}
+{"id": "g138", "gold": "C", "step": "Organic Chemistry", "sample": 5, "pred": "A", "prompt_tokens": 342, "output_tokens": 266}
+{"id": "g139", "gold": "D", "step": "Organic Chemistry", "sample": 0, "pred": "B", "prompt_tokens": 274, "output_tokens": 928}
+{"id": "g139", "gold": "D", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 274, "output_tokens": 802}
+{"id": "g139", "gold": "D", "step": "Organic Chemistry", "sample": 2, "pred": "D", "prompt_tokens": 274, "output_tokens": 411}
+{"id": "g139", "gold": "D", "step": "Organic Chemistry", "sample": 3, "pred": "A", "prompt_tokens": 274, "output_tokens": 471}
+{"id": "g139", "gold": "D", "step": "Organic Chemistry", "sample": 4, "pred": "D", "prompt_tokens": 274, "output_tokens": 495}
+{"id": "g139", "gold": "D", "step": "Organic Chemistry", "sample": 5, "pred": "B", "prompt_tokens": 274, "output_tokens": 650}
+{"id": "g140", "gold": "B", "step": "Organic Chemistry", "sample": 0, "pred": "C", "prompt_tokens": 147, "output_tokens": 167}
+{"id": "g140", "gold": "B", "step": "Organic Chemistry", "sample": 1, "pred": "B", "prompt_tokens": 147, "output_tokens": 167}
+{"id": "g140", "gold": "B", "step": "Organic Chemistry", "sample": 2, "pred": "B", "prompt_tokens": 147, "output_tokens": 250}
+{"id": "g140", "gold": "B", "step": "Organic Chemistry", "sample": 3, "pred": "C", "prompt_tokens": 147, "output_tokens": 206}
+{"id": "g140", "gold": "B", "step": "Organic Chemistry", "sample": 4, "pred": "D", "prompt_tokens": 147, "output_tokens": 387}
+{"id": "g140", "gold": "B", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 147, "output_tokens": 353}
+{"id": "g141", "gold": "D", "step": "Quantum Mechanics", "sample": 0, "pred": "D", "prompt_tokens": 201, "output_tokens": 267}
+{"id": "g141", "gold": "D", "step": "Quantum Mechanics", "sample": 1, "pred": "D", "prompt_tokens": 201, "output_tokens": 269}
+{"id": "g141", "gold": "D", "step": "Quantum Mechanics", "sample": 2, "pred": "A", "prompt_tokens": 201, "output_tokens": 467}
+{"id": "g141", "gold": "D", "step": "Quantum Mechanics", "sample": 3, "pred": "D", "prompt_tokens": 201, "output_tokens": 347}
+{"id": "g141", "gold": "D", "step": "Quantum Mechanics", "sample": 4, "pred": "D", "prompt_tokens": 201, "output_tokens": 252}
+{"id": "g141", "gold": "D", "step": "Quantum Mechanics", "sample": 5, "pred": "D", "prompt_tokens": 201, "output_tokens": 258}
+{"id": "g142", "gold": "C", "step": "Organic Chemistry", "sample": 0, "pred": "B", "prompt_tokens": 453, "output_tokens": 290}
+{"id": "g142", "gold": "C", "step": "Organic Chemistry", "sample": 1, "pred": "B", "prompt_tokens": 453, "output_tokens": 343}
+{"id": "g142", "gold": "C", "step": "Organic Chemistry", "sample": 2, "pred": "B", "prompt_tokens": 453, "output_tokens": 431}
+{"id": "g142", "gold": "C", "step": "Organic Chemistry", "sample": 3, "pred": "D", "prompt_tokens": 453, "output_tokens": 398}
+{"id": "g142", "gold": "C", "step": "Organic Chemistry", "sample": 4, "pred": "B", "prompt_tokens": 453, "output_tokens": 369}
+{"id": "g142", "gold": "C", "step": "Organic Chemistry", "sample": 5, "pred": "D", "prompt_tokens": 453, "output_tokens": 406}
+{"id": "g143", "gold": "D", "step": "High-energy particle physics", "sample": 0, "pred": "B", "prompt_tokens": 205, "output_tokens": 355}
+{"id": "g143", "gold": "D", "step": "High-energy particle physics", "sample": 1, "pred": "B", "prompt_tokens": 205, "output_tokens": 349}
+{"id": "g143", "gold": "D", "step": "High-energy particle physics", "sample": 2, "pred": null, "prompt_tokens": 205, "output_tokens": 2048}
+{"id": "g143", "gold": "D", "step": "High-energy particle physics", "sample": 3, "pred": "B", "prompt_tokens": 205, "output_tokens": 262}
+{"id": "g143", "gold": "D", "step": "High-energy particle physics", "sample": 4, "pred": "B", "prompt_tokens": 205, "output_tokens": 604}
+{"id": "g143", "gold": "D", "step": "High-energy particle physics", "sample": 5, "pred": "A", "prompt_tokens": 205, "output_tokens": 657}
+{"id": "g144", "gold": "A", "step": "Organic Chemistry", "sample": 0, "pred": null, "prompt_tokens": 152, "output_tokens": 312}
+{"id": "g144", "gold": "A", "step": "Organic Chemistry", "sample": 1, "pred": "B", "prompt_tokens": 152, "output_tokens": 269}
+{"id": "g144", "gold": "A", "step": "Organic Chemistry", "sample": 2, "pred": "D", "prompt_tokens": 152, "output_tokens": 214}
+{"id": "g144", "gold": "A", "step": "Organic Chemistry", "sample": 3, "pred": "C", "prompt_tokens": 152, "output_tokens": 370}
+{"id": "g144", "gold": "A", "step": "Organic Chemistry", "sample": 4, "pred": "D", "prompt_tokens": 152, "output_tokens": 224}
+{"id": "g144", "gold": "A", "step": "Organic Chemistry", "sample": 5, "pred": "D", "prompt_tokens": 152, "output_tokens": 194}
+{"id": "g145", "gold": "B", "step": "Organic Chemistry", "sample": 0, "pred": "C", "prompt_tokens": 354, "output_tokens": 261}
+{"id": "g145", "gold": "B", "step": "Organic Chemistry", "sample": 1, "pred": "A", "prompt_tokens": 354, "output_tokens": 240}
+{"id": "g145", "gold": "B", "step": "Organic Chemistry", "sample": 2, "pred": "A", "prompt_tokens": 354, "output_tokens": 245}
+{"id": "g145", "gold": "B", "step": "Organic Chemistry", "sample": 3, "pred": "C", "prompt_tokens": 354, "output_tokens": 365}
+{"id": "g145", "gold": "B", "step": "Organic Chemistry", "sample": 4, "pred": "A", "prompt_tokens": 354, "output_tokens": 252}
+{"id": "g145", "gold": "B", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 354, "output_tokens": 229}
+{"id": "g146", "gold": "B", "step": "High-energy particle physics", "sample": 0, "pred": "D", "prompt_tokens": 182, "output_tokens": 870}
+{"id": "g146", "gold": "B", "step": "High-energy particle physics", "sample": 1, "pred": "D", "prompt_tokens": 182, "output_tokens": 1488}
+{"id": "g146", "gold": "B", "step": "High-energy particle physics", "sample": 2, "pred": "C", "prompt_tokens": 182, "output_tokens": 439}
+{"id": "g146", "gold": "B", "step": "High-energy particle physics", "sample": 3, "pred": "D", "prompt_tokens": 182, "output_tokens": 406}
+{"id": "g146", "gold": "B", "step": "High-energy particle physics", "sample": 4, "pred": "A", "prompt_tokens": 182, "output_tokens": 323}
+{"id": "g146", "gold": "B", "step": "High-energy particle physics", "sample": 5, "pred": "D", "prompt_tokens": 182, "output_tokens": 411}
+{"id": "g147", "gold": "A", "step": "Chemistry (general)", "sample": 0, "pred": "A", "prompt_tokens": 256, "output_tokens": 389}
+{"id": "g147", "gold": "A", "step": "Chemistry (general)", "sample": 1, "pred": "B", "prompt_tokens": 256, "output_tokens": 404}
+{"id": "g147", "gold": "A", "step": "Chemistry (general)", "sample": 2, "pred": "B", "prompt_tokens": 256, "output_tokens": 241}
+{"id": "g147", "gold": "A", "step": "Chemistry (general)", "sample": 3, "pred": "B", "prompt_tokens": 256, "output_tokens": 465}
+{"id": "g147", "gold": "A", "step": "Chemistry (general)", "sample": 4, "pred": "B", "prompt_tokens": 256, "output_tokens": 257}
+{"id": "g147", "gold": "A", "step": "Chemistry (general)", "sample": 5, "pred": "D", "prompt_tokens": 256, "output_tokens": 410}
+{"id": "g148", "gold": "D", "step": "Chemistry (general)", "sample": 0, "pred": "D", "prompt_tokens": 298, "output_tokens": 302}
+{"id": "g148", "gold": "D", "step": "Chemistry (general)", "sample": 1, "pred": "D", "prompt_tokens": 298, "output_tokens": 198}
+{"id": "g148", "gold": "D", "step": "Chemistry (general)", "sample": 2, "pred": "D", "prompt_tokens": 298, "output_tokens": 184}
+{"id": "g148", "gold": "D", "step": "Chemistry (general)", "sample": 3, "pred": "D", "prompt_tokens": 298, "output_tokens": 348}
+{"id": "g148", "gold": "D", "step": "Chemistry (general)", "sample": 4, "pred": "A", "prompt_tokens": 298, "output_tokens": 240}
+{"id": "g148", "gold": "D", "step": "Chemistry (general)", "sample": 5, "pred": "D", "prompt_tokens": 298, "output_tokens": 319}
+{"id": "g149", "gold": "A", "step": "Organic Chemistry", "sample": 0, "pred": "A", "prompt_tokens": 296, "output_tokens": 440}
+{"id": "g149", "gold": "A", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 296, "output_tokens": 271}
+{"id": "g149", "gold": "A", "step": "Organic Chemistry", "sample": 2, "pred": "A", "prompt_tokens": 296, "output_tokens": 455}
+{"id": "g149", "gold": "A", "step": "Organic Chemistry", "sample": 3, "pred": "C", "prompt_tokens": 296, "output_tokens": 264}
+{"id": "g149", "gold": "A", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 296, "output_tokens": 389}
+{"id": "g149", "gold": "A", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 296, "output_tokens": 300}
+{"id": "g150", "gold": "B", "step": "Quantum Mechanics", "sample": 0, "pred": "D", "prompt_tokens": 244, "output_tokens": 353}
+{"id": "g150", "gold": "B", "step": "Quantum Mechanics", "sample": 1, "pred": "D", "prompt_tokens": 244, "output_tokens": 498}
+{"id": "g150", "gold": "B", "step": "Quantum Mechanics", "sample": 2, "pred": null, "prompt_tokens": 244, "output_tokens": 2048}
+{"id": "g150", "gold": "B", "step": "Quantum Mechanics", "sample": 3, "pred": null, "prompt_tokens": 244, "output_tokens": 561}
+{"id": "g150", "gold": "B", "step": "Quantum Mechanics", "sample": 4, "pred": "A", "prompt_tokens": 244, "output_tokens": 623}
+{"id": "g150", "gold": "B", "step": "Quantum Mechanics", "sample": 5, "pred": null, "prompt_tokens": 244, "output_tokens": 1496}
+{"id": "g151", "gold": "C", "step": "Molecular Biology", "sample": 0, "pred": "C", "prompt_tokens": 242, "output_tokens": 336}
+{"id": "g151", "gold": "C", "step": "Molecular Biology", "sample": 1, "pred": "D", "prompt_tokens": 242, "output_tokens": 449}
+{"id": "g151", "gold": "C", "step": "Molecular Biology", "sample": 2, "pred": "C", "prompt_tokens": 242, "output_tokens": 351}
+{"id": "g151", "gold": "C", "step": "Molecular Biology", "sample": 3, "pred": "C", "prompt_tokens": 242, "output_tokens": 418}
+{"id": "g151", "gold": "C", "step": "Molecular Biology", "sample": 4, "pred": "D", "prompt_tokens": 242, "output_tokens": 256}
+{"id": "g151", "gold": "C", "step": "Molecular Biology", "sample": 5, "pred": "C", "prompt_tokens": 242, "output_tokens": 352}
+{"id": "g152", "gold": "D", "step": "Organic Chemistry", "sample": 0, "pred": "C", "prompt_tokens": 584, "output_tokens": 460}
+{"id": "g152", "gold": "D", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 584, "output_tokens": 506}
+{"id": "g152", "gold": "D", "step": "Organic Chemistry", "sample": 2, "pred": "C", "prompt_tokens": 584, "output_tokens": 347}
+{"id": "g152", "gold": "D", "step": "Organic Chemistry", "sample": 3, "pred": "C", "prompt_tokens": 584, "output_tokens": 443}
+{"id": "g152", "gold": "D", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 584, "output_tokens": 374}
+{"id": "g152", "gold": "D", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 584, "output_tokens": 475}
+{"id": "g153", "gold": "C", "step": "Organic Chemistry", "sample": 0, "pred": "A", "prompt_tokens": 281, "output_tokens": 423}
+{"id": "g153", "gold": "C", "step": "Organic Chemistry", "sample": 1, "pred": "D", "prompt_tokens": 281, "output_tokens": 278}
+{"id": "g153", "gold": "C", "step": "Organic Chemistry", "sample": 2, "pred": "A", "prompt_tokens": 281, "output_tokens": 298}
+{"id": "g153", "gold": "C", "step": "Organic Chemistry", "sample": 3, "pred": "A", "prompt_tokens": 281, "output_tokens": 316}
+{"id": "g153", "gold": "C", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 281, "output_tokens": 360}
+{"id": "g153", "gold": "C", "step": "Organic Chemistry", "sample": 5, "pred": "D", "prompt_tokens": 281, "output_tokens": 476}
+{"id": "g154", "gold": "D", "step": "Quantum Mechanics", "sample": 0, "pred": null, "prompt_tokens": 479, "output_tokens": 507}
+{"id": "g154", "gold": "D", "step": "Quantum Mechanics", "sample": 1, "pred": "B", "prompt_tokens": 479, "output_tokens": 1370}
+{"id": "g154", "gold": "D", "step": "Quantum Mechanics", "sample": 2, "pred": "B", "prompt_tokens": 479, "output_tokens": 734}
+{"id": "g154", "gold": "D", "step": "Quantum Mechanics", "sample": 3, "pred": "B", "prompt_tokens": 479, "output_tokens": 444}
+{"id": "g154", "gold": "D", "step": "Quantum Mechanics", "sample": 4, "pred": "B", "prompt_tokens": 479, "output_tokens": 589}
+{"id": "g154", "gold": "D", "step": "Quantum Mechanics", "sample": 5, "pred": "D", "prompt_tokens": 479, "output_tokens": 614}
+{"id": "g155", "gold": "D", "step": "Organic Chemistry", "sample": 0, "pred": "D", "prompt_tokens": 312, "output_tokens": 385}
+{"id": "g155", "gold": "D", "step": "Organic Chemistry", "sample": 1, "pred": "D", "prompt_tokens": 312, "output_tokens": 277}
+{"id": "g155", "gold": "D", "step": "Organic Chemistry", "sample": 2, "pred": "D", "prompt_tokens": 312, "output_tokens": 269}
+{"id": "g155", "gold": "D", "step": "Organic Chemistry", "sample": 3, "pred": "D", "prompt_tokens": 312, "output_tokens": 358}
+{"id": "g155", "gold": "D", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 312, "output_tokens": 466}
+{"id": "g155", "gold": "D", "step": "Organic Chemistry", "sample": 5, "pred": "C", "prompt_tokens": 312, "output_tokens": 464}
+{"id": "g156", "gold": "D", "step": "Molecular Biology", "sample": 0, "pred": "D", "prompt_tokens": 258, "output_tokens": 250}
+{"id": "g156", "gold": "D", "step": "Molecular Biology", "sample": 1, "pred": "D", "prompt_tokens": 258, "output_tokens": 184}
+{"id": "g156", "gold": "D", "step": "Molecular Biology", "sample": 2, "pred": "D", "prompt_tokens": 258, "output_tokens": 146}
+{"id": "g156", "gold": "D", "step": "Molecular Biology", "sample": 3, "pred": "D", "prompt_tokens": 258, "output_tokens": 124}
+{"id": "g156", "gold": "D", "step": "Molecular Biology", "sample": 4, "pred": "D", "prompt_tokens": 258, "output_tokens": 234}
+{"id": "g156", "gold": "D", "step": "Molecular Biology", "sample": 5, "pred": "D", "prompt_tokens": 258, "output_tokens": 149}
+{"id": "g157", "gold": "A", "step": "Genetics", "sample": 0, "pred": "D", "prompt_tokens": 258, "output_tokens": 244}
+{"id": "g157", "gold": "A", "step": "Genetics", "sample": 1, "pred": "D", "prompt_tokens": 258, "output_tokens": 235}
+{"id": "g157", "gold": "A", "step": "Genetics", "sample": 2, "pred": "D", "prompt_tokens": 258, "output_tokens": 250}
+{"id": "g157", "gold": "A", "step": "Genetics", "sample": 3, "pred": "D", "prompt_tokens": 258, "output_tokens": 303}
+{"id": "g157", "gold": "A", "step": "Genetics", "sample": 4, "pred": "D", "prompt_tokens": 258, "output_tokens": 239}
+{"id": "g157", "gold": "A", "step": "Genetics", "sample": 5, "pred": "D", "prompt_tokens": 258, "output_tokens": 185}
+{"id": "g158", "gold": "D", "step": "Astrophysics", "sample": 0, "pred": "B", "prompt_tokens": 258, "output_tokens": 549}
+{"id": "g158", "gold": "D", "step": "Astrophysics", "sample": 1, "pred": null, "prompt_tokens": 258, "output_tokens": 575}
+{"id": "g158", "gold": "D", "step": "Astrophysics", "sample": 2, "pred": null, "prompt_tokens": 258, "output_tokens": 2048}
+{"id": "g158", "gold": "D", "step": "Astrophysics", "sample": 3, "pred": "C", "prompt_tokens": 258, "output_tokens": 249}
+{"id": "g158", "gold": "D", "step": "Astrophysics", "sample": 4, "pred": "D", "prompt_tokens": 258, "output_tokens": 223}
+{"id": "g158", "gold": "D", "step": "Astrophysics", "sample": 5, "pred": "C", "prompt_tokens": 258, "output_tokens": 209}
+{"id": "g159", "gold": "D", "step": "Optics and Acoustics", "sample": 0, "pred": "A", "prompt_tokens": 239, "output_tokens": 1015}
+{"id": "g159", "gold": "D", "step": "Optics and Acoustics", "sample": 1, "pred": "A", "prompt_tokens": 239, "output_tokens": 563}
+{"id": "g159", "gold": "D", "step": "Optics and Acoustics", "sample": 2, "pred": "A", "prompt_tokens": 239, "output_tokens": 329}
+{"id": "g159", "gold": "D", "step": "Optics and Acoustics", "sample": 3, "pred": "B", "prompt_tokens": 239, "output_tokens": 279}
+{"id": "g159", "gold": "D", "step": "Optics and Acoustics", "sample": 4, "pred": "B", "prompt_tokens": 239, "output_tokens": 186}
+{"id": "g159", "gold": "D", "step": "Optics and Acoustics", "sample": 5, "pred": "A", "prompt_tokens": 239, "output_tokens": 324}
+{"id": "g160", "gold": "A", "step": "Relativistic Mechanics", "sample": 0, "pred": "A", "prompt_tokens": 341, "output_tokens": 159}
+{"id": "g160", "gold": "A", "step": "Relativistic Mechanics", "sample": 1, "pred": "A", "prompt_tokens": 341, "output_tokens": 275}
+{"id": "g160", "gold": "A", "step": "Relativistic Mechanics", "sample": 2, "pred": "A", "prompt_tokens": 341, "output_tokens": 187}
+{"id": "g160", "gold": "A", "step": "Relativistic Mechanics", "sample": 3, "pred": "A", "prompt_tokens": 341, "output_tokens": 130}
+{"id": "g160", "gold": "A", "step": "Relativistic Mechanics", "sample": 4, "pred": "A", "prompt_tokens": 341, "output_tokens": 184}
+{"id": "g160", "gold": "A", "step": "Relativistic Mechanics", "sample": 5, "pred": "A", "prompt_tokens": 341, "output_tokens": 211}
+{"id": "g161", "gold": "D", "step": "Relativistic Mechanics", "sample": 0, "pred": "C", "prompt_tokens": 210, "output_tokens": 1142}
+{"id": "g161", "gold": "D", "step": "Relativistic Mechanics", "sample": 1, "pred": "D", "prompt_tokens": 210, "output_tokens": 295}
+{"id": "g161", "gold": "D", "step": "Relativistic Mechanics", "sample": 2, "pred": "D", "prompt_tokens": 210, "output_tokens": 1557}
+{"id": "g161", "gold": "D", "step": "Relativistic Mechanics", "sample": 3, "pred": "C", "prompt_tokens": 210, "output_tokens": 1211}
+{"id": "g161", "gold": "D", "step": "Relativistic Mechanics", "sample": 4, "pred": null, "prompt_tokens": 210, "output_tokens": 2048}
+{"id": "g161", "gold": "D", "step": "Relativistic Mechanics", "sample": 5, "pred": "C", "prompt_tokens": 210, "output_tokens": 610}
+{"id": "g162", "gold": "C", "step": "Chemistry (general)", "sample": 0, "pred": "A", "prompt_tokens": 223, "output_tokens": 360}
+{"id": "g162", "gold": "C", "step": "Chemistry (general)", "sample": 1, "pred": null, "prompt_tokens": 223, "output_tokens": 2048}
+{"id": "g162", "gold": "C", "step": "Chemistry (general)", "sample": 2, "pred": "D", "prompt_tokens": 223, "output_tokens": 1459}
+{"id": "g162", "gold": "C", "step": "Chemistry (general)", "sample": 3, "pred": null, "prompt_tokens": 223, "output_tokens": 2048}
+{"id": "g162", "gold": "C", "step": "Chemistry (general)", "sample": 4, "pred": "A", "prompt_tokens": 223, "output_tokens": 1694}
+{"id": "g162", "gold": "C", "step": "Chemistry (general)", "sample": 5, "pred": "D", "prompt_tokens": 223, "output_tokens": 864}
+{"id": "g163", "gold": "B", "step": "Astrophysics", "sample": 0, "pred": null, "prompt_tokens": 286, "output_tokens": 270}
+{"id": "g163", "gold": "B", "step": "Astrophysics", "sample": 1, "pred": null, "prompt_tokens": 286, "output_tokens": 2048}
+{"id": "g163", "gold": "B", "step": "Astrophysics", "sample": 2, "pred": "D", "prompt_tokens": 286, "output_tokens": 1183}
+{"id": "g163", "gold": "B", "step": "Astrophysics", "sample": 3, "pred": "C", "prompt_tokens": 286, "output_tokens": 336}
+{"id": "g163", "gold": "B", "step": "Astrophysics", "sample": 4, "pred": "D", "prompt_tokens": 286, "output_tokens": 549}
+{"id": "g163", "gold": "B", "step": "Astrophysics", "sample": 5, "pred": null, "prompt_tokens": 286, "output_tokens": 2048}
+{"id": "g164", "gold": "D", "step": "Chemistry (general)", "sample": 0, "pred": "D", "prompt_tokens": 326, "output_tokens": 293}
+{"id": "g164", "gold": "D", "step": "Chemistry (general)", "sample": 1, "pred": "B", "prompt_tokens": 326, "output_tokens": 286}
+{"id": "g164", "gold": "D", "step": "Chemistry (general)", "sample": 2, "pred": "D", "prompt_tokens": 326, "output_tokens": 393}
+{"id": "g164", "gold": "D", "step": "Chemistry (general)", "sample": 3, "pred": "A", "prompt_tokens": 326, "output_tokens": 304}
+{"id": "g164", "gold": "D", "step": "Chemistry (general)", "sample": 4, "pred": "D", "prompt_tokens": 326, "output_tokens": 192}
+{"id": "g164", "gold": "D", "step": "Chemistry (general)", "sample": 5, "pred": "D", "prompt_tokens": 326, "output_tokens": 290}
+{"id": "g165", "gold": "B", "step": "High-energy particle physics", "sample": 0, "pred": "B", "prompt_tokens": 951, "output_tokens": 317}
+{"id": "g165", "gold": "B", "step": "High-energy particle physics", "sample": 1, "pred": "B", "prompt_tokens": 951, "output_tokens": 346}
+{"id": "g165", "gold": "B", "step": "High-energy particle physics", "sample": 2, "pred": "B", "prompt_tokens": 951, "output_tokens": 370}
+{"id": "g165", "gold": "B", "step": "High-energy particle physics", "sample": 3, "pred": "B", "prompt_tokens": 951, "output_tokens": 299}
+{"id": "g165", "gold": "B", "step": "High-energy particle physics", "sample": 4, "pred": "B", "prompt_tokens": 951, "output_tokens": 267}
+{"id": "g165", "gold": "B", "step": "High-energy particle physics", "sample": 5, "pred": "B", "prompt_tokens": 951, "output_tokens": 276}
+{"id": "g166", "gold": "B", "step": "Quantum Mechanics", "sample": 0, "pred": "B", "prompt_tokens": 284, "output_tokens": 413}
+{"id": "g166", "gold": "B", "step": "Quantum Mechanics", "sample": 1, "pred": "D", "prompt_tokens": 284, "output_tokens": 301}
+{"id": "g166", "gold": "B", "step": "Quantum Mechanics", "sample": 2, "pred": "B", "prompt_tokens": 284, "output_tokens": 325}
+{"id": "g166", "gold": "B", "step": "Quantum Mechanics", "sample": 3, "pred": "B", "prompt_tokens": 284, "output_tokens": 311}
+{"id": "g166", "gold": "B", "step": "Quantum Mechanics", "sample": 4, "pred": "B", "prompt_tokens": 284, "output_tokens": 288}
+{"id": "g166", "gold": "B", "step": "Quantum Mechanics", "sample": 5, "pred": "B", "prompt_tokens": 284, "output_tokens": 277}
+{"id": "g167", "gold": "D", "step": "Genetics", "sample": 0, "pred": "B", "prompt_tokens": 182, "output_tokens": 229}
+{"id": "g167", "gold": "D", "step": "Genetics", "sample": 1, "pred": "A", "prompt_tokens": 182, "output_tokens": 289}
+{"id": "g167", "gold": "D", "step": "Genetics", "sample": 2, "pred": "B", "prompt_tokens": 182, "output_tokens": 218}
+{"id": "g167", "gold": "D", "step": "Genetics", "sample": 3, "pred": "B", "prompt_tokens": 182, "output_tokens": 246}
+{"id": "g167", "gold": "D", "step": "Genetics", "sample": 4, "pred": "B", "prompt_tokens": 182, "output_tokens": 243}
+{"id": "g167", "gold": "D", "step": "Genetics", "sample": 5, "pred": "A", "prompt_tokens": 182, "output_tokens": 202}
+{"id": "g168", "gold": "C", "step": "Quantum Mechanics", "sample": 0, "pred": "B", "prompt_tokens": 268, "output_tokens": 218}
+{"id": "g168", "gold": "C", "step": "Quantum Mechanics", "sample": 1, "pred": "D", "prompt_tokens": 268, "output_tokens": 278}
+{"id": "g168", "gold": "C", "step": "Quantum Mechanics", "sample": 2, "pred": "B", "prompt_tokens": 268, "output_tokens": 250}
+{"id": "g168", "gold": "C", "step": "Quantum Mechanics", "sample": 3, "pred": "A", "prompt_tokens": 268, "output_tokens": 216}
+{"id": "g168", "gold": "C", "step": "Quantum Mechanics", "sample": 4, "pred": "B", "prompt_tokens": 268, "output_tokens": 315}
+{"id": "g168", "gold": "C", "step": "Quantum Mechanics", "sample": 5, "pred": "B", "prompt_tokens": 268, "output_tokens": 221}
+{"id": "g169", "gold": "B", "step": "Quantum Mechanics", "sample": 0, "pred": "A", "prompt_tokens": 195, "output_tokens": 354}
+{"id": "g169", "gold": "B", "step": "Quantum Mechanics", "sample": 1, "pred": "B", "prompt_tokens": 195, "output_tokens": 885}
+{"id": "g169", "gold": "B", "step": "Quantum Mechanics", "sample": 2, "pred": "B", "prompt_tokens": 195, "output_tokens": 805}
+{"id": "g169", "gold": "B", "step": "Quantum Mechanics", "sample": 3, "pred": null, "prompt_tokens": 195, "output_tokens": 2048}
+{"id": "g169", "gold": "B", "step": "Quantum Mechanics", "sample": 4, "pred": "B", "prompt_tokens": 195, "output_tokens": 1033}
+{"id": "g169", "gold": "B", "step": "Quantum Mechanics", "sample": 5, "pred": "B", "prompt_tokens": 195, "output_tokens": 868}
+{"id": "g170", "gold": "B", "step": "Organic Chemistry", "sample": 0, "pred": "D", "prompt_tokens": 282, "output_tokens": 271}
+{"id": "g170", "gold": "B", "step": "Organic Chemistry", "sample": 1, "pred": "A", "prompt_tokens": 282, "output_tokens": 363}
+{"id": "g170", "gold": "B", "step": "Organic Chemistry", "sample": 2, "pred": "A", "prompt_tokens": 282, "output_tokens": 404}
+{"id": "g170", "gold": "B", "step": "Organic Chemistry", "sample": 3, "pred": "D", "prompt_tokens": 282, "output_tokens": 385}
+{"id": "g170", "gold": "B", "step": "Organic Chemistry", "sample": 4, "pred": "D", "prompt_tokens": 282, "output_tokens": 379}
+{"id": "g170", "gold": "B", "step": "Organic Chemistry", "sample": 5, "pred": null, "prompt_tokens": 282, "output_tokens": 382}
+{"id": "g171", "gold": "B", "step": "Physics (general)", "sample": 0, "pred": "B", "prompt_tokens": 290, "output_tokens": 299}
+{"id": "g171", "gold": "B", "step": "Physics (general)", "sample": 1, "pred": "C", "prompt_tokens": 290, "output_tokens": 260}
+{"id": "g171", "gold": "B", "step": "Physics (general)", "sample": 2, "pred": "C", "prompt_tokens": 290, "output_tokens": 367}
+{"id": "g171", "gold": "B", "step": "Physics (general)", "sample": 3, "pred": "B", "prompt_tokens": 290, "output_tokens": 624}
+{"id": "g171", "gold": "B", "step": "Physics (general)", "sample": 4, "pred": "C", "prompt_tokens": 290, "output_tokens": 197}
+{"id": "g171", "gold": "B", "step": "Physics (general)", "sample": 5, "pred": "C", "prompt_tokens": 290, "output_tokens": 260}
+{"id": "g172", "gold": "A", "step": "Quantum Mechanics", "sample": 0, "pred": "C", "prompt_tokens": 190, "output_tokens": 377}
+{"id": "g172", "gold": "A", "step": "Quantum Mechanics", "sample": 1, "pred": "C", "prompt_tokens": 190, "output_tokens": 394}
+{"id": "g172", "gold": "A", "step": "Quantum Mechanics", "sample": 2, "pred": "C", "prompt_tokens": 190, "output_tokens": 602}
+{"id": "g172", "gold": "A", "step": "Quantum Mechanics", "sample": 3, "pred": "A", "prompt_tokens": 190, "output_tokens": 518}
+{"id": "g172", "gold": "A", "step": "Quantum Mechanics", "sample": 4, "pred": "B", "prompt_tokens": 190, "output_tokens": 401}
+{"id": "g172", "gold": "A", "step": "Quantum Mechanics", "sample": 5, "pred": "C", "prompt_tokens": 190, "output_tokens": 300}
+{"id": "g173", "gold": "D", "step": "Physics (general)", "sample": 0, "pred": null, "prompt_tokens": 250, "output_tokens": 2048}
+{"id": "g173", "gold": "D", "step": "Physics (general)", "sample": 1, "pred": "B", "prompt_tokens": 250, "output_tokens": 772}
+{"id": "g173", "gold": "D", "step": "Physics (general)", "sample": 2, "pred": "C", "prompt_tokens": 250, "output_tokens": 806}
+{"id": "g173", "gold": "D", "step": "Physics (general)", "sample": 3, "pred": "B", "prompt_tokens": 250, "output_tokens": 1851}
+{"id": "g173", "gold": "D", "step": "Physics (general)", "sample": 4, "pred": "A", "prompt_tokens": 250, "output_tokens": 316}
+{"id": "g173", "gold": "D", "step": "Physics (general)", "sample": 5, "pred": "D", "prompt_tokens": 250, "output_tokens": 729}
+{"id": "g174", "gold": "B", "step": "Electromagnetism and Photonics", "sample": 0, "pred": "D", "prompt_tokens": 264, "output_tokens": 244}
+{"id": "g174", "gold": "B", "step": "Electromagnetism and Photonics", "sample": 1, "pred": "D", "prompt_tokens": 264, "output_tokens": 336}
+{"id": "g174", "gold": "B", "step": "Electromagnetism and Photonics", "sample": 2, "pred": "D", "prompt_tokens": 264, "output_tokens": 307}
+{"id": "g174", "gold": "B", "step": "Electromagnetism and Photonics", "sample": 3, "pred": "D", "prompt_tokens": 264, "output_tokens": 239}
+{"id": "g174", "gold": "B", "step": "Electromagnetism and Photonics", "sample": 4, "pred": "D", "prompt_tokens": 264, "output_tokens": 514}
+{"id": "g174", "gold": "B", "step": "Electromagnetism and Photonics", "sample": 5, "pred": "D", "prompt_tokens": 264, "output_tokens": 332}
+{"id": "g175", "gold": "C", "step": "Quantum Mechanics", "sample": 0, "pred": "C", "prompt_tokens": 326, "output_tokens": 410}
+{"id": "g175", "gold": "C", "step": "Quantum Mechanics", "sample": 1, "pred": null, "prompt_tokens": 326, "output_tokens": 2048}
+{"id": "g175", "gold": "C", "step": "Quantum Mechanics", "sample": 2, "pred": "A", "prompt_tokens": 326, "output_tokens": 638}
+{"id": "g175", "gold": "C", "step": "Quantum Mechanics", "sample": 3, "pred": "C", "prompt_tokens": 326, "output_tokens": 275}
+{"id": "g175", "gold": "C", "step": "Quantum Mechanics", "sample": 4, "pred": "A", "prompt_tokens": 326, "output_tokens": 583}
+{"id": "g175", "gold": "C", "step": "Quantum Mechanics", "sample": 5, "pred": "D", "prompt_tokens": 326, "output_tokens": 894}
+{"id": "g176", "gold": "C", "step": "Physics (general)", "sample": 0, "pred": "A", "prompt_tokens": 269, "output_tokens": 423}
+{"id": "g176", "gold": "C", "step": "Physics (general)", "sample": 1, "pred": "A", "prompt_tokens": 269, "output_tokens": 505}
+{"id": "g176", "gold": "C", "step": "Physics (general)", "sample": 2, "pred": "B", "prompt_tokens": 269, "output_tokens": 343}
+{"id": "g176", "gold": "C", "step": "Physics (general)", "sample": 3, "pred": "B", "prompt_tokens": 269, "output_tokens": 364}
+{"id": "g176", "gold": "C", "step": "Physics (general)", "sample": 4, "pred": "A", "prompt_tokens": 269, "output_tokens": 444}
+{"id": "g176", "gold": "C", "step": "Physics (general)", "sample": 5, "pred": null, "prompt_tokens": 269, "output_tokens": 422}
+{"id": "g177", "gold": "B", "step": "High-energy particle physics", "sample": 0, "pred": "B", "prompt_tokens": 286, "output_tokens": 449}
+{"id": "g177", "gold": "B", "step": "High-energy particle physics", "sample": 1, "pred": "A", "prompt_tokens": 286, "output_tokens": 296}
+{"id": "g177", "gold": "B", "step": "High-energy particle physics", "sample": 2, "pred": null, "prompt_tokens": 286, "output_tokens": 580}
+{"id": "g177", "gold": "B", "step": "High-energy particle physics", "sample": 3, "pred": "D", "prompt_tokens": 286, "output_tokens": 438}
+{"id": "g177", "gold": "B", "step": "High-energy particle physics", "sample": 4, "pred": "B", "prompt_tokens": 286, "output_tokens": 634}
+{"id": "g177", "gold": "B", "step": "High-energy particle physics", "sample": 5, "pred": "A", "prompt_tokens": 286, "output_tokens": 399}
+{"id": "g178", "gold": "B", "step": "Quantum Mechanics", "sample": 0, "pred": "B", "prompt_tokens": 352, "output_tokens": 361}
+{"id": "g178", "gold": "B", "step": "Quantum Mechanics", "sample": 1, "pred": "B", "prompt_tokens": 352, "output_tokens": 294}
+{"id": "g178", "gold": "B", "step": "Quantum Mechanics", "sample": 2, "pred": "B", "prompt_tokens": 352, "output_tokens": 355}
+{"id": "g178", "gold": "B", "step": "Quantum Mechanics", "sample": 3, "pred": "C", "prompt_tokens": 352, "output_tokens": 298}
+{"id": "g178", "gold": "B", "step": "Quantum Mechanics", "sample": 4, "pred": "C", "prompt_tokens": 352, "output_tokens": 426}
+{"id": "g178", "gold": "B", "step": "Quantum Mechanics", "sample": 5, "pred": "C", "prompt_tokens": 352, "output_tokens": 292}
+{"id": "g179", "gold": "B", "step": "Physics (general)", "sample": 0, "pred": null, "prompt_tokens": 207, "output_tokens": 2048}
+{"id": "g179", "gold": "B", "step": "Physics (general)", "sample": 1, "pred": null, "prompt_tokens": 207, "output_tokens": 2048}
+{"id": "g179", "gold": "B", "step": "Physics (general)", "sample": 2, "pred": null, "prompt_tokens": 207, "output_tokens": 972}
+{"id": "g179", "gold": "B", "step": "Physics (general)", "sample": 3, "pred": null, "prompt_tokens": 207, "output_tokens": 761}
+{"id": "g179", "gold": "B", "step": "Physics (general)", "sample": 4, "pred": "A", "prompt_tokens": 207, "output_tokens": 459}
+{"id": "g179", "gold": "B", "step": "Physics (general)", "sample": 5, "pred": "A", "prompt_tokens": 207, "output_tokens": 307}
+{"id": "g180", "gold": "D", "step": "Astrophysics", "sample": 0, "pred": "D", "prompt_tokens": 313, "output_tokens": 348}
+{"id": "g180", "gold": "D", "step": "Astrophysics", "sample": 1, "pred": "D", "prompt_tokens": 313, "output_tokens": 341}
+{"id": "g180", "gold": "D", "step": "Astrophysics", "sample": 2, "pred": null, "prompt_tokens": 313, "output_tokens": 420}
+{"id": "g180", "gold": "D", "step": "Astrophysics", "sample": 3, "pred": "C", "prompt_tokens": 313, "output_tokens": 286}
+{"id": "g180", "gold": "D", "step": "Astrophysics", "sample": 4, "pred": "D", "prompt_tokens": 313, "output_tokens": 201}
+{"id": "g180", "gold": "D", "step": "Astrophysics", "sample": 5, "pred": "C", "prompt_tokens": 313, "output_tokens": 304}
+{"id": "g181", "gold": "A", "step": "Condensed Matter Physics", "sample": 0, "pred": "A", "prompt_tokens": 324, "output_tokens": 299}
+{"id": "g181", "gold": "A", "step": "Condensed Matter Physics", "sample": 1, "pred": "A", "prompt_tokens": 324, "output_tokens": 219}
+{"id": "g181", "gold": "A", "step": "Condensed Matter Physics", "sample": 2, "pred": "A", "prompt_tokens": 324, "output_tokens": 189}
+{"id": "g181", "gold": "A", "step": "Condensed Matter Physics", "sample": 3, "pred": "A", "prompt_tokens": 324, "output_tokens": 217}
+{"id": "g181", "gold": "A", "step": "Condensed Matter Physics", "sample": 4, "pred": "A", "prompt_tokens": 324, "output_tokens": 257}
+{"id": "g181", "gold": "A", "step": "Condensed Matter Physics", "sample": 5, "pred": "A", "prompt_tokens": 324, "output_tokens": 117}
+{"id": "g182", "gold": "D", "step": "Organic Chemistry", "sample": 0, "pred": null, "prompt_tokens": 161, "output_tokens": 2048}
+{"id": "g182", "gold": "D", "step": "Organic Chemistry", "sample": 1, "pred": "B", "prompt_tokens": 161, "output_tokens": 246}
+{"id": "g182", "gold": "D", "step": "Organic Chemistry", "sample": 2, "pred": "D", "prompt_tokens": 161, "output_tokens": 571}
+{"id": "g182", "gold": "D", "step": "Organic Chemistry", "sample": 3, "pred": "D", "prompt_tokens": 161, "output_tokens": 245}
+{"id": "g182", "gold": "D", "step": "Organic Chemistry", "sample": 4, "pred": "D", "prompt_tokens": 161, "output_tokens": 233}
+{"id": "g182", "gold": "D", "step": "Organic Chemistry", "sample": 5, "pred": "D", "prompt_tokens": 161, "output_tokens": 460}
+{"id": "g183", "gold": "C", "step": "Organic Chemistry", "sample": 0, "pred": "C", "prompt_tokens": 487, "output_tokens": 548}
+{"id": "g183", "gold": "C", "step": "Organic Chemistry", "sample": 1, "pred": "A", "prompt_tokens": 487, "output_tokens": 257}
+{"id": "g183", "gold": "C", "step": "Organic Chemistry", "sample": 2, "pred": "B", "prompt_tokens": 487, "output_tokens": 374}
+{"id": "g183", "gold": "C", "step": "Organic Chemistry", "sample": 3, "pred": "A", "prompt_tokens": 487, "output_tokens": 341}
+{"id": "g183", "gold": "C", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 487, "output_tokens": 308}
+{"id": "g183", "gold": "C", "step": "Organic Chemistry", "sample": 5, "pred": "B", "prompt_tokens": 487, "output_tokens": 622}
+{"id": "g184", "gold": "C", "step": "Quantum Mechanics", "sample": 0, "pred": "C", "prompt_tokens": 232, "output_tokens": 218}
+{"id": "g184", "gold": "C", "step": "Quantum Mechanics", "sample": 1, "pred": "C", "prompt_tokens": 232, "output_tokens": 489}
+{"id": "g184", "gold": "C", "step": "Quantum Mechanics", "sample": 2, "pred": "C", "prompt_tokens": 232, "output_tokens": 419}
+{"id": "g184", "gold": "C", "step": "Quantum Mechanics", "sample": 3, "pred": "C", "prompt_tokens": 232, "output_tokens": 334}
+{"id": "g184", "gold": "C", "step": "Quantum Mechanics", "sample": 4, "pred": "C", "prompt_tokens": 232, "output_tokens": 337}
+{"id": "g184", "gold": "C", "step": "Quantum Mechanics", "sample": 5, "pred": "C", "prompt_tokens": 232, "output_tokens": 558}
+{"id": "g185", "gold": "A", "step": "Organic Chemistry", "sample": 0, "pred": "A", "prompt_tokens": 254, "output_tokens": 227}
+{"id": "g185", "gold": "A", "step": "Organic Chemistry", "sample": 1, "pred": "A", "prompt_tokens": 254, "output_tokens": 194}
+{"id": "g185", "gold": "A", "step": "Organic Chemistry", "sample": 2, "pred": "A", "prompt_tokens": 254, "output_tokens": 215}
+{"id": "g185", "gold": "A", "step": "Organic Chemistry", "sample": 3, "pred": "C", "prompt_tokens": 254, "output_tokens": 250}
+{"id": "g185", "gold": "A", "step": "Organic Chemistry", "sample": 4, "pred": "B", "prompt_tokens": 254, "output_tokens": 235}
+{"id": "g185", "gold": "A", "step": "Organic Chemistry", "sample": 5, "pred": "A", "prompt_tokens": 254, "output_tokens": 249}
+{"id": "g186", "gold": "B", "step": "Astrophysics", "sample": 0, "pred": "D", "prompt_tokens": 373, "output_tokens": 463}
+{"id": "g186", "gold": "B", "step": "Astrophysics", "sample": 1, "pred": "C", "prompt_tokens": 373, "output_tokens": 516}
+{"id": "g186", "gold": "B", "step": "Astrophysics", "sample": 2, "pred": "B", "prompt_tokens": 373, "output_tokens": 425}
+{"id": "g186", "gold": "B", "step": "Astrophysics", "sample": 3, "pred": "A", "prompt_tokens": 373, "output_tokens": 359}
+{"id": "g186", "gold": "B", "step": "Astrophysics", "sample": 4, "pred": "A", "prompt_tokens": 373, "output_tokens": 1241}
+{"id": "g186", "gold": "B", "step": "Astrophysics", "sample": 5, "pred": "B", "prompt_tokens": 373, "output_tokens": 627}
+{"id": "g187", "gold": "C", "step": "Physics (general)", "sample": 0, "pred": "A", "prompt_tokens": 184, "output_tokens": 1738}
+{"id": "g187", "gold": "C", "step": "Physics (general)", "sample": 1, "pred": "D", "prompt_tokens": 184, "output_tokens": 748}
+{"id": "g187", "gold": "C", "step": "Physics (general)", "sample": 2, "pred": "B", "prompt_tokens": 184, "output_tokens": 436}
+{"id": "g187", "gold": "C", "step": "Physics (general)", "sample": 3, "pred": "A", "prompt_tokens": 184, "output_tokens": 646}
+{"id": "g187", "gold": "C", "step": "Physics (general)", "sample": 4, "pred": null, "prompt_tokens": 184, "output_tokens": 355}
+{"id": "g187", "gold": "C", "step": "Physics (general)", "sample": 5, "pred": "A", "prompt_tokens": 184, "output_tokens": 322}
+{"id": "g188", "gold": "B", "step": "High-energy particle physics", "sample": 0, "pred": "D", "prompt_tokens": 135, "output_tokens": 207}
+{"id": "g188", "gold": "B", "step": "High-energy particle physics", "sample": 1, "pred": "D", "prompt_tokens": 135, "output_tokens": 281}
+{"id": "g188", "gold": "B", "step": "High-energy particle physics", "sample": 2, "pred": "D", "prompt_tokens": 135, "output_tokens": 359}
+{"id": "g188", "gold": "B", "step": "High-energy particle physics", "sample": 3, "pred": "D", "prompt_tokens": 135, "output_tokens": 242}
+{"id": "g188", "gold": "B", "step": "High-energy particle physics", "sample": 4, "pred": "D", "prompt_tokens": 135, "output_tokens": 246}
+{"id": "g188", "gold": "B", "step": "High-energy particle physics", "sample": 5, "pred": "D", "prompt_tokens": 135, "output_tokens": 256}
+{"id": "g189", "gold": "D", "step": "Organic Chemistry", "sample": 0, "pred": "B", "prompt_tokens": 342, "output_tokens": 301}
+{"id": "g189", "gold": "D", "step": "Organic Chemistry", "sample": 1, "pred": "B", "prompt_tokens": 342, "output_tokens": 276}
+{"id": "g189", "gold": "D", "step": "Organic Chemistry", "sample": 2, "pred": "D", "prompt_tokens": 342, "output_tokens": 294}
+{"id": "g189", "gold": "D", "step": "Organic Chemistry", "sample": 3, "pred": "B", "prompt_tokens": 342, "output_tokens": 500}
+{"id": "g189", "gold": "D", "step": "Organic Chemistry", "sample": 4, "pred": "D", "prompt_tokens": 342, "output_tokens": 296}
+{"id": "g189", "gold": "D", "step": "Organic Chemistry", "sample": 5, "pred": "B", "prompt_tokens": 342, "output_tokens": 373}
+{"id": "g190", "gold": "C", "step": "Organic Chemistry", "sample": 0, "pred": null, "prompt_tokens": 335, "output_tokens": 2048}
+{"id": "g190", "gold": "C", "step": "Organic Chemistry", "sample": 1, "pred": "C", "prompt_tokens": 335, "output_tokens": 318}
+{"id": "g190", "gold": "C", "step": "Organic Chemistry", "sample": 2, "pred": "C", "prompt_tokens": 335, "output_tokens": 445}
+{"id": "g190", "gold": "C", "step": "Organic Chemistry", "sample": 3, "pred": "D", "prompt_tokens": 335, "output_tokens": 412}
+{"id": "g190", "gold": "C", "step": "Organic Chemistry", "sample": 4, "pred": "C", "prompt_tokens": 335, "output_tokens": 533}
+{"id": "g190", "gold": "C", "step": "Organic Chemistry", "sample": 5, "pred": "D", "prompt_tokens": 335, "output_tokens": 425}
+{"id": "g191", "gold": "B", "step": "Electromagnetism and Photonics", "sample": 0, "pred": "D", "prompt_tokens": 373, "output_tokens": 424}
+{"id": "g191", "gold": "B", "step": "Electromagnetism and Photonics", "sample": 1, "pred": "A", "prompt_tokens": 373, "output_tokens": 259}
+{"id": "g191", "gold": "B", "step": "Electromagnetism and Photonics", "sample": 2, "pred": "D", "prompt_tokens": 373, "output_tokens": 541}
+{"id": "g191", "gold": "B", "step": "Electromagnetism and Photonics", "sample": 3, "pred": "C", "prompt_tokens": 373, "output_tokens": 342}
+{"id": "g191", "gold": "B", "step": "Electromagnetism and Photonics", "sample": 4, "pred": "A", "prompt_tokens": 373, "output_tokens": 277}
+{"id": "g191", "gold": "B", "step": "Electromagnetism and Photonics", "sample": 5, "pred": "B", "prompt_tokens": 373, "output_tokens": 180}
+{"id": "g192", "gold": "B", "step": "Astrophysics", "sample": 0, "pred": "D", "prompt_tokens": 176, "output_tokens": 186}
+{"id": "g192", "gold": "B", "step": "Astrophysics", "sample": 1, "pred": "A", "prompt_tokens": 176, "output_tokens": 175}
+{"id": "g192", "gold": "B", "step": "Astrophysics", "sample": 2, "pred": "D", "prompt_tokens": 176, "output_tokens": 277}
+{"id": "g192", "gold": "B", "step": "Astrophysics", "sample": 3, "pred": "A", "prompt_tokens": 176, "output_tokens": 191}
+{"id": "g192", "gold": "B", "step": "Astrophysics", "sample": 4, "pred": "D", "prompt_tokens": 176, "output_tokens": 997}
+{"id": "g192", "gold": "B", "step": "Astrophysics", "sample": 5, "pred": "A", "prompt_tokens": 176, "output_tokens": 182}
+{"id": "g193", "gold": "B", "step": "Physics (general)", "sample": 0, "pred": null, "prompt_tokens": 267, "output_tokens": 395}
+{"id": "g193", "gold": "B", "step": "Physics (general)", "sample": 1, "pred": "B", "prompt_tokens": 267, "output_tokens": 406}
+{"id": "g193", "gold": "B", "step": "Physics (general)", "sample": 2, "pred": null, "prompt_tokens": 267, "output_tokens": 542}
+{"id": "g193", "gold": "B", "step": "Physics (general)", "sample": 3, "pred": null, "prompt_tokens": 267, "output_tokens": 2048}
+{"id": "g193", "gold": "B", "step": "Physics (general)", "sample": 4, "pred": null, "prompt_tokens": 267, "output_tokens": 1289}
+{"id": "g193", "gold": "B", "step": "Physics (general)", "sample": 5, "pred": null, "prompt_tokens": 267, "output_tokens": 2048}
+{"id": "g194", "gold": "A", "step": "Astrophysics", "sample": 0, "pred": "B", "prompt_tokens": 250, "output_tokens": 694}
+{"id": "g194", "gold": "A", "step": "Astrophysics", "sample": 1, "pred": "B", "prompt_tokens": 250, "output_tokens": 336}
+{"id": "g194", "gold": "A", "step": "Astrophysics", "sample": 2, "pred": "D", "prompt_tokens": 250, "output_tokens": 346}
+{"id": "g194", "gold": "A", "step": "Astrophysics", "sample": 3, "pred": "A", "prompt_tokens": 250, "output_tokens": 754}
+{"id": "g194", "gold": "A", "step": "Astrophysics", "sample": 4, "pred": null, "prompt_tokens": 250, "output_tokens": 2048}
+{"id": "g194", "gold": "A", "step": "Astrophysics", "sample": 5, "pred": "B", "prompt_tokens": 250, "output_tokens": 1489}
+{"id": "g195", "gold": "C", "step": "Physics (general)", "sample": 0, "pred": "C", "prompt_tokens": 272, "output_tokens": 905}
+{"id": "g195", "gold": "C", "step": "Physics (general)", "sample": 1, "pred": "C", "prompt_tokens": 272, "output_tokens": 452}
+{"id": "g195", "gold": "C", "step": "Physics (general)", "sample": 2, "pred": "A", "prompt_tokens": 272, "output_tokens": 310}
+{"id": "g195", "gold": "C", "step": "Physics (general)", "sample": 3, "pred": "C", "prompt_tokens": 272, "output_tokens": 444}
+{"id": "g195", "gold": "C", "step": "Physics (general)", "sample": 4, "pred": "C", "prompt_tokens": 272, "output_tokens": 618}
+{"id": "g195", "gold": "C", "step": "Physics (general)", "sample": 5, "pred": "B", "prompt_tokens": 272, "output_tokens": 257}
+{"id": "g196", "gold": "C", "step": "Organic Chemistry", "sample": 0, "pred": "B", "prompt_tokens": 307, "output_tokens": 247}
+{"id": "g196", "gold": "C", "step": "Organic Chemistry", "sample": 1, "pred": "B", "prompt_tokens": 307, "output_tokens": 329}
+{"id": "g196", "gold": "C", "step": "Organic Chemistry", "sample": 2, "pred": "B", "prompt_tokens": 307, "output_tokens": 289}
+{"id": "g196", "gold": "C", "step": "Organic Chemistry", "sample": 3, "pred": "A", "prompt_tokens": 307, "output_tokens": 308}
+{"id": "g196", "gold": "C", "step": "Organic Chemistry", "sample": 4, "pred": "B", "prompt_tokens": 307, "output_tokens": 409}
+{"id": "g196", "gold": "C", "step": "Organic Chemistry", "sample": 5, "pred": "B", "prompt_tokens": 307, "output_tokens": 376}
+{"id": "g197", "gold": "D", "step": "Chemistry (general)", "sample": 0, "pred": null, "prompt_tokens": 238, "output_tokens": 2048}
+{"id": "g197", "gold": "D", "step": "Chemistry (general)", "sample": 1, "pred": "C", "prompt_tokens": 238, "output_tokens": 378}
+{"id": "g197", "gold": "D", "step": "Chemistry (general)", "sample": 2, "pred": "C", "prompt_tokens": 238, "output_tokens": 564}
+{"id": "g197", "gold": "D", "step": "Chemistry (general)", "sample": 3, "pred": "B", "prompt_tokens": 238, "output_tokens": 942}
+{"id": "g197", "gold": "D", "step": "Chemistry (general)", "sample": 4, "pred": "D", "prompt_tokens": 238, "output_tokens": 1111}
+{"id": "g197", "gold": "D", "step": "Chemistry (general)", "sample": 5, "pred": "C", "prompt_tokens": 238, "output_tokens": 895}

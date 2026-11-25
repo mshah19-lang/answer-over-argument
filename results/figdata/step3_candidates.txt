@@ -1,0 +1,566 @@
+questions with >=1 abnormal clinical value: 109 / 300
+abnormal values by type: pulse 41, respirations 33, temperature C 21, leukocytes 16, bilirubin total 14, glucose 10, SpO2 9, gestational age 9, creatinine 8, hemoglobin 8, bicarbonate 5, ALT 5, BUN 5, potassium 4, PaCO2 4, AST 4, platelets 4, CD4 4, MCV 4, pH 3, alk phos 3, calcium 3, p-value 3, hematocrit 2, TSH 2, sodium 2, PaO2 2, HbA1c 2, chloride 1, CI vs 1 1, ferritin 1, ESR 1
+questions with an abnormal LAB / gestation / statistic (excluding vitals only): 63
+
+== q007  gold D: Staphylococcus aureus
+   Q end: ...count 8,900/mm3 Neutrophils 72% Bands 4% Eosinophils 2% Basophils 0% Lymphocytes 17% Monocytes 5% Platelet count 280,000/mm3 What is the most likely causal microorganism?
+   opts: A. Streptococcus pneumoniae | B. Mycobacterium tuberculosis | C. Haemophilus influenzae | D. Staphylococcus aureus
+   [vital] temperature C    38.4       high      -> flip 37.0      ctx: temperature 38.4°C (101
+== q008  gold D: Obstruction of the cystic duct
+   Q end: ...shows the intrahepatic bile ducts, hepatic ducts, common bile duct, and proximal small bowel. Which of the following is the most likely cause of this patient's symptoms?"
+   opts: A. Autodigestion of pancreatic parenchyma | B. Fistula between the gallbladder and small int | C. Infection with a hepatotropic virus | D. Obstruction of the cystic duct
+   [lab] leukocytes       14,000     high      -> flip 7,500     ctx: ies show: Leukocyte count 14,000/mm3 Serum T
+   [vital] temperature C    38.5       high      -> flip 37.0      ctx: temperature is 38.5°C (101
+== q011  gold A: Aldosterone excess
+   Q end: ... Na+: 138 mEq/L Cl-: 100 mEq/L K+: 3.3 mEq/L HCO3-: 33 mEq/L BUN: 20 mg/dL Glucose: 129 mg/dL  What is the most likely underlying etiology of this patient's hypertension?
+   opts: A. Aldosterone excess | B. Catecholamine-secreting mass | C. Cortisol excess | D. Impaired kidney perfusion
+   [lab] potassium        3.3        low       -> flip 4.2       ctx: 100 mEq/L K+: 3.3 mEq/L HCO3-
+   [lab] bicarbonate      33         high      -> flip 25        ctx: 3.3 mEq/L HCO3-: 33 mEq/L BUN: 
+   [lab] glucose          129        high      -> flip 90        ctx:  20 mg/dL Glucose: 129 mg/dL  What
+== q017  gold C: Thoracic aortic rupture
+   Q end: ... depression of the left mainstem bronchus, deviation of the nasogastric tube to the right, and a widened mediastinum. Which of the following is the most likely diagnosis?
+   opts: A. Diaphragmatic rupture | B. Traumatic bronchial rupture | C. Thoracic aortic rupture | D. Tension pneumothorax
+   [vital] pulse            130        high      -> flip 80        ctx: pulse is 130/min, res
+   [vital] respirations     29         high      -> flip 16        ctx: respirations are 29/min, and
+   [vital] SpO2             70         low       -> flip 98        ctx: oxygen saturation of 70%. Exa
+== q019  gold A: Autosomal dominant
+   Q end: ...isingly, the test results come back within normal parameters. The most likely underlying cause of this patient's symptoms has which of the following modes of inheritance?
+   opts: A. Autosomal dominant | B. Autosomal partial dominance | C. X-linked dominant | D. X-linked recessive
+   [vital] pulse            102        high      -> flip 80        ctx: pulse is 102/min, res
+   [vital] respirations     21         high      -> flip 16        ctx: respirations are 21/min, and
+== q021  gold A: Myxedema coma
+   Q end: ...um 4.0 mEq/L Sodium 120 mEq/L TSH 110.0 µU/mL Thyroxine (T4) 1.2 µg/dL Triiodothyronine (T3) 70 ng/dL Which of the following is the most likely diagnosis in this patient?
+   opts: A. Myxedema coma | B. Pheochromocytoma crisis | C. Septic shock | D. Tertiary hyperparathyroidism
+   [lab] hematocrit       34         low       -> flip 42        ctx: 9.0 mg/dL Hematocrit (female) 34% Potassium 
+   [lab] TSH              110.0      high      -> flip 2.0       ctx: 120 mEq/L TSH 110.0 µU/mL Thyro
+   [vital] temperature C    33.0       low       -> flip 37.0      ctx: temperature, 33.0°C (91.
+   [vital] pulse            40         low       -> flip 80        ctx: pulse, 40/min; res
+   [vital] SpO2             85         low       -> flip 98        ctx: oxygen saturation, 85% on r
+== q022  gold C: Bacterial translocation
+   Q end: .../dL, glucose concentration of 62 mg/dL, and a leukocyte count of 1900/mm3 with 60% neutrophils. Which of the following is the most likely explanation for these findings?"
+   opts: A. Aseptic peritoneal inflammation | B. Neoplastic growth | C. Bacterial translocation | D. Perforated viscus
+   [lab] glucose          62         low       -> flip 90        ctx: 0.8 g/dL, glucose concentration of 62 mg/dL, and 
+   [lab] leukocytes       13,900     high      -> flip 7,500     ctx: 12.6 g/dL Leukocyte count 13,900/mm3 Platele
+   [lab] leukocytes       1900       low       -> flip 7500      ctx: dL, and a leukocyte count of 1900/mm3 with 60
+   [lab] ALT              44         high      -> flip 25        ctx: ST 17 U/L ALT 44 U/L Paracen
+   [lab] bilirubin total  2.56       high      -> flip 0.70      ctx:  2.6 g/dL Total bilirubin 2.56 mg/dL Alkal
+   [vital] temperature C    38.3       high      -> flip 37.0      ctx: temperature is 38.3°C (100
+   [vital] pulse            101        high      -> flip 80        ctx: pulse is 101/min, and
+== q023  gold C: Metformin
+   Q end: ... below:  Na+: 139 mEq/L Cl-: 106 mEq/L HCO3-: 11 mEq/L pH: 7.25 pCO2: 22 mmHg  Which of the following is the most likely cause of the changes seen in this patient's labs?
+   opts: A. Anxiety | B. Diarrhea | C. Metformin | D. Sleep apnea
+   [lab] chloride         106        high      -> flip 100       ctx: 139 mEq/L Cl-: 106 mEq/L HCO3-
+   [lab] bicarbonate      11         low       -> flip 25        ctx: 106 mEq/L HCO3-: 11 mEq/L pH: 7
+   [lab] pH               7.25       low       -> flip 7.40      ctx:  11 mEq/L pH: 7.25 pCO2: 22 mm
+   [lab] PaCO2            22         low       -> flip 40        ctx:  pH: 7.25 pCO2: 22 mmHg  Which
+== q025  gold C: Metformin
+   Q end: ...Eq/L HCO3-: 11 mEq/L BUN: 20 mg/dL Glucose: 177 mg/dL Creatinine: 3.1 mg/dL  Which of the following is the most likely etiology of this patient's laboratory derangements?
+   opts: A. Acyclovir | B. Atorvastatin | C. Metformin | D. Metoprolol
+   [lab] bicarbonate      11         low       -> flip 25        ctx: 4.8 mEq/L HCO3-: 11 mEq/L BUN: 
+   [lab] glucose          177        high      -> flip 90        ctx:  20 mg/dL Glucose: 177 mg/dL Creat
+   [lab] creatinine       3.1        high      -> flip 0.9       ctx: 177 mg/dL Creatinine: 3.1 mg/dL  Whic
+== q026  gold D: Chronic obstructive pulmonary disease
+   Q end: ...acity of 110% of predicted value, a residual volume of 115% of predicted value, and a DLCO of 60% of predicted value. Which of the following is the most likely diagnosis?
+   opts: A. Asbestosis | B. Idiopathic pulmonary fibrosis | C. Bronchiectasis | D. Chronic obstructive pulmonary disease
+   [lab] bilirubin total  110        high      -> flip 1         ctx: es show a total lung capacity of 110% of predict
+== q028  gold D: Uterine artery
+   Q end: ...peration. Renal ultrasound is normal. Urinalysis is notable for hematuria. Ligation of which of the following vessels most likely contributed to this patient’s condition?
+   opts: A. Artery of Sampson | B. Ovarian artery | C. Superior vesical artery | D. Uterine artery
+   [lab] creatinine       1.4        high      -> flip 0.9       ctx: ia. Serum creatinine is found to be 1.4 mg/dl where
+== q030  gold B: Biliary atresia
+   Q end: ...12.3 mg/dL Alkaline phosphatase 2007 U/L AST 53 U/L ALT 45 U/L γ-glutamyl transferase 154 U/L Blood group A positive Which of the following is the most likely diagnosis?"
+   opts: A. Galactosemia | B. Biliary atresia | C. Crigler–Najjar syndrome | D. Breast milk jaundice
+   [lab] AST              53         high      -> flip 25        ctx:  2007 U/L AST 53 U/L ALT 45 
+   [lab] ALT              45         high      -> flip 25        ctx: ST 53 U/L ALT 45 U/L γ-gluta
+   [lab] alk phos         2007       high      -> flip 70        ctx: 2.3 mg/dL Alkaline phosphatase 2007 U/L AST 53 
+   [lab] bilirubin total  15         high      -> flip 1         ctx: ies show: Bilirubin Total 15 mg/dL Direc
+== q035  gold C: Amoxicilin
+   Q end: ...the fetus is reassuring with a normal heartbeat and no gross abnormalities. A specimen is collected to test for Lyme disease. What is the next best step for this patient?
+   opts: A. Ibuprofen | B. Tetracycline | C. Amoxicilin | D. Gentamicin
+   [gest] gestational age  28         preterm   -> flip 39        ctx: 28 weeks gestation
+== q036  gold A: MRI of the adrenal glands
+   Q end: ...) 2 pg/mL (> 5 pg/mL)  A 48-hour high dose dexamethasone suppression trial shows that her serum cortisol levels do not decrease. What is the best next step in management?
+   opts: A. MRI of the adrenal glands | B. MRI of the chest | C. Low dose dexamethasone suppression test | D. Inferior petrosal sinus sampling
+   [lab] glucose          314        high      -> flip 90        ctx:  20 mg/dL Glucose: 314 mg/dL Creat
+== q038  gold D: Normal light microscopy findings
+   Q end: ...mg/dL Urine Blood negative Glucose negative Protein 4+ Leukocyte esterase negative A renal biopsy of this patient is most likely to show which of the following findings?"
+   opts: A. Mesangial proliferation on light microscopy | B. Subepithelial dense deposits on electron micr | C. Deposits of IgG and C3 at the glomerular base | D. Normal light microscopy findings
+   [lab] bilirubin total  270        high      -> flip 1         ctx:  2.1 g/dL Total cholesterol 270 mg/dL Trigl
+   [vital] pulse            107        high      -> flip 80        ctx: pulse is 107/min, and
+== q041  gold A: Levofloxacin
+   Q end: ...Urea nitrogen 18 mg/dL Creatinine 1.2 mg/dL An x-ray of the chest shows patchy infiltrates in both lungs. Which of the following is the most appropriate pharmacotherapy?"
+   opts: A. Levofloxacin | B. Trimethoprim/sulfamethoxazole | C. Amoxicillin | D. Rifampin
+   [lab] sodium           131        low       -> flip 140       ctx: mm3 Serum Na+ 131 mEq/L Cl- 1
+   [lab] leukocytes       16,000     high      -> flip 7,500     ctx: 13.8 g/dL Leukocyte count 16,000/mm3 Platele
+== q042  gold C: Chickenpox
+   Q end: ... his abdomen and back. There is no cervical lymphadenopathy. The remainder of the examination shows no abnormalities. Which of the following is the most likely diagnosis?
+   opts: A. Measles | B. Urushiol-induced dermatitis | C. Chickenpox | D. Rubella
+   [vital] temperature C    38.2       high      -> flip 37.0      ctx: temperature is 38.2°C (100
+== q044  gold A: Positive latex agglutination test
+   Q end: ...e cerebrospinal fluid (CSF) can be cultured on Sabouraud agar. Further evaluation of this patient's CSF is most likely to show which of the following additional findings?
+   opts: A. Positive latex agglutination test | B. Positive PCR for HSV-2 DNA | C. Presence of tachyzoites | D. Increased adenosine deaminase concentration
+   [vital] temperature C    38.5       high      -> flip 37.0      ctx: temperature is 38.5°C (101
+== q047  gold D: Needle decompression
+   Q end: ...venous distention. Decreased breath sounds and hyperresonance on percussion are noted on the left. Which of the following is the most appropriate next step in management?
+   opts: A. CT scan of the chest | B. Bronchoscopy | C. Emergency thoracotomy | D. Needle decompression
+   [vital] respirations     28         high      -> flip 16        ctx: respirations are 28/min, and
+   [vital] SpO2             88         low       -> flip 98        ctx: oxygen saturation of 88%. He 
+== q054  gold A: Calcium oxalate crystals
+   Q end: ...show an elevated serum creatinine (Cr) of 1.9 mg/dL, and blood urea nitrogen (BUN) of 29 mg/dL. Which of the following findings would be expected in this patient’s urine?
+   opts: A. Calcium oxalate crystals | B. Hyaline casts | C. Urine ketones | D. Urate crystals
+   [lab] creatinine       1.9        high      -> flip 0.9       ctx: ted serum creatinine (Cr) of 1.9 mg/dL, and 
+   [lab] BUN              29         high      -> flip 14        ctx: and blood urea nitrogen (BUN) of 29 mg/dL. Whic
+   [vital] pulse            120        high      -> flip 80        ctx: heart rate 120/min, res
+   [vital] respirations     22         high      -> flip 16        ctx: respiratory rate 22/min, and
+== q060  gold C: Dilation and curettage
+   Q end: ...ation. Ultrasonography shows an embryo of 4 cm in crown-rump length and no fetal cardiac activity. Which of the following is the most appropriate next step in management?
+   opts: A. Misoprostol therapy | B. Methotrexate therapy | C. Dilation and curettage | D. Complete bed rest
+   [vital] pulse            110        high      -> flip 80        ctx: pulse is 110/min, and
+   [gest] gestational age  12         preterm   -> flip 39        ctx: 12 weeks' gestation
+== q063  gold A: Chikungunya
+   Q end: ...: 0.9 mg/dL AST: 106 U/L ALT: 112 U/L Bilirubin (total): 0.8 mg/dL Bilirubin (conjugated): 0.3 mg/dL  Which of the following is the most likely diagnosis in this patient?
+   opts: A. Chikungunya | B. Dengue fever | C. Epstein-Barr virus | D. Hepatitis A
+   [lab] leukocytes       3,200      low       -> flip 7,500     ctx: crit: 44% Leukocyte count: 3,200/mm^3 Platel
+   [lab] platelets        112,000    low       -> flip 250,000   ctx: ,200/mm^3 Platelet count: 112,000/mm^3  Serum
+   [lab] AST              106        high      -> flip 25        ctx: 0.9 mg/dL AST: 106 U/L ALT: 11
+   [lab] ALT              112        high      -> flip 25        ctx: : 106 U/L ALT: 112 U/L Bilirub
+   [vital] pulse            105        high      -> flip 80        ctx: pulse is 105/min, res
+== q064  gold D: Treating the underlying illness
+   Q end: ... free   0.1 ng/dL T4, free   0.9 ng/dL Repeat blood cultures are negative. A chest X-ray shows no abnormalities. Which of the following is the most appropriate treatment?
+   opts: A. Bromocriptine | B. Levothyroxine | C. Removing toxic drugs | D. Treating the underlying illness
+   [lab] creatinine       1.4        high      -> flip 0.9       ctx: /dL Serum Creatinine 1.4 mg/dL 0.9 m
+   [lab] leukocytes       18,500     high      -> flip 7,500     ctx: tal day 3 Leukocyte count 18,500/mm3 10,300/
+== q065  gold C: Secretion of γ-interferon by activated T-lymphocytes
+   Q end: ... formation and large CD15-positive, CD30-positive cells with bilobed nuclei. Which of the following is the most likely explanation for this patient's laboratory findings?
+   opts: A. Excessive intake of dietary ergocalciferol | B. Induction of focal osteolysis by tumor cells | C. Secretion of γ-interferon by activated T-lymp | D. Production of PTH-related peptide by malignan
+   [lab] calcium          15.1       high      -> flip 9.4       ctx: His serum calcium concentration is 15.1 mg/dL and p
+== q067  gold C: Increase PEEP
+   Q end: ...ies. Arterial blood gas analysis shows: pH 7.44 pO2 54 mm Hg pCO2 31 mm Hg HCO3- 22 mm Hg Which of the following is the best next step in the management of this patient?"
+   opts: A. Increase the FiO2 | B. Increase the tidal volume | C. Increase PEEP | D. Increase the respiratory rate
+   [lab] PaCO2            31         low       -> flip 40        ctx:  54 mm Hg pCO2 31 mm Hg HCO3-
+   [lab] PaO2             54         low       -> flip 90        ctx: : pH 7.44 pO2 54 mm Hg pCO2 
+== q068  gold D: Azithromycin and ethambutol
+   Q end: ... cultures grow acid-fast organisms. A PPD skin test shows 4 mm of induration. Which of the following is the most appropriate pharmacotherapy for this patient's condition?
+   opts: A. Voriconazole | B. Amphotericin B and itraconazole | C. Erythromycin | D. Azithromycin and ethambutol
+   [lab] CD4              49         low       -> flip 800       ctx: rgin. His CD4+ T-lymphocyte count is 49/mm3 (N ≥ 50
+   [vital] temperature C    38.3       high      -> flip 37.0      ctx: temperature is 38.3°C (100
+== q071  gold D: ↓ ↑ ↓
+   Q end: ...centration. Which of the following sets of additional laboratory findings is most likely in this patient?  $$$ Serum osmolality %%% Urine sodium %%% Serum aldosterone $$$
+   opts: A. ↓ ↓ ↓ | B. ↑ ↓ normal | C. ↓ ↑ ↑ | D. ↓ ↑ ↓
+   [lab] sodium           119        low       -> flip 140       ctx: w a serum sodium of 119 mEq/L and a
+== q074  gold B: No tests required
+   Q end: ...in 0.8 mg/dL(15 µmol/L) Plasma creatinine 0.7 mg/dL (61.9 µmol/L) Which of the following tests are indicated to determine the cause of the abnormal dipstick test results?
+   opts: A. HbA1c measurement | B. No tests required | C. Urinalysis | D. Oral glucose tolerance test
+   [gest] gestational age  16         preterm   -> flip 39        ctx: 16 weeks gestation
+== q076  gold A: Streptococcus pneumoniae
+   Q end: ... and platelet count is 289,000/mm3. An x-ray of the chest shows a right upper-lobe infiltrate. Which of the following is the most likely cause of this patient's symptoms?
+   opts: A. Streptococcus pneumoniae | B. Mycoplasma pneumoniae | C. Chlamydophila pneumoniae | D. Haemophilus influenzae
+   [lab] leukocytes       15,000     high      -> flip 7,500     ctx: 3.3 g/dL, leukocyte count is 15,000/mm3, and pl
+   [vital] temperature C    38.7       high      -> flip 37.0      ctx: temperature is 38.7°C (101
+   [vital] pulse            109        high      -> flip 80        ctx: pulse is 109/min, res
+   [vital] respirations     27         high      -> flip 16        ctx: respirations are 27/min, and
+   [vital] SpO2             93         low       -> flip 98        ctx: oxygen saturation of 93%. The
+== q077  gold C: Start him on both hydrocortisone and fludrocortisone therapy
+   Q end: ... discoloration to his skin, but he denies being outside in the sun or any history of laying in tanning beds. What is the next best step in the management of this patient?
+   opts: A. Administer intravenous fludrocortisone | B. Start him on androgen replacement treatment | C. Start him on both hydrocortisone and fludroco | D. Order an ACTH stimulation test
+   [vital] respirations     21         high      -> flip 16        ctx: respirations are 21/min, pul
+== q078  gold A: Doxycycline
+   Q end: ...f his normal predicted value. He is started on oxygen and a dose of oral prednisone. At this time, which of the following should also be considered as a treatment option?
+   opts: A. Doxycycline | B. Ciprofloxacin | C. Erythromycin | D. Antibiotics would not be appropriate at this 
+   [vital] temperature C    38.6       high      -> flip 37.0      ctx: temperature is 38.6°C (101
+   [vital] pulse            115        high      -> flip 80        ctx: pulse is 115/min. Sli
+   [vital] respirations     22         high      -> flip 16        ctx: respirations are 22/min, the
+== q088  gold D: Intubation and mechanical ventilation
+   Q end: ...ty. There are 2 lacerations around 2 cm (0.8 in) each on the right leg. The right knee is swollen. Which of the following is the most appropriate next step in management?
+   opts: A. Insertion of intercostal chest tube | B. CT scan of the head and neck | C. X-rays of the extremities | D. Intubation and mechanical ventilation
+   [vital] respirations     10         low       -> flip 16        ctx: respirations are 10/min, and
+== q091  gold A: Clonidine
+   Q end: ...ficult to place an IV in this patient. During the exam, he begins actively vomiting. Which of the following could be an appropriate treatment for this patient’s symptoms?
+   opts: A. Clonidine | B. Diazepam taper | C. Haloperidol and diphenhydramine | D. Oseltamivir
+   [vital] pulse            107        high      -> flip 80        ctx: pulse is 107/min, res
+== q093  gold B: Incision and drainage with intravenous ampicillin-sulbactam therapy
+   Q end: ...138 mEq/L Cl- 100 mEq/L K+ 4.5 mEq/L HCO3- 24 mEq/L Urea nitrogen 14.0 mg/dL Creatinine 1.1 mg/dL Which of the following is the most appropriate next step in management?"
+   opts: A. Intravenous dexamethasone therapy | B. Incision and drainage with intravenous ampici | C. Needle aspiration and oral clindamycin therap | D. Intravenous ampicillin-sulbactam therapy
+   [lab] leukocytes       12,000     high      -> flip 7,500     ctx: ocrit 39% Leukocyte count 12,000/mm3 Platele
+   [vital] temperature C    38.2       high      -> flip 37.0      ctx: temperature is 38.2°C (100
+== q094  gold C: Renin
+   Q end: ...am is shown in the picture where the green dotted line represents the new fluid status. Which of the following is most likely to show increased secretion in this patient?
+   opts: A. B-type natriuretic peptide | B. Bradykinin | C. Renin | D. Vasoactive intestinal peptide
+   [vital] pulse            110        high      -> flip 80        ctx: pulse rate is 110/min, blo
+== q095  gold B: Exchange transfusion
+   Q end: ...'s upper and lower extremity. A CT scan of the head does not demonstrate an intracranial bleed. Which of the following is the most appropriate treatment for this patient?
+   opts: A. Alteplase | B. Exchange transfusion | C. Heparin | D. Warfarin
+   [vital] pulse            110        high      -> flip 80        ctx: pulse is 110/min, res
+== q096  gold B: Hydrochlorothiazide
+   Q end: ...: 31 mEq/L BUN: 20 mg/dL Glucose: 120 mg/dL Creatinine: 1.2 mg/dL Ca2+: 10.9 mg/dL  Which of the following is the best explanation of this patient's current presentation?
+   opts: A. Furosemide | B. Hydrochlorothiazide | C. Renal tubular acidosis type II | D. Renal tubular acidosis type IV
+   [lab] potassium        3.2        low       -> flip 4.2       ctx: 137 mEq/L K+: 3.2 mEq/L Cl-: 
+   [lab] bicarbonate      31         high      -> flip 25        ctx: 100 mEq/L HCO3-: 31 mEq/L BUN: 
+   [lab] calcium          10.9       high      -> flip 9.4       ctx: 1.2 mg/dL Ca2+: 10.9 mg/dL  Whic
+   [lab] glucose          120        high      -> flip 90        ctx:  20 mg/dL Glucose: 120 mg/dL Creat
+== q099  gold C: Chronic obstructive pulmonary disease
+   Q end: ...of predicted, and a total lung capacity of 125% of predicted. The diffusion capacity of the lung (DLCO) is decreased. Which of the following is the most likely diagnosis?
+   opts: A. Interstitial lung disease | B. Hypersensitivity pneumonitis | C. Chronic obstructive pulmonary disease | D. Bronchiectasis
+   [lab] bilirubin total  125        high      -> flip 1         ctx: ed, and a total lung capacity of 125% of predict
+   [vital] respirations     21         high      -> flip 16        ctx: respirations are 21/min, and
+== q100  gold A: Wrap the intestines in a sterile bowel bag
+   Q end: ..., and his respirations are 45/min. All reflexes appear normal. There are no other visible defects. Which of the following is the most appropriate next step in management?
+   opts: A. Wrap the intestines in a sterile bowel bag | B. Transfer the newborn to the NICU | C. Start IV fluids | D. Transfer the newborn for immediate surgery
+   [vital] pulse            125        high      -> flip 80        ctx: heart rate is 125/min, and
+   [vital] respirations     45         high      -> flip 16        ctx: respirations are 45/min. All
+== q103  gold C: Iron supplementation
+   Q end: ...telet count 290,000/mm3 Red cell distribution width 18% (N = 13%–15%) Leukocyte count 7,000/mm3 Which of the following is the most appropriate initial step in treatment?"
+   opts: A. Regular blood transfusions | B. Methylphenidate | C. Iron supplementation | D. Allogenic stem cell transplantation
+   [lab] hemoglobin       11.5       low       -> flip 14.0      ctx: ies show: Hemoglobin 11.5 g/dL Mean c
+   [lab] MCV              76         low       -> flip 90        ctx: 11.5 g/dL Mean corpuscular volume 76 μm3 Platele
+== q105  gold A: Intravenous thiamine
+   Q end: ...tudies show: Hemoglobin 11 g/dL Mean corpuscular volume 110 μm3 Platelet count 280,000/mm3 Which of the following is most appropriate initial treatment for this patient?"
+   opts: A. Intravenous thiamine | B. Oral naltrexone | C. Intravenous vitamin B12 | D. Intravenous glucose
+"
+   [lab] hemoglobin       11         low       -> flip 14        ctx: ies show: Hemoglobin 11 g/dL Mean c
+   [lab] MCV              110        high      -> flip 90        ctx: n 11 g/dL Mean corpuscular volume 110 μm3 Platele
+== q113  gold C: Carotid baroreceptor firing activity
+   Q end: ...nted to person but not to place or time. Which of the following is most likely decreased in this patient in response to his current condition compared to a healthy adult?
+   opts: A. Systemic vascular resistance | B. Fractional tissue oxygen extraction | C. Carotid baroreceptor firing activity | D. Cardiac inotropy
+   [vital] pulse            122        high      -> flip 80        ctx: pulse is 122/min, and
+== q116  gold B: It is a diagnosis of exclusion
+   Q end: ...nds Total bilirubin 5 mg/dL Alanine aminotransferase (ALT) 100 U/L Aspartate aminotransferase (AST) 220 U/L Which of the following is a feature of this patient condition?
+   opts: A. Ammonia level is the best initial test to con | B. It is a diagnosis of exclusion | C. It only occurs in patients with cirrhosis | D. Electroencephalography (EEG) usually shows fo
+   [lab] AST              220        high      -> flip 25        ctx: ) 100 U/L Aspartate aminotransferase (AST) 220 U/L Which o
+   [lab] ALT              100        high      -> flip 25        ctx: n 5 mg/dL Alanine aminotransferase (ALT) 100 U/L Asparta
+   [lab] bilirubin total  2          high      -> flip 1         ctx: wn below: Total albumin 2 g/dL Prothr
+   [lab] bilirubin total  5          high      -> flip 1         ctx: 9 seconds Total bilirubin 5 mg/dL Alani
+   [vital] pulse            112        high      -> flip 80        ctx: heart rate is 112/min, tem
+== q119  gold A: μ, κ, and ẟ receptor antagonist
+   Q end: ...ils appear pinpoint. The patient is given a drug to improve his symptoms. Which of the following is the mechanism of action of the drug that was most likely administered?
+   opts: A. μ, κ, and ẟ receptor antagonist | B. μ receptor agonist | C. к receptor agonist and μ receptor antagonist | D. μ receptor partial agonist and к receptor ago
+   [vital] respirations     8          low       -> flip 16        ctx: respiratory rate is 8/min and 
+== q120  gold A: Sarcoidosis
+   Q end: ...ination shows no abnormalities. A complete blood count is within the reference range. An x-ray of the chest is shown. Which of the following is the most likely diagnosis?
+   opts: A. Sarcoidosis | B. Pulmonary tuberculosis | C. Hodgkin's lymphoma | D. Histoplasmosis
+   [vital] respirations     24         high      -> flip 16        ctx: respirations are 24/min, and
+== q121  gold C: Reidel thyroiditis
+   Q end: ...adionuclide thyroid scanning indicates that the nodule has low radioactive iodine uptake. Which of the following is the most likely pathology to be found in this patient?
+   opts: A. Anaplastic carcinoma | B. Medullary carcinoma | C. Reidel thyroiditis | D. Silent thyroiditis
+   [lab] TSH              6.3        high      -> flip 2.0       ctx: /dL and a TSH level of 6.3 mU/L. A rad
+== q123  gold A: Increase in false negative test results
+   Q end: ...ingle hemoglobin A1c value of greater than 6.5% is diagnostic of diabetes mellitus. If this 6.5% cut-off is to be increased to 7.0%, which of the following would be true?
+   opts: A. Increase in false negative test results | B. Increase in false positive test results | C. Decrease in true negative test results | D. Increase in true positive test results
+   [lab] HbA1c            6.5        high      -> flip 5.2       ctx:  a single hemoglobin A1c value of greater than 6.5% is diagnos
+== q128  gold C: Phosphoinositol system
+   Q end: ...pium bromide, which results in significant clinical improvement. Which of the following second messenger systems is affected by the drug that improved the boy's symptoms?
+   opts: A. Cyclic guanosine monophosphate (cGMP) system | B. Arachidonic acid system | C. Phosphoinositol system | D. Tyrosine kinase system
+   [vital] pulse            120        high      -> flip 80        ctx: pulse is 120/min, the
+   [vital] respirations     32         high      -> flip 16        ctx: respiratory rate is 32/min. Aus
+== q131  gold D: Adaptation in binding proteins
+   Q end: ...-grade fever, pain, and purulent discharge. Which of the following characteristics of the infecting organism best explains the failure to improve with antibiotic therapy?
+   opts: A. Presence of an impenetrable outer membrane | B. Ability to cleave β-lactam rings | C. Development of efflux pumps | D. Adaptation in binding proteins
+   [vital] temperature C    39.5       high      -> flip 37.0      ctx: temperature is 39.5°C (103
+== q133  gold B: Citrate
+   Q end: ...oacetate as a pesticide, which is known to form fluorocitrate in the cells of aerobic organisms. Which of the following substances will accumulate in the patient’s cells?
+   opts: A. Fumarate | B. Citrate | C. Malate | D. Succinate
+   [vital] pulse            104        high      -> flip 80        ctx: heart rate is 104/min, res
+   [vital] respirations     10         low       -> flip 16        ctx: respiratory rate is 10/min, and
+== q134  gold D: Cefepime and levofloxacin
+   Q end: ...in shows gram-negative rods. Two large bore cannulas are inserted and intravenous fluids are administered. Which of the following is the most appropriate pharmacotherapy?
+   opts: A. Ceftriaxone and azithromycin | B. Ertapenem | C. Colistin | D. Cefepime and levofloxacin
+   [vital] temperature C    39.1       high      -> flip 37.0      ctx: temperature is 39.1°C (103
+   [vital] pulse            112        high      -> flip 80        ctx: pulse is 112/min, res
+   [vital] respirations     32         high      -> flip 16        ctx: respirations are 32/min, and
+   [vital] SpO2             88         low       -> flip 98        ctx: oxygen saturation of 88%. Pul
+== q137  gold A: Anaphylactic transfusion reactions
+   Q end: ...c to percussion. Bowel sounds are increased. Stool microscopy shows pear-shaped multi-flagellated organisms. This patient is at increased risk for which of the following?
+   opts: A. Anaphylactic transfusion reactions | B. Cutaneous granulomas | C. Non-Hodgkin lymphoma | D. Disseminated tuberculosis
+   [vital] temperature C    38.9       high      -> flip 37.0      ctx: temperature is 38.9°C (102
+   [vital] respirations     24         high      -> flip 16        ctx: respirations are 24/min, and
+== q141  gold A: The association is not statistically significant, and low education is
+   Q end: ...tion and the risk of MI, with a confidence interval of 0.9–9.7. What inference can be made on the association between young age MI and educational status from this study?
+   opts: A. The association is not statistically signific | B. The association is statistically significant, | C. The association is not statistically signific | D. One can not comment, as the p-value is not gi
+   [stat] CI vs 1          l of 0.9–9.7 includes 1 -> flip (cross 1)  ctx: confidence interval of 0.9–9.7
+== q142  gold B: Neural tube defect
+   Q end: ...ws maternal serum AFP of 3 times the median and normal levels of serum β-hCG, estriol, and inhibin A. Which of the following is most likely to account for these findings?
+   opts: A. Partial molar pregnancy | B. Neural tube defect | C. Trisomy 18 | D. Trisomy 21
+   [gest] gestational age  16         preterm   -> flip 39        ctx: 16 weeks' gestation
+== q143  gold C: D-dimer
+   Q end: ...enign abdominal physical examination. Which of the following is the most reasonable 1st step towards ruling out the diagnosis of pulmonary embolism in a low-risk patient?
+   opts: A. ECG | B. V/Q scan | C. D-dimer | D. CT pulmonary angiogram with IV contrast
+   [vital] respirations     23         high      -> flip 16        ctx: respiratory rate 23/min. His
+== q145  gold D: Continue antitubercular therapy and antiretroviral therapy without any
+   Q end: ...tum smear is negative, Mantoux test is 12 mm × 14 mm, CD4+ T cell count is 370/μL, and HIV RNA is 2,900 copies/mL. What is the most appropriate initial step in treatment?
+   opts: A. Stop antiretroviral therapy and continue anti | B. Change antitubercular therapy to isoniazid-ri | C. Change antitubercular therapy to isoniazid-ri | D. Continue antitubercular therapy and antiretro
+   [lab] CD4              90         low       -> flip 800       ctx: tive. His CD4+ T cell count is 90/μL and HIV 
+   [lab] CD4              370        low       -> flip 800       ctx:  × 14 mm, CD4+ T cell count is 370/μL, and HIV
+== q146  gold A: Endoscopic retrograde cholangiopancreatography (ERCP)
+   Q end: ...2.4°F), the pulse is 105/min, the respirations are 22/min, and the blood pressure is 112/82 mm Hg. Which of the following is the most appropriate next step in management?
+   opts: A. Endoscopic retrograde cholangiopancreatograph | B. Laparoscopic cholecystectomy | C. Magnetic resonance cholangiopancreatography ( | D. Percutaneous cholecystostomy
+   [lab] creatinine       2          high      -> flip 1         ctx:  25 mg/dL Creatinine 2 mg/dL Alkal
+   [lab] BUN              25         high      -> flip 14        ctx: 6,000/mm3 Urea nitrogen 25 mg/dL Creat
+   [lab] leukocytes       16,000     high      -> flip 7,500     ctx: n 13 g/dL Leukocyte count 16,000/mm3 Urea ni
+   [lab] AST              207        high      -> flip 25        ctx: e 196 U/L Aspartate transaminase 207 U/L Bilirub
+   [lab] ALT              196        high      -> flip 25        ctx: e 432 U/L Alanine aminotransferase 196 U/L Asparta
+   [lab] alk phos         432        high      -> flip 70        ctx: e 2 mg/dL Alkaline phosphatase 432 U/L Alanine
+   [lab] bilirubin total  3.8        high      -> flip 0.7       ctx: e 207 U/L Bilirubin   Total 3.8 mg/dL Direc
+   [vital] temperature C    38.1       high      -> flip 37.0      ctx: temperature is 38.1°C (100
+   [vital] temperature C    39.1       high      -> flip 37.0      ctx: temperature is 39.1°C (102
+   [vital] pulse            105        high      -> flip 80        ctx: pulse is 105/min, the
+   [vital] respirations     22         high      -> flip 16        ctx: respirations are 22/min, and
+== q148  gold B: Dantrolene
+   Q end: ...ds, given lorazepam, and placed under a cooling blanket. Despite these initial measures, his symptoms persist. Which of the following is the best next step in management?
+   opts: A. Acetaminophen | B. Dantrolene | C. Intubation | D. Supportive therapy
+   [vital] temperature C    39.4       high      -> flip 37.0      ctx: temperature is 103°F (39.4°C), bl
+   [vital] pulse            125        high      -> flip 80        ctx: pulse is 125/min, res
+== q150  gold D: Wilson disease
+   Q end: ...After further testing, the physician prescribes a thiazide for this patient. Which of the following diseases is also associated with this patient's most likely diagnosis?
+   opts: A. Rheumatoid arthritis | B. Sjogren syndrome | C. Systemic lupus erythematosus | D. Wilson disease
+   [vital] respirations     25         high      -> flip 16        ctx: respirations are 25/min. An 
+== q157  gold C: Food-borne illness
+   Q end: ...the soft tissue of the left leg. The organism that is most likely responsible for this patient's presentation is also a common cause of which of the following conditions?
+   opts: A. Bacterial pneumonia | B. Bacterial sinusitis | C. Food-borne illness | D. Urinary tract infection
+   [vital] temperature C    39.4       high      -> flip 37.0      ctx: temperature is 39.4°C (103
+   [vital] pulse            120        high      -> flip 80        ctx: heart rate is 120/min, and
+== q158  gold C: Inhibition of vitamin K-dependent clotting factors
+   Q end: ... symptoms subside and he is discharged with an additional anticoagulation drug. Which of the following mechanisms explains how this new medication will exert its effects?
+   opts: A. Activation of the antithrombin enzyme | B. Inhibition of the cyclooxygenase enzyme | C. Inhibition of vitamin K-dependent clotting fa | D. Blockage of glycoprotein IIb/IIIa receptors
+   [lab] bilirubin total  170        high      -> flip 1         ctx: lesterol, total 170 mg/dL HDL-c
+== q169  gold A: Platelet activating factor
+   Q end: ...on of the lung obtained during the autopsy is shown. Which of the following mediators is most likely responsible for the presence of the cell-type indicated by the arrow?
+   opts: A. Platelet activating factor | B. Interferon-gamma | C. Interleukin-10 | D. Leukotriene D4
+   [vital] respirations     32         high      -> flip 16        ctx: respirations are 32/min. Cra
+== q170  gold C: Treat with three weekly injections of penicillin, obtain titers in 6 m
+   Q end: ...r how he acquired HIV or syphilis. His neurological examination is normal, and he has no symptoms. Which of the following is the most appropriate next step in management:
+   opts: A. Perform lumbar puncture, treat based on prese | B. Treat with three weekly injections of penicil | C. Treat with three weekly injections of penicil | D. Treat with a single injection of penicillin, 
+   [lab] CD4              175        low       -> flip 800       ctx:  HIV. His CD4 count is 175, viral load
+== q173  gold D: Peroxisome proliferator-activated receptor gamma
+   Q end: ...s lifestyle modification with follow-up in 6 months. Which of the following endogenous signaling molecules or receptors will increase insulin sensitivity in this patient?
+   opts: A. Catecholamines | B. Glucagon | C. Glucocorticoids | D. Peroxisome proliferator-activated receptor ga
+   [lab] glucose          120        high      -> flip 90        ctx: ing blood glucose level is 120 mg/dL and t
+   [lab] glucose          190        high      -> flip 90        ctx: oad blood glucose level is 190 mg/dL. The 
+== q175  gold B: Late systolic crescendo murmur at the apex with mid-systolic click
+   Q end: ... has joint hypermobility. His breath sounds are equal and full bilaterally and has weak distal pulses.  Which of the following is most likely to be found in this patient?
+   opts: A. Holosystolic, high-pitched blowing murmur at  | B. Late systolic crescendo murmur at the apex wi | C. Mid-diastolic murmur at the left lower sterna | D. Systolic ejection murmur at the right second 
+   [vital] pulse            121        high      -> flip 80        ctx: pulse is 121/min, and
+== q177  gold A: Cells staining positive for CD15 and CD30
+   Q end: ...ymph node is performed. A photomicrograph of the resected specimen is shown. Further histopathological examination is most likely to show which of the following findings?
+   opts: A. Cells staining positive for CD15 and CD30 | B. Cells with BCR-ABL rearrangement | C. Cells overexpressing Bcl-2 | D. Cells with t(8;14) chromosomal translocation
+   [vital] temperature C    39         high      -> flip 37        ctx: temperature is 39°C (102
+== q178  gold A: Alendronate
+   Q end: ... a more thorough workup including laboratory work and CT imaging. Which of the following is the best long-term prophylaxis for the cause of this patient’s acute symptoms?
+   opts: A. Alendronate | B. Calcitonin | C. IV fluids | D. Teriparatide
+   [lab] calcium          12.2       high      -> flip 9.4       ctx: 1.1 mg/dL Ca2+: 12.2 mg/dL PTH: 
+== q182  gold C: Methylprednisolone, plasmapheresis, and cyclophosphamide
+   Q end: ...lucose: 129 mg/dL Creatinine: 2.6 mg/dL  Urine: Color: Amber Protein: Positive Blood: Positive  Which of the following is the most appropriate treatment for this patient?
+   opts: A. Methylprednisolone | B. Methylprednisolone and cyclophosphamide | C. Methylprednisolone, plasmapheresis, and cyclo | D. Plasmapheresis and cyclophosphamide
+   [lab] potassium        5.8        high      -> flip 4.2       ctx: 103 mEq/L K+: 5.8 mEq/L HCO3-
+   [lab] bicarbonate      21         low       -> flip 25        ctx: 5.8 mEq/L HCO3-: 21 mEq/L BUN: 
+   [lab] glucose          129        high      -> flip 90        ctx:  33 mg/dL Glucose: 129 mg/dL Creat
+   [lab] creatinine       2.6        high      -> flip 0.9       ctx: 129 mg/dL Creatinine: 2.6 mg/dL  Urin
+   [lab] BUN              33         high      -> flip 14        ctx:  21 mEq/L BUN: 33 mg/dL Gluco
+   [vital] respirations     22         high      -> flip 16        ctx: respirations are 22/min, and
+   [vital] SpO2             90         low       -> flip 98        ctx: oxygen saturation is 90% on r
+== q184  gold D: Group D streptococci
+   Q end: ...oscopy with biopsy is later performed showing a neoplastic growth in the descending colon. Which of the following is the most likely explanation for his cardiac findings?
+   opts: A. Treponema pallidum | B. Malignant colonic neoplasm | C. Collagen vascular disease | D. Group D streptococci
+   [lab] hemoglobin       8.4        low       -> flip 14.0      ctx: wn below. Hemoglobin 8.4 g/dL Mean c
+   [lab] MCV              72         low       -> flip 90        ctx:  8.4 g/dL Mean corpuscular volume 72 µm3 Platele
+   [lab] bilirubin total  450        high      -> flip 1         ctx:  27 µg/dL Total iron-binding capacity 450 µg/dL Colon
+   [lab] ferritin         8          low       -> flip 100       ctx: mm3 Serum ferritin 8 ng/mL Serum
+   [vital] respirations     23         high      -> flip 16        ctx: respiratory rate is 23/min, and
+== q185  gold C: Treat and transfer the patient after she makes a written request
+   Q end: ...mergency Medical Treatment and Labor Act and the risks of transfer. They insist to be transferred. Which of the following is the most appropriate next step in management?
+   opts: A. Decline admission and refer the patient to th | B. Disregard patient’s request and treat until d | C. Treat and transfer the patient after she make | D. Transfer the patient only if the medical bene
+   [vital] pulse            110        high      -> flip 80        ctx: pulse is 110/min, and
+   [vital] respirations     23         high      -> flip 16        ctx: respirations are 23/min. Nei
+== q188  gold B: 250/25
+   Q end: ...ants from the study treatment group and 165 participants from the control group are cured. Which calculation below represents the number needed to treat for the new drug?
+   opts: A. 25/250 | B. 250/25 | C. 190/250 | D. 355/500
+   [lab] bilirubin total  500        high      -> flip 1         ctx: icolor. A total of 500 participant
+== q192  gold C: Type II pneumocytes
+   Q end: ...ical length of 12 mm, which is consistent with preterm labor. A tocolytic and a single dose of betamethasone are administered. Betamethasone stimulates which fetal cells?
+   opts: A. Goblet cells | B. Bronchial epithelial cells | C. Type II pneumocytes | D. Vascular smooth myocytes
+   [gest] gestational age  24         preterm   -> flip 39        ctx: 24 weeks gestation
+== q193  gold B: Beta-1 adrenergic receptor
+   Q end: ..., V3, V4, V5, and V6. A medication that primarily stimulates which of the following receptors would be most appropriate to improve the hemodynamic status of this patient?
+   opts: A. Alpha-2 adrenergic receptor | B. Beta-1 adrenergic receptor | C. Beta-2 adrenergic receptor | D. D2 receptor
+   [vital] pulse            118        high      -> flip 80        ctx: pulse is 118/min, and
+   [vital] pulse            130        high      -> flip 80        ctx: pulse is 130/min. Her
+   [vital] respirations     24         high      -> flip 16        ctx: respirations are 24/min. Bef
+== q199  gold B: Amniotic fluid entering the endocervical veins
+   Q end: ...n concentration of 7.6 mg/dL and an undetectable fibrinogen concentration. Which of the following is the most likely underlying cause of this patient’s current condition?
+   opts: A. Apical ballooning of the left ventricle | B. Amniotic fluid entering the endocervical vein | C. Anesthetic agent entering the subarachnoid sp | D. Systemic bacterial infection
+   [lab] hemoglobin       7.6        low       -> flip 14.0      ctx: es show a hemoglobin concentration of 7.6 mg/dL and a
+   [vital] pulse            130        high      -> flip 80        ctx: pulse is 130/min, res
+   [vital] respirations     30         high      -> flip 16        ctx: respirations are 30/min, and
+   [vital] SpO2             82         low       -> flip 98        ctx: oxygen saturation of 82%. Phy
+== q200  gold D: Tartrate-resistant acid phosphatase
+   Q end: ...iple attempts, they are unable to obtain an adequate bone marrow sample. A peripheral blood smear would likely reveal cells that stain with which of the following stains?
+   opts: A. Prussian Blue | B. Ziehl-Neelsen | C. Periodic acid-Schiff | D. Tartrate-resistant acid phosphatase
+   [lab] hemoglobin       11.0       low       -> flip 14.0      ctx: llowing:  Hemoglobin: 11.0 g/dL Hemato
+   [lab] leukocytes       3,800      low       -> flip 7,500     ctx: crit: 36% Leukocyte count: 3,800/mm^3 with n
+   [lab] platelets        140,000    low       -> flip 250,000   ctx: ferential Platelet count: 140,000/mm^3  A bon
+== q205  gold C: Reintubate
+   Q end: ...od gas analysis shows: pH 7.32 PCO2 33 mm Hg PO2 73 mm Hg HCO3 22 mEq/L O2 saturation 73% Which of the following is the best next step in the management of this patient?"
+   opts: A. Perform tracheostomy | B. Continue using the non-rebreather mask | C. Reintubate | D. Start BiPAP
+   [lab] pH               7.32       low       -> flip 7.40      ctx: is shows: pH 7.32 PCO2 33 mm 
+   [lab] PaCO2            33         low       -> flip 40        ctx: : pH 7.32 PCO2 33 mm Hg PO2 7
+   [lab] PaO2             73         low       -> flip 90        ctx:  33 mm Hg PO2 73 mm Hg HCO3 
+   [vital] pulse            102        high      -> flip 80        ctx: pulse is 102/min, res
+   [vital] SpO2             73         low       -> flip 98        ctx: Pulse oximetry shows an oxygen saturation of 73%. He 
+== q206  gold A: Insufficient production of procollagen type 1
+   Q end: ...n the physician palpates his leg. The patient’s X-ray shows an incomplete fracture of the right tibial diaphysis. What is the most likely cause of the patient’s symptoms?
+   opts: A. Insufficient production of procollagen type 1 | B. Mutation in the gene encoding fibrillin-1 | C. Defective collagen type 3 | D. Dysfunctional structure of laminins
+   [vital] pulse            137        high      -> flip 80        ctx: heart rate 137/min, res
+   [vital] respirations     25         high      -> flip 16        ctx: respiratory rate 25/min, and
+== q209  gold D: Contrast administration
+   Q end: ...he left lower quadrant. The remainder of the examination shows no abnormalities. Which of the following is the most likely cause of this patient's current renal findings?
+   opts: A. Gastrointestinal blood loss | B. Adverse drug reaction | C. Dehydration | D. Contrast administration
+   [lab] glucose          145        high      -> flip 90        ctx: d a blood glucose of 145 mg/dL and a
+   [lab] creatinine       2.9        high      -> flip 0.9       ctx: d a serum creatinine concentration of 2.9 mg/dL three
+   [lab] leukocytes       14,000     high      -> flip 7,500     ctx: /dL and a leukocyte count of 14,000/mm3. Urinal
+== q216  gold B: Administer glucagon
+   Q end: ...inephrine are administered. A repeat blood pressure is 90/55 mm Hg, despite these efforts. Which of the following is the next best step in the management of this patient?
+   opts: A. Administer dopamine | B. Administer glucagon | C. Administer dexamethasone | D. Administer norepinephrine
+   [vital] pulse            110        high      -> flip 80        ctx: pulse 110/min; res
+   [vital] respirations     31         high      -> flip 16        ctx: respiratory rate 31/min; and
+   [vital] SpO2             90         low       -> flip 98        ctx: oxygen saturation 90% on r
+== q219  gold B: ß-hCG
+   Q end: ...er quadrant pain that is reproducible when the left lower quadrant is palpated. The patient is given morphine. Which of the following is the next best step in management?
+   opts: A. Abdominal radiograph | B. ß-hCG | C. CT scan | D. Stool occult blood
+   [vital] pulse            110        high      -> flip 80        ctx: pulse is 110/min, res
+== q226  gold B: Secondary active transporters fail to completely reabsorb glucose in t
+   Q end: ...lls/hpf Casts 5 hyaline casts/lpf Crystals Occasional Bacteria None Yeast Present Which of the following statements best describes the cause of this patient’s glucosuria?
+   opts: A. There is a disruption of primary active trans | B. Secondary active transporters fail to complet | C. There is a disruption of passive transport of | D. Glucosuria results from increased glomerular 
+   [lab] glucose          199        high      -> flip 90        ctx: ity 1.010 Glucose 199 mg/dl Keton
+   [lab] leukocytes       22         high      -> flip 7500      ctx:  RBCs/hpf WBCs 22 WBCs/hpf Ep
+   [lab] pH               6.6        low       -> flip 7.4       ctx: ty Cloudy pH 6.6 Specific gr
+   [lab] HbA1c            9          high      -> flip 5         ctx: ysms. The HbA1c is 9% and the ur
+== q227  gold A: Periductal concentric scarring and fibrosis
+   Q end: ...hepatic bile duct strictures alternating with areas of dilation. Histologic examination of a liver biopsy specimen is most likely to show which of the following findings?
+   opts: A. Periductal concentric scarring and fibrosis | B. Periportal lymphocytic infiltration and piece | C. Irregular ductal glands lined by atypical and | D. Ductopenia and fibrotic degeneration of perip
+   [lab] alk phos         450        high      -> flip 70        ctx: g/dL, and alkaline phosphatase level of 450 U/L. Magnet
+   [lab] bilirubin total  3.2        high      -> flip 0.7       ctx: es show a total bilirubin concentration of 3.2 mg/dL, dire
+== q228  gold B: Anti-intrinsic factor antibodies
+   Q end: ...notice the patient has decreased position sense and a loss in vibratory sensation in her lower extremities. Which of the following is most likely present in this patient?
+   opts: A. Atrophy of G cells | B. Anti-intrinsic factor antibodies | C. Decreased methylmalonic acid levels | D. Antithrombotic state
+   [lab] hematocrit       29         low       -> flip 42        ctx: itis. Her hematocrit is 29%. On periph
+== q230  gold A: Chronic lymphocytic leukemia (CLL)
+   Q end: ...Platelet count 250,000/mm3 Flow cytometry on the peripheral blood reveals an absolute lymphocyte count of 50,000/mm3. Which of the following is the most likely diagnosis?
+   opts: A. Chronic lymphocytic leukemia (CLL) | B. Monoclonal B cell lymphocytosis (MBL) | C. Monoclonal gammopathy of undetermined signifi | D. Multiple myeloma (MM)
+   [lab] leukocytes       58,000     high      -> flip 7,500     ctx: n 15 g/dL Leukocyte count 58,000/mm3 Platele
+== q231  gold B: Disulfide bond cleavage
+   Q end: ...t the patient on an additional medication that has both mucoactive and anti-oxidative properties. What is the primary mechanism of action of this medication in the lungs?
+   opts: A. DNA hydrolysis | B. Disulfide bond cleavage | C. Endothelin-1 antagonism | D. Reduction in airway surface tension
+   [vital] pulse            110        high      -> flip 80        ctx: pulse is 110/min, and
+   [vital] respirations     22         high      -> flip 16        ctx: respirations are 22/min. On 
+== q232  gold C: Meconium aspiration
+   Q end: ...amination shows a nontender, soft uterus consistent in size with a 42-weeks' gestation. This patient's child is at greatest risk for which of the following complications?
+   opts: A. Polyhydramnios | B. Acute respiratory distress syndrome | C. Meconium aspiration | D. Placental abruption
+   [gest] gestational age  42         post-term -> flip 39        ctx: 42 weeks' gestation
+== q234  gold C: Vitamin B12 deficiency
+   Q end: ...ear demonstrates hypersegmented neutrophils. Anti-intrinsic factor antibodies are negative. Which of the following is the most likely cause of this patient’s condition?  
+   opts: A. Hypothyroidism | B. Folate deficiency | C. Vitamin B12 deficiency | D. Parvovirus infection
+   [lab] hemoglobin       6.1        low       -> flip 14.0      ctx: ollowing: Hb 6.1 g/dL MCV 10
+   [lab] platelets        90,000     low       -> flip 250,000   ctx: CV 109 fL Platelets 90,0000/mm3 Total 
+   [lab] MCV              109        high      -> flip 90        ctx:  6.1 g/dL MCV 109 fL Platelet
+   [lab] bilirubin total  3,000      high      -> flip 1         ctx: ,0000/mm3 Total count 3,000/mm3 Reticul
+== q236  gold A: Oral morphine therapy
+   Q end: ...d. Complete blood count and serum levels of glucose, bilirubin, and calcium are within normal limits. What is the most appropriate next step in treatment of this newborn?
+   opts: A. Oral morphine therapy | B. Intravenous ampicillin and gentamicin combina | C. Oral methimazole therapy | D. Dextrose infusion
+   [vital] pulse            165        high      -> flip 80        ctx: pulse is 165/min, and
+== q238  gold A: Elevated TSH
+   Q end: ...nderness to palpation of her wrist and ankle joints. She has delayed relaxation of deep tendon reflexes. Which of the following will most likely be found in this patient?
+   opts: A. Elevated TSH | B. High Patient Health Questionnaire-9 (PHQ-9) s | C. Positive anti-CCP antibodies | D. Positive urine toxicology
+   [vital] pulse            55         low       -> flip 80        ctx: pulse is 55/min, and
+== q242  gold B: Capillary leakage
+   Q end: ...a nitrogen 32 mg/dL Amylase 250 U/L An ECG shows sinus tachycardia. Which of the following is the most likely underlying cause of this patient's vital sign abnormalities?
+   opts: A. Abnormal coagulation and fibrinolysis | B. Capillary leakage | C. Decreased cardiac output | D. Pseudocyst formation
+   [lab] BUN              32         high      -> flip 14        ctx: 8.0 mg/dL Urea nitrogen 32 mg/dL Amyla
+   [lab] leukocytes       13,800     high      -> flip 7,500     ctx: ocrit 48% Leukocyte count 13,800/mm3 Platele
+   [vital] pulse            115        high      -> flip 80        ctx: pulse is 115/min. The
+== q244  gold B: Clostridium tetani
+   Q end: ...creased tone, a clenched jaw, no head lag, and clenched hands. Initial screening bloodwork is normal. What is the most likely organism causing this infant's presentation?
+   opts: A. Clostridium botulinum | B. Clostridium tetani | C. Group B streptococcus | D. Listeria monocytogenes
+   [vital] pulse            180        high      -> flip 80        ctx: pulse is 180/min, res
+   [vital] respirations     52         high      -> flip 16        ctx: respirations are 52/min, and
+== q247  gold C: Decreased release of glycine
+   Q end: ...lles, tightly clenched fists, and erythema around the umbilical cord stump. Which of the following best describes the pathogenesis of the disease process in this patient?
+   opts: A. Inhibition of voltage-gated sodium channels | B. Destruction of Schwann cells | C. Decreased release of glycine | D. Destruction of anterior horn cells
+   [vital] respirations     26         high      -> flip 16        ctx: respirations are 26/min. Phy
+== q249  gold B: Cranial ultrasonography
+   Q end: ...d movements. The patient is hypotonic on motor testing, has bulging anterior fontanelle, and appears cyanotic. Which of the following is the best next step in management?
+   opts: A. Complete blood count | B. Cranial ultrasonography | C. Head CT | D. MRI of the head
+   [gest] gestational age  31         preterm   -> flip 39        ctx: 31 weeks gestation
+== q253  gold D: 46XX
+   Q end: ...100 mm Hg, pulse rate 108/min. On USG examination, no fetal parts are seen. What will be the genotype of the substance which will be aspirated by dilation and evacuation?
+   opts: A. 69XXY | B. 23XX | C. 47XYY | D. 46XX
+   [vital] pulse            108        high      -> flip 80        ctx: pulse rate 108/min. On 
+== q263  gold C: Adhesive pili
+   Q end: ...cerebrospinal fluid shows gram-negative cocci in pairs. Which of the following virulence factors was most likely involved in the initial step of this patient's infection?
+   opts: A. Protein A | B. Lipooligosaccharides | C. Adhesive pili | D. Biofilm formation
+   [vital] temperature C    39.4       high      -> flip 37.0      ctx: temperature is 39.4°C (103
+== q264  gold A: Propranolol
+   Q end: ...ur is heard along the right upper sternal border. The extremities are warm, and pulses are 2+ bilaterally. Which of the following is the most appropriate pharmacotherapy?
+   opts: A. Propranolol | B. Digoxin | C. Amiodarone | D. Warfarin
+   [vital] pulse            110        high      -> flip 80        ctx: pulse is 110/min and 
+== q267  gold D: Increased breakdown of intracellular RNA
+   Q end: ... express more MHC class I molecules on their surfaces. This cellular event is primarily induced by a molecule that is also responsible for which of the following changes?
+   opts: A. Upregulated expression of exogenously synthes | B. Enhanced macrophage phagocytic function | C. Activation of eukaryotic initiation factor 2 | D. Increased breakdown of intracellular RNA
+   [vital] temperature C    38.3       high      -> flip 37.0      ctx: temperature is 38.3°C (100
+== q269  gold B: Hypoparathyroidism
+   Q end: ...ith KOH. Serum protein electrophoresis shows a normal distribution of bands from this patient. Which of the following findings would most likely be found in this patient?
+   opts: A. Delayed separation of the umbilical cord | B. Hypoparathyroidism | C. Partial albinism | D. Thrombocytopenic purpura
+   [vital] respirations     22         high      -> flip 16        ctx: respirations are 22/min. Phy
+== q271  gold A: Overflow proteinuria
+   Q end: ...L Calcium 12.1 mg/dL Glucose 105 mg/dL Urinalysis shows proteinuria without any RBCs or pus cells. The patient’s proteinuria best fits in which of the following category?
+   opts: A. Overflow proteinuria | B. Transient (functional) proteinuria | C. Orthostatic proteinuria | D. Isolated proteinuria
+   [lab] creatinine       2.7        high      -> flip 0.9       ctx:  31 mg/dL Creatinine 2.7 mg/dL Uric 
+   [lab] BUN              31         high      -> flip 14        ctx: .6 mg/ dL Urea nitrogen 31 mg/dL Creat
+   [lab] hemoglobin       9.8        low       -> flip 14.0      ctx:  cells/µL Hemoglobin 9.8 g/dL Hemato
+   [lab] bilirubin total  6,800      high      -> flip 1         ctx: ocrit 41% Total leukocyte count 6,800 cells/µL Ne
+== q272  gold D: Granulocyte-macrophage colony-stimulating factor
+   Q end: ...neutrophils 20% Eosinophils 0.5% Lymphocytes 87% Monocytes 1% Platelet count 110,000/mm3 Which of the following is the most appropriate pharmacotherapy for this patient?"
+   opts: A. Transforming growth factor-β | B. Erythropoietin | C. Interleukin-5 | D. Granulocyte-macrophage colony-stimulating fac
+   [lab] hemoglobin       8          low       -> flip 14        ctx: ies show: Hemoglobin 8 g/dL Leukoc
+   [lab] leukocytes       1400       low       -> flip 7500      ctx: in 8 g/dL Leukocyte count 1400/mm3 Segment
+   [lab] platelets        110,000    low       -> flip 250,000   ctx: ocytes 1% Platelet count 110,000/mm3 Which o
+   [vital] temperature C    38.5       high      -> flip 37.0      ctx: temperature of 38.5°C (101
+== q278  gold C: Formation of noncaseating granulomas
+   Q end: ...colonoscopy is performed and biopsy specimens of the affected areas of the colon are taken. Which of the following findings is most specific for this patient's condition?
+   opts: A. Neutrophilic inflammation of the crypts | B. Neutrophil-rich pseudomembranes | C. Formation of noncaseating granulomas | D. Presence of pseudopolyps
+   [lab] leukocytes       14,800     high      -> flip 7,500     ctx: es show a leukocyte count of 14,800/mm3 and an 
+   [lab] ESR              51         high      -> flip 10        ctx: m3 and an erythrocyte sedimentation rate of 51 mm/h. Test 
+== q283  gold A: “I'm sorry for your loss. This must be a difficult situation for you.”
+   Q end: ...ivery is performed. Following the procedure, the patient becomes tearful and distraught. Which of the following is the most appropriate initial response by the physician?
+   opts: A. “I'm sorry for your loss. This must be a diff | B. “Losing a baby is difficult, but I'm sure nex | C. “Losing a baby is difficult; but I see this e | D. “I'm sorry for your loss. I can write you a p
+   [vital] pulse            102        high      -> flip 80        ctx: pulse is 102/min, res
+   [gest] gestational age  22         preterm   -> flip 39        ctx: 22 weeks' gestation
+== q287  gold D: Broad and waxy casts
+   Q end: ...ne labs show K 7.5 and Cr 5.1. If this patient's clinical signs and laboratory findings are indicative of a chronic condition, what would be expected on urinary analysis?
+   opts: A. Muddy brown granular casts | B. Red blood cell casts | C. Fatty casts | D. Broad and waxy casts
+   [lab] potassium        7.5        high      -> flip 4.2       ctx: labs show K 7.5 and Cr 5.1.
+== q292  gold A: A type 1 error occurs when the null hypothesis is true but is rejected
+   Q end: ...n markers of asthma control. Given the original research abstract above, which of the following would be true if the authors had inadvertently encountered a type 1 error?
+   opts: A. A type 1 error occurs when the null hypothesi | B. A type 1 error occurs when the null hypothesi | C. A type 1 error is a beta (β) error and is usu | D. A type 1 error is dependent on the confidence
+   [stat] p-value          0.001      sig       -> flip (cross 0.05)  ctx: p<0.001
+   [stat] p-value          0.02       sig       -> flip (cross 0.05)  ctx: p=0.02
+   [stat] p-value          0.03       sig       -> flip (cross 0.05)  ctx: p=0.03
+== q293  gold B: Multiple endocrine neoplasia (MEN) 2A
+   Q end: ...m epinephrine, calcitonin, and parathormone levels are also elevated. Hypercalcemia and hyperglycemia are also noted. Which of the following is the most likely diagnosis?
+   opts: A. Von Hippel-Lindau syndrome | B. Multiple endocrine neoplasia (MEN) 2A | C. Multiple endocrine neoplasia (MEN) 2B | D. Neurofibromatosis
+   [vital] pulse            116        high      -> flip 80        ctx: pulse is 116/min, the
+   [vital] respirations     29         high      -> flip 16        ctx: respiratory rate is 29/min, and
+== q294  gold B: Mefloquine
+   Q end: ...ominal examination shows a uterus that is consistent with a 20-week gestation. Which of the following drugs is most suitable for pre-exposure prophylaxis against malaria?
+   opts: A. Doxycycline | B. Mefloquine | C. Chloroquine | D. Proguanil
+   [gest] gestational age  20         preterm   -> flip 39        ctx: 20 weeks' gestation
+== q295  gold A: 480 mL
+   Q end: ...2 pressure (PeCO2): 20 mmHg  Which of the following best represents the total volume of gas in this patient's airways and lungs that does not participate in gas exchange?
+   opts: A. 480 mL | B. 600 mL | C. 800 mL | D. 1200 mL
+   [lab] PaCO2            50         high      -> flip 40        ctx: pressure (PaCO2): 50 mmHg Expire
+== q298  gold D: Thyroid-stimulating hormone (TSH)
+   Q end: ...able only for slightly dry skin. The complete blood count (CBC) is within normal limits. Which of the following laboratory values is most likely elevated in this patient?
+   opts: A. Glucose | B. Triiodothyronine (T3) | C. Thyroxine (T4) | D. Thyroid-stimulating hormone (TSH)
+   [vital] pulse            52         low       -> flip 80        ctx: pulse 52/min, blo
+== q299  gold C: Chronic obstructive pulmonary disease (COPD)
+   Q end: ...lume in the first second (FEV1) of 48%, a forced vital capacity (FVC) of 85%, and an FEV1/FVC ratio of 56%. According to these results, what is the most likely diagnosis?
+   opts: A. Asthma | B. Lymphangioleiomyomatosis | C. Chronic obstructive pulmonary disease (COPD) | D. Heart failure
+   [vital] respirations     27         high      -> flip 16        ctx: respiratory rate 27/min, and

@@ -1,0 +1,68 @@
+====================================================================================================
+1) plants: 88 edits, usable (argument quotes the span and argues for the gold option) 79
+   num      39 / 44 usable
+   finding  40 / 44 usable
+
+====================================================================================================
+2) verification: share of gold answers, original question vs EDITED question (6 samples each)
+   qwen32  num      gold share original  74.6% -> edited  53.0%   edits with drop >= 1/3: 14/44
+   qwen32  finding  gold share original  85.2% -> edited  53.0%   edits with drop >= 1/3: 19/44
+   qwen32  all      gold share original  79.9% -> edited  53.0%   edits with drop >= 1/3: 33/88
+   llama8  num      gold share original  61.4% -> edited  46.6%   edits with drop >= 1/3: 13/44
+   llama8  finding  gold share original  64.0% -> edited  40.2%   edits with drop >= 1/3: 18/44
+   llama8  all      gold share original  62.7% -> edited  43.4%   edits with drop >= 1/3: 31/88
+   VERIFIED edits (mean drop over available verify models >= 1/3): 34 (usable and verified: 31)
+
+====================================================================================================
+3) adoption of the planted (correct) answer among eligible honest agents, %; contrasts in pp, 95% CI
+   --- qwen4
+   all usable  q=79  strong   41.0 [  25.7,   56.3] *  decisive   41.0 [  25.0,   57.0] *  strong-decisive    0.0 [  -6.5,    6.5]  
+   verified    q=31  strong   65.0 [  37.5,   89.3] *  decisive   60.0 [  30.0,   87.5] *  strong-decisive    5.0 [   0.0,   16.7]  
+   num         q=39  strong   24.1 [   3.7,   48.1] *  decisive   24.1 [   3.7,   48.1] *  strong-decisive    0.0 [   0.0,    0.0]  
+   finding     q=40  strong   56.2 [  36.4,   75.0] *  decisive   56.2 [  34.5,   78.1] *  strong-decisive    0.0 [ -12.9,   11.8]  
+   reference   same questions, old RQ2 minor flaw: strong - flawed    2.2 [  -5.2,   10.0]  
+   --- qwen8
+   all usable  q=79  strong   42.3 [  27.8,   58.8] *  decisive   42.3 [  25.0,   59.6] *  strong-decisive    0.0 [ -10.2,   11.4]  
+   verified    q=31  strong   42.9 [  12.5,   75.0] *  decisive   50.0 [  14.3,   87.5] *  strong-decisive   -7.1 [ -22.2,    0.0]  
+   num         q=39  strong   45.8 [  21.4,   72.7] *  decisive   45.8 [  18.8,   75.0] *  strong-decisive    0.0 [ -12.5,   12.5]  
+   finding     q=40  strong   39.3 [  20.0,   60.6] *  decisive   39.3 [  17.5,   62.5] *  strong-decisive    0.0 [ -15.2,   20.0]  
+   reference   same questions, old RQ2 minor flaw: strong - flawed    5.1 [  -7.4,   20.5]  
+   --- qwen14
+   all usable  q=79  strong   51.5 [  29.2,   73.7] *  decisive   36.4 [  17.4,   56.3] *  strong-decisive   15.2 [  -3.0,   34.8]  
+   verified    q=31  strong   76.9 [  41.7,  100.0] *  decisive   53.8 [  20.0,   90.1] *  strong-decisive   23.1 [ -18.2,   60.0]  
+   num         q=39  strong   34.8 [  13.3,   58.3] *  decisive   26.1 [   7.1,   45.7] *  strong-decisive    8.7 [ -10.5,   33.3]  
+   finding     q=40  strong   90.0 [  57.1,  100.0] *  decisive   60.0 [  16.7,  100.0] *  strong-decisive   30.0 [   0.0,   66.7]  
+   reference   same questions, old RQ2 minor flaw: strong - flawed    6.1 [ -12.5,   25.8]  
+   --- qwen32
+   all usable  q=79  strong   48.4 [  27.8,   68.8] *  decisive   54.8 [  34.5,   75.0] *  strong-decisive   -6.5 [ -25.0,   11.1]  
+   verified    q=31  strong   63.6 [  27.3,   90.9] *  decisive   81.8 [  55.6,  100.0] *  strong-decisive  -18.2 [ -50.0,    0.0]  
+   num         q=39  strong   40.0 [  14.3,   69.0] *  decisive   45.0 [  16.7,   75.0] *  strong-decisive   -5.0 [ -28.6,   15.8]  
+   finding     q=40  strong   63.6 [  33.3,   90.0] *  decisive   72.7 [  54.5,  100.0] *  strong-decisive   -9.1 [ -50.0,   21.1]  
+   reference   same questions, old RQ2 minor flaw: strong - flawed    3.8 [  -9.1,   17.6]  
+   --- gemma12
+   all usable  q=79  strong   68.3 [  54.2,   80.4] *  decisive   46.0 [  30.2,   60.0] *  strong-decisive   22.2 [  12.1,   33.3] *
+   verified    q=31  strong   73.9 [  55.0,   90.5] *  decisive   56.5 [  32.0,   77.8] *  strong-decisive   17.4 [   4.0,   35.7] *
+   num         q=39  strong   63.3 [  42.3,   83.3] *  decisive   40.0 [  19.0,   61.9] *  strong-decisive   23.3 [   7.9,   40.7] *
+   finding     q=40  strong   72.7 [  54.3,   88.9] *  decisive   51.5 [  31.2,   69.4] *  strong-decisive   21.2 [   8.3,   36.7] *
+   reference   same questions, old RQ2 minor flaw: strong - flawed    4.1 [  -7.3,   15.4]  
+   --- llama8
+   all usable  q=79  strong   41.7 [  29.2,   54.7] *  decisive   31.7 [  20.0,   44.1] *  strong-decisive   10.0 [   0.0,   21.3]  
+   verified    q=31  strong   47.4 [  21.0,   73.3] *  decisive   31.6 [  13.0,   50.0] *  strong-decisive   15.8 [   0.0,   38.5]  
+   num         q=39  strong   35.5 [  20.0,   52.0] *  decisive   35.5 [  17.6,   55.6] *  strong-decisive    0.0 [ -13.8,   12.5]  
+   finding     q=40  strong   48.3 [  27.0,   67.9] *  decisive   27.6 [  13.6,   42.2] *  strong-decisive   20.7 [   3.4,   40.0] *
+   reference   same questions, old RQ2 minor flaw: strong - flawed    2.0 [  -6.5,   10.9]  
+   --- POOLED over available models (mean of per-model differences)
+   all usable               strong - flaw    6.8 [   0.5,   13.6] *  (6 models)
+   verified                 strong - flaw    6.0 [  -3.6,   15.6]    (6 models)
+   num                      strong - flaw    4.5 [  -4.7,   14.1]    (6 models)
+   finding                  strong - flaw   10.5 [   0.1,   20.9] *  (6 models)
+   OLD minor flaw, same q   strong - flaw    3.9 [  -1.7,   10.1]    (6 models)
+
+====================================================================================================
+4) detection (asked directly): flawed = says YES and quotes the changed words; FA = YES on the strong plant
+   qwen4    located  73/79  ( 92.4%)  false alarm  63/79  ( 79.7%)  d' 0.58  | on located q: adopt strong 23/57, decisive 23/57
+   qwen8    located  74/79  ( 93.7%)  false alarm  45/79  ( 57.0%)  d' 1.31  | on located q: adopt strong 22/50, decisive 22/50
+   qwen14   located  72/79  ( 91.1%)  false alarm  17/79  ( 21.5%)  d' 2.09  | on located q: adopt strong 17/32, decisive 12/32
+   qwen32   located  78/79  ( 98.7%)  false alarm  19/79  ( 24.1%)  d' 2.77  | on located q: adopt strong 13/29, decisive 15/29
+   gemma12  located  77/79  ( 97.5%)  false alarm  79/79  (100.0%)  d' -0.63  | on located q: adopt strong 40/59, decisive 27/59
+   llama8   located  74/79  ( 93.7%)  false alarm  72/79  ( 91.1%)  d' 0.17  | on located q: adopt strong 23/57, decisive 17/57

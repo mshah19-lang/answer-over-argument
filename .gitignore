@@ -1,0 +1,9 @@
+# Benchmark questions are not redistributed; build them with cluster/prepare_medqa.py and cluster/prepare_datasets.py
+data/*
+!data/step3_decisive_edits.jsonl
+# GPQA questions must never be committed (the GPQA authors ask that they not appear online in plain text)
+*gpqa_198*
+__pycache__/
+*.pyc
+logs/
+.DS_Store

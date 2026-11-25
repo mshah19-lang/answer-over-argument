@@ -1,0 +1,7 @@
+# Running the experiments (needs a CUDA GPU; Qwen3-32B used 2 x 48 GB GPUs)
+vllm==0.11.0
+huggingface_hub
+
+# Analysis, statistics and figures
+numpy
+matplotlib

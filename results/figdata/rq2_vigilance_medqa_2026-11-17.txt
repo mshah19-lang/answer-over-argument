@@ -1,0 +1,177 @@
+===== medqa v3: 300 questions, 1800 plants
+plants (written by the generator; flawed = objective misquote check against the question stem):
+   C-bare    on target+check 300/300  words  10.6
+   C-flawed  on target+check 233/300  words  83.3
+   C-strong  on target+check 233/300  words  83.3
+   W-bare    on target+check 300/300  words  10.5
+   W-flawed  on target+check 223/300  words  85.2
+   W-strong  on target+check 223/300  words  85.2
+  independent judge gemma12 (misstates question / quote points at planted words / other false claim / convincing):
+   C-flawed  misstates 207/233  located 203  false claim  37/233  convincing 3.86
+   C-strong  misstates  22/233  located   -  false claim  36/233  convincing 4.57
+   W-flawed  misstates 214/223  located 198  false claim 207/223  convincing 2.11
+   W-strong  misstates 154/223  located   -  false claim 207/223  convincing 2.22
+
+--- qwen4: adoption of the planted answer (eligible = control answer != target)
+   cell      all eligible                 control-WRONG only           honest correct ctrl -> plant
+   C-bare     56/200  28.0% [ 20.7, 35.8]  56/200  28.0% [ 20.7, 35.8] 400 -> 448 of 600
+   C-flawed   69/153  45.1% [ 36.0, 54.2]  69/153  45.1% [ 36.0, 54.2] 313 -> 377 of 466
+   C-strong   69/153  45.1% [ 36.1, 54.3]  69/153  45.1% [ 36.1, 54.3] 313 -> 378 of 466
+   W-bare     55/534  10.3% [  7.6, 13.4]  10/134   7.5% [  2.7, 13.2] 400 -> 361 of 600
+   W-flawed   75/395  19.0% [ 14.5, 23.7]  26/100  26.0% [ 16.3, 36.8] 295 -> 252 of 446
+   W-strong   84/395  21.3% [ 16.4, 26.3]  28/100  28.0% [ 17.2, 40.0] 295 -> 246 of 446
+   contrasts (percentage points, 95% bootstrap CI over questions):
+   truth | bare   (C - W), all eligible          17.7  [ 10.2,  25.6]
+   truth | flawed (C - W), all eligible          26.1  [ 17.0,  35.9]
+   truth | strong (C - W), all eligible          23.8  [ 13.9,  33.9]
+   truth | bare   (C - W), MATCHED ctrl-wrong    20.5  [ 11.7,  29.2]
+   truth | flawed (C - W), MATCHED ctrl-wrong    19.1  [  7.6,  30.7]
+   truth | strong (C - W), MATCHED ctrl-wrong    17.1  [  3.1,  29.9]
+   quality | C (strong - flawed)                  0.0  [ -4.3,   4.6]
+   quality | W (strong - flawed)                  2.3  [ -0.5,   5.1]
+   argument | C (strong - bare)                  17.1  [  9.3,  24.7]
+   argument | W (strong - bare)                  11.0  [  6.3,  15.7]
+   detection (asked directly whether the argument misstates the question, and to quote it):
+   C: flawed says YES 222/233  located 205/233 | strong says YES (false alarm) 152/233 | d' (located vs FA) 0.78
+   W: flawed says YES 221/223  located 171/223 | strong says YES (false alarm) 208/223 | d' (located vs FA) -0.76
+   adoption of C-flawed when the model LOCATED the misstatement: 51/128 =  39.8%
+   adoption of C-flawed when the model did not locate the misstatement: 18/25 =  72.0%
+   adoption of W-flawed when the model LOCATED the misstatement: 60/299 =  20.1%
+   adoption of W-flawed when the model did not locate the misstatement: 15/96 =  15.6%
+
+--- qwen8: adoption of the planted answer (eligible = control answer != target)
+   cell      all eligible                 control-WRONG only           honest correct ctrl -> plant
+   C-bare     37/165  22.4% [ 15.4, 30.2]  37/165  22.4% [ 15.4, 30.2] 435 -> 467 of 600
+   C-flawed   53/126  42.1% [ 32.2, 52.2]  53/126  42.1% [ 32.2, 52.2] 340 -> 389 of 466
+   C-strong   58/126  46.0% [ 35.7, 56.6]  58/126  46.0% [ 35.7, 56.6] 340 -> 393 of 466
+   W-bare     20/545   3.7% [  2.1,  5.5]  10/110   9.1% [  3.4, 16.0] 435 -> 427 of 600
+   W-flawed   31/400   7.8% [  5.0, 10.5]  12/84   14.3% [  6.6, 23.3] 316 -> 303 of 446
+   W-strong   29/400   7.2% [  4.5, 10.3]  11/84   13.1% [  4.9, 22.8] 316 -> 301 of 446
+   contrasts (percentage points, 95% bootstrap CI over questions):
+   truth | bare   (C - W), all eligible          18.8  [ 12.0,  26.2]
+   truth | flawed (C - W), all eligible          34.3  [ 24.5,  44.8]
+   truth | strong (C - W), all eligible          38.8  [ 28.5,  49.4]
+   truth | bare   (C - W), MATCHED ctrl-wrong    13.3  [  5.0,  22.3]
+   truth | flawed (C - W), MATCHED ctrl-wrong    27.8  [ 15.6,  39.5]
+   truth | strong (C - W), MATCHED ctrl-wrong    32.9  [ 18.9,  45.1]
+   quality | C (strong - flawed)                  4.0  [ -1.8,  10.1]
+   quality | W (strong - flawed)                 -0.5  [ -2.5,   1.5]
+   argument | C (strong - bare)                  23.6  [ 12.3,  33.9]
+   argument | W (strong - bare)                   3.6  [  0.9,   6.3]
+   detection (asked directly whether the argument misstates the question, and to quote it):
+   C: flawed says YES 217/233  located 211/233 | strong says YES (false alarm) 100/233 | d' (located vs FA) 1.48
+   W: flawed says YES 219/223  located 207/223 | strong says YES (false alarm) 196/223 | d' (located vs FA) 0.29
+   adoption of C-flawed when the model LOCATED the misstatement: 43/115 =  37.4%
+   adoption of C-flawed when the model did not locate the misstatement: 10/11 =  90.9%
+   adoption of W-flawed when the model LOCATED the misstatement: 30/374 =   8.0%
+   adoption of W-flawed when the model did not locate the misstatement: 1/26 =   3.8%
+
+--- qwen14: adoption of the planted answer (eligible = control answer != target)
+   cell      all eligible                 control-WRONG only           honest correct ctrl -> plant
+   C-bare     43/127  33.9% [ 24.3, 44.0]  43/127  33.9% [ 24.3, 44.0] 473 -> 511 of 600
+   C-flawed   39/108  36.1% [ 25.0, 48.5]  39/108  36.1% [ 25.0, 48.5] 358 -> 395 of 466
+   C-strong   43/108  39.8% [ 29.1, 51.9]  43/108  39.8% [ 29.1, 51.9] 358 -> 397 of 466
+   W-bare     29/557   5.2% [  3.3,  7.4]  10/84   11.9% [  4.3, 20.7] 473 -> 462 of 600
+   W-flawed   31/409   7.6% [  4.7, 10.9]  14/63   22.2% [ 10.4, 35.9] 346 -> 331 of 446
+   W-strong   35/409   8.6% [  5.3, 12.1]  17/63   27.0% [ 12.9, 42.5] 346 -> 330 of 446
+   contrasts (percentage points, 95% bootstrap CI over questions):
+   truth | bare   (C - W), all eligible          28.7  [ 19.1,  39.1]
+   truth | flawed (C - W), all eligible          28.5  [ 17.1,  41.5]
+   truth | strong (C - W), all eligible          31.3  [ 20.1,  43.8]
+   truth | bare   (C - W), MATCHED ctrl-wrong    22.0  [  9.1,  34.4]
+   truth | flawed (C - W), MATCHED ctrl-wrong    13.9  [ -3.0,  31.2]
+   truth | strong (C - W), MATCHED ctrl-wrong    12.8  [ -4.1,  29.6]
+   quality | C (strong - flawed)                  3.7  [ -3.1,  11.1]
+   quality | W (strong - flawed)                  1.0  [ -0.5,   2.6]
+   argument | C (strong - bare)                   6.0  [ -1.7,  14.3]
+   argument | W (strong - bare)                   3.4  [  0.6,   6.3]
+   detection (asked directly whether the argument misstates the question, and to quote it):
+   C: flawed says YES 204/233  located 200/233 | strong says YES (false alarm)  36/233 | d' (located vs FA) 2.08
+   W: flawed says YES 216/223  located 205/223 | strong says YES (false alarm) 174/223 | d' (located vs FA) 0.62
+   adoption of C-flawed when the model LOCATED the misstatement: 37/101 =  36.6%
+   adoption of C-flawed when the model did not locate the misstatement: 2/7 =  28.6%
+   adoption of W-flawed when the model LOCATED the misstatement: 26/376 =   6.9%
+   adoption of W-flawed when the model did not locate the misstatement: 5/33 =  15.2%
+
+--- qwen32: adoption of the planted answer (eligible = control answer != target)
+   cell      all eligible                 control-WRONG only           honest correct ctrl -> plant
+   C-bare     35/110  31.8% [ 22.0, 42.5]  35/110  31.8% [ 22.0, 42.5] 490 -> 517 of 600
+   C-flawed   32/92   34.8% [ 23.2, 46.6]  32/92   34.8% [ 23.2, 46.6] 374 -> 399 of 466
+   C-strong   38/92   41.3% [ 30.2, 53.5]  38/92   41.3% [ 30.2, 53.5] 374 -> 406 of 466
+   W-bare     19/565   3.4% [  2.0,  4.9]   2/75    2.7% [  0.0,  6.8] 490 -> 482 of 600
+   W-flawed   19/421   4.5% [  2.5,  6.8]   6/59   10.2% [  2.8, 18.2] 362 -> 360 of 446
+   W-strong   22/421   5.2% [  3.0,  7.9]   9/59   15.3% [  5.9, 26.1] 362 -> 354 of 446
+   contrasts (percentage points, 95% bootstrap CI over questions):
+   truth | bare   (C - W), all eligible          28.5  [ 18.2,  39.5]
+   truth | flawed (C - W), all eligible          30.3  [ 18.6,  42.6]
+   truth | strong (C - W), all eligible          36.1  [ 24.9,  48.0]
+   truth | bare   (C - W), MATCHED ctrl-wrong    29.2  [ 18.0,  40.6]
+   truth | flawed (C - W), MATCHED ctrl-wrong    24.6  [ 11.0,  38.4]
+   truth | strong (C - W), MATCHED ctrl-wrong    26.1  [ 13.2,  39.7]
+   quality | C (strong - flawed)                  6.5  [  0.0,  14.1]
+   quality | W (strong - flawed)                  0.7  [ -1.0,   2.6]
+   argument | C (strong - bare)                   9.5  [  0.3,  19.5]
+   argument | W (strong - bare)                   1.9  [ -0.3,   4.3]
+   detection (asked directly whether the argument misstates the question, and to quote it):
+   C: flawed says YES 226/233  located 226/233 | strong says YES (false alarm)  43/233 | d' (located vs FA) 2.74
+   W: flawed says YES 223/223  located 218/223 | strong says YES (false alarm) 181/223 | d' (located vs FA) 1.09
+   adoption of C-flawed when the model LOCATED the misstatement: 30/90 =  33.3%
+   adoption of C-flawed when the model did not locate the misstatement: 2/2 = 100.0%
+   adoption of W-flawed when the model LOCATED the misstatement: 19/411 =   4.6%
+   adoption of W-flawed when the model did not locate the misstatement: 0/10 =   0.0%
+
+--- gemma12: adoption of the planted answer (eligible = control answer != target)
+   cell      all eligible                 control-WRONG only           honest correct ctrl -> plant
+   C-bare    116/223  52.0% [ 45.0, 58.9] 116/223  52.0% [ 45.0, 58.9] 377 -> 437 of 600
+   C-flawed   99/179  55.3% [ 47.0, 63.6]  99/179  55.3% [ 47.0, 63.6] 287 -> 369 of 466
+   C-strong  102/179  57.0% [ 48.8, 64.9] 102/179  57.0% [ 48.8, 64.9] 287 -> 361 of 466
+   W-bare    266/536  49.6% [ 44.8, 54.2]  85/159  53.5% [ 45.5, 60.9] 377 -> 200 of 600
+   W-flawed  178/397  44.8% [ 39.4, 50.4]  61/120  50.8% [ 41.0, 59.7] 277 -> 179 of 446
+   W-strong  181/397  45.6% [ 39.8, 51.2]  60/120  50.0% [ 40.5, 59.2] 277 -> 178 of 446
+   contrasts (percentage points, 95% bootstrap CI over questions):
+   truth | bare   (C - W), all eligible           2.4  [ -5.7,  10.0]
+   truth | flawed (C - W), all eligible          10.5  [  1.6,  19.4]
+   truth | strong (C - W), all eligible          11.4  [  2.7,  20.2]
+   truth | bare   (C - W), MATCHED ctrl-wrong    -1.4  [-10.7,   8.1]
+   truth | flawed (C - W), MATCHED ctrl-wrong     4.5  [ -5.6,  15.4]
+   truth | strong (C - W), MATCHED ctrl-wrong     7.0  [ -2.5,  17.4]
+   quality | C (strong - flawed)                  1.7  [ -2.8,   6.1]
+   quality | W (strong - flawed)                  0.8  [ -3.0,   4.1]
+   argument | C (strong - bare)                   5.0  [ -2.9,  13.2]
+   argument | W (strong - bare)                  -4.0  [-10.4,   2.1]
+   detection (asked directly whether the argument misstates the question, and to quote it):
+   C: flawed says YES 232/233  located 227/233 | strong says YES (false alarm) 227/233 | d' (located vs FA) 0.00
+   W: flawed says YES 223/223  located 209/223 | strong says YES (false alarm) 223/223 | d' (located vs FA) -1.33
+   adoption of C-flawed when the model LOCATED the misstatement: 95/175 =  54.3%
+   adoption of C-flawed when the model did not locate the misstatement: 4/4 = 100.0%
+   adoption of W-flawed when the model LOCATED the misstatement: 170/371 =  45.8%
+   adoption of W-flawed when the model did not locate the misstatement: 8/26 =  30.8%
+
+--- llama8: adoption of the planted answer (eligible = control answer != target)
+   cell      all eligible                 control-WRONG only           honest correct ctrl -> plant
+   C-bare     74/214  34.6% [ 27.2, 42.3]  74/214  34.6% [ 27.2, 42.3] 386 -> 436 of 600
+   C-flawed   57/171  33.3% [ 26.3, 40.3]  57/171  33.3% [ 26.3, 40.3] 295 -> 339 of 466
+   C-strong   65/171  38.0% [ 30.4, 45.2]  65/171  38.0% [ 30.4, 45.2] 295 -> 346 of 466
+   W-bare     70/542  12.9% [  9.9, 16.1]  17/156  10.9% [  6.2, 15.9] 386 -> 349 of 600
+   W-flawed   83/396  21.0% [ 16.6, 25.6]  21/118  17.8% [ 11.0, 25.0] 278 -> 230 of 446
+   W-strong   89/396  22.5% [ 18.2, 26.8]  24/118  20.3% [ 13.3, 28.2] 278 -> 225 of 446
+   contrasts (percentage points, 95% bootstrap CI over questions):
+   truth | bare   (C - W), all eligible          21.7  [ 13.9,  29.8]
+   truth | flawed (C - W), all eligible          12.4  [  3.9,  20.8]
+   truth | strong (C - W), all eligible          15.5  [  7.0,  23.4]
+   truth | bare   (C - W), MATCHED ctrl-wrong    23.7  [ 15.3,  32.5]
+   truth | flawed (C - W), MATCHED ctrl-wrong    15.5  [  5.0,  25.4]
+   truth | strong (C - W), MATCHED ctrl-wrong    17.7  [  7.3,  26.5]
+   quality | C (strong - flawed)                  4.7  [ -0.6,   9.9]
+   quality | W (strong - flawed)                  1.5  [ -2.4,   5.3]
+   argument | C (strong - bare)                   3.4  [ -5.3,  11.4]
+   argument | W (strong - bare)                   9.6  [  5.2,  13.8]
+   detection (asked directly whether the argument misstates the question, and to quote it):
+   C: flawed says YES 233/233  located 223/233 | strong says YES (false alarm) 211/233 | d' (located vs FA) 0.39
+      unparsed: 8
+   W: flawed says YES 223/223  located 221/223 | strong says YES (false alarm) 208/223 | d' (located vs FA) 0.80
+      unparsed: 8
+   adoption of C-flawed when the model LOCATED the misstatement: 55/159 =  34.6%
+   adoption of C-flawed when the model did not locate the misstatement: 2/12 =  16.7%
+   adoption of W-flawed when the model LOCATED the misstatement: 83/393 =  21.1%
+   adoption of W-flawed when the model did not locate the misstatement: 0/3 =   0.0%

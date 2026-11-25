@@ -1,0 +1,3 @@
+{"id": "g079", "gold": "D", "step": "Molecular Biology", "agent": 1, "role": "chemist", "target": "A", "attempt": 1, "pred": "A", "prompt_tokens": 207, "output_tokens": 192}
+{"id": "g099", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "target": "B", "attempt": 1, "pred": "B", "prompt_tokens": 320, "output_tokens": 174}
+{"id": "g150", "gold": "B", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "target": "C", "attempt": 1, "pred": "C", "prompt_tokens": 285, "output_tokens": 130}

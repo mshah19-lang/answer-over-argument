@@ -1,0 +1,300 @@
+{"id": "m000", "gold": "B", "step": "Anatomy", "pred": "D", "response": "D. Septal branch of superior labial aery  \nANSWER: D", "prompt_tokens": 125, "output_tokens": 17}
+{"id": "m001", "gold": "D", "step": "Dental", "pred": "D", "response": "D. Candidiasis\n\nANSWER: D", "prompt_tokens": 130, "output_tokens": 11}
+{"id": "m002", "gold": "A", "step": "Dental", "pred": "B", "response": "B. Lower Canine\n\nANSWER: B", "prompt_tokens": 92, "output_tokens": 11}
+{"id": "m003", "gold": "D", "step": "Surgery", "pred": "D", "response": "D. Lanz incision\n\nANSWER: D", "prompt_tokens": 107, "output_tokens": 12}
+{"id": "m004", "gold": "A", "step": "Pathology", "pred": "C", "response": "C. The cell cycle will progress and the cell will divide\n\nANSWER: C", "prompt_tokens": 132, "output_tokens": 18}
+{"id": "m005", "gold": "A", "step": "Medicine", "pred": "A", "response": "A. Amoxicillin.  \nANSWER: A", "prompt_tokens": 103, "output_tokens": 12}
+{"id": "m006", "gold": "B", "step": "Pathology", "pred": "B", "response": "B. Endothelial cells\n\nANSWER: B", "prompt_tokens": 91, "output_tokens": 12}
+{"id": "m007", "gold": "B", "step": "Biochemistry", "pred": "B", "response": "B. Hormone-sensitive lipase\n\nANSWER: B", "prompt_tokens": 106, "output_tokens": 13}
+{"id": "m008", "gold": "B", "step": "ENT", "pred": "B", "response": "B. Outer hair cell\n\nANSWER: B", "prompt_tokens": 90, "output_tokens": 11}
+{"id": "m009", "gold": "A", "step": "Dental", "pred": "D", "response": "D. Connective tissue attachment\n\nANSWER: D", "prompt_tokens": 107, "output_tokens": 12}
+{"id": "m010", "gold": "B", "step": "Dental", "pred": "D", "response": "D. Dry heat\n\nANSWER: D", "prompt_tokens": 94, "output_tokens": 10}
+{"id": "m011", "gold": "B", "step": "Microbiology", "pred": "C", "response": "C. Patient with recurrent rhinitis and sinusitis\n\nANSWER: C", "prompt_tokens": 114, "output_tokens": 17}
+{"id": "m012", "gold": "B", "step": "Dental", "pred": "B", "response": "B. Mesial to the molar\n\nANSWER: B", "prompt_tokens": 113, "output_tokens": 14}
+{"id": "m013", "gold": "B", "step": "Anatomy", "pred": "D", "response": "D. Mammillary body\n\nANSWER: D", "prompt_tokens": 101, "output_tokens": 12}
+{"id": "m014", "gold": "B", "step": "ENT", "pred": "B", "response": "B. >81 dB\n\nANSWER: B", "prompt_tokens": 112, "output_tokens": 12}
+{"id": "m015", "gold": "B", "step": "Dental", "pred": "B", "response": "B. Fibroblasts\n\nANSWER: B", "prompt_tokens": 110, "output_tokens": 12}
+{"id": "m016", "gold": "A", "step": "Pathology", "pred": "A", "response": "A. DMT-1\n\nANSWER: A", "prompt_tokens": 97, "output_tokens": 12}
+{"id": "m017", "gold": "C", "step": "Dental", "pred": "C", "response": "C. In the thickest part\n\nANSWER: C", "prompt_tokens": 117, "output_tokens": 13}
+{"id": "m018", "gold": "A", "step": "Social & Preventive Medicine", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 138, "output_tokens": 5}
+{"id": "m019", "gold": "B", "step": "Surgery", "pred": "C", "response": "C. Excessive Haemorrhage\n\nANSWER: C", "prompt_tokens": 114, "output_tokens": 14}
+{"id": "m020", "gold": "B", "step": "Forensic Medicine", "pred": "D", "response": "D. Pilocarpine\n\nANSWER: D", "prompt_tokens": 91, "output_tokens": 12}
+{"id": "m021", "gold": "A", "step": "Biochemistry", "pred": "C", "response": "C. Next generation sequencing\n\nANSWER: C", "prompt_tokens": 92, "output_tokens": 11}
+{"id": "m022", "gold": "B", "step": "Pharmacology", "pred": "D", "response": "D. Cyclosporine\n\nANSWER: D", "prompt_tokens": 95, "output_tokens": 13}
+{"id": "m023", "gold": "C", "step": "Microbiology", "pred": "C", "response": "C. IL-8\n\nANSWER: C", "prompt_tokens": 90, "output_tokens": 11}
+{"id": "m024", "gold": "B", "step": "Forensic Medicine", "pred": "C", "response": "C. The back of the neck\n\nANSWER: C", "prompt_tokens": 98, "output_tokens": 13}
+{"id": "m025", "gold": "B", "step": "Anatomy", "pred": "D", "response": "D. Mylohyoid, posterior belly of digastric, Stapedius and tensor tympani\n\nANSWER: D", "prompt_tokens": 147, "output_tokens": 28}
+{"id": "m026", "gold": "C", "step": "Social & Preventive Medicine", "pred": "B", "response": "To determine the range in which 95% of the population's intra-ocular pressure (IOP) lies, we use the concept of the confidence interval. For a normal distribution, 95% of the data lies within two standard deviations from the mean.\n\nGiven:\n- Mean (\u03bc) = 25 mm Hg\n- Standard deviation (\u03c3) = 10 mm Hg\n\nThe range is calculated as:\n- Lower bound = \u03bc - 2\u03c3 = 25 - 2(10) = 25 - 20 = 5 mm Hg\n- Upper bound = \u03bc + 2\u03c3 = 25 + 2(10) = 25 + 20 = 45 mm Hg\n\nHowever, this range (5-45 mm Hg) is not among the options. The options provided are narrower, suggesting a different interpretation or a possible typo in the question (e.g., \"standard detion\" instead of \"standard deviation\"). Assuming the question intends to ask for a 95% confidence interval based on the sample mean and standard deviation, and considering the options given, the closest and most reasonable choice is:\n\nB. 20-30 mm Hg\n\nThis range corresponds to one standard deviation from the mean (25 \u00b1 5), which is not the full 95% range, but it is the only option that aligns with a typical interpretation of the data provided.\n\nANSWER: B", "prompt_tokens": 178, "output_tokens": 311}
+{"id": "m027", "gold": "C", "step": "Physiology", "pred": "B", "response": "B\n\nANSWER: B", "prompt_tokens": 111, "output_tokens": 7}
+{"id": "m028", "gold": "A", "step": "ENT", "pred": "B", "response": "B. Ethmoidal\n\nANSWER: B", "prompt_tokens": 94, "output_tokens": 11}
+{"id": "m029", "gold": "A", "step": "Dental", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 96, "output_tokens": 7}
+{"id": "m030", "gold": "A", "step": "Pharmacology", "pred": "A", "response": "A. Direct action on smooth muscle\n\nANSWER: A", "prompt_tokens": 101, "output_tokens": 13}
+{"id": "m031", "gold": "C", "step": "Dental", "pred": "C", "response": "C. 9.6% HF  \nANSWER: C", "prompt_tokens": 105, "output_tokens": 14}
+{"id": "m032", "gold": "D", "step": "Dental", "pred": "D", "response": "D. Should restore the occlusion to the same extent as the permanent bridge\n\nANSWER: D", "prompt_tokens": 145, "output_tokens": 21}
+{"id": "m033", "gold": "C", "step": "Dental", "pred": "C", "response": "C. Rhinomanometry.\n\nANSWER: C", "prompt_tokens": 100, "output_tokens": 12}
+{"id": "m034", "gold": "A", "step": "Gynaecology & Obstetrics", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 100, "output_tokens": 7}
+{"id": "m035", "gold": "C", "step": "Surgery", "pred": "C", "response": "A. Increase dead air space  \nB. Increase respiratory resistance  \nC. Decrease respiratory work  \nD. Cause obstruction in respiration  \n\nA tracheostomy provides a direct airway bypassing the upper airway, which reduces dead space and respiratory resistance. It also decreases the work of breathing by allowing easier airflow. Therefore, the correct answer is:\n\nANSWER: C", "prompt_tokens": 94, "output_tokens": 77}
+{"id": "m036", "gold": "A", "step": "Microbiology", "pred": "D", "response": "D. Causes sharp instruments to dull\n\nANSWER: D", "prompt_tokens": 106, "output_tokens": 13}
+{"id": "m037", "gold": "B", "step": "Pediatrics", "pred": "B", "response": "B\n\nANSWER: B", "prompt_tokens": 125, "output_tokens": 7}
+{"id": "m038", "gold": "D", "step": "Biochemistry", "pred": "D", "response": "D. Chylomicrons\n\nANSWER: D", "prompt_tokens": 90, "output_tokens": 12}
+{"id": "m039", "gold": "A", "step": "Dental", "pred": "D", "response": "D. Flexibility.  \nANSWER: D", "prompt_tokens": 105, "output_tokens": 11}
+{"id": "m040", "gold": "A", "step": "Gynaecology & Obstetrics", "pred": "B", "response": "B. Eisenmenger syndrome\n\nANSWER: B", "prompt_tokens": 107, "output_tokens": 12}
+{"id": "m041", "gold": "D", "step": "Surgery", "pred": "D", "response": "D. Bilateral TMJ ankylosis\n\nANSWER: D", "prompt_tokens": 107, "output_tokens": 16}
+{"id": "m042", "gold": "B", "step": "Dental", "pred": "B", "response": "B. Slots, pins and grooves\n\nANSWER: B", "prompt_tokens": 97, "output_tokens": 14}
+{"id": "m043", "gold": "A", "step": "Anatomy", "pred": "D", "response": "D. The tensor veli palatine (tensor palatini)  \nANSWER: D", "prompt_tokens": 123, "output_tokens": 21}
+{"id": "m044", "gold": "A", "step": "Surgery", "pred": "A", "response": "A. Gloves\n\nANSWER: A", "prompt_tokens": 93, "output_tokens": 9}
+{"id": "m045", "gold": "A", "step": "Dental", "pred": "A", "response": "A. Conversion of hydroxyapatite to fluoroapatite\n\nANSWER: A", "prompt_tokens": 107, "output_tokens": 19}
+{"id": "m046", "gold": "B", "step": "Surgery", "pred": "B", "response": "B. Lateral displacement of the condyle (or) Lateral fracture dislocation condyle\n\nANSWER: B", "prompt_tokens": 135, "output_tokens": 25}
+{"id": "m047", "gold": "A", "step": "Surgery", "pred": "D", "response": "D. 15\n\nANSWER: D", "prompt_tokens": 123, "output_tokens": 11}
+{"id": "m048", "gold": "A", "step": "Pediatrics", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 105, "output_tokens": 7}
+{"id": "m049", "gold": "B", "step": "Dental", "pred": "B", "response": "B. It prevents the formation of chromium oxide or dissolves chromic oxide layer\n\nANSWER: B", "prompt_tokens": 121, "output_tokens": 22}
+{"id": "m050", "gold": "A", "step": "Pathology", "pred": "A", "response": "A. Enamel\n\nANSWER: A", "prompt_tokens": 102, "output_tokens": 10}
+{"id": "m051", "gold": "A", "step": "Physiology", "pred": "A", "response": "A\n\nANSWER: A", "prompt_tokens": 126, "output_tokens": 7}
+{"id": "m052", "gold": "B", "step": "Dental", "pred": "B", "response": "B. NADPH oxidase\n\nANSWER: B", "prompt_tokens": 101, "output_tokens": 13}
+{"id": "m053", "gold": "C", "step": "Dental", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 99, "output_tokens": 7}
+{"id": "m054", "gold": "D", "step": "Pediatrics", "pred": "D", "response": "D. Inguinal approach\n\nANSWER: D", "prompt_tokens": 114, "output_tokens": 12}
+{"id": "m055", "gold": "D", "step": "ENT", "pred": "B", "response": "B. Attic perforation\n\nANSWER: B", "prompt_tokens": 101, "output_tokens": 12}
+{"id": "m056", "gold": "C", "step": "Pathology", "pred": "D", "response": "D. 10% formalin\n\nANSWER: D", "prompt_tokens": 145, "output_tokens": 14}
+{"id": "m057", "gold": "B", "step": "Dental", "pred": "B", "response": "B. 3 mm\n\nANSWER: B", "prompt_tokens": 98, "output_tokens": 11}
+{"id": "m058", "gold": "B", "step": "Anatomy", "pred": "D", "response": "D. Digastric\n\nANSWER: D", "prompt_tokens": 109, "output_tokens": 12}
+{"id": "m059", "gold": "B", "step": "Pediatrics", "pred": "B", "response": "B\n\nANSWER: B", "prompt_tokens": 215, "output_tokens": 7}
+{"id": "m060", "gold": "B", "step": "Pathology", "pred": "B", "response": "B. DMT-1\n\nANSWER: B", "prompt_tokens": 100, "output_tokens": 12}
+{"id": "m061", "gold": "C", "step": "Dental", "pred": "C", "response": "C. Epithelium adjacent to previously denuded root surface\n\nANSWER: C", "prompt_tokens": 125, "output_tokens": 19}
+{"id": "m062", "gold": "D", "step": "Medicine", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 150, "output_tokens": 7}
+{"id": "m063", "gold": "B", "step": "Social & Preventive Medicine", "pred": "B", "response": "B\n\nANSWER: B", "prompt_tokens": 106, "output_tokens": 7}
+{"id": "m064", "gold": "A", "step": "Medicine", "pred": "A", "response": "A. Pandemic\n\nANSWER: A", "prompt_tokens": 96, "output_tokens": 10}
+{"id": "m065", "gold": "D", "step": "Dental", "pred": "D", "response": "D. Lateral pterygoid\n\nANSWER: D", "prompt_tokens": 104, "output_tokens": 14}
+{"id": "m066", "gold": "A", "step": "Pathology", "pred": "B", "response": "B. Cyanotic heart disease\n\nANSWER: B", "prompt_tokens": 95, "output_tokens": 12}
+{"id": "m067", "gold": "A", "step": "Anatomy", "pred": "C", "response": "C. Ectoderm and mesoderm from epiblast; endoderm from hypoblast\n\nANSWER: C", "prompt_tokens": 143, "output_tokens": 28}
+{"id": "m068", "gold": "A", "step": "Gynaecology & Obstetrics", "pred": "A", "response": "A. Cessation of smoking\n\nANSWER: A", "prompt_tokens": 99, "output_tokens": 13}
+{"id": "m069", "gold": "B", "step": "Pediatrics", "pred": "B", "response": "B. Send urine for culture and sensitivity and start I.V. antibiotics immediately\n\nANSWER: B", "prompt_tokens": 176, "output_tokens": 21}
+{"id": "m070", "gold": "A", "step": "Dental", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 94, "output_tokens": 7}
+{"id": "m071", "gold": "B", "step": "Dental", "pred": "C", "response": "C. Tipped teeth\n\nANSWER: C", "prompt_tokens": 94, "output_tokens": 11}
+{"id": "m072", "gold": "B", "step": "Medicine", "pred": "B", "response": "B. Calcium\n\nANSWER: B", "prompt_tokens": 89, "output_tokens": 9}
+{"id": "m073", "gold": "B", "step": "Pathology", "pred": "B", "response": "B. Mitus salivarius bacitracin agar\n\nANSWER: B", "prompt_tokens": 107, "output_tokens": 18}
+{"id": "m074", "gold": "A", "step": "Dental", "pred": "B", "response": "B. 10-20 \u03bc\n\nANSWER: B", "prompt_tokens": 105, "output_tokens": 15}
+{"id": "m075", "gold": "B", "step": "Dental", "pred": "D", "response": "D. Flush terminal plane\n\nANSWER: D", "prompt_tokens": 99, "output_tokens": 11}
+{"id": "m076", "gold": "A", "step": "Surgery", "pred": "A", "response": "A. Incision & drainage\n\nANSWER: A", "prompt_tokens": 126, "output_tokens": 12}
+{"id": "m077", "gold": "C", "step": "Dental", "pred": "D", "response": "D. 0.80%  \nANSWER: D", "prompt_tokens": 105, "output_tokens": 14}
+{"id": "m078", "gold": "A", "step": "Surgery", "pred": "A", "response": "A. Trauma\n\nANSWER: A", "prompt_tokens": 92, "output_tokens": 10}
+{"id": "m079", "gold": "D", "step": "Anaesthesia", "pred": "D", "response": "D. Overstimulation of respiratory centre\n\nANSWER: D", "prompt_tokens": 130, "output_tokens": 14}
+{"id": "m080", "gold": "D", "step": "Anatomy", "pred": "B", "response": "B. Lateral pterygoid\n\nANSWER: B", "prompt_tokens": 101, "output_tokens": 14}
+{"id": "m081", "gold": "A", "step": "Pathology", "pred": "A", "response": "A. Prediabetics\n\nANSWER: A", "prompt_tokens": 99, "output_tokens": 12}
+{"id": "m082", "gold": "B", "step": "Pharmacology", "pred": "C", "response": "C. Increased cardiac contractility\n\nANSWER: C", "prompt_tokens": 109, "output_tokens": 12}
+{"id": "m083", "gold": "D", "step": "Social & Preventive Medicine", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 135, "output_tokens": 5}
+{"id": "m084", "gold": "A", "step": "Dental", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 120, "output_tokens": 7}
+{"id": "m085", "gold": "C", "step": "Dental", "pred": "C", "response": "C. Addition silicone > Polyether > Polysulphide > Condensation silicone\n\nANSWER: C", "prompt_tokens": 148, "output_tokens": 23}
+{"id": "m086", "gold": "B", "step": "Radiology", "pred": "D", "response": "D. Males in mandible\n\nANSWER: D", "prompt_tokens": 100, "output_tokens": 13}
+{"id": "m087", "gold": "A", "step": "Pharmacology", "pred": "C", "response": "C. Long half-life permits alternate day dosing\n\nANSWER: C", "prompt_tokens": 148, "output_tokens": 16}
+{"id": "m088", "gold": "C", "step": "Pharmacology", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 106, "output_tokens": 7}
+{"id": "m089", "gold": "D", "step": "Medicine", "pred": "D", "response": "D. Acute intermittent porphyria\n\nANSWER: D", "prompt_tokens": 141, "output_tokens": 14}
+{"id": "m090", "gold": "C", "step": "Gynaecology & Obstetrics", "pred": "D", "response": "D. 3000 mg\n\nANSWER: D", "prompt_tokens": 108, "output_tokens": 14}
+{"id": "m091", "gold": "C", "step": "Social & Preventive Medicine", "pred": "C", "response": "C. Stratified random sampling\n\nANSWER: C", "prompt_tokens": 105, "output_tokens": 12}
+{"id": "m092", "gold": "C", "step": "Dental", "pred": "B", "response": "B. When centric relation and centric occlusion do not coincide\n\nANSWER: B", "prompt_tokens": 134, "output_tokens": 20}
+{"id": "m093", "gold": "A", "step": "Surgery", "pred": "A", "response": "A. Nitrous oxide\n\nANSWER: A", "prompt_tokens": 100, "output_tokens": 11}
+{"id": "m094", "gold": "A", "step": "Medicine", "pred": "A", "response": "A. Myxedema Coma\n\nANSWER: A", "prompt_tokens": 150, "output_tokens": 13}
+{"id": "m095", "gold": "D", "step": "Dental", "pred": "C", "response": "C. Square cross section file\n\nANSWER: C", "prompt_tokens": 111, "output_tokens": 12}
+{"id": "m096", "gold": "B", "step": "Pathology", "pred": "B", "response": "B. Dendritic cell\n\nANSWER: B", "prompt_tokens": 94, "output_tokens": 12}
+{"id": "m097", "gold": "B", "step": "Social & Preventive Medicine", "pred": "D", "response": "D. Wheat flour fortified with added iron\n\nANSWER: D", "prompt_tokens": 110, "output_tokens": 14}
+{"id": "m098", "gold": "A", "step": "Gynaecology & Obstetrics", "pred": "D", "response": "D. Manchester operation\n\nANSWER: D", "prompt_tokens": 98, "output_tokens": 10}
+{"id": "m099", "gold": "D", "step": "Surgery", "pred": "D", "response": "D. EBV\n\nANSWER: D", "prompt_tokens": 94, "output_tokens": 10}
+{"id": "m100", "gold": "D", "step": "Biochemistry", "pred": "D", "response": "D. Delta amino levulinic acid\n\nANSWER: D", "prompt_tokens": 131, "output_tokens": 14}
+{"id": "m101", "gold": "A", "step": "Pediatrics", "pred": "C", "response": "C. TSH Secreting pituitary adenoma\n\nANSWER: C", "prompt_tokens": 118, "output_tokens": 18}
+{"id": "m102", "gold": "A", "step": "Pathology", "pred": "D", "response": "The question appears to be incomplete or duplicated, as all options are identical. However, based on standard medical knowledge, in **iron deficiency anemia**, the following findings are typically observed:\n\n- **Increased Total Iron Binding Capacity (TIBC)**: Because the body tries to bind more iron, TIBC is elevated.\n- **Decreased Serum Ferritin**: Ferritin is a storage form of iron, and its levels drop in iron deficiency.\n- **Decreased Transferrin Saturation**: This is calculated as (serum iron / TIBC) \u00d7 100, and it is reduced in iron deficiency.\n\nThus, the correct answer is:\n\nANSWER: D", "prompt_tokens": 141, "output_tokens": 137}
+{"id": "m103", "gold": "C", "step": "Dental", "pred": "A", "response": "A. Slight rocking of the impression to disengage it from the undercut\n\nANSWER: A", "prompt_tokens": 144, "output_tokens": 21}
+{"id": "m104", "gold": "C", "step": "Dental", "pred": "B", "response": "B\n\nANSWER: B", "prompt_tokens": 102, "output_tokens": 7}
+{"id": "m105", "gold": "A", "step": "ENT", "pred": "D", "response": "D. B/L otitis media\n\nANSWER: D", "prompt_tokens": 110, "output_tokens": 13}
+{"id": "m106", "gold": "A", "step": "Dental", "pred": "D", "response": "D. 10 lp  \nANSWER: D", "prompt_tokens": 97, "output_tokens": 12}
+{"id": "m107", "gold": "D", "step": "Pediatrics", "pred": "C", "response": "C. Measles, booster dose of DPT and OPV\n\nANSWER: C", "prompt_tokens": 153, "output_tokens": 20}
+{"id": "m108", "gold": "D", "step": "Anatomy", "pred": "D", "response": "D. 2 arteries & 1 vein\n\nANSWER: D", "prompt_tokens": 106, "output_tokens": 15}
+{"id": "m109", "gold": "A", "step": "Dental", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 108, "output_tokens": 7}
+{"id": "m110", "gold": "B", "step": "Dental", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 92, "output_tokens": 7}
+{"id": "m111", "gold": "D", "step": "Social & Preventive Medicine", "pred": "B", "response": "B\n\nANSWER: B", "prompt_tokens": 150, "output_tokens": 7}
+{"id": "m112", "gold": "D", "step": "Gynaecology & Obstetrics", "pred": "D", "response": "D. Neuraxial analgesia\n\nANSWER: D", "prompt_tokens": 118, "output_tokens": 15}
+{"id": "m113", "gold": "D", "step": "Radiology", "pred": "D", "response": "D. Paget's disease of bone\n\nANSWER: D", "prompt_tokens": 102, "output_tokens": 14}
+{"id": "m114", "gold": "D", "step": "Dental", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 124, "output_tokens": 7}
+{"id": "m115", "gold": "A", "step": "Microbiology", "pred": "A", "response": "A. Leptospira\n\nANSWER: A", "prompt_tokens": 119, "output_tokens": 12}
+{"id": "m116", "gold": "A", "step": "Anaesthesia", "pred": "C", "response": "C. 2 min  \nANSWER: C", "prompt_tokens": 99, "output_tokens": 11}
+{"id": "m117", "gold": "B", "step": "Medicine", "pred": "B", "response": "B\n\nANSWER: B", "prompt_tokens": 94, "output_tokens": 7}
+{"id": "m118", "gold": "A", "step": "Gynaecology & Obstetrics", "pred": "A", "response": "A. Eclampsia\n\nANSWER: A", "prompt_tokens": 98, "output_tokens": 12}
+{"id": "m119", "gold": "B", "step": "Pathology", "pred": "C", "response": "C. Multilocular radiolucency.\n\nANSWER: C", "prompt_tokens": 107, "output_tokens": 15}
+{"id": "m120", "gold": "A", "step": "Pathology", "pred": "B", "response": "B. Odontoma\n\nANSWER: B", "prompt_tokens": 115, "output_tokens": 11}
+{"id": "m121", "gold": "C", "step": "Radiology", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 104, "output_tokens": 7}
+{"id": "m122", "gold": "B", "step": "Surgery", "pred": "A", "response": "A\n\nANSWER: A", "prompt_tokens": 123, "output_tokens": 7}
+{"id": "m123", "gold": "A", "step": "Anatomy", "pred": "A", "response": "A. Exocrine and merocrine\n\nANSWER: A", "prompt_tokens": 104, "output_tokens": 13}
+{"id": "m124", "gold": "B", "step": "Dental", "pred": "B", "response": "B. Supporting cusps.  \n\nANSWER: B", "prompt_tokens": 95, "output_tokens": 12}
+{"id": "m125", "gold": "A", "step": "Dental", "pred": "D", "response": "D. Daily fluoride mouthwash\n\nANSWER: D", "prompt_tokens": 102, "output_tokens": 12}
+{"id": "m126", "gold": "D", "step": "Pathology", "pred": "D", "response": "D. Hydroxyproline\n\nANSWER: D", "prompt_tokens": 93, "output_tokens": 12}
+{"id": "m127", "gold": "C", "step": "Biochemistry", "pred": "C", "response": "C. Arginine\n\nANSWER: C", "prompt_tokens": 98, "output_tokens": 10}
+{"id": "m128", "gold": "D", "step": "Pathology", "pred": "A", "response": "A. Increased bleeding time and clotting time\n\nANSWER: A", "prompt_tokens": 110, "output_tokens": 15}
+{"id": "m129", "gold": "B", "step": "Medicine", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 99, "output_tokens": 7}
+{"id": "m130", "gold": "A", "step": "Dental", "pred": "A", "response": "A rest seat is prepared as:\n\nOptions:\nA. Spoon shaped depression with the apex towards the center of the tooth  \nB. Concavity with hemisphere shape  \nC. Elliptical shape  \nD. Rhomboid depression limited to enamel  \n\nANSWER: A", "prompt_tokens": 107, "output_tokens": 54}
+{"id": "m131", "gold": "C", "step": "Pathology", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 94, "output_tokens": 7}
+{"id": "m132", "gold": "B", "step": "Pharmacology", "pred": "D", "response": "D. Streptomycin\n\nANSWER: D", "prompt_tokens": 123, "output_tokens": 11}
+{"id": "m133", "gold": "B", "step": "Pediatrics", "pred": "B", "response": "B\n\nANSWER: B", "prompt_tokens": 100, "output_tokens": 7}
+{"id": "m134", "gold": "D", "step": "Anatomy", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 94, "output_tokens": 7}
+{"id": "m135", "gold": "D", "step": "Anatomy", "pred": "D", "response": "D. Nasopharynx\n\nANSWER: D", "prompt_tokens": 95, "output_tokens": 12}
+{"id": "m136", "gold": "B", "step": "ENT", "pred": "D", "response": "D. Intubate, give bronchodilator and wait for 12 hours, if no response, proceed to tracheostomy\n\nANSWER: D", "prompt_tokens": 130, "output_tokens": 35}
+{"id": "m137", "gold": "A", "step": "Dental", "pred": "A", "response": "A. Initial caries\n\nANSWER: A", "prompt_tokens": 93, "output_tokens": 11}
+{"id": "m138", "gold": "B", "step": "Dental", "pred": "A", "response": "A\n\nANSWER: A", "prompt_tokens": 100, "output_tokens": 7}
+{"id": "m139", "gold": "C", "step": "Dental", "pred": "C", "response": "C. Profilometer\n\nANSWER: C", "prompt_tokens": 100, "output_tokens": 11}
+{"id": "m140", "gold": "A", "step": "Forensic Medicine", "pred": "A", "response": "A. Growth at the site following trauma\n\nANSWER: A", "prompt_tokens": 104, "output_tokens": 14}
+{"id": "m141", "gold": "B", "step": "Gynaecology & Obstetrics", "pred": "D", "response": "D. Metformin\n\nANSWER: D", "prompt_tokens": 104, "output_tokens": 11}
+{"id": "m142", "gold": "D", "step": "Medicine", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 112, "output_tokens": 7}
+{"id": "m143", "gold": "A", "step": "Anatomy", "pred": "A", "response": "A. XII\n\nANSWER: A", "prompt_tokens": 89, "output_tokens": 9}
+{"id": "m144", "gold": "A", "step": "Pathology", "pred": "A", "response": "A. Neutrophilia\n\nANSWER: A", "prompt_tokens": 97, "output_tokens": 12}
+{"id": "m145", "gold": "D", "step": "Dental", "pred": "D", "response": "D. Class II div II\n\nANSWER: D", "prompt_tokens": 96, "output_tokens": 12}
+{"id": "m146", "gold": "B", "step": "Pathology", "pred": "B", "response": "B. Basal cell carcinoma\n\nANSWER: B", "prompt_tokens": 113, "output_tokens": 12}
+{"id": "m147", "gold": "B", "step": "Surgery", "pred": "B", "response": "B\n\nANSWER: B", "prompt_tokens": 127, "output_tokens": 7}
+{"id": "m148", "gold": "D", "step": "Dental", "pred": "A", "response": "A. Hypertonic Lower Lip\n\nANSWER: A", "prompt_tokens": 105, "output_tokens": 13}
+{"id": "m149", "gold": "B", "step": "Forensic Medicine", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 124, "output_tokens": 5}
+{"id": "m150", "gold": "A", "step": "Dental", "pred": "D", "response": "D. <90 degree\n\nANSWER: D", "prompt_tokens": 108, "output_tokens": 12}
+{"id": "m151", "gold": "D", "step": "Ophthalmology", "pred": "A", "response": "A. Colloidal iron\n\nANSWER: A", "prompt_tokens": 102, "output_tokens": 12}
+{"id": "m152", "gold": "D", "step": "Medicine", "pred": "D", "response": "D. Orthostatic hypotension\n\nANSWER: D", "prompt_tokens": 101, "output_tokens": 14}
+{"id": "m153", "gold": "A", "step": "Pharmacology", "pred": "A", "response": "A. Polycystic ovarian syndrome\n\nANSWER: A", "prompt_tokens": 100, "output_tokens": 14}
+{"id": "m154", "gold": "D", "step": "Biochemistry", "pred": "D", "response": "D. Carboxylase\n\nANSWER: D", "prompt_tokens": 101, "output_tokens": 12}
+{"id": "m155", "gold": "D", "step": "Forensic Medicine", "pred": "D", "response": "D. Fracture\n\nANSWER: D", "prompt_tokens": 95, "output_tokens": 11}
+{"id": "m156", "gold": "A", "step": "Physiology", "pred": "D", "response": "D. Phosphocreatine\n\nANSWER: D", "prompt_tokens": 108, "output_tokens": 13}
+{"id": "m157", "gold": "D", "step": "Physiology", "pred": "A", "response": "The endo-cochlear potential is a positive potential within the cochlear fluids, specifically in the scala media, and is maintained by the stria vascularis. It is typically around +45 mV.\n\nANSWER: A", "prompt_tokens": 100, "output_tokens": 48}
+{"id": "m158", "gold": "B", "step": "Biochemistry", "pred": "B", "response": "B. Protein\n\nANSWER: B", "prompt_tokens": 94, "output_tokens": 9}
+{"id": "m159", "gold": "A", "step": "Dental", "pred": "A", "response": "A. Piezoelectric vibration\n\nANSWER: A", "prompt_tokens": 113, "output_tokens": 13}
+{"id": "m160", "gold": "A", "step": "Dental", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 96, "output_tokens": 7}
+{"id": "m161", "gold": "A", "step": "Dental", "pred": "A", "response": "A. Sensorimotor\n\nANSWER: A", "prompt_tokens": 99, "output_tokens": 11}
+{"id": "m162", "gold": "B", "step": "Forensic Medicine", "pred": "B", "response": "B. Helsinki declaration\n\nANSWER: B", "prompt_tokens": 97, "output_tokens": 10}
+{"id": "m163", "gold": "D", "step": "Physiology", "pred": "D", "response": "D. Mineralocoicoids\n\nANSWER: D", "prompt_tokens": 135, "output_tokens": 12}
+{"id": "m164", "gold": "A", "step": "Dental", "pred": "A", "response": "A. Obstinate.\n\nANSWER: A", "prompt_tokens": 95, "output_tokens": 10}
+{"id": "m165", "gold": "C", "step": "Ophthalmology", "pred": "C", "response": "C. Ganglion cells\n\nANSWER: C", "prompt_tokens": 100, "output_tokens": 11}
+{"id": "m166", "gold": "C", "step": "Gynaecology & Obstetrics", "pred": "C", "response": "C. During parturition\n\nANSWER: C", "prompt_tokens": 96, "output_tokens": 12}
+{"id": "m167", "gold": "C", "step": "Dental", "pred": "C", "response": "C. Microorganisms\n\nANSWER: C", "prompt_tokens": 89, "output_tokens": 10}
+{"id": "m168", "gold": "A", "step": "ENT", "pred": "B", "response": "B. Cochlear nucleus  \nD. Medial geniculate body  \nC. Inferior colliculus  \nA. Auditory cortex  \n\nANSWER: B", "prompt_tokens": 118, "output_tokens": 34}
+{"id": "m169", "gold": "A", "step": "Dental", "pred": "C", "response": "C. K-reamer\n\nANSWER: C", "prompt_tokens": 97, "output_tokens": 12}
+{"id": "m170", "gold": "A", "step": "Dental", "pred": "C", "response": "C. Increases exposure time\n\nANSWER: C", "prompt_tokens": 92, "output_tokens": 11}
+{"id": "m171", "gold": "C", "step": "Surgery", "pred": "C", "response": "C. Nuclear palisading\n\nANSWER: C", "prompt_tokens": 95, "output_tokens": 12}
+{"id": "m172", "gold": "C", "step": "Pharmacology", "pred": "C", "response": "C. Mivacurum\n\nANSWER: C", "prompt_tokens": 102, "output_tokens": 13}
+{"id": "m173", "gold": "A", "step": "Dental", "pred": "D", "response": "D. GIC and silicate\n\nANSWER: D", "prompt_tokens": 111, "output_tokens": 13}
+{"id": "m174", "gold": "C", "step": "Dental", "pred": "C", "response": "C. Microorganisms\n\nANSWER: C", "prompt_tokens": 99, "output_tokens": 10}
+{"id": "m175", "gold": "B", "step": "Pharmacology", "pred": "B", "response": "B. Cloxacillin\n\nANSWER: B", "prompt_tokens": 101, "output_tokens": 11}
+{"id": "m176", "gold": "B", "step": "Forensic Medicine", "pred": "D", "response": "D. 314\n\nANSWER: D", "prompt_tokens": 100, "output_tokens": 12}
+{"id": "m177", "gold": "B", "step": "Dental", "pred": "C", "response": "C. Increase setting expansion\n\nANSWER: C", "prompt_tokens": 98, "output_tokens": 11}
+{"id": "m178", "gold": "D", "step": "Medicine", "pred": "B", "response": "The patient has chronic kidney disease (CKD) and presents with protracted vomiting. The ABG shows a pH of 7.40, pCO2 of 40 mm Hg, and HCO3 of 25 mEq/L. These values are within the normal range, suggesting no significant acid-base disturbance. However, the chloride level is 100 mEq/L, and the HCO3 is 24 mEq/L, which may indicate a slight decrease in HCO3, but not enough to be clinically significant. The anion gap can be calculated as follows:\n\nAnion gap = Na - (Cl + HCO3) = 145 - (100 + 24) = 21 mEq/L.\n\nAn anion gap of 21 mEq/L is considered high (normal range is 8\u201316 mEq/L), suggesting a high anion gap metabolic acidosis. However, the pH is normal, which may indicate a mixed acid-base disorder. However, the HCO3 is only slightly decreased, and the pH is normal, which may suggest a compensated state. Given the presence of vomiting, there is a possibility of metabolic alkalosis, but the pH is not elevated. The most accurate interpretation is that there is a high anion gap metabolic acidosis with a normal pH, which may be due to compensation.\n\nANSWER: B", "prompt_tokens": 182, "output_tokens": 292}
+{"id": "m179", "gold": "B", "step": "Dental", "pred": "D", "response": "D. Systematic review\n\nANSWER: D", "prompt_tokens": 91, "output_tokens": 11}
+{"id": "m180", "gold": "D", "step": "Pediatrics", "pred": "D", "response": "D. Respiratory failure\n\nANSWER: D", "prompt_tokens": 102, "output_tokens": 11}
+{"id": "m181", "gold": "A", "step": "Social & Preventive Medicine", "pred": "A", "response": "A. MMR\n\nANSWER: A", "prompt_tokens": 126, "output_tokens": 10}
+{"id": "m182", "gold": "D", "step": "Medicine", "pred": "A", "response": "A. Rosuvastatin + Fenofibrate\n\nANSWER: A", "prompt_tokens": 168, "output_tokens": 16}
+{"id": "m183", "gold": "C", "step": "Biochemistry", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 89, "output_tokens": 7}
+{"id": "m184", "gold": "B", "step": "Dental", "pred": "A", "response": "A\n\nANSWER: A", "prompt_tokens": 121, "output_tokens": 7}
+{"id": "m185", "gold": "D", "step": "Dental", "pred": "D", "response": "D. Resistant to caries\n\nANSWER: D", "prompt_tokens": 95, "output_tokens": 13}
+{"id": "m186", "gold": "C", "step": "Physiology", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 122, "output_tokens": 5}
+{"id": "m187", "gold": "D", "step": "Physiology", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 89, "output_tokens": 7}
+{"id": "m188", "gold": "D", "step": "Dental", "pred": "D", "response": "D. Mandibular 1st premolar\n\nANSWER: D", "prompt_tokens": 108, "output_tokens": 16}
+{"id": "m189", "gold": "A", "step": "Surgery", "pred": "C", "response": "C. Lower 2/3rd of esophagus\n\nANSWER: C", "prompt_tokens": 121, "output_tokens": 18}
+{"id": "m190", "gold": "C", "step": "Dental", "pred": "C", "response": "C. Reduced tendency to bleed on probing the gingival margin\n\nANSWER: C", "prompt_tokens": 110, "output_tokens": 18}
+{"id": "m191", "gold": "D", "step": "Surgery", "pred": "D", "response": "D. Fiberoptic intubation\n\nANSWER: D", "prompt_tokens": 124, "output_tokens": 14}
+{"id": "m192", "gold": "B", "step": "Pharmacology", "pred": "B", "response": "B. Glucocorticoids\n\nANSWER: B", "prompt_tokens": 95, "output_tokens": 13}
+{"id": "m193", "gold": "A", "step": "Medicine", "pred": "A", "response": "A. Amphotericin B\n\nANSWER: A", "prompt_tokens": 164, "output_tokens": 13}
+{"id": "m194", "gold": "D", "step": "Pathology", "pred": "A", "response": "A. Oral hairy Leukoplakia\n\nANSWER: A", "prompt_tokens": 106, "output_tokens": 15}
+{"id": "m195", "gold": "A", "step": "Dental", "pred": "A", "response": "A. Undifferentiated mesenchymal cells\n\nANSWER: A", "prompt_tokens": 99, "output_tokens": 16}
+{"id": "m196", "gold": "A", "step": "Dental", "pred": "C", "response": "C. Extraction\n\nANSWER: C", "prompt_tokens": 118, "output_tokens": 9}
+{"id": "m197", "gold": "B", "step": "Gynaecology & Obstetrics", "pred": "B", "response": "The patient is a middle-aged woman with a twin pregnancy. She has had 2 first-trimester abortions, a 3-year-old daughter born at term, and is currently pregnant with twins.\n\n- **Gravida (G)**: Number of pregnancies, including current. She has had 2 abortions, 1 full-term birth, and is currently pregnant with twins. So, G = 4 (2 abortions + 1 live birth + 1 current pregnancy).\n- **Para (P)**: Number of births, including live and stillbirths. She has had 1 live birth (the 3-year-old daughter) and 2 abortions. However, para counts only live births. So, P = 1.\n- The notation **1+2+1** refers to:\n  - 1: number of live births (she has 1)\n  - 2: number of abortions (she has 2)\n  - 1: number of current pregnancies (she is currently pregnant with twins, but this is not counted in para, so this part is not standard. However, in some notations, the third number may represent the number of current pregnancies, but it's not standard in G/P notation.)\n\nThe correct notation is **G4P1**. The options with G4P1 are A and B. Between them, **B. G4P1 0+1+2** is more likely to be the correct format, where:\n- 0: number of preterm births\n- 1: number of live births\n- 2: number of abortions\n\nANSWER: B", "prompt_tokens": 176, "output_tokens": 334}
+{"id": "m198", "gold": "D", "step": "Anatomy", "pred": "D", "response": "D. Temporal bone\n\nANSWER: D", "prompt_tokens": 96, "output_tokens": 11}
+{"id": "m199", "gold": "A", "step": "Dental", "pred": "B", "response": "B. 5mm\n\nANSWER: B", "prompt_tokens": 95, "output_tokens": 11}
+{"id": "m200", "gold": "B", "step": "Pathology", "pred": "B", "response": "B. Lymphatics\n\nANSWER: B", "prompt_tokens": 96, "output_tokens": 11}
+{"id": "m201", "gold": "C", "step": "Pathology", "pred": "B", "response": "B. Prostaglandin E2\n\nANSWER: B", "prompt_tokens": 97, "output_tokens": 14}
+{"id": "m202", "gold": "A", "step": "Medicine", "pred": "A", "response": "A. Acute intermittent porphyria\n\nANSWER: A", "prompt_tokens": 139, "output_tokens": 14}
+{"id": "m203", "gold": "D", "step": "Surgery", "pred": "D", "response": "D. Mineral component\n\nANSWER: D", "prompt_tokens": 88, "output_tokens": 10}
+{"id": "m204", "gold": "D", "step": "Gynaecology & Obstetrics", "pred": "D", "response": "D. 1234\n\nANSWER: D", "prompt_tokens": 117, "output_tokens": 13}
+{"id": "m205", "gold": "A", "step": "Surgery", "pred": "A", "response": "A. Abrasion\n\nANSWER: A", "prompt_tokens": 91, "output_tokens": 10}
+{"id": "m206", "gold": "D", "step": "Microbiology", "pred": "D", "response": "D. Pneumocystis jirovecii\n\nANSWER: D", "prompt_tokens": 108, "output_tokens": 18}
+{"id": "m207", "gold": "C", "step": "Pathology", "pred": "C", "response": "C. High buffering capacity for acids\n\nANSWER: C", "prompt_tokens": 103, "output_tokens": 13}
+{"id": "m208", "gold": "C", "step": "Dental", "pred": "A", "response": "A. 3% of NaOH\n\nANSWER: A", "prompt_tokens": 110, "output_tokens": 14}
+{"id": "m209", "gold": "B", "step": "Biochemistry", "pred": "B", "response": "A. Increase in temperature  \nB. Decrease in activation energy  \nC. Extremes of pH value  \nD. Low substrate concentration  \n\nEnzyme activity is influenced by factors such as temperature, pH, substrate concentration, and activation energy. An increase in temperature generally increases enzyme activity up to an optimal point, while a decrease in activation energy directly increases the rate of reaction. However, the question asks for what **leads to an increase in enzyme activity**. A decrease in activation energy is a direct factor that increases the rate of reaction, which is essentially an increase in enzyme activity.  \n\nANSWER: B", "prompt_tokens": 101, "output_tokens": 125}
+{"id": "m210", "gold": "A", "step": "Microbiology", "pred": "A", "response": "A. Toxin gene detection by polymerase chain reaction (PCR)  \nANSWER: A", "prompt_tokens": 119, "output_tokens": 20}
+{"id": "m211", "gold": "A", "step": "Anatomy", "pred": "A", "response": "A. Deep branch of ulnar nerve\n\nANSWER: A", "prompt_tokens": 141, "output_tokens": 14}
+{"id": "m212", "gold": "B", "step": "Dental", "pred": "B", "response": "B\n\nANSWER: B", "prompt_tokens": 95, "output_tokens": 7}
+{"id": "m213", "gold": "B", "step": "Pharmacology", "pred": "B", "response": "B. Naloxone\n\nANSWER: B", "prompt_tokens": 112, "output_tokens": 12}
+{"id": "m214", "gold": "D", "step": "Physiology", "pred": "D", "response": "D. Intensity of stimulus\n\nANSWER: D", "prompt_tokens": 98, "output_tokens": 12}
+{"id": "m215", "gold": "C", "step": "Pharmacology", "pred": "C", "response": "C. The substrate concentration at half maximal velocity\n\nANSWER: C", "prompt_tokens": 97, "output_tokens": 15}
+{"id": "m216", "gold": "B", "step": "Ophthalmology", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 94, "output_tokens": 7}
+{"id": "m217", "gold": "A", "step": "Dental", "pred": "A", "response": "A\n\nANSWER: A", "prompt_tokens": 102, "output_tokens": 7}
+{"id": "m218", "gold": "A", "step": "Pathology", "pred": "A", "response": "A. Anisocytosis\n\nANSWER: A", "prompt_tokens": 102, "output_tokens": 13}
+{"id": "m219", "gold": "C", "step": "Dental", "pred": "D", "response": "D. 1 mm posterior to plane  \nANSWER: D", "prompt_tokens": 105, "output_tokens": 14}
+{"id": "m220", "gold": "D", "step": "Medicine", "pred": "D", "response": "D. Amino levulinic acid levels in urine\n\nANSWER: D", "prompt_tokens": 136, "output_tokens": 17}
+{"id": "m221", "gold": "A", "step": "Dental", "pred": "D", "response": "D\n\nANSWER: D", "prompt_tokens": 105, "output_tokens": 7}
+{"id": "m222", "gold": "A", "step": "Medicine", "pred": "A", "response": "A. Respiratory alkalosis\n\nANSWER: A", "prompt_tokens": 124, "output_tokens": 12}
+{"id": "m223", "gold": "A", "step": "Surgery", "pred": "A", "response": "A. Irrigation of socket with sedative placement and analgesic\n\nANSWER: A", "prompt_tokens": 143, "output_tokens": 20}
+{"id": "m224", "gold": "D", "step": "Gynaecology & Obstetrics", "pred": "D", "response": "D. Spermatocyte morphology\n\nANSWER: D", "prompt_tokens": 115, "output_tokens": 13}
+{"id": "m225", "gold": "C", "step": "Pharmacology", "pred": "C", "response": "C. Doxycycline\n\nANSWER: C", "prompt_tokens": 100, "output_tokens": 13}
+{"id": "m226", "gold": "C", "step": "Biochemistry", "pred": "C", "response": "C. 1, 25 dihydroxy cholecalciferol\n\nANSWER: C", "prompt_tokens": 123, "output_tokens": 22}
+{"id": "m227", "gold": "D", "step": "Dental", "pred": "C", "response": "C. Prevent distortion\n\nANSWER: C", "prompt_tokens": 104, "output_tokens": 10}
+{"id": "m228", "gold": "C", "step": "Dental", "pred": "A", "response": "A continuum to sedation, anxiolysis is referred to:\n\nOptions:\nA. Conscious sedation  \nB. Deep sedation  \nC. Minimal sedation  \nD. General anaesthesia  \n\nANSWER: A", "prompt_tokens": 98, "output_tokens": 45}
+{"id": "m229", "gold": "B", "step": "Dental", "pred": "B", "response": "B\n\nANSWER: B", "prompt_tokens": 104, "output_tokens": 7}
+{"id": "m230", "gold": "D", "step": "Psychiatry", "pred": "D", "response": "D. Sialorrhoea\n\nANSWER: D", "prompt_tokens": 97, "output_tokens": 13}
+{"id": "m231", "gold": "A", "step": "Pediatrics", "pred": "C", "response": "C. MRI brain\n\nANSWER: C", "prompt_tokens": 105, "output_tokens": 10}
+{"id": "m232", "gold": "A", "step": "Dental", "pred": "A", "response": "A. F and V sounds  \nANSWER: A", "prompt_tokens": 111, "output_tokens": 12}
+{"id": "m233", "gold": "A", "step": "Dental", "pred": "A", "response": "The common risk factor approach diagram typically includes risk factors that contribute to the development of a disease. In this context, \"smoking\" is a well-known risk factor for various diseases, including cardiovascular disease and cancer. \"Diet\" is also a common risk factor that can contribute to disease development. Therefore, the missing data in the diagram would most likely be \"diet and smoking.\"\n\nANSWER: A", "prompt_tokens": 96, "output_tokens": 82}
+{"id": "m234", "gold": "A", "step": "Dental", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 133, "output_tokens": 5}
+{"id": "m235", "gold": "B", "step": "Physiology", "pred": "B", "response": "B. S3\n\nANSWER: B", "prompt_tokens": 101, "output_tokens": 10}
+{"id": "m236", "gold": "A", "step": "ENT", "pred": "B", "response": "B. Vestibular neurectomy\n\nANSWER: B", "prompt_tokens": 114, "output_tokens": 15}
+{"id": "m237", "gold": "D", "step": "Surgery", "pred": "D", "response": "D. Tranexamic acid\n\nANSWER: D", "prompt_tokens": 104, "output_tokens": 12}
+{"id": "m238", "gold": "B", "step": "Pathology", "pred": "B", "response": "B\n\nANSWER: B", "prompt_tokens": 122, "output_tokens": 7}
+{"id": "m239", "gold": "A", "step": "Anatomy", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 105, "output_tokens": 7}
+{"id": "m240", "gold": "C", "step": "Physiology", "pred": "C", "response": "C. Binding of ATP\n\nANSWER: C", "prompt_tokens": 113, "output_tokens": 11}
+{"id": "m241", "gold": "C", "step": "Gynaecology & Obstetrics", "pred": "B", "response": "The Bishop score is calculated based on several factors: cervical dilation, effacement, consistency, position, and station of the presenting part. Here's the breakdown:\n\n- **Cervical dilation**: 1 cm = 1 point  \n- **Effacement**: 30% = 1 point  \n- **Consistency**: Soft = 1 point  \n- **Position**: Posterior = 0 points  \n- **Station**: -1 = 0 points  \n\nAdding these up: 1 + 1 + 1 + 0 + 0 = **3**\n\nANSWER: B", "prompt_tokens": 156, "output_tokens": 121}
+{"id": "m242", "gold": "B", "step": "Medicine", "pred": "B", "response": "B. Antistreptolysin O\n\nANSWER: B", "prompt_tokens": 161, "output_tokens": 16}
+{"id": "m243", "gold": "B", "step": "Dental", "pred": "B", "response": "B\n\nANSWER: B", "prompt_tokens": 105, "output_tokens": 7}
+{"id": "m244", "gold": "B", "step": "Social & Preventive Medicine", "pred": "B", "response": "B. Sampling error\n\nANSWER: B", "prompt_tokens": 89, "output_tokens": 10}
+{"id": "m245", "gold": "C", "step": "Pharmacology", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 133, "output_tokens": 7}
+{"id": "m246", "gold": "C", "step": "Pathology", "pred": "D", "response": "D. Formaldehyde\n\nANSWER: D", "prompt_tokens": 100, "output_tokens": 10}
+{"id": "m247", "gold": "A", "step": "Pharmacology", "pred": "D", "response": "D. Post-surgical atony or ileus\n\nANSWER: D", "prompt_tokens": 107, "output_tokens": 16}
+{"id": "m248", "gold": "A", "step": "Social & Preventive Medicine", "pred": "B", "response": "B. Withhold vaccine and observe dog for 10 days\n\nANSWER: B", "prompt_tokens": 122, "output_tokens": 19}
+{"id": "m249", "gold": "C", "step": "Social & Preventive Medicine", "pred": "C", "response": "C. t\n\nANSWER: C", "prompt_tokens": 133, "output_tokens": 9}
+{"id": "m250", "gold": "D", "step": "Dental", "pred": "B", "response": "B. 2\n\nANSWER: B", "prompt_tokens": 92, "output_tokens": 10}
+{"id": "m251", "gold": "D", "step": "Gynaecology & Obstetrics", "pred": "A", "response": "A. L:S ratio\n\nANSWER: A", "prompt_tokens": 109, "output_tokens": 11}
+{"id": "m252", "gold": "D", "step": "Anatomy", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 98, "output_tokens": 7}
+{"id": "m253", "gold": "D", "step": "Biochemistry", "pred": "D", "response": "D. Glycogenin\n\nANSWER: D", "prompt_tokens": 114, "output_tokens": 12}
+{"id": "m254", "gold": "D", "step": "Gynaecology & Obstetrics", "pred": "D", "response": "D. Misoprostol\n\nANSWER: D", "prompt_tokens": 105, "output_tokens": 12}
+{"id": "m255", "gold": "B", "step": "Microbiology", "pred": "B", "response": "B. Circulating T4 lymphocytes\n\nANSWER: B", "prompt_tokens": 112, "output_tokens": 14}
+{"id": "m256", "gold": "C", "step": "Dental", "pred": "D", "response": "D. Oral screen\n\nANSWER: D", "prompt_tokens": 104, "output_tokens": 10}
+{"id": "m257", "gold": "B", "step": "Dental", "pred": "B", "response": "B. Class-IV\n\nANSWER: B", "prompt_tokens": 103, "output_tokens": 11}
+{"id": "m258", "gold": "C", "step": "Dental", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 113, "output_tokens": 7}
+{"id": "m259", "gold": "C", "step": "Dental", "pred": "D", "response": "D. 2 in each quadrant\n\nANSWER: D", "prompt_tokens": 101, "output_tokens": 13}
+{"id": "m260", "gold": "A", "step": "Gynaecology & Obstetrics", "pred": "A", "response": "A. Radical vulvectomy with sentinel LN biopsy\n\nANSWER: A", "prompt_tokens": 148, "output_tokens": 16}
+{"id": "m261", "gold": "B", "step": "Surgery", "pred": "A", "response": "A. Abdominal exploration\n\nANSWER: A", "prompt_tokens": 135, "output_tokens": 12}
+{"id": "m262", "gold": "C", "step": "Gynaecology & Obstetrics", "pred": "D", "response": "D. Non-invasive prenatal testing\n\nANSWER: D", "prompt_tokens": 138, "output_tokens": 13}
+{"id": "m263", "gold": "B", "step": "Dental", "pred": "B", "response": "B. Quadritubercular teeth\n\nANSWER: B", "prompt_tokens": 97, "output_tokens": 14}
+{"id": "m264", "gold": "A", "step": "Forensic Medicine", "pred": "B", "response": "B. IPC 297\n\nANSWER: B", "prompt_tokens": 105, "output_tokens": 13}
+{"id": "m265", "gold": "A", "step": "Pediatrics", "pred": "C", "response": "C. Clean catch void\n\nANSWER: C", "prompt_tokens": 113, "output_tokens": 11}
+{"id": "m266", "gold": "C", "step": "Biochemistry", "pred": "C", "response": "C. RNA editing\n\nANSWER: C", "prompt_tokens": 97, "output_tokens": 10}
+{"id": "m267", "gold": "A", "step": "Orthopaedics", "pred": "A", "response": "A. Langerhans cell histiocytosis\n\nANSWER: A", "prompt_tokens": 150, "output_tokens": 17}
+{"id": "m268", "gold": "B", "step": "Pediatrics", "pred": "B", "response": "B. Interstitial keratitis, malformed molars, sensorineural deafness  \nANSWER: B", "prompt_tokens": 133, "output_tokens": 22}
+{"id": "m269", "gold": "B", "step": "Dental", "pred": "A", "response": "A. The first year of life.  \nANSWER: A", "prompt_tokens": 102, "output_tokens": 14}
+{"id": "m270", "gold": "A", "step": "Dental", "pred": "A", "response": "A. Cingulam\n\nANSWER: A", "prompt_tokens": 103, "output_tokens": 12}
+{"id": "m271", "gold": "A", "step": "Dental", "pred": "A", "response": "A. Prevalence rate\n\nANSWER: A", "prompt_tokens": 97, "output_tokens": 12}
+{"id": "m272", "gold": "A", "step": "Dental", "pred": "D", "response": "D. Cause ridge resorption\n\nANSWER: D", "prompt_tokens": 98, "output_tokens": 12}
+{"id": "m273", "gold": "D", "step": "Dental", "pred": "C", "response": "C. Potassium alginate\n\nANSWER: C", "prompt_tokens": 92, "output_tokens": 12}
+{"id": "m274", "gold": "A", "step": "Pathology", "pred": "A", "response": "A. Large tongue\n\nANSWER: A", "prompt_tokens": 100, "output_tokens": 10}
+{"id": "m275", "gold": "A", "step": "Dental", "pred": "A", "response": "A. A muscular imbalance\n\nANSWER: A", "prompt_tokens": 128, "output_tokens": 11}
+{"id": "m276", "gold": "A", "step": "Gynaecology & Obstetrics", "pred": "D", "response": "D. 9mm\n\nANSWER: D", "prompt_tokens": 107, "output_tokens": 11}
+{"id": "m277", "gold": "B", "step": "Pediatrics", "pred": "B", "response": "B. Neonatal hepatitis with extrahepatic biliary atresia\n\nANSWER: B", "prompt_tokens": 134, "output_tokens": 21}
+{"id": "m278", "gold": "B", "step": "ENT", "pred": "B", "response": "B. Submucous fibrosis\n\nANSWER: B", "prompt_tokens": 100, "output_tokens": 14}
+{"id": "m279", "gold": "B", "step": "Dental", "pred": "A", "response": "A. Schilder\n\nANSWER: A", "prompt_tokens": 92, "output_tokens": 11}
+{"id": "m280", "gold": "C", "step": "Medicine", "pred": "A", "response": "The mean electrical axis (MEA) of the heart is the average direction of the electrical forces generated during ventricular depolarization. When the MEA is 90\u00b0, it points toward the inferior wall of the heart, which corresponds to lead III.\n\nThe R wave amplitude is greatest in the lead that is most aligned with the direction of the mean electrical axis. Therefore, when the MEA is 90\u00b0, the lead with the maximum R wave voltage would be **lead III**.\n\nANSWER: A", "prompt_tokens": 104, "output_tokens": 106}
+{"id": "m281", "gold": "A", "step": "Dental", "pred": "A", "response": "A. Thin lamina and non keratinized mucosa of cheek\n\nANSWER: A", "prompt_tokens": 115, "output_tokens": 20}
+{"id": "m282", "gold": "A", "step": "Biochemistry", "pred": "A", "response": "A. Hydroxyproline\n\nANSWER: A", "prompt_tokens": 98, "output_tokens": 12}
+{"id": "m283", "gold": "B", "step": "Surgery", "pred": "B", "response": "B. Postoperative ecchymosis\n\nANSWER: B", "prompt_tokens": 118, "output_tokens": 14}
+{"id": "m284", "gold": "A", "step": "Dental", "pred": "A", "response": "A. E. faecalis\n\nANSWER: A", "prompt_tokens": 112, "output_tokens": 13}
+{"id": "m285", "gold": "C", "step": "Gynaecology & Obstetrics", "pred": "D", "response": "D. Pulmonary cyst\n\nANSWER: D", "prompt_tokens": 103, "output_tokens": 11}
+{"id": "m286", "gold": "D", "step": "Dental", "pred": "D", "response": "D. Resistance form\n\nANSWER: D", "prompt_tokens": 95, "output_tokens": 10}
+{"id": "m287", "gold": "A", "step": "Medicine", "pred": "A", "response": "A. Bone marrow\n\nANSWER: A", "prompt_tokens": 95, "output_tokens": 10}
+{"id": "m288", "gold": "A", "step": "Gynaecology & Obstetrics", "pred": "A", "response": "A. TVS\n\nANSWER: A", "prompt_tokens": 120, "output_tokens": 10}
+{"id": "m289", "gold": "D", "step": "Biochemistry", "pred": "A", "response": "A. Muscle debranching enzyme\n\nANSWER: A", "prompt_tokens": 136, "output_tokens": 13}
+{"id": "m290", "gold": "B", "step": "Pediatrics", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 132, "output_tokens": 5}
+{"id": "m291", "gold": "C", "step": "Dental", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 95, "output_tokens": 7}
+{"id": "m292", "gold": "D", "step": "Medicine", "pred": "D", "response": "D. Liver function tests\n\nANSWER: D", "prompt_tokens": 131, "output_tokens": 11}
+{"id": "m293", "gold": "A", "step": "Pediatrics", "pred": "C", "response": "C\n\nANSWER: C", "prompt_tokens": 121, "output_tokens": 7}
+{"id": "m294", "gold": "C", "step": "Medicine", "pred": "C", "response": "C. Epinephrine .5 ml of 1:1000 IM\n\nANSWER: C", "prompt_tokens": 137, "output_tokens": 24}
+{"id": "m295", "gold": "C", "step": "Microbiology", "pred": "A", "response": "A. Negri bodies\n\nANSWER: A", "prompt_tokens": 136, "output_tokens": 11}
+{"id": "m296", "gold": "A", "step": "Pediatrics", "pred": "D", "response": "D. 6.7gm\n\nANSWER: D", "prompt_tokens": 101, "output_tokens": 13}
+{"id": "m297", "gold": "C", "step": "Dental", "pred": "D", "response": "D. Wit's analysis\n\nANSWER: D", "prompt_tokens": 109, "output_tokens": 11}
+{"id": "m298", "gold": "D", "step": "Dental", "pred": "D", "response": "D. Mandibular premolar\n\nANSWER: D", "prompt_tokens": 106, "output_tokens": 13}
+{"id": "m299", "gold": "A", "step": "Pharmacology", "pred": "A", "response": "A. Linagliptin\n\nANSWER: A", "prompt_tokens": 153, "output_tokens": 12}

@@ -1,0 +1,1094 @@
+ls: cannot access 'analysis/stats.py': No such file or directory
+stats.py
+##### results
+
+===== qwen4 (300 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    65.0  [ 59.3,  70.7]
+   CoT       62.7  [ 57.3,  68.3]
+   SC-3      68.0  [ 62.3,  73.7]
+   SC-6      66.0  [ 60.7,  71.3]
+   round1    65.3  [ 60.0,  70.3]
+   round2    66.0  [ 60.3,  71.3]
+   planted   45.7  [ 40.0,  51.3]
+   tie-rule used (no strict majority): SC-3 10  SC-6 17  round1 10  round2 0  planted 10
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :   9 /  11   p = 0.8238
+   SC-6    vs round2  :  15 /  15   p = 1.0000
+   CoT     vs round2  :  12 /  22   p = 0.1214
+   SC-3    vs round1  :  16 /   8   p = 0.1516
+   round2  vs planted :  66 /   5   p = 0.0000
+   acc diff round2 - round1:   0.7 pts  [ -2.3,   3.3]
+3) unanimous precision %  [95% CI]
+   SC-3      73.9  [ 67.4,  79.4]
+   SC-6      76.4  [ 70.3,  82.1]
+   round1    74.4  [ 68.5,  80.2]
+   round2    71.2  [ 65.7,  76.5]
+   planted    0.0  [  0.0,   0.0]
+   diff round2 - round1:  -3.3 pts  [ -6.3,  -0.6]
+   unanimous-wrong count change r2 - r1: +21  [+12, +30]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right           163           0           0
+   unan_wrong             0          55           1
+   split                 27          22          32
+   new unanimous-wrong in r2: from split 22, from unan_right 0
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.602  [0.546, 0.659]
+   SC-6     0.669  [0.609, 0.730]
+   round1   0.647  [0.591, 0.701]
+   round2   0.602  [0.557, 0.649]
+   planted  0.355  [0.313, 0.394]
+   diff round2 - round1: -0.044  [-0.100, 0.012]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  72.7 acc  73.9 | 0.67: cov  96.7 acc  69.3 | 0.33: cov 100.0 acc  68.0
+   SC-6     1.00: cov  60.7 acc  76.4 | 0.83: cov  77.3 acc  74.1 | 0.67: cov  92.3 acc  69.3 | 0.50: cov  98.3 acc  67.1 | 0.33: cov 100.0 acc  66.0
+   round1   1.00: cov  73.0 acc  74.4 | 0.67: cov  96.7 acc  66.2 | 0.33: cov 100.0 acc  65.3
+   round2   1.00: cov  89.0 acc  71.2 | 0.67: cov 100.0 acc  66.0
+   planted  1.00: cov  17.3 acc   0.0 | 0.67: cov  96.7 acc  46.2 | 0.33: cov 100.0 acc  45.7
+
+===== qwen8 (300 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    60.7  [ 55.0,  66.3]
+   CoT       65.0  [ 59.7,  70.3]
+   SC-3      71.7  [ 66.7,  76.3]
+   SC-6      71.7  [ 66.7,  76.7]
+   round1    70.3  [ 64.7,  75.3]
+   round2    72.7  [ 67.7,  77.7]
+   planted   65.3  [ 59.7,  70.7]
+   tie-rule used (no strict majority): SC-3 5  SC-6 16  round1 4  round2 1  planted 10
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :   3 /  10   p = 0.0923
+   SC-6    vs round2  :  13 /  16   p = 0.7111
+   CoT     vs round2  :   5 /  28   p = 0.0001
+   SC-3    vs round1  :  15 /  11   p = 0.5572
+   round2  vs planted :  26 /   4   p = 0.0001
+   acc diff round2 - round1:   2.3 pts  [  0.0,   4.7]
+3) unanimous precision %  [95% CI]
+   SC-3      79.6  [ 74.0,  84.6]
+   SC-6      82.0  [ 76.3,  87.0]
+   round1    78.9  [ 73.5,  84.1]
+   round2    75.3  [ 70.0,  80.2]
+   planted    0.0  [  0.0,   0.0]
+   diff round2 - round1:  -3.7 pts  [ -6.6,  -0.9]
+   unanimous-wrong count change r2 - r1: +21  [+12, +30]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right           179           0           1
+   unan_wrong             0          47           1
+   split                 31          22          19
+   new unanimous-wrong in r2: from split 22, from unan_right 0
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.640  [0.578, 0.699]
+   SC-6     0.688  [0.627, 0.750]
+   round1   0.656  [0.599, 0.715]
+   round2   0.561  [0.521, 0.605]
+   planted  0.354  [0.300, 0.409]
+   diff round2 - round1: -0.095  [-0.158, -0.033]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  72.0 acc  79.6 | 0.67: cov  98.3 acc  71.9 | 0.33: cov 100.0 acc  71.7
+   SC-6     1.00: cov  64.7 acc  82.0 | 0.83: cov  79.0 acc  79.7 | 0.67: cov  90.3 acc  75.6 | 0.50: cov  99.0 acc  72.1 | 0.33: cov 100.0 acc  71.7
+   round1   1.00: cov  76.0 acc  78.9 | 0.67: cov  98.7 acc  70.6 | 0.33: cov 100.0 acc  70.3
+   round2   1.00: cov  93.0 acc  75.3 | 0.67: cov  99.7 acc  72.9 | 0.00: cov 100.0 acc  72.7
+   planted  1.00: cov  11.7 acc   0.0 | 0.67: cov  96.7 acc  66.2 | 0.33: cov 100.0 acc  65.3
+
+===== qwen14 (300 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    70.7  [ 65.3,  76.0]
+   CoT       76.0  [ 71.3,  80.7]
+   SC-3      78.0  [ 73.3,  82.7]
+   SC-6      79.0  [ 74.7,  83.7]
+   round1    81.0  [ 76.7,  85.3]
+   round2    79.3  [ 75.0,  84.0]
+   planted   72.0  [ 66.7,  77.0]
+   tie-rule used (no strict majority): SC-3 7  SC-6 15  round1 2  round2 1  planted 5
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :   7 /   2   p = 0.1797
+   SC-6    vs round2  :  12 /  13   p = 1.0000
+   CoT     vs round2  :   9 /  19   p = 0.0872
+   SC-3    vs round1  :  10 /  19   p = 0.1360
+   round2  vs planted :  24 /   2   p = 0.0000
+   acc diff round2 - round1:  -1.7 pts  [ -3.7,   0.3]
+3) unanimous precision %  [95% CI]
+   SC-3      86.1  [ 81.7,  90.6]
+   SC-6      90.2  [ 86.1,  94.2]
+   round1    89.3  [ 85.1,  93.2]
+   round2    83.0  [ 78.4,  87.4]
+   planted    3.7  [  0.0,  13.0]
+   diff round2 - round1:  -6.3 pts  [ -9.7,  -3.2]
+   unanimous-wrong count change r2 - r1: +22  [+13, +32]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right           200           0           1
+   unan_wrong             0          23           1
+   split                 25          23          27
+   new unanimous-wrong in r2: from split 23, from unan_right 0
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.683  [0.618, 0.746]
+   SC-6     0.727  [0.654, 0.792]
+   round1   0.705  [0.638, 0.777]
+   round2   0.601  [0.547, 0.657]
+   planted  0.376  [0.314, 0.435]
+   diff round2 - round1: -0.104  [-0.178, -0.030]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  77.0 acc  86.1 | 0.67: cov  97.3 acc  78.8 | 0.33: cov 100.0 acc  78.0
+   SC-6     1.00: cov  68.3 acc  90.2 | 0.83: cov  82.7 acc  83.9 | 0.67: cov  91.3 acc  80.7 | 0.50: cov  99.3 acc  79.2 | 0.33: cov 100.0 acc  79.0
+   round1   1.00: cov  75.0 acc  89.3 | 0.67: cov  99.0 acc  81.5 | 0.33: cov 100.0 acc  81.0
+   round2   1.00: cov  90.3 acc  83.0 | 0.67: cov  99.7 acc  79.3 | 0.33: cov 100.0 acc  79.3
+   planted  1.00: cov   9.0 acc   3.7 | 0.67: cov  98.0 acc  73.1 | 0.33: cov 100.0 acc  72.0
+
+===== qwen32 (300 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    78.0  [ 73.0,  82.7]
+   CoT       80.0  [ 75.3,  84.3]
+   SC-3      81.3  [ 77.0,  85.7]
+   SC-6      81.7  [ 77.3,  86.0]
+   round1    82.7  [ 78.3,  87.0]
+   round2    83.0  [ 78.7,  87.3]
+   planted   76.7  [ 71.7,  81.3]
+   tie-rule used (no strict majority): SC-3 2  SC-6 14  round1 3  round2 0  planted 13
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :   9 /  10   p = 1.0000
+   SC-6    vs round2  :  12 /  16   p = 0.5716
+   CoT     vs round2  :   8 /  17   p = 0.1078
+   SC-3    vs round1  :  10 /  14   p = 0.5413
+   round2  vs planted :  27 /   8   p = 0.0019
+   acc diff round2 - round1:   0.3 pts  [ -2.3,   3.3]
+3) unanimous precision %  [95% CI]
+   SC-3      87.9  [ 83.5,  91.9]
+   SC-6      93.9  [ 90.5,  96.8]
+   round1    92.4  [ 88.9,  95.4]
+   round2    85.7  [ 81.5,  89.7]
+   planted    0.0  [  0.0,   0.0]
+   diff round2 - round1:  -6.7 pts  [-10.4,  -3.2]
+   unanimous-wrong count change r2 - r1: +21  [+11, +32]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right           216           0           3
+   unan_wrong             1          14           3
+   split                 17          25          21
+   new unanimous-wrong in r2: from split 25, from unan_right 0
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.675  [0.606, 0.742]
+   SC-6     0.800  [0.732, 0.863]
+   round1   0.767  [0.701, 0.832]
+   round2   0.588  [0.532, 0.654]
+   planted  0.391  [0.323, 0.463]
+   diff round2 - round1: -0.179  [-0.269, -0.088]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  79.7 acc  87.9 | 0.67: cov  99.0 acc  82.2 | 0.33: cov 100.0 acc  81.3
+   SC-6     1.00: cov  71.0 acc  93.9 | 0.83: cov  83.0 acc  88.0 | 0.67: cov  92.0 acc  85.9 | 0.50: cov  98.3 acc  82.7 | 0.33: cov  99.7 acc  81.9 | 0.17: cov 100.0 acc  81.7
+   round1   1.00: cov  79.0 acc  92.4 | 0.67: cov  99.0 acc  82.8 | 0.33: cov 100.0 acc  82.7
+   round2   1.00: cov  91.0 acc  85.7 | 0.67: cov 100.0 acc  83.0
+   planted  1.00: cov   7.0 acc   0.0 | 0.67: cov  95.7 acc  78.0 | 0.33: cov 100.0 acc  76.7
+
+===== gemma12 (300 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    63.3  [ 58.0,  69.0]
+   CoT       68.0  [ 63.0,  73.0]
+   SC-3      71.3  [ 66.0,  76.3]
+   SC-6      70.0  [ 64.7,  75.0]
+   round1    69.3  [ 64.0,  74.3]
+   round2    67.0  [ 62.0,  72.3]
+   planted   26.7  [ 21.7,  31.7]
+   tie-rule used (no strict majority): SC-3 4  SC-6 19  round1 7  round2 3  planted 20
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :  32 /  25   p = 0.4270
+   SC-6    vs round2  :  35 /  26   p = 0.3057
+   CoT     vs round2  :  34 /  31   p = 0.8043
+   SC-3    vs round1  :  16 /  10   p = 0.3269
+   round2  vs planted : 125 /   4   p = 0.0000
+   acc diff round2 - round1:  -2.3 pts  [ -7.3,   2.3]
+3) unanimous precision %  [95% CI]
+   SC-3      78.9  [ 73.1,  84.3]
+   SC-6      84.4  [ 79.4,  89.5]
+   round1    80.0  [ 74.9,  85.3]
+   round2    79.1  [ 72.7,  84.9]
+   planted    0.0  [  0.0,   0.0]
+   diff round2 - round1:  -0.9 pts  [ -5.3,   3.3]
+   unanimous-wrong count change r2 - r1: -7  [-16, +2]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right           131           2          39
+   unan_wrong             2          28          13
+   split                  3           6          76
+   new unanimous-wrong in r2: from split 6, from unan_right 2
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.634  [0.575, 0.697]
+   SC-6     0.732  [0.670, 0.792]
+   round1   0.684  [0.629, 0.742]
+   round2   0.658  [0.600, 0.715]
+   planted  0.325  [0.284, 0.366]
+   diff round2 - round1: -0.026  [-0.099, 0.050]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  71.0 acc  78.9 | 0.67: cov  98.7 acc  72.0 | 0.33: cov 100.0 acc  71.3
+   SC-6     1.00: cov  60.0 acc  84.4 | 0.83: cov  79.7 acc  79.1 | 0.67: cov  90.3 acc  73.4 | 0.50: cov  99.7 acc  70.2 | 0.33: cov 100.0 acc  70.0
+   round1   1.00: cov  71.7 acc  80.0 | 0.67: cov  97.7 acc  70.6 | 0.33: cov 100.0 acc  69.3
+   round2   1.00: cov  57.3 acc  79.1 | 0.67: cov  99.0 acc  67.3 | 0.33: cov 100.0 acc  67.0
+   planted  1.00: cov  29.7 acc   0.0 | 0.67: cov  93.3 acc  27.5 | 0.33: cov 100.0 acc  26.7
+
+===== llama8 (300 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    58.3  [ 52.7,  63.7]
+   CoT       70.3  [ 64.7,  75.7]
+   SC-3      65.7  [ 60.3,  70.7]
+   SC-6      70.7  [ 65.7,  75.7]
+   round1    67.7  [ 62.7,  73.0]
+   round2    63.7  [ 58.0,  69.0]
+   planted   48.3  [ 42.3,  53.7]
+   tie-rule used (no strict majority): SC-3 17  SC-6 23  round1 15  round2 5  planted 25
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :  20 /   8   p = 0.0357
+   SC-6    vs round2  :  31 /  10   p = 0.0015
+   CoT     vs round2  :  35 /  15   p = 0.0066
+   SC-3    vs round1  :  20 /  26   p = 0.4614
+   round2  vs planted :  61 /  15   p = 0.0000
+   acc diff round2 - round1:  -4.0 pts  [ -7.3,  -0.7]
+3) unanimous precision %  [95% CI]
+   SC-3      77.8  [ 71.7,  83.4]
+   SC-6      85.9  [ 80.1,  91.5]
+   round1    86.9  [ 81.5,  91.7]
+   round2    75.9  [ 70.2,  81.3]
+   planted    0.0  [  0.0,   0.0]
+   diff round2 - round1: -11.0 pts  [-15.0,  -6.9]
+   unanimous-wrong count change r2 - r1: +28  [+18, +39]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right           152           0           7
+   unan_wrong             0          24           0
+   split                 12          28          77
+   new unanimous-wrong in r2: from split 28, from unan_right 0
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.680  [0.621, 0.735]
+   SC-6     0.719  [0.654, 0.779]
+   round1   0.767  [0.714, 0.821]
+   round2   0.692  [0.641, 0.745]
+   planted  0.427  [0.382, 0.471]
+   diff round2 - round1: -0.075  [-0.128, -0.023]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  63.0 acc  77.8 | 0.67: cov  94.0 acc  68.4 | 0.33: cov 100.0 acc  65.7
+   SC-6     1.00: cov  47.3 acc  85.9 | 0.83: cov  67.7 acc  80.3 | 0.67: cov  85.3 acc  76.6 | 0.50: cov  97.3 acc  72.3 | 0.33: cov 100.0 acc  70.7
+   round1   1.00: cov  61.0 acc  86.9 | 0.67: cov  95.0 acc  69.1 | 0.33: cov 100.0 acc  67.7
+   round2   1.00: cov  72.0 acc  75.9 | 0.67: cov  98.3 acc  64.4 | 0.33: cov 100.0 acc  63.7
+   planted  1.00: cov  10.3 acc   0.0 | 0.67: cov  91.7 acc  49.5 | 0.33: cov 100.0 acc  48.3
+
+wrote results/risk_coverage.csv
+##### results/medmcqa
+
+===== qwen4 (300 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    59.3  [ 53.7,  65.0]
+   CoT       57.7  [ 51.7,  63.0]
+   SC-3      58.0  [ 52.3,  63.3]
+   SC-6      58.3  [ 52.7,  64.0]
+   round1    62.0  [ 56.3,  67.7]
+   round2    62.0  [ 56.3,  67.3]
+   planted   48.3  [ 42.7,  54.0]
+   tie-rule used (no strict majority): SC-3 11  SC-6 19  round1 7  round2 3  planted 22
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :   8 /   8   p = 1.0000
+   SC-6    vs round2  :  10 /  21   p = 0.0708
+   CoT     vs round2  :  13 /  26   p = 0.0533
+   SC-3    vs round1  :   7 /  19   p = 0.0290
+   round2  vs planted :  44 /   3   p = 0.0000
+   acc diff round2 - round1:   0.0 pts  [ -2.7,   2.7]
+3) unanimous precision %  [95% CI]
+   SC-3      70.3  [ 63.8,  76.5]
+   SC-6      73.6  [ 67.4,  80.2]
+   round1    71.7  [ 65.4,  77.9]
+   round2    65.1  [ 58.8,  71.0]
+   planted    0.0  [  0.0,   0.0]
+   diff round2 - round1:  -6.6 pts  [-10.4,  -3.1]
+   unanimous-wrong count change r2 - r1: +34  [+24, +45]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right           140           0           2
+   unan_wrong             0          56           0
+   split                 28          34          40
+   new unanimous-wrong in r2: from split 34, from unan_right 0
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.672  [0.620, 0.721]
+   SC-6     0.696  [0.644, 0.751]
+   round1   0.635  [0.578, 0.693]
+   round2   0.558  [0.516, 0.602]
+   planted  0.370  [0.323, 0.417]
+   diff round2 - round1: -0.077  [-0.130, -0.025]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  67.3 acc  70.3 | 0.67: cov  96.0 acc  59.4 | 0.33: cov 100.0 acc  58.0
+   SC-6     1.00: cov  60.7 acc  73.6 | 0.83: cov  73.0 acc  67.6 | 0.67: cov  86.3 acc  62.5 | 0.50: cov  98.7 acc  59.1 | 0.33: cov 100.0 acc  58.3
+   round1   1.00: cov  66.0 acc  71.7 | 0.67: cov  97.3 acc  62.3 | 0.33: cov 100.0 acc  62.0
+   round2   1.00: cov  86.0 acc  65.1 | 0.67: cov  98.7 acc  62.5 | 0.33: cov 100.0 acc  62.0
+   planted  1.00: cov  17.3 acc   0.0 | 0.67: cov  92.7 acc  50.0 | 0.33: cov 100.0 acc  48.3
+
+===== qwen8 (300 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    57.7  [ 52.0,  63.3]
+   CoT       64.3  [ 58.7,  69.3]
+   SC-3      65.7  [ 60.3,  71.0]
+   SC-6      67.0  [ 61.7,  72.3]
+   round1    66.7  [ 61.7,  71.7]
+   round2    66.3  [ 61.0,  71.3]
+   planted   57.7  [ 52.3,  63.0]
+   tie-rule used (no strict majority): SC-3 7  SC-6 12  round1 13  round2 0  planted 11
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :  12 /  11   p = 1.0000
+   SC-6    vs round2  :  21 /  19   p = 0.8746
+   CoT     vs round2  :  21 /  27   p = 0.4709
+   SC-3    vs round1  :  12 /  15   p = 0.7011
+   round2  vs planted :  32 /   6   p = 0.0000
+   acc diff round2 - round1:  -0.3 pts  [ -3.3,   2.7]
+3) unanimous precision %  [95% CI]
+   SC-3      75.9  [ 70.1,  81.5]
+   SC-6      77.9  [ 71.8,  83.9]
+   round1    75.7  [ 69.8,  81.2]
+   round2    70.2  [ 64.3,  75.6]
+   planted    2.0  [  0.0,   7.1]
+   diff round2 - round1:  -5.6 pts  [ -8.9,  -2.4]
+   unanimous-wrong count change r2 - r1: +27  [+17, +37]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right           156           0           0
+   unan_wrong             0          49           1
+   split                 25          28          41
+   new unanimous-wrong in r2: from split 28, from unan_right 0
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.663  [0.604, 0.718]
+   SC-6     0.665  [0.604, 0.722]
+   round1   0.643  [0.587, 0.699]
+   round2   0.574  [0.529, 0.623]
+   planted  0.340  [0.291, 0.392]
+   diff round2 - round1: -0.069  [-0.126, -0.010]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  70.7 acc  75.9 | 0.67: cov  97.7 acc  66.6 | 0.33: cov 100.0 acc  65.7
+   SC-6     1.00: cov  63.3 acc  77.9 | 0.83: cov  78.3 acc  73.2 | 0.67: cov  89.7 acc  70.3 | 0.50: cov  99.3 acc  67.1 | 0.33: cov 100.0 acc  67.0
+   round1   1.00: cov  68.7 acc  75.7 | 0.67: cov  95.7 acc  67.9 | 0.33: cov 100.0 acc  66.7
+   round2   1.00: cov  86.0 acc  70.2 | 0.67: cov 100.0 acc  66.3
+   planted  1.00: cov  16.3 acc   2.0 | 0.67: cov  96.3 acc  58.8 | 0.33: cov 100.0 acc  57.7
+
+===== qwen14 (300 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    67.0  [ 61.7,  72.3]
+   CoT       70.7  [ 65.3,  75.7]
+   SC-3      72.3  [ 67.3,  77.7]
+   SC-6      72.3  [ 67.0,  77.3]
+   round1    71.0  [ 66.0,  76.3]
+   round2    71.3  [ 66.0,  76.0]
+   planted   59.0  [ 53.3,  64.7]
+   tie-rule used (no strict majority): SC-3 3  SC-6 13  round1 6  round2 1  planted 6
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :   6 /   7   p = 1.0000
+   SC-6    vs round2  :  16 /  13   p = 0.7111
+   CoT     vs round2  :  15 /  17   p = 0.8601
+   SC-3    vs round1  :  12 /   8   p = 0.5034
+   round2  vs planted :  39 /   2   p = 0.0000
+   acc diff round2 - round1:   0.3 pts  [ -2.0,   2.7]
+3) unanimous precision %  [95% CI]
+   SC-3      80.1  [ 74.6,  85.3]
+   SC-6      84.3  [ 79.2,  89.0]
+   round1    77.5  [ 71.9,  82.4]
+   round2    74.7  [ 69.8,  79.6]
+   planted    2.6  [  0.0,   8.3]
+   diff round2 - round1:  -2.8 pts  [ -5.6,   0.0]
+   unanimous-wrong count change r2 - r1: +17  [+9, +26]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right           178           0           1
+   unan_wrong             0          50           2
+   split                 26          19          24
+   new unanimous-wrong in r2: from split 19, from unan_right 0
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.649  [0.590, 0.710]
+   SC-6     0.699  [0.636, 0.760]
+   round1   0.625  [0.567, 0.684]
+   round2   0.575  [0.533, 0.618]
+   planted  0.361  [0.314, 0.406]
+   diff round2 - round1: -0.050  [-0.113, 0.014]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  75.3 acc  80.1 | 0.67: cov  99.0 acc  73.1 | 0.33: cov 100.0 acc  72.3
+   SC-6     1.00: cov  65.7 acc  84.3 | 0.83: cov  83.0 acc  77.1 | 0.67: cov  90.7 acc  75.4 | 0.50: cov  99.7 acc  72.6 | 0.33: cov 100.0 acc  72.3
+   round1   1.00: cov  77.0 acc  77.5 | 0.67: cov  98.0 acc  72.1 | 0.33: cov 100.0 acc  71.0
+   round2   1.00: cov  91.0 acc  74.7 | 0.67: cov  99.7 acc  71.2 | 0.33: cov 100.0 acc  71.3
+   planted  1.00: cov  13.0 acc   2.6 | 0.67: cov  98.0 acc  59.5 | 0.33: cov 100.0 acc  59.0
+
+===== qwen32 (300 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    72.3  [ 67.3,  77.0]
+   CoT       74.3  [ 69.3,  78.7]
+   SC-3      75.3  [ 70.7,  80.0]
+   SC-6      76.7  [ 72.0,  81.3]
+   round1    74.0  [ 69.0,  78.7]
+   round2    73.7  [ 68.3,  78.3]
+   planted   66.0  [ 61.0,  71.3]
+   tie-rule used (no strict majority): SC-3 5  SC-6 8  round1 9  round2 2  planted 11
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :   9 /   8   p = 1.0000
+   SC-6    vs round2  :  17 /   8   p = 0.1078
+   CoT     vs round2  :  20 /  18   p = 0.8714
+   SC-3    vs round1  :  11 /   7   p = 0.4807
+   round2  vs planted :  30 /   7   p = 0.0002
+   acc diff round2 - round1:  -0.3 pts  [ -3.0,   2.3]
+3) unanimous precision %  [95% CI]
+   SC-3      83.1  [ 78.2,  87.9]
+   SC-6      87.2  [ 82.3,  91.8]
+   round1    80.5  [ 75.3,  85.4]
+   round2    77.2  [ 71.9,  82.0]
+   planted    4.0  [  0.0,  13.3]
+   diff round2 - round1:  -3.3 pts  [ -6.2,  -0.5]
+   unanimous-wrong count change r2 - r1: +13  [+5, +22]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right           183           1           6
+   unan_wrong             0          43           3
+   split                 17          15          32
+   new unanimous-wrong in r2: from split 15, from unan_right 1
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.662  [0.601, 0.722]
+   SC-6     0.713  [0.647, 0.777]
+   round1   0.636  [0.577, 0.690]
+   round2   0.579  [0.529, 0.632]
+   planted  0.411  [0.359, 0.462]
+   diff round2 - round1: -0.057  [-0.132, 0.016]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  77.0 acc  83.1 | 0.67: cov  98.3 acc  75.9 | 0.33: cov 100.0 acc  75.3
+   SC-6     1.00: cov  65.3 acc  87.2 | 0.83: cov  83.0 acc  83.1 | 0.67: cov  93.3 acc  78.9 | 0.50: cov  99.7 acc  76.9 | 0.33: cov 100.0 acc  76.7
+   round1   1.00: cov  78.7 acc  80.5 | 0.67: cov  97.0 acc  75.3 | 0.33: cov 100.0 acc  74.0
+   round2   1.00: cov  86.3 acc  77.2 | 0.67: cov  99.3 acc  73.8 | 0.33: cov 100.0 acc  73.7
+   planted  1.00: cov   8.3 acc   4.0 | 0.67: cov  96.3 acc  67.1 | 0.33: cov 100.0 acc  66.0
+
+===== gemma12 (300 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    54.7  [ 49.0,  60.3]
+   CoT       60.3  [ 54.7,  66.0]
+   SC-3      63.7  [ 58.3,  69.0]
+   SC-6      60.0  [ 54.3,  65.7]
+   round1    61.0  [ 55.7,  66.7]
+   round2    59.7  [ 54.0,  65.0]
+   planted   22.7  [ 18.0,  27.7]
+   tie-rule used (no strict majority): SC-3 8  SC-6 20  round1 9  round2 13  planted 20
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :  32 /  28   p = 0.6989
+   SC-6    vs round2  :  31 /  30   p = 1.0000
+   CoT     vs round2  :  36 /  34   p = 0.9050
+   SC-3    vs round1  :  20 /  12   p = 0.2153
+   round2  vs planted : 120 /   9   p = 0.0000
+   acc diff round2 - round1:  -1.3 pts  [ -6.7,   3.7]
+3) unanimous precision %  [95% CI]
+   SC-3      75.0  [ 68.9,  80.9]
+   SC-6      78.9  [ 72.7,  84.9]
+   round1    74.4  [ 68.1,  80.6]
+   round2    70.1  [ 62.8,  76.6]
+   planted    0.0  [  0.0,   0.0]
+   diff round2 - round1:  -4.3 pts  [-10.3,   1.4]
+   unanimous-wrong count change r2 - r1: -2  [-15, +10]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right           106           5          40
+   unan_wrong             1          30          21
+   split                 10          15          72
+   new unanimous-wrong in r2: from split 15, from unan_right 5
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.675  [0.619, 0.731]
+   SC-6     0.753  [0.699, 0.806]
+   round1   0.690  [0.636, 0.743]
+   round2   0.627  [0.570, 0.681]
+   planted  0.280  [0.239, 0.320]
+   diff round2 - round1: -0.064  [-0.131, 0.003]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  70.7 acc  75.0 | 0.67: cov  97.3 acc  64.7 | 0.33: cov 100.0 acc  63.7
+   SC-6     1.00: cov  60.0 acc  78.9 | 0.83: cov  75.7 acc  71.4 | 0.67: cov  88.3 acc  65.3 | 0.50: cov  99.3 acc  60.4 | 0.33: cov 100.0 acc  60.0
+   round1   1.00: cov  67.7 acc  74.4 | 0.67: cov  97.0 acc  61.9 | 0.33: cov 100.0 acc  61.0
+   round2   1.00: cov  55.7 acc  70.1 | 0.67: cov  95.7 acc  61.0 | 0.33: cov 100.0 acc  59.7
+   planted  1.00: cov  38.0 acc   0.0 | 0.67: cov  93.3 acc  23.2 | 0.33: cov 100.0 acc  22.7
+
+===== llama8 (300 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    52.0  [ 46.3,  57.3]
+   CoT       65.3  [ 60.0,  70.7]
+   SC-3      62.7  [ 57.3,  67.7]
+   SC-6      63.3  [ 57.7,  68.7]
+   round1    61.3  [ 56.0,  66.7]
+   round2    62.7  [ 57.0,  68.0]
+   planted   41.3  [ 36.0,  47.0]
+   tie-rule used (no strict majority): SC-3 25  SC-6 32  round1 36  round2 10  planted 26
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :  13 /  17   p = 0.5847
+   SC-6    vs round2  :  30 /  28   p = 0.8957
+   CoT     vs round2  :  35 /  27   p = 0.3742
+   SC-3    vs round1  :  28 /  24   p = 0.6778
+   round2  vs planted :  76 /  12   p = 0.0000
+   acc diff round2 - round1:   1.3 pts  [ -2.3,   5.0]
+3) unanimous precision %  [95% CI]
+   SC-3      79.5  [ 73.3,  85.6]
+   SC-6      89.8  [ 84.2,  94.9]
+   round1    79.9  [ 73.8,  85.7]
+   round2    73.8  [ 67.4,  79.7]
+   planted    0.0  [  0.0,   0.0]
+   diff round2 - round1:  -6.1 pts  [-10.7,  -1.9]
+   unanimous-wrong count change r2 - r1: +16  [+7, +26]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right           127           0           8
+   unan_wrong             0          29           5
+   split                 14          21          96
+   new unanimous-wrong in r2: from split 21, from unan_right 0
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.717  [0.662, 0.771]
+   SC-6     0.785  [0.730, 0.836]
+   round1   0.741  [0.688, 0.793]
+   round2   0.658  [0.600, 0.714]
+   planted  0.391  [0.346, 0.437]
+   diff round2 - round1: -0.084  [-0.142, -0.026]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  55.3 acc  79.5 | 0.67: cov  91.7 acc  66.5 | 0.33: cov  99.7 acc  62.9 | 0.00: cov 100.0 acc  62.7
+   SC-6     1.00: cov  42.3 acc  89.8 | 0.83: cov  60.0 acc  80.0 | 0.67: cov  78.7 acc  72.5 | 0.50: cov  95.0 acc  65.3 | 0.33: cov  99.7 acc  63.5 | 0.17: cov 100.0 acc  63.3
+   round1   1.00: cov  56.3 acc  79.9 | 0.67: cov  87.7 acc  67.3 | 0.33: cov 100.0 acc  61.3
+   round2   1.00: cov  63.7 acc  73.8 | 0.67: cov  96.7 acc  64.1 | 0.33: cov 100.0 acc  62.7
+   planted  1.00: cov  16.0 acc   0.0 | 0.67: cov  91.3 acc  42.3 | 0.33: cov 100.0 acc  41.3
+
+wrote results/medmcqa/risk_coverage.csv
+##### results/law
+
+===== qwen4 (300 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    52.0  [ 46.0,  57.3]
+   CoT       53.7  [ 47.7,  59.7]
+   SC-3      51.3  [ 45.7,  56.7]
+   SC-6      52.0  [ 46.3,  57.7]
+   round1    52.3  [ 46.7,  58.0]
+   round2    53.0  [ 47.3,  58.7]
+   planted   31.7  [ 26.7,  37.0]
+   tie-rule used (no strict majority): SC-3 10  SC-6 26  round1 7  round2 0  planted 17
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :   6 /   8   p = 0.7905
+   SC-6    vs round2  :  23 /  26   p = 0.7754
+   CoT     vs round2  :  26 /  24   p = 0.8877
+   SC-3    vs round1  :  20 /  23   p = 0.7608
+   round2  vs planted :  68 /   4   p = 0.0000
+   acc diff round2 - round1:   0.7 pts  [ -1.7,   3.3]
+3) unanimous precision %  [95% CI]
+   SC-3      57.5  [ 50.3,  65.0]
+   SC-6      60.8  [ 52.9,  68.3]
+   round1    61.4  [ 54.8,  68.1]
+   round2    55.6  [ 49.2,  61.8]
+   planted    2.4  [  0.0,   6.1]
+   diff round2 - round1:  -5.8 pts  [ -9.7,  -2.2]
+   unanimous-wrong count change r2 - r1: +38  [+27, +49]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right           116           0           0
+   unan_wrong             0          72           1
+   split                 23          39          49
+   new unanimous-wrong in r2: from split 39, from unan_right 0
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.574  [0.515, 0.631]
+   SC-6     0.593  [0.534, 0.654]
+   round1   0.618  [0.563, 0.673]
+   round2   0.543  [0.500, 0.585]
+   planted  0.340  [0.298, 0.385]
+   diff round2 - round1: -0.075  [-0.126, -0.022]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  60.3 acc  57.5 | 0.67: cov  96.7 acc  51.7 | 0.33: cov 100.0 acc  51.3
+   SC-6     1.00: cov  47.7 acc  60.8 | 0.83: cov  67.3 acc  57.4 | 0.67: cov  85.0 acc  53.7 | 0.50: cov  98.7 acc  52.0 | 0.33: cov 100.0 acc  52.0
+   round1   1.00: cov  63.0 acc  61.4 | 0.67: cov  97.7 acc  53.2 | 0.33: cov 100.0 acc  52.3
+   round2   1.00: cov  83.3 acc  55.6 | 0.67: cov 100.0 acc  53.0
+   planted  1.00: cov  28.0 acc   2.4 | 0.67: cov  94.3 acc  32.9 | 0.33: cov 100.0 acc  31.7
+
+===== qwen8 (300 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    50.7  [ 45.0,  56.3]
+   CoT       55.7  [ 50.3,  61.3]
+   SC-3      55.7  [ 50.0,  61.0]
+   SC-6      55.7  [ 49.7,  61.3]
+   round1    54.3  [ 49.0,  60.0]
+   round2    53.0  [ 47.3,  58.7]
+   planted   38.7  [ 33.3,  44.3]
+   tie-rule used (no strict majority): SC-3 9  SC-6 14  round1 4  round2 0  planted 10
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :  14 /  10   p = 0.5413
+   SC-6    vs round2  :  23 /  15   p = 0.2559
+   CoT     vs round2  :  30 /  22   p = 0.3317
+   SC-3    vs round1  :  22 /  18   p = 0.6358
+   round2  vs planted :  51 /   8   p = 0.0000
+   acc diff round2 - round1:  -1.3 pts  [ -4.7,   2.0]
+3) unanimous precision %  [95% CI]
+   SC-3      63.0  [ 56.2,  69.8]
+   SC-6      65.6  [ 57.7,  72.8]
+   round1    60.3  [ 53.3,  67.1]
+   round2    55.8  [ 49.6,  61.9]
+   planted    3.9  [  0.0,   8.9]
+   diff round2 - round1:  -4.5 pts  [ -8.2,  -0.9]
+   unanimous-wrong count change r2 - r1: +37  [+26, +49]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right           116           0           1
+   unan_wrong             0          76           1
+   split                 28          38          40
+   new unanimous-wrong in r2: from split 38, from unan_right 0
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.598  [0.543, 0.651]
+   SC-6     0.632  [0.571, 0.692]
+   round1   0.575  [0.522, 0.629]
+   round2   0.549  [0.510, 0.589]
+   planted  0.325  [0.285, 0.367]
+   diff round2 - round1: -0.026  [-0.086, 0.034]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  66.7 acc  63.0 | 0.67: cov  97.0 acc  56.0 | 0.33: cov 100.0 acc  55.7
+   SC-6     1.00: cov  54.3 acc  65.6 | 0.83: cov  71.3 acc  62.6 | 0.67: cov  90.0 acc  58.9 | 0.50: cov  99.0 acc  56.2 | 0.33: cov 100.0 acc  55.7
+   round1   1.00: cov  64.7 acc  60.3 | 0.67: cov  98.7 acc  54.1 | 0.33: cov 100.0 acc  54.3
+   round2   1.00: cov  86.0 acc  55.8 | 0.67: cov 100.0 acc  53.0
+   planted  1.00: cov  25.3 acc   3.9 | 0.67: cov  96.7 acc  39.0 | 0.33: cov 100.0 acc  38.7
+
+===== qwen14 (300 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    60.7  [ 55.0,  66.0]
+   CoT       57.0  [ 51.7,  62.3]
+   SC-3      60.7  [ 55.3,  66.0]
+   SC-6      59.3  [ 53.7,  65.0]
+   round1    55.0  [ 49.3,  60.7]
+   round2    59.0  [ 53.3,  64.7]
+   planted   45.3  [ 39.7,  51.0]
+   tie-rule used (no strict majority): SC-3 5  SC-6 15  round1 14  round2 5  planted 7
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :   8 /  20   p = 0.0357
+   SC-6    vs round2  :  17 /  16   p = 1.0000
+   CoT     vs round2  :  18 /  24   p = 0.4408
+   SC-3    vs round1  :  26 /   9   p = 0.0060
+   round2  vs planted :  47 /   6   p = 0.0000
+   acc diff round2 - round1:   4.0 pts  [  0.7,   7.7]
+3) unanimous precision %  [95% CI]
+   SC-3      65.5  [ 59.2,  71.8]
+   SC-6      69.9  [ 62.5,  76.3]
+   round1    61.3  [ 54.5,  67.8]
+   round2    60.7  [ 54.9,  66.7]
+   planted    3.6  [  0.0,   9.6]
+   diff round2 - round1:  -0.6 pts  [ -4.2,   3.0]
+   unanimous-wrong count change r2 - r1: +24  [+14, +35]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right           121           0           1
+   unan_wrong             0          74           3
+   split                 35          27          39
+   new unanimous-wrong in r2: from split 27, from unan_right 0
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.563  [0.508, 0.620]
+   SC-6     0.625  [0.568, 0.681]
+   round1   0.593  [0.537, 0.647]
+   round2   0.532  [0.490, 0.574]
+   planted  0.358  [0.316, 0.399]
+   diff round2 - round1: -0.062  [-0.122, -0.005]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  67.7 acc  65.5 | 0.67: cov  98.3 acc  60.0 | 0.33: cov 100.0 acc  60.7
+   SC-6     1.00: cov  57.7 acc  69.9 | 0.83: cov  74.0 acc  64.0 | 0.67: cov  90.0 acc  61.1 | 0.50: cov  99.3 acc  59.4 | 0.33: cov 100.0 acc  59.3
+   round1   1.00: cov  66.3 acc  61.3 | 0.67: cov  95.3 acc  57.0 | 0.33: cov 100.0 acc  55.0
+   round2   1.00: cov  85.7 acc  60.7 | 0.67: cov  98.3 acc  59.7 | 0.33: cov  99.3 acc  59.4 | 0.00: cov 100.0 acc  59.0
+   planted  1.00: cov  18.7 acc   3.6 | 0.67: cov  97.7 acc  46.1 | 0.33: cov 100.0 acc  45.3
+
+===== qwen32 (300 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    60.0  [ 54.3,  65.3]
+   CoT       57.3  [ 51.7,  63.0]
+   SC-3      62.3  [ 56.7,  67.7]
+   SC-6      62.0  [ 56.3,  67.3]
+   round1    62.7  [ 57.3,  68.0]
+   round2    64.3  [ 58.7,  69.7]
+   planted   47.0  [ 41.7,  52.7]
+   tie-rule used (no strict majority): SC-3 9  SC-6 17  round1 7  round2 0  planted 9
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :  10 /  15   p = 0.4244
+   SC-6    vs round2  :  13 /  20   p = 0.2962
+   CoT     vs round2  :  16 /  37   p = 0.0055
+   SC-3    vs round1  :  18 /  19   p = 1.0000
+   round2  vs planted :  57 /   5   p = 0.0000
+   acc diff round2 - round1:   1.7 pts  [ -1.7,   5.0]
+3) unanimous precision %  [95% CI]
+   SC-3      70.3  [ 64.3,  76.1]
+   SC-6      71.7  [ 64.8,  78.5]
+   round1    71.2  [ 64.6,  77.3]
+   round2    68.8  [ 62.9,  74.4]
+   planted    3.6  [  0.0,   9.2]
+   diff round2 - round1:  -2.4 pts  [ -5.7,   0.7]
+   unanimous-wrong count change r2 - r1: +21  [+12, +30]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right           140           0           1
+   unan_wrong             0          56           1
+   split                 32          22          48
+   new unanimous-wrong in r2: from split 22, from unan_right 0
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.621  [0.565, 0.679]
+   SC-6     0.635  [0.574, 0.695]
+   round1   0.619  [0.564, 0.675]
+   round2   0.581  [0.535, 0.628]
+   planted  0.349  [0.308, 0.393]
+   diff round2 - round1: -0.038  [-0.096, 0.021]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  69.7 acc  70.3 | 0.67: cov  97.0 acc  63.2 | 0.33: cov 100.0 acc  62.3
+   SC-6     1.00: cov  57.7 acc  71.7 | 0.83: cov  76.0 acc  68.4 | 0.67: cov  88.3 acc  64.9 | 0.50: cov  99.3 acc  62.4 | 0.33: cov 100.0 acc  62.0
+   round1   1.00: cov  66.0 acc  71.2 | 0.67: cov  97.7 acc  62.8 | 0.33: cov 100.0 acc  62.7
+   round2   1.00: cov  83.3 acc  68.8 | 0.67: cov 100.0 acc  64.3
+   planted  1.00: cov  18.7 acc   3.6 | 0.67: cov  97.0 acc  47.4 | 0.33: cov 100.0 acc  47.0
+
+===== gemma12 (300 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    55.3  [ 50.0,  61.0]
+   CoT       58.3  [ 52.7,  64.0]
+   SC-3      58.3  [ 52.7,  63.7]
+   SC-6      58.0  [ 52.3,  63.7]
+   round1    58.7  [ 53.0,  64.3]
+   round2    60.3  [ 54.3,  65.7]
+   planted   14.0  [ 10.0,  18.0]
+   tie-rule used (no strict majority): SC-3 12  SC-6 19  round1 9  round2 4  planted 18
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :  32 /  37   p = 0.6305
+   SC-6    vs round2  :  27 /  34   p = 0.4426
+   CoT     vs round2  :  35 /  41   p = 0.5666
+   SC-3    vs round1  :  17 /  18   p = 1.0000
+   round2  vs planted : 144 /   5   p = 0.0000
+   acc diff round2 - round1:   1.7 pts  [ -3.3,   6.7]
+3) unanimous precision %  [95% CI]
+   SC-3      65.4  [ 58.9,  72.1]
+   SC-6      69.6  [ 62.3,  76.5]
+   round1    69.8  [ 63.1,  76.2]
+   round2    72.1  [ 65.1,  79.0]
+   planted    0.0  [  0.0,   0.0]
+   diff round2 - round1:   2.3 pts  [ -1.3,   5.6]
+   unanimous-wrong count change r2 - r1: -11  [-20, -3]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right           116           0          16
+   unan_wrong             0          43          14
+   split                  3           3         105
+   new unanimous-wrong in r2: from split 3, from unan_right 0
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.606  [0.551, 0.659]
+   SC-6     0.646  [0.586, 0.706]
+   round1   0.649  [0.594, 0.701]
+   round2   0.635  [0.578, 0.689]
+   planted  0.336  [0.300, 0.373]
+   diff round2 - round1: -0.014  [-0.080, 0.055]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  68.3 acc  65.4 | 0.67: cov  96.0 acc  60.1 | 0.33: cov 100.0 acc  58.3
+   SC-6     1.00: cov  53.7 acc  69.6 | 0.83: cov  73.7 acc  65.2 | 0.67: cov  88.7 acc  61.3 | 0.50: cov  98.3 acc  58.0 | 0.33: cov 100.0 acc  58.0
+   round1   1.00: cov  63.0 acc  69.8 | 0.67: cov  97.0 acc  59.8 | 0.33: cov 100.0 acc  58.7
+   round2   1.00: cov  55.0 acc  72.1 | 0.67: cov  98.7 acc  60.5 | 0.33: cov 100.0 acc  60.3
+   planted  1.00: cov  32.7 acc   0.0 | 0.67: cov  94.0 acc  14.5 | 0.33: cov 100.0 acc  14.0
+
+===== llama8 (300 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    50.3  [ 44.7,  56.0]
+   CoT       59.0  [ 53.7,  64.7]
+   SC-3      53.3  [ 47.7,  59.0]
+   SC-6      57.3  [ 51.7,  63.0]
+   round1    57.3  [ 51.7,  63.0]
+   round2    53.3  [ 47.7,  59.0]
+   planted   38.3  [ 33.0,  43.7]
+   tie-rule used (no strict majority): SC-3 23  SC-6 29  round1 22  round2 9  planted 40
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :  24 /  12   p = 0.0652
+   SC-6    vs round2  :  40 /  28   p = 0.1818
+   CoT     vs round2  :  46 /  29   p = 0.0639
+   SC-3    vs round1  :  28 /  40   p = 0.1818
+   round2  vs planted :  57 /  12   p = 0.0000
+   acc diff round2 - round1:  -4.0 pts  [ -8.0,  -0.3]
+3) unanimous precision %  [95% CI]
+   SC-3      68.5  [ 60.6,  75.6]
+   SC-6      76.3  [ 67.0,  84.4]
+   round1    68.8  [ 60.8,  76.0]
+   round2    64.5  [ 57.1,  71.4]
+   planted    2.7  [  0.0,   9.4]
+   diff round2 - round1:  -4.3 pts  [ -9.0,   0.0]
+   unanimous-wrong count change r2 - r1: +17  [+8, +26]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right            89           0           6
+   unan_wrong             0          40           3
+   split                 20          20         122
+   new unanimous-wrong in r2: from split 20, from unan_right 0
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.661  [0.605, 0.712]
+   SC-6     0.669  [0.607, 0.729]
+   round1   0.614  [0.553, 0.669]
+   round2   0.628  [0.572, 0.682]
+   planted  0.422  [0.375, 0.465]
+   diff round2 - round1: 0.014  [-0.041, 0.068]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  47.7 acc  68.5 | 0.67: cov  92.0 acc  56.2 | 0.33: cov 100.0 acc  53.3
+   SC-6     1.00: cov  31.0 acc  76.3 | 0.83: cov  50.3 acc  71.5 | 0.67: cov  76.3 acc  62.4 | 0.50: cov  95.7 acc  58.5 | 0.33: cov 100.0 acc  57.3
+   round1   1.00: cov  46.0 acc  68.8 | 0.67: cov  92.7 acc  58.6 | 0.33: cov 100.0 acc  57.3
+   round2   1.00: cov  56.3 acc  64.5 | 0.67: cov  97.0 acc  54.0 | 0.33: cov 100.0 acc  53.3
+   planted  1.00: cov  12.3 acc   2.7 | 0.67: cov  86.7 acc  38.5 | 0.33: cov 100.0 acc  38.3
+
+wrote results/law/risk_coverage.csv
+##### results/gpqa
+
+===== qwen4 (198 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    39.9  [ 33.3,  47.0]
+   CoT       39.9  [ 33.3,  46.5]
+   SC-3      37.9  [ 30.8,  44.9]
+   SC-6      37.4  [ 30.8,  44.4]
+   round1    38.9  [ 31.8,  46.0]
+   round2    44.4  [ 37.9,  51.5]
+   planted   30.8  [ 24.2,  37.4]
+   tie-rule used (no strict majority): SC-3 17  SC-6 16  round1 12  round2 4  planted 12
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :   2 /  13   p = 0.0074
+   SC-6    vs round2  :   8 /  22   p = 0.0161
+   CoT     vs round2  :  15 /  24   p = 0.1996
+   SC-3    vs round1  :  11 /  13   p = 0.8388
+   round2  vs planted :  30 /   3   p = 0.0000
+   acc diff round2 - round1:   5.6 pts  [  2.0,   9.1]
+3) unanimous precision %  [95% CI]
+   SC-3      46.9  [ 38.1,  56.1]
+   SC-6      51.2  [ 40.5,  62.5]
+   round1    45.1  [ 36.4,  54.4]
+   round2    41.4  [ 34.0,  49.0]
+   planted    0.0  [  0.0,   0.0]
+   diff round2 - round1:  -3.7 pts  [ -8.9,   1.5]
+   unanimous-wrong count change r2 - r1: +30  [+20, +41]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right            49           0           2
+   unan_wrong             0          60           2
+   split                 16          32          37
+   new unanimous-wrong in r2: from split 32, from unan_right 0
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.607  [0.531, 0.672]
+   SC-6     0.615  [0.538, 0.693]
+   round1   0.578  [0.509, 0.647]
+   round2   0.452  [0.391, 0.506]
+   planted  0.326  [0.276, 0.379]
+   diff round2 - round1: -0.126  [-0.198, -0.054]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  57.1 acc  46.9 | 0.67: cov  91.4 acc  38.7 | 0.33: cov 100.0 acc  37.9
+   SC-6     1.00: cov  41.4 acc  51.2 | 0.83: cov  60.1 acc  42.9 | 0.67: cov  79.8 acc  39.9 | 0.50: cov  96.5 acc  37.2 | 0.33: cov 100.0 acc  37.4
+   round1   1.00: cov  57.1 acc  45.1 | 0.67: cov  93.9 acc  39.8 | 0.33: cov 100.0 acc  38.9
+   round2   1.00: cov  79.3 acc  41.4 | 0.67: cov  98.0 acc  44.3 | 0.33: cov 100.0 acc  44.4
+   planted  1.00: cov  27.8 acc   0.0 | 0.67: cov  93.9 acc  31.7 | 0.33: cov 100.0 acc  30.8
+
+===== qwen8 (198 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    42.9  [ 36.4,  49.5]
+   CoT       39.4  [ 32.8,  46.0]
+   SC-3      41.4  [ 34.3,  48.0]
+   SC-6      41.9  [ 34.8,  48.5]
+   round1    38.4  [ 31.8,  44.9]
+   round2    44.9  [ 38.4,  51.5]
+   planted   29.8  [ 23.7,  35.9]
+   tie-rule used (no strict majority): SC-3 12  SC-6 15  round1 11  round2 4  planted 6
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :   3 /  16   p = 0.0044
+   SC-6    vs round2  :  16 /  22   p = 0.4177
+   CoT     vs round2  :  17 /  28   p = 0.1352
+   SC-3    vs round1  :  20 /  14   p = 0.3915
+   round2  vs planted :  31 /   1   p = 0.0000
+   acc diff round2 - round1:   6.6 pts  [  2.5,  11.1]
+3) unanimous precision %  [95% CI]
+   SC-3      46.9  [ 36.9,  56.7]
+   SC-6      52.4  [ 40.0,  64.7]
+   round1    46.9  [ 37.3,  56.9]
+   round2    45.8  [ 38.0,  53.0]
+   planted    0.0  [  0.0,   0.0]
+   diff round2 - round1:  -1.1 pts  [ -7.2,   4.8]
+   unanimous-wrong count change r2 - r1: +32  [+22, +44]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right            45           0           1
+   unan_wrong             0          51           1
+   split                 26          33          41
+   new unanimous-wrong in r2: from split 33, from unan_right 0
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.562  [0.492, 0.632]
+   SC-6     0.589  [0.510, 0.664]
+   round1   0.597  [0.524, 0.670]
+   round2   0.513  [0.452, 0.568]
+   planted  0.308  [0.263, 0.353]
+   diff round2 - round1: -0.084  [-0.155, -0.007]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  48.5 acc  46.9 | 0.67: cov  93.9 acc  42.5 | 0.33: cov 100.0 acc  41.4
+   SC-6     1.00: cov  31.8 acc  52.4 | 0.83: cov  54.0 acc  49.5 | 0.67: cov  78.3 acc  43.2 | 0.50: cov  97.0 acc  42.7 | 0.33: cov 100.0 acc  41.9
+   round1   1.00: cov  49.5 acc  46.9 | 0.67: cov  94.4 acc  39.6 | 0.33: cov 100.0 acc  38.4
+   round2   1.00: cov  78.3 acc  45.8 | 0.67: cov  98.0 acc  44.8 | 0.33: cov 100.0 acc  44.9
+   planted  1.00: cov  28.8 acc   0.0 | 0.67: cov  97.0 acc  30.2 | 0.33: cov 100.0 acc  29.8
+
+===== qwen14 (198 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    42.4  [ 35.9,  49.0]
+   CoT       42.4  [ 35.4,  49.5]
+   SC-3      44.9  [ 37.9,  52.0]
+   SC-6      44.9  [ 37.9,  52.0]
+   round1    44.4  [ 37.4,  51.5]
+   round2    48.5  [ 41.4,  55.6]
+   planted   37.9  [ 31.3,  44.9]
+   tie-rule used (no strict majority): SC-3 15  SC-6 20  round1 13  round2 4  planted 8
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :   7 /  15   p = 0.1338
+   SC-6    vs round2  :  14 /  21   p = 0.3105
+   CoT     vs round2  :  17 /  29   p = 0.1038
+   SC-3    vs round1  :  15 /  14   p = 1.0000
+   round2  vs planted :  27 /   6   p = 0.0003
+   acc diff round2 - round1:   4.0 pts  [ -0.5,   8.6]
+3) unanimous precision %  [95% CI]
+   SC-3      51.5  [ 41.9,  61.3]
+   SC-6      63.0  [ 51.5,  73.8]
+   round1    49.5  [ 39.6,  59.6]
+   round2    48.7  [ 40.1,  56.8]
+   planted    0.0  [  0.0,   0.0]
+   diff round2 - round1:  -0.8 pts  [ -7.0,   5.4]
+   unanimous-wrong count change r2 - r1: +29  [+19, +39]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right            47           0           1
+   unan_wrong             0          47           2
+   split                 27          31          43
+   new unanimous-wrong in r2: from split 31, from unan_right 0
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.581  [0.514, 0.650]
+   SC-6     0.638  [0.563, 0.709]
+   round1   0.556  [0.487, 0.627]
+   round2   0.508  [0.450, 0.569]
+   planted  0.361  [0.315, 0.409]
+   diff round2 - round1: -0.048  [-0.127, 0.031]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  51.0 acc  51.5 | 0.67: cov  92.4 acc  47.0 | 0.33: cov 100.0 acc  44.9
+   SC-6     1.00: cov  36.9 acc  63.0 | 0.83: cov  59.6 acc  50.8 | 0.67: cov  79.8 acc  48.7 | 0.50: cov  98.0 acc  45.9 | 0.33: cov 100.0 acc  44.9
+   round1   1.00: cov  49.0 acc  49.5 | 0.67: cov  93.4 acc  45.4 | 0.33: cov 100.0 acc  44.4
+   round2   1.00: cov  76.8 acc  48.7 | 0.67: cov  98.0 acc  49.5 | 0.33: cov 100.0 acc  48.5
+   planted  1.00: cov  19.2 acc   0.0 | 0.67: cov  96.0 acc  38.4 | 0.33: cov 100.0 acc  37.9
+
+===== qwen32 (198 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    46.0  [ 39.4,  53.0]
+   CoT       45.5  [ 38.4,  52.5]
+   SC-3      48.5  [ 40.9,  55.6]
+   SC-6      50.5  [ 43.9,  57.1]
+   round1    53.5  [ 47.0,  60.6]
+   round2    53.5  [ 46.5,  60.6]
+   planted   46.5  [ 39.9,  53.5]
+   tie-rule used (no strict majority): SC-3 17  SC-6 23  round1 16  round2 1  planted 17
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :  13 /  13   p = 1.0000
+   SC-6    vs round2  :  17 /  23   p = 0.4296
+   CoT     vs round2  :  14 /  30   p = 0.0226
+   SC-3    vs round1  :  14 /  24   p = 0.1433
+   round2  vs planted :  23 /   9   p = 0.0201
+   acc diff round2 - round1:   0.0 pts  [ -5.1,   5.1]
+3) unanimous precision %  [95% CI]
+   SC-3      65.3  [ 56.0,  74.3]
+   SC-6      72.4  [ 62.0,  82.3]
+   round1    67.7  [ 58.2,  77.4]
+   round2    61.5  [ 53.4,  69.3]
+   planted    0.0  [  0.0,   0.0]
+   diff round2 - round1:  -6.3 pts  [-13.0,   0.5]
+   unanimous-wrong count change r2 - r1: +27  [+17, +38]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right            62           0           1
+   unan_wrong             0          28           2
+   split                 29          29          47
+   new unanimous-wrong in r2: from split 29, from unan_right 0
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.678  [0.611, 0.743]
+   SC-6     0.714  [0.643, 0.782]
+   round1   0.626  [0.553, 0.695]
+   round2   0.620  [0.558, 0.678]
+   planted  0.378  [0.322, 0.437]
+   diff round2 - round1: -0.006  [-0.092, 0.079]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  51.0 acc  65.3 | 0.67: cov  91.4 acc  50.8 | 0.33: cov 100.0 acc  48.5
+   SC-6     1.00: cov  38.4 acc  72.4 | 0.83: cov  55.6 acc  64.5 | 0.67: cov  74.7 acc  59.5 | 0.50: cov  94.4 acc  52.9 | 0.33: cov  99.5 acc  50.8 | 0.17: cov 100.0 acc  50.5
+   round1   1.00: cov  47.0 acc  67.7 | 0.67: cov  91.9 acc  53.8 | 0.33: cov 100.0 acc  53.5
+   round2   1.00: cov  74.7 acc  61.5 | 0.67: cov  99.5 acc  53.8 | 0.33: cov 100.0 acc  53.5
+   planted  1.00: cov  16.2 acc   0.0 | 0.67: cov  91.4 acc  47.5 | 0.33: cov 100.0 acc  46.5
+
+===== gemma12 (198 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    34.8  [ 28.3,  41.4]
+   CoT       34.8  [ 28.3,  41.4]
+   SC-3      36.4  [ 29.8,  42.9]
+   SC-6      38.4  [ 31.8,  45.5]
+   round1    36.4  [ 29.8,  42.9]
+   round2    37.9  [ 30.8,  44.9]
+   planted   10.1  [  6.1,  14.1]
+   tie-rule used (no strict majority): SC-3 17  SC-6 23  round1 17  round2 5  planted 9
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :  13 /  16   p = 0.7111
+   SC-6    vs round2  :  23 /  22   p = 1.0000
+   CoT     vs round2  :  19 /  25   p = 0.4514
+   SC-3    vs round1  :  21 /  21   p = 1.0000
+   round2  vs planted :  57 /   2   p = 0.0000
+   acc diff round2 - round1:   1.5 pts  [ -3.5,   7.1]
+3) unanimous precision %  [95% CI]
+   SC-3      44.2  [ 33.3,  54.3]
+   SC-6      44.6  [ 32.8,  57.1]
+   round1    46.2  [ 35.4,  57.4]
+   round2    41.7  [ 32.3,  51.0]
+   planted    0.0  [  0.0,   0.0]
+   diff round2 - round1:  -4.4 pts  [-11.7,   2.5]
+   unanimous-wrong count change r2 - r1: +18  [+6, +29]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right            32           0           4
+   unan_wrong             0          35           7
+   split                 11          25          84
+   new unanimous-wrong in r2: from split 25, from unan_right 0
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.581  [0.508, 0.656]
+   SC-6     0.576  [0.499, 0.650]
+   round1   0.604  [0.530, 0.672]
+   round2   0.536  [0.462, 0.607]
+   planted  0.280  [0.223, 0.332]
+   diff round2 - round1: -0.068  [-0.153, 0.013]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  43.4 acc  44.2 | 0.67: cov  91.4 acc  37.6 | 0.33: cov 100.0 acc  36.4
+   SC-6     1.00: cov  32.8 acc  44.6 | 0.83: cov  50.5 acc  43.0 | 0.67: cov  72.2 acc  42.7 | 0.50: cov  94.9 acc  39.4 | 0.33: cov 100.0 acc  38.4
+   round1   1.00: cov  39.4 acc  46.2 | 0.67: cov  91.4 acc  38.7 | 0.33: cov 100.0 acc  36.4
+   round2   1.00: cov  52.0 acc  41.7 | 0.67: cov  97.5 acc  37.3 | 0.33: cov 100.0 acc  37.9
+   planted  1.00: cov  37.9 acc   0.0 | 0.67: cov  95.5 acc   9.5 | 0.33: cov 100.0 acc  10.1
+
+===== llama8 (198 questions, bootstrap B=2000) =====
+1) vote accuracy %  [95% CI]
+   single    23.7  [ 18.2,  29.8]
+   CoT       25.3  [ 19.2,  31.3]
+   SC-3      36.4  [ 29.8,  42.9]
+   SC-6      35.4  [ 28.8,  41.9]
+   round1    37.9  [ 31.3,  44.9]
+   round2    29.8  [ 23.7,  36.4]
+   planted   20.7  [ 15.2,  26.3]
+   tie-rule used (no strict majority): SC-3 36  SC-6 35  round1 53  round2 18  planted 46
+2) exact McNemar (A right/B wrong, A wrong/B right, p)
+   round1  vs round2  :  23 /   7   p = 0.0052
+   SC-6    vs round2  :  36 /  25   p = 0.2000
+   CoT     vs round2  :  27 /  36   p = 0.3135
+   SC-3    vs round1  :  31 /  34   p = 0.8043
+   round2  vs planted :  30 /  12   p = 0.0079
+   acc diff round2 - round1:  -8.1 pts  [-13.6,  -2.5]
+3) unanimous precision %  [95% CI]
+   SC-3      45.8  [ 31.2,  60.0]
+   SC-6      50.0  [ 29.2,  70.8]
+   round1    30.3  [ 14.8,  48.1]
+   round2    38.2  [ 27.3,  49.2]
+   planted    0.0  [  0.0,   0.0]
+   diff round2 - round1:   7.9 pts  [ -6.0,  22.0]
+   unanimous-wrong count change r2 - r1: +24  [+14, +34]
+4) r1 -> r2 transitions (rows r1, cols r2)
+                 unan_right  unan_wrong       split
+   unan_right             9           0           1
+   unan_wrong             0          20           3
+   split                 20          27         118
+   new unanimous-wrong in r2: from split 27, from unan_right 0
+5) AUROC: disagreement (1 - agreement fraction) -> vote wrong  [95% CI]
+   SC-3     0.572  [0.491, 0.648]
+   SC-6     0.594  [0.508, 0.677]
+   round1   0.487  [0.414, 0.561]
+   round2   0.597  [0.523, 0.669]
+   planted  0.395  [0.323, 0.463]
+   diff round2 - round1: 0.109  [0.018, 0.198]
+6) risk-coverage: answer only if agreement >= level
+   SC-3     1.00: cov  24.2 acc  45.8 | 0.67: cov  76.3 acc  39.1 | 0.33: cov  99.5 acc  36.5 | 0.00: cov 100.0 acc  36.4
+   SC-6     1.00: cov  12.1 acc  50.0 | 0.83: cov  25.3 acc  56.0 | 0.67: cov  52.5 acc  39.4 | 0.50: cov  78.8 acc  37.2 | 0.33: cov  98.0 acc  35.1 | 0.17: cov 100.0 acc  35.4
+   round1   1.00: cov  16.7 acc  30.3 | 0.67: cov  68.7 acc  38.2 | 0.33: cov  99.5 acc  38.1 | 0.00: cov 100.0 acc  37.9
+   round2   1.00: cov  38.4 acc  38.2 | 0.67: cov  90.4 acc  31.8 | 0.33: cov 100.0 acc  29.8
+   planted  1.00: cov  15.7 acc   0.0 | 0.67: cov  76.3 acc  19.2 | 0.33: cov 100.0 acc  20.7
+
+wrote results/gpqa/risk_coverage.csv

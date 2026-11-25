@@ -1,0 +1,594 @@
+{"id": "g000", "gold": "D", "step": "Physics (general)", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 829, "output_tokens": 184}
+{"id": "g000", "gold": "D", "step": "Physics (general)", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 832, "output_tokens": 187}
+{"id": "g000", "gold": "D", "step": "Physics (general)", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 830, "output_tokens": 137}
+{"id": "g001", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 972, "output_tokens": 150}
+{"id": "g001", "gold": "D", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 975, "output_tokens": 128}
+{"id": "g001", "gold": "D", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 973, "output_tokens": 119}
+{"id": "g002", "gold": "B", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 1717, "output_tokens": 109}
+{"id": "g002", "gold": "B", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 1720, "output_tokens": 162}
+{"id": "g002", "gold": "B", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 1718, "output_tokens": 207}
+{"id": "g003", "gold": "A", "step": "Electromagnetism and Photonics", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 638, "output_tokens": 123}
+{"id": "g003", "gold": "A", "step": "Electromagnetism and Photonics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 641, "output_tokens": 109}
+{"id": "g003", "gold": "A", "step": "Electromagnetism and Photonics", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 639, "output_tokens": 117}
+{"id": "g004", "gold": "D", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 1533, "output_tokens": 167}
+{"id": "g004", "gold": "D", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 1536, "output_tokens": 175}
+{"id": "g004", "gold": "D", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 1534, "output_tokens": 181}
+{"id": "g005", "gold": "C", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 1170, "output_tokens": 175}
+{"id": "g005", "gold": "C", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 1173, "output_tokens": 181}
+{"id": "g005", "gold": "C", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 1171, "output_tokens": 139}
+{"id": "g006", "gold": "C", "step": "High-energy particle physics", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 900, "output_tokens": 219}
+{"id": "g006", "gold": "C", "step": "High-energy particle physics", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 903, "output_tokens": 218}
+{"id": "g006", "gold": "C", "step": "High-energy particle physics", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 901, "output_tokens": 207}
+{"id": "g007", "gold": "D", "step": "Genetics", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1016, "output_tokens": 140}
+{"id": "g007", "gold": "D", "step": "Genetics", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1019, "output_tokens": 120}
+{"id": "g007", "gold": "D", "step": "Genetics", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1017, "output_tokens": 128}
+{"id": "g008", "gold": "A", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 875, "output_tokens": 181}
+{"id": "g008", "gold": "A", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 878, "output_tokens": 179}
+{"id": "g008", "gold": "A", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 876, "output_tokens": 207}
+{"id": "g009", "gold": "B", "step": "Astrophysics", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 877, "output_tokens": 128}
+{"id": "g009", "gold": "B", "step": "Astrophysics", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 880, "output_tokens": 140}
+{"id": "g009", "gold": "B", "step": "Astrophysics", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 878, "output_tokens": 118}
+{"id": "g010", "gold": "C", "step": "Molecular Biology", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1221, "output_tokens": 125}
+{"id": "g010", "gold": "C", "step": "Molecular Biology", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1224, "output_tokens": 107}
+{"id": "g010", "gold": "C", "step": "Molecular Biology", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1222, "output_tokens": 114}
+{"id": "g011", "gold": "A", "step": "High-energy particle physics", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 828, "output_tokens": 180}
+{"id": "g011", "gold": "A", "step": "High-energy particle physics", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 831, "output_tokens": 231}
+{"id": "g011", "gold": "A", "step": "High-energy particle physics", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 829, "output_tokens": 174}
+{"id": "g012", "gold": "A", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 1111, "output_tokens": 110}
+{"id": "g012", "gold": "A", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 1114, "output_tokens": 164}
+{"id": "g012", "gold": "A", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 1112, "output_tokens": 167}
+{"id": "g013", "gold": "D", "step": "Molecular Biology", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 773, "output_tokens": 102}
+{"id": "g013", "gold": "D", "step": "Molecular Biology", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 776, "output_tokens": 108}
+{"id": "g013", "gold": "D", "step": "Molecular Biology", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 774, "output_tokens": 112}
+{"id": "g014", "gold": "D", "step": "Physics (general)", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 847, "output_tokens": 166}
+{"id": "g014", "gold": "D", "step": "Physics (general)", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 850, "output_tokens": 120}
+{"id": "g014", "gold": "D", "step": "Physics (general)", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 848, "output_tokens": 110}
+{"id": "g015", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 1473, "output_tokens": 268}
+{"id": "g015", "gold": "D", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 1476, "output_tokens": 263}
+{"id": "g015", "gold": "D", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 1474, "output_tokens": 125}
+{"id": "g016", "gold": "C", "step": "Chemistry (general)", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1029, "output_tokens": 161}
+{"id": "g016", "gold": "C", "step": "Chemistry (general)", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1032, "output_tokens": 216}
+{"id": "g016", "gold": "C", "step": "Chemistry (general)", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1030, "output_tokens": 215}
+{"id": "g017", "gold": "C", "step": "Physics (general)", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 1047, "output_tokens": 203}
+{"id": "g017", "gold": "C", "step": "Physics (general)", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 1050, "output_tokens": 201}
+{"id": "g017", "gold": "C", "step": "Physics (general)", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1048, "output_tokens": 462}
+{"id": "g018", "gold": "B", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 1221, "output_tokens": 171}
+{"id": "g018", "gold": "B", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 1224, "output_tokens": 168}
+{"id": "g018", "gold": "B", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 1222, "output_tokens": 163}
+{"id": "g019", "gold": "C", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 794, "output_tokens": 137}
+{"id": "g019", "gold": "C", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 797, "output_tokens": 136}
+{"id": "g019", "gold": "C", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 795, "output_tokens": 129}
+{"id": "g020", "gold": "C", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 987, "output_tokens": 139}
+{"id": "g020", "gold": "C", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 990, "output_tokens": 142}
+{"id": "g020", "gold": "C", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 988, "output_tokens": 183}
+{"id": "g021", "gold": "A", "step": "Chemistry (general)", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 539, "output_tokens": 102}
+{"id": "g021", "gold": "A", "step": "Chemistry (general)", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 542, "output_tokens": 92}
+{"id": "g021", "gold": "A", "step": "Chemistry (general)", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 540, "output_tokens": 90}
+{"id": "g022", "gold": "C", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 1037, "output_tokens": 109}
+{"id": "g022", "gold": "C", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 1040, "output_tokens": 153}
+{"id": "g022", "gold": "C", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 1038, "output_tokens": 130}
+{"id": "g023", "gold": "A", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1454, "output_tokens": 288}
+{"id": "g023", "gold": "A", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1457, "output_tokens": 104}
+{"id": "g023", "gold": "A", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1455, "output_tokens": 206}
+{"id": "g024", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1346, "output_tokens": 110}
+{"id": "g024", "gold": "D", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1349, "output_tokens": 103}
+{"id": "g024", "gold": "D", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1347, "output_tokens": 148}
+{"id": "g025", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 1347, "output_tokens": 170}
+{"id": "g025", "gold": "D", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 1350, "output_tokens": 212}
+{"id": "g025", "gold": "D", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 1348, "output_tokens": 150}
+{"id": "g026", "gold": "B", "step": "Molecular Biology", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 600, "output_tokens": 118}
+{"id": "g026", "gold": "B", "step": "Molecular Biology", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 603, "output_tokens": 124}
+{"id": "g026", "gold": "B", "step": "Molecular Biology", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 601, "output_tokens": 100}
+{"id": "g027", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 1124, "output_tokens": 115}
+{"id": "g027", "gold": "D", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 1127, "output_tokens": 124}
+{"id": "g027", "gold": "D", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 1125, "output_tokens": 141}
+{"id": "g028", "gold": "D", "step": "Genetics", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 1203, "output_tokens": 106}
+{"id": "g028", "gold": "D", "step": "Genetics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 1206, "output_tokens": 145}
+{"id": "g028", "gold": "D", "step": "Genetics", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 1204, "output_tokens": 138}
+{"id": "g029", "gold": "B", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 593, "output_tokens": 84}
+{"id": "g029", "gold": "B", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 596, "output_tokens": 71}
+{"id": "g029", "gold": "B", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 594, "output_tokens": 114}
+{"id": "g030", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 877, "output_tokens": 129}
+{"id": "g030", "gold": "D", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 880, "output_tokens": 133}
+{"id": "g030", "gold": "D", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 878, "output_tokens": 121}
+{"id": "g031", "gold": "C", "step": "High-energy particle physics", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 858, "output_tokens": 205}
+{"id": "g031", "gold": "C", "step": "High-energy particle physics", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 861, "output_tokens": 223}
+{"id": "g031", "gold": "C", "step": "High-energy particle physics", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 859, "output_tokens": 215}
+{"id": "g032", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 994, "output_tokens": 152}
+{"id": "g032", "gold": "D", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 997, "output_tokens": 129}
+{"id": "g032", "gold": "D", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 995, "output_tokens": 159}
+{"id": "g033", "gold": "A", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 1448, "output_tokens": 204}
+{"id": "g033", "gold": "A", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 1451, "output_tokens": 164}
+{"id": "g033", "gold": "A", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 1449, "output_tokens": 183}
+{"id": "g034", "gold": "A", "step": "Physics (general)", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 924, "output_tokens": 160}
+{"id": "g034", "gold": "A", "step": "Physics (general)", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 927, "output_tokens": 125}
+{"id": "g034", "gold": "A", "step": "Physics (general)", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 925, "output_tokens": 130}
+{"id": "g035", "gold": "B", "step": "Astrophysics", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 695, "output_tokens": 105}
+{"id": "g035", "gold": "B", "step": "Astrophysics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 698, "output_tokens": 101}
+{"id": "g035", "gold": "B", "step": "Astrophysics", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 696, "output_tokens": 100}
+{"id": "g036", "gold": "C", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 787, "output_tokens": 164}
+{"id": "g036", "gold": "C", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 790, "output_tokens": 151}
+{"id": "g036", "gold": "C", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 788, "output_tokens": 138}
+{"id": "g037", "gold": "A", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 915, "output_tokens": 175}
+{"id": "g037", "gold": "A", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 918, "output_tokens": 125}
+{"id": "g037", "gold": "A", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 916, "output_tokens": 161}
+{"id": "g038", "gold": "A", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 1203, "output_tokens": 155}
+{"id": "g038", "gold": "A", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 1206, "output_tokens": 163}
+{"id": "g038", "gold": "A", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 1204, "output_tokens": 140}
+{"id": "g039", "gold": "A", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 665, "output_tokens": 91}
+{"id": "g039", "gold": "A", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 668, "output_tokens": 104}
+{"id": "g039", "gold": "A", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 666, "output_tokens": 110}
+{"id": "g040", "gold": "A", "step": "Relativistic Mechanics", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 834, "output_tokens": 102}
+{"id": "g040", "gold": "A", "step": "Relativistic Mechanics", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 837, "output_tokens": 150}
+{"id": "g040", "gold": "A", "step": "Relativistic Mechanics", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 835, "output_tokens": 143}
+{"id": "g041", "gold": "B", "step": "Astrophysics", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 914, "output_tokens": 156}
+{"id": "g041", "gold": "B", "step": "Astrophysics", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 917, "output_tokens": 168}
+{"id": "g041", "gold": "B", "step": "Astrophysics", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 915, "output_tokens": 145}
+{"id": "g042", "gold": "C", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 946, "output_tokens": 143}
+{"id": "g042", "gold": "C", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 949, "output_tokens": 159}
+{"id": "g042", "gold": "C", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 947, "output_tokens": 175}
+{"id": "g043", "gold": "B", "step": "Molecular Biology", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 679, "output_tokens": 97}
+{"id": "g043", "gold": "B", "step": "Molecular Biology", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 682, "output_tokens": 82}
+{"id": "g043", "gold": "B", "step": "Molecular Biology", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 680, "output_tokens": 97}
+{"id": "g044", "gold": "D", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1514, "output_tokens": 260}
+{"id": "g044", "gold": "D", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1517, "output_tokens": 282}
+{"id": "g044", "gold": "D", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 1515, "output_tokens": 295}
+{"id": "g045", "gold": "B", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 778, "output_tokens": 159}
+{"id": "g045", "gold": "B", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 781, "output_tokens": 116}
+{"id": "g045", "gold": "B", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 779, "output_tokens": 155}
+{"id": "g046", "gold": "C", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 948, "output_tokens": 165}
+{"id": "g046", "gold": "C", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 951, "output_tokens": 153}
+{"id": "g046", "gold": "C", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 949, "output_tokens": 133}
+{"id": "g047", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 849, "output_tokens": 159}
+{"id": "g047", "gold": "D", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 852, "output_tokens": 158}
+{"id": "g047", "gold": "D", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 850, "output_tokens": 174}
+{"id": "g048", "gold": "B", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 1326, "output_tokens": 147}
+{"id": "g048", "gold": "B", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 1329, "output_tokens": 194}
+{"id": "g048", "gold": "B", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 1327, "output_tokens": 150}
+{"id": "g049", "gold": "D", "step": "High-energy particle physics", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 788, "output_tokens": 151}
+{"id": "g049", "gold": "D", "step": "High-energy particle physics", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 791, "output_tokens": 142}
+{"id": "g049", "gold": "D", "step": "High-energy particle physics", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 789, "output_tokens": 143}
+{"id": "g050", "gold": "A", "step": "Electromagnetism and Photonics", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 679, "output_tokens": 155}
+{"id": "g050", "gold": "A", "step": "Electromagnetism and Photonics", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 682, "output_tokens": 146}
+{"id": "g050", "gold": "A", "step": "Electromagnetism and Photonics", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 680, "output_tokens": 147}
+{"id": "g051", "gold": "A", "step": "Astrophysics", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1195, "output_tokens": 228}
+{"id": "g051", "gold": "A", "step": "Astrophysics", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1198, "output_tokens": 167}
+{"id": "g051", "gold": "A", "step": "Astrophysics", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1196, "output_tokens": 159}
+{"id": "g052", "gold": "C", "step": "Chemistry (general)", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 906, "output_tokens": 195}
+{"id": "g052", "gold": "C", "step": "Chemistry (general)", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 909, "output_tokens": 128}
+{"id": "g052", "gold": "C", "step": "Chemistry (general)", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 907, "output_tokens": 165}
+{"id": "g053", "gold": "B", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 783, "output_tokens": 134}
+{"id": "g053", "gold": "B", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 786, "output_tokens": 143}
+{"id": "g053", "gold": "B", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 784, "output_tokens": 147}
+{"id": "g054", "gold": "A", "step": "Chemistry (general)", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 818, "output_tokens": 157}
+{"id": "g054", "gold": "A", "step": "Chemistry (general)", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 821, "output_tokens": 151}
+{"id": "g054", "gold": "A", "step": "Chemistry (general)", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 819, "output_tokens": 158}
+{"id": "g055", "gold": "A", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 1018, "output_tokens": 133}
+{"id": "g055", "gold": "A", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 1021, "output_tokens": 97}
+{"id": "g055", "gold": "A", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 1019, "output_tokens": 140}
+{"id": "g056", "gold": "B", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 1123, "output_tokens": 281}
+{"id": "g056", "gold": "B", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 1126, "output_tokens": 190}
+{"id": "g056", "gold": "B", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 1124, "output_tokens": 414}
+{"id": "g057", "gold": "B", "step": "High-energy particle physics", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 494, "output_tokens": 103}
+{"id": "g057", "gold": "B", "step": "High-energy particle physics", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 497, "output_tokens": 97}
+{"id": "g057", "gold": "B", "step": "High-energy particle physics", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 495, "output_tokens": 105}
+{"id": "g058", "gold": "A", "step": "Chemistry (general)", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 1399, "output_tokens": 217}
+{"id": "g058", "gold": "A", "step": "Chemistry (general)", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 1402, "output_tokens": 137}
+{"id": "g058", "gold": "A", "step": "Chemistry (general)", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 1400, "output_tokens": 122}
+{"id": "g059", "gold": "A", "step": "Relativistic Mechanics", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 797, "output_tokens": 191}
+{"id": "g059", "gold": "A", "step": "Relativistic Mechanics", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 800, "output_tokens": 220}
+{"id": "g059", "gold": "A", "step": "Relativistic Mechanics", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 798, "output_tokens": 194}
+{"id": "g060", "gold": "A", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 895, "output_tokens": 146}
+{"id": "g060", "gold": "A", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 898, "output_tokens": 155}
+{"id": "g060", "gold": "A", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 896, "output_tokens": 155}
+{"id": "g061", "gold": "B", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 771, "output_tokens": 110}
+{"id": "g061", "gold": "B", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 774, "output_tokens": 87}
+{"id": "g061", "gold": "B", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 772, "output_tokens": 90}
+{"id": "g062", "gold": "D", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 1257, "output_tokens": 237}
+{"id": "g062", "gold": "D", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 1260, "output_tokens": 204}
+{"id": "g062", "gold": "D", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 1258, "output_tokens": 147}
+{"id": "g063", "gold": "B", "step": "Inorganic Chemistry", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 922, "output_tokens": 135}
+{"id": "g063", "gold": "B", "step": "Inorganic Chemistry", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 925, "output_tokens": 134}
+{"id": "g063", "gold": "B", "step": "Inorganic Chemistry", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 923, "output_tokens": 152}
+{"id": "g064", "gold": "C", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 999, "output_tokens": 173}
+{"id": "g064", "gold": "C", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 1002, "output_tokens": 159}
+{"id": "g064", "gold": "C", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 1000, "output_tokens": 180}
+{"id": "g065", "gold": "A", "step": "High-energy particle physics", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 669, "output_tokens": 123}
+{"id": "g065", "gold": "A", "step": "High-energy particle physics", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 672, "output_tokens": 129}
+{"id": "g065", "gold": "A", "step": "High-energy particle physics", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 670, "output_tokens": 134}
+{"id": "g066", "gold": "B", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 1242, "output_tokens": 153}
+{"id": "g066", "gold": "B", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 1245, "output_tokens": 167}
+{"id": "g066", "gold": "B", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 1243, "output_tokens": 160}
+{"id": "g067", "gold": "C", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 783, "output_tokens": 181}
+{"id": "g067", "gold": "C", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 786, "output_tokens": 153}
+{"id": "g067", "gold": "C", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 784, "output_tokens": 138}
+{"id": "g068", "gold": "B", "step": "High-energy particle physics", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 897, "output_tokens": 188}
+{"id": "g068", "gold": "B", "step": "High-energy particle physics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 900, "output_tokens": 174}
+{"id": "g068", "gold": "B", "step": "High-energy particle physics", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 898, "output_tokens": 170}
+{"id": "g069", "gold": "A", "step": "Chemistry (general)", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 669, "output_tokens": 109}
+{"id": "g069", "gold": "A", "step": "Chemistry (general)", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 672, "output_tokens": 132}
+{"id": "g069", "gold": "A", "step": "Chemistry (general)", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 670, "output_tokens": 140}
+{"id": "g070", "gold": "A", "step": "Physics (general)", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 876, "output_tokens": 148}
+{"id": "g070", "gold": "A", "step": "Physics (general)", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 879, "output_tokens": 152}
+{"id": "g070", "gold": "A", "step": "Physics (general)", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 877, "output_tokens": 148}
+{"id": "g071", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 732, "output_tokens": 110}
+{"id": "g071", "gold": "D", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 735, "output_tokens": 103}
+{"id": "g071", "gold": "D", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 733, "output_tokens": 126}
+{"id": "g072", "gold": "B", "step": "Relativistic Mechanics", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 2061, "output_tokens": 248}
+{"id": "g072", "gold": "B", "step": "Relativistic Mechanics", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 2064, "output_tokens": 142}
+{"id": "g072", "gold": "B", "step": "Relativistic Mechanics", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 2062, "output_tokens": 254}
+{"id": "g073", "gold": "C", "step": "Physics (general)", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 919, "output_tokens": 278}
+{"id": "g073", "gold": "C", "step": "Physics (general)", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 922, "output_tokens": 111}
+{"id": "g073", "gold": "C", "step": "Physics (general)", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 920, "output_tokens": 172}
+{"id": "g074", "gold": "C", "step": "Molecular Biology", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1427, "output_tokens": 99}
+{"id": "g074", "gold": "C", "step": "Molecular Biology", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1430, "output_tokens": 101}
+{"id": "g074", "gold": "C", "step": "Molecular Biology", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1428, "output_tokens": 115}
+{"id": "g075", "gold": "C", "step": "Molecular Biology", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 913, "output_tokens": 116}
+{"id": "g075", "gold": "C", "step": "Molecular Biology", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 916, "output_tokens": 150}
+{"id": "g075", "gold": "C", "step": "Molecular Biology", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 914, "output_tokens": 111}
+{"id": "g076", "gold": "B", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1195, "output_tokens": 133}
+{"id": "g076", "gold": "B", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1198, "output_tokens": 133}
+{"id": "g076", "gold": "B", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1196, "output_tokens": 124}
+{"id": "g077", "gold": "C", "step": "Electromagnetism and Photonics", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1212, "output_tokens": 149}
+{"id": "g077", "gold": "C", "step": "Electromagnetism and Photonics", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 1215, "output_tokens": 129}
+{"id": "g077", "gold": "C", "step": "Electromagnetism and Photonics", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1213, "output_tokens": 174}
+{"id": "g078", "gold": "C", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 1094, "output_tokens": 141}
+{"id": "g078", "gold": "C", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 1097, "output_tokens": 163}
+{"id": "g078", "gold": "C", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 1095, "output_tokens": 155}
+{"id": "g079", "gold": "D", "step": "Molecular Biology", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 2091, "output_tokens": 276}
+{"id": "g079", "gold": "D", "step": "Molecular Biology", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 2094, "output_tokens": 175}
+{"id": "g079", "gold": "D", "step": "Molecular Biology", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 2092, "output_tokens": 329}
+{"id": "g080", "gold": "A", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 1029, "output_tokens": 136}
+{"id": "g080", "gold": "A", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 1032, "output_tokens": 135}
+{"id": "g080", "gold": "A", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 1030, "output_tokens": 144}
+{"id": "g081", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 1312, "output_tokens": 147}
+{"id": "g081", "gold": "D", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 1315, "output_tokens": 139}
+{"id": "g081", "gold": "D", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 1313, "output_tokens": 146}
+{"id": "g082", "gold": "B", "step": "Chemistry (general)", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 973, "output_tokens": 239}
+{"id": "g082", "gold": "B", "step": "Chemistry (general)", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 976, "output_tokens": 163}
+{"id": "g082", "gold": "B", "step": "Chemistry (general)", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 974, "output_tokens": 163}
+{"id": "g083", "gold": "C", "step": "Physics (general)", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 480, "output_tokens": 102}
+{"id": "g083", "gold": "C", "step": "Physics (general)", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 483, "output_tokens": 91}
+{"id": "g083", "gold": "C", "step": "Physics (general)", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 481, "output_tokens": 87}
+{"id": "g084", "gold": "D", "step": "Astrophysics", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 1402, "output_tokens": 146}
+{"id": "g084", "gold": "D", "step": "Astrophysics", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 1405, "output_tokens": 223}
+{"id": "g084", "gold": "D", "step": "Astrophysics", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 1403, "output_tokens": 166}
+{"id": "g085", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1085, "output_tokens": 141}
+{"id": "g085", "gold": "D", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1088, "output_tokens": 150}
+{"id": "g085", "gold": "D", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1086, "output_tokens": 141}
+{"id": "g086", "gold": "A", "step": "Chemistry (general)", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 980, "output_tokens": 123}
+{"id": "g086", "gold": "A", "step": "Chemistry (general)", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 983, "output_tokens": 128}
+{"id": "g086", "gold": "A", "step": "Chemistry (general)", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 981, "output_tokens": 116}
+{"id": "g087", "gold": "C", "step": "Molecular Biology", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 715, "output_tokens": 112}
+{"id": "g087", "gold": "C", "step": "Molecular Biology", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 718, "output_tokens": 109}
+{"id": "g087", "gold": "C", "step": "Molecular Biology", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 716, "output_tokens": 101}
+{"id": "g088", "gold": "A", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 988, "output_tokens": 127}
+{"id": "g088", "gold": "A", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 991, "output_tokens": 124}
+{"id": "g088", "gold": "A", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 989, "output_tokens": 122}
+{"id": "g089", "gold": "B", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1074, "output_tokens": 169}
+{"id": "g089", "gold": "B", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1077, "output_tokens": 168}
+{"id": "g089", "gold": "B", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1075, "output_tokens": 141}
+{"id": "g090", "gold": "C", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 1124, "output_tokens": 122}
+{"id": "g090", "gold": "C", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 1127, "output_tokens": 123}
+{"id": "g090", "gold": "C", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 1125, "output_tokens": 119}
+{"id": "g091", "gold": "A", "step": "Chemistry (general)", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 665, "output_tokens": 108}
+{"id": "g091", "gold": "A", "step": "Chemistry (general)", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 668, "output_tokens": 105}
+{"id": "g091", "gold": "A", "step": "Chemistry (general)", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 666, "output_tokens": 136}
+{"id": "g092", "gold": "B", "step": "Molecular Biology", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 910, "output_tokens": 85}
+{"id": "g092", "gold": "B", "step": "Molecular Biology", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 913, "output_tokens": 97}
+{"id": "g092", "gold": "B", "step": "Molecular Biology", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 911, "output_tokens": 86}
+{"id": "g093", "gold": "A", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 805, "output_tokens": 110}
+{"id": "g093", "gold": "A", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 808, "output_tokens": 159}
+{"id": "g093", "gold": "A", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 806, "output_tokens": 120}
+{"id": "g094", "gold": "B", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 857, "output_tokens": 131}
+{"id": "g094", "gold": "B", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 860, "output_tokens": 133}
+{"id": "g094", "gold": "B", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 858, "output_tokens": 93}
+{"id": "g095", "gold": "D", "step": "Physics (general)", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 1065, "output_tokens": 225}
+{"id": "g095", "gold": "D", "step": "Physics (general)", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 1068, "output_tokens": 169}
+{"id": "g095", "gold": "D", "step": "Physics (general)", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1066, "output_tokens": 168}
+{"id": "g096", "gold": "A", "step": "Molecular Biology", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 885, "output_tokens": 173}
+{"id": "g096", "gold": "A", "step": "Molecular Biology", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 888, "output_tokens": 164}
+{"id": "g096", "gold": "A", "step": "Molecular Biology", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 886, "output_tokens": 172}
+{"id": "g097", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 761, "output_tokens": 149}
+{"id": "g097", "gold": "D", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 764, "output_tokens": 160}
+{"id": "g097", "gold": "D", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 762, "output_tokens": 132}
+{"id": "g098", "gold": "D", "step": "Chemistry (general)", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 979, "output_tokens": 146}
+{"id": "g098", "gold": "D", "step": "Chemistry (general)", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 982, "output_tokens": 163}
+{"id": "g098", "gold": "D", "step": "Chemistry (general)", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 980, "output_tokens": 173}
+{"id": "g099", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 1435, "output_tokens": 120}
+{"id": "g099", "gold": "D", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 1438, "output_tokens": 114}
+{"id": "g099", "gold": "D", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 1436, "output_tokens": 129}
+{"id": "g100", "gold": "C", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1055, "output_tokens": 180}
+{"id": "g100", "gold": "C", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1058, "output_tokens": 162}
+{"id": "g100", "gold": "C", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1056, "output_tokens": 160}
+{"id": "g101", "gold": "C", "step": "Molecular Biology", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1071, "output_tokens": 148}
+{"id": "g101", "gold": "C", "step": "Molecular Biology", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1074, "output_tokens": 148}
+{"id": "g101", "gold": "C", "step": "Molecular Biology", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1072, "output_tokens": 135}
+{"id": "g102", "gold": "C", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 893, "output_tokens": 126}
+{"id": "g102", "gold": "C", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 896, "output_tokens": 125}
+{"id": "g102", "gold": "C", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 894, "output_tokens": 119}
+{"id": "g103", "gold": "B", "step": "Physics (general)", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 866, "output_tokens": 213}
+{"id": "g103", "gold": "B", "step": "Physics (general)", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 869, "output_tokens": 131}
+{"id": "g103", "gold": "B", "step": "Physics (general)", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 867, "output_tokens": 144}
+{"id": "g104", "gold": "C", "step": "Astrophysics", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 847, "output_tokens": 143}
+{"id": "g104", "gold": "C", "step": "Astrophysics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 850, "output_tokens": 138}
+{"id": "g104", "gold": "C", "step": "Astrophysics", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 848, "output_tokens": 161}
+{"id": "g105", "gold": "A", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 847, "output_tokens": 129}
+{"id": "g105", "gold": "A", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 850, "output_tokens": 114}
+{"id": "g105", "gold": "A", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 848, "output_tokens": 98}
+{"id": "g106", "gold": "B", "step": "Molecular Biology", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 663, "output_tokens": 121}
+{"id": "g106", "gold": "B", "step": "Molecular Biology", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 666, "output_tokens": 112}
+{"id": "g106", "gold": "B", "step": "Molecular Biology", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 664, "output_tokens": 112}
+{"id": "g107", "gold": "D", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 1092, "output_tokens": 129}
+{"id": "g107", "gold": "D", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 1095, "output_tokens": 143}
+{"id": "g107", "gold": "D", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 1093, "output_tokens": 187}
+{"id": "g108", "gold": "B", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1911, "output_tokens": 190}
+{"id": "g108", "gold": "B", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1914, "output_tokens": 254}
+{"id": "g108", "gold": "B", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1912, "output_tokens": 212}
+{"id": "g109", "gold": "B", "step": "Astrophysics", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 1185, "output_tokens": 233}
+{"id": "g109", "gold": "B", "step": "Astrophysics", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 1188, "output_tokens": 227}
+{"id": "g109", "gold": "B", "step": "Astrophysics", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 1186, "output_tokens": 132}
+{"id": "g110", "gold": "B", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 1097, "output_tokens": 166}
+{"id": "g110", "gold": "B", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 1100, "output_tokens": 188}
+{"id": "g110", "gold": "B", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 1098, "output_tokens": 173}
+{"id": "g111", "gold": "C", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1408, "output_tokens": 147}
+{"id": "g111", "gold": "C", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1411, "output_tokens": 159}
+{"id": "g111", "gold": "C", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1409, "output_tokens": 181}
+{"id": "g112", "gold": "A", "step": "Chemistry (general)", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 1003, "output_tokens": 170}
+{"id": "g112", "gold": "A", "step": "Chemistry (general)", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 1006, "output_tokens": 149}
+{"id": "g112", "gold": "A", "step": "Chemistry (general)", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 1004, "output_tokens": 158}
+{"id": "g113", "gold": "A", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 969, "output_tokens": 127}
+{"id": "g113", "gold": "A", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 972, "output_tokens": 97}
+{"id": "g113", "gold": "A", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 970, "output_tokens": 105}
+{"id": "g114", "gold": "B", "step": "Physics (general)", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 1907, "output_tokens": 151}
+{"id": "g114", "gold": "B", "step": "Physics (general)", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 1910, "output_tokens": 172}
+{"id": "g114", "gold": "B", "step": "Physics (general)", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 1908, "output_tokens": 116}
+{"id": "g115", "gold": "C", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 1064, "output_tokens": 138}
+{"id": "g115", "gold": "C", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 1067, "output_tokens": 149}
+{"id": "g115", "gold": "C", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 1065, "output_tokens": 173}
+{"id": "g116", "gold": "C", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1192, "output_tokens": 217}
+{"id": "g116", "gold": "C", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 1195, "output_tokens": 172}
+{"id": "g116", "gold": "C", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 1193, "output_tokens": 188}
+{"id": "g117", "gold": "C", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 811, "output_tokens": 128}
+{"id": "g117", "gold": "C", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 814, "output_tokens": 153}
+{"id": "g117", "gold": "C", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 812, "output_tokens": 118}
+{"id": "g118", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 1115, "output_tokens": 157}
+{"id": "g118", "gold": "D", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 1118, "output_tokens": 139}
+{"id": "g118", "gold": "D", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 1116, "output_tokens": 175}
+{"id": "g119", "gold": "B", "step": "Physics (general)", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 654, "output_tokens": 127}
+{"id": "g119", "gold": "B", "step": "Physics (general)", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 657, "output_tokens": 157}
+{"id": "g119", "gold": "B", "step": "Physics (general)", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 655, "output_tokens": 123}
+{"id": "g120", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 1121, "output_tokens": 194}
+{"id": "g120", "gold": "D", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 1124, "output_tokens": 207}
+{"id": "g120", "gold": "D", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 1122, "output_tokens": 155}
+{"id": "g121", "gold": "B", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 1422, "output_tokens": 160}
+{"id": "g121", "gold": "B", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 1425, "output_tokens": 134}
+{"id": "g121", "gold": "B", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1423, "output_tokens": 100}
+{"id": "g122", "gold": "D", "step": "Relativistic Mechanics", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 805, "output_tokens": 130}
+{"id": "g122", "gold": "D", "step": "Relativistic Mechanics", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 808, "output_tokens": 144}
+{"id": "g122", "gold": "D", "step": "Relativistic Mechanics", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 806, "output_tokens": 152}
+{"id": "g123", "gold": "D", "step": "Relativistic Mechanics", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 753, "output_tokens": 129}
+{"id": "g123", "gold": "D", "step": "Relativistic Mechanics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 756, "output_tokens": 123}
+{"id": "g123", "gold": "D", "step": "Relativistic Mechanics", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 754, "output_tokens": 143}
+{"id": "g124", "gold": "A", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 1632, "output_tokens": 174}
+{"id": "g124", "gold": "A", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 1635, "output_tokens": 162}
+{"id": "g124", "gold": "A", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 1633, "output_tokens": 140}
+{"id": "g125", "gold": "C", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 1295, "output_tokens": 152}
+{"id": "g125", "gold": "C", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 1298, "output_tokens": 149}
+{"id": "g125", "gold": "C", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 1296, "output_tokens": 204}
+{"id": "g126", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 648, "output_tokens": 123}
+{"id": "g126", "gold": "D", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 651, "output_tokens": 126}
+{"id": "g126", "gold": "D", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 649, "output_tokens": 125}
+{"id": "g127", "gold": "B", "step": "Molecular Biology", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 3326, "output_tokens": 116}
+{"id": "g127", "gold": "B", "step": "Molecular Biology", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 3329, "output_tokens": 92}
+{"id": "g127", "gold": "B", "step": "Molecular Biology", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 3327, "output_tokens": 123}
+{"id": "g128", "gold": "A", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 1105, "output_tokens": 161}
+{"id": "g128", "gold": "A", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 1108, "output_tokens": 105}
+{"id": "g128", "gold": "A", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 1106, "output_tokens": 132}
+{"id": "g129", "gold": "B", "step": "Physics (general)", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 733, "output_tokens": 193}
+{"id": "g129", "gold": "B", "step": "Physics (general)", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 736, "output_tokens": 191}
+{"id": "g129", "gold": "B", "step": "Physics (general)", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 734, "output_tokens": 201}
+{"id": "g130", "gold": "C", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1193, "output_tokens": 138}
+{"id": "g130", "gold": "C", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1196, "output_tokens": 131}
+{"id": "g130", "gold": "C", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1194, "output_tokens": 139}
+{"id": "g131", "gold": "A", "step": "Chemistry (general)", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 898, "output_tokens": 116}
+{"id": "g131", "gold": "A", "step": "Chemistry (general)", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 901, "output_tokens": 154}
+{"id": "g131", "gold": "A", "step": "Chemistry (general)", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 899, "output_tokens": 131}
+{"id": "g132", "gold": "D", "step": "Chemistry (general)", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 1129, "output_tokens": 163}
+{"id": "g132", "gold": "D", "step": "Chemistry (general)", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 1132, "output_tokens": 166}
+{"id": "g132", "gold": "D", "step": "Chemistry (general)", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 1130, "output_tokens": 199}
+{"id": "g133", "gold": "C", "step": "Chemistry (general)", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 1203, "output_tokens": 208}
+{"id": "g133", "gold": "C", "step": "Chemistry (general)", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1206, "output_tokens": 184}
+{"id": "g133", "gold": "C", "step": "Chemistry (general)", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1204, "output_tokens": 199}
+{"id": "g134", "gold": "D", "step": "High-energy particle physics", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1081, "output_tokens": 146}
+{"id": "g134", "gold": "D", "step": "High-energy particle physics", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1084, "output_tokens": 141}
+{"id": "g134", "gold": "D", "step": "High-energy particle physics", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1082, "output_tokens": 143}
+{"id": "g135", "gold": "A", "step": "Electromagnetism and Photonics", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 1104, "output_tokens": 271}
+{"id": "g135", "gold": "A", "step": "Electromagnetism and Photonics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 1107, "output_tokens": 103}
+{"id": "g135", "gold": "A", "step": "Electromagnetism and Photonics", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 1105, "output_tokens": 129}
+{"id": "g136", "gold": "D", "step": "High-energy particle physics", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1036, "output_tokens": 127}
+{"id": "g136", "gold": "D", "step": "High-energy particle physics", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1039, "output_tokens": 126}
+{"id": "g136", "gold": "D", "step": "High-energy particle physics", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1037, "output_tokens": 133}
+{"id": "g137", "gold": "C", "step": "Chemistry (general)", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 609, "output_tokens": 92}
+{"id": "g137", "gold": "C", "step": "Chemistry (general)", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 612, "output_tokens": 103}
+{"id": "g137", "gold": "C", "step": "Chemistry (general)", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 610, "output_tokens": 114}
+{"id": "g138", "gold": "C", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 898, "output_tokens": 92}
+{"id": "g138", "gold": "C", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 901, "output_tokens": 122}
+{"id": "g138", "gold": "C", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 899, "output_tokens": 116}
+{"id": "g139", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 1115, "output_tokens": 229}
+{"id": "g139", "gold": "D", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 1118, "output_tokens": 205}
+{"id": "g139", "gold": "D", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 1116, "output_tokens": 175}
+{"id": "g140", "gold": "B", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 752, "output_tokens": 164}
+{"id": "g140", "gold": "B", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 755, "output_tokens": 144}
+{"id": "g140", "gold": "B", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 753, "output_tokens": 119}
+{"id": "g141", "gold": "D", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 1133, "output_tokens": 156}
+{"id": "g141", "gold": "D", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 1136, "output_tokens": 131}
+{"id": "g141", "gold": "D", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 1134, "output_tokens": 185}
+{"id": "g142", "gold": "C", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 1260, "output_tokens": 137}
+{"id": "g142", "gold": "C", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 1263, "output_tokens": 164}
+{"id": "g142", "gold": "C", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 1261, "output_tokens": 190}
+{"id": "g143", "gold": "D", "step": "High-energy particle physics", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 1370, "output_tokens": 238}
+{"id": "g143", "gold": "D", "step": "High-energy particle physics", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 1373, "output_tokens": 198}
+{"id": "g143", "gold": "D", "step": "High-energy particle physics", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 1371, "output_tokens": 205}
+{"id": "g144", "gold": "A", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 619, "output_tokens": 195}
+{"id": "g144", "gold": "A", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 622, "output_tokens": 153}
+{"id": "g144", "gold": "A", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 620, "output_tokens": 158}
+{"id": "g145", "gold": "B", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 987, "output_tokens": 134}
+{"id": "g145", "gold": "B", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 990, "output_tokens": 144}
+{"id": "g145", "gold": "B", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 988, "output_tokens": 161}
+{"id": "g146", "gold": "B", "step": "High-energy particle physics", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1705, "output_tokens": 249}
+{"id": "g146", "gold": "B", "step": "High-energy particle physics", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1708, "output_tokens": 182}
+{"id": "g146", "gold": "B", "step": "High-energy particle physics", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1706, "output_tokens": 145}
+{"id": "g147", "gold": "A", "step": "Chemistry (general)", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 1222, "output_tokens": 184}
+{"id": "g147", "gold": "A", "step": "Chemistry (general)", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 1225, "output_tokens": 187}
+{"id": "g147", "gold": "A", "step": "Chemistry (general)", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 1223, "output_tokens": 184}
+{"id": "g148", "gold": "D", "step": "Chemistry (general)", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 929, "output_tokens": 110}
+{"id": "g148", "gold": "D", "step": "Chemistry (general)", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 932, "output_tokens": 121}
+{"id": "g148", "gold": "D", "step": "Chemistry (general)", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 930, "output_tokens": 119}
+{"id": "g149", "gold": "A", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1002, "output_tokens": 169}
+{"id": "g149", "gold": "A", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1005, "output_tokens": 156}
+{"id": "g149", "gold": "A", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1003, "output_tokens": 165}
+{"id": "g150", "gold": "B", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 2389, "output_tokens": 276}
+{"id": "g150", "gold": "B", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 2392, "output_tokens": 174}
+{"id": "g150", "gold": "B", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 2390, "output_tokens": 232}
+{"id": "g151", "gold": "C", "step": "Molecular Biology", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 867, "output_tokens": 143}
+{"id": "g151", "gold": "C", "step": "Molecular Biology", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 870, "output_tokens": 143}
+{"id": "g151", "gold": "C", "step": "Molecular Biology", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 868, "output_tokens": 132}
+{"id": "g152", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1511, "output_tokens": 247}
+{"id": "g152", "gold": "D", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1514, "output_tokens": 161}
+{"id": "g152", "gold": "D", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1512, "output_tokens": 143}
+{"id": "g153", "gold": "C", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1225, "output_tokens": 222}
+{"id": "g153", "gold": "C", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1228, "output_tokens": 169}
+{"id": "g153", "gold": "C", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1226, "output_tokens": 211}
+{"id": "g154", "gold": "D", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 2057, "output_tokens": 225}
+{"id": "g154", "gold": "D", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 2060, "output_tokens": 135}
+{"id": "g154", "gold": "D", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 2058, "output_tokens": 123}
+{"id": "g155", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 1153, "output_tokens": 204}
+{"id": "g155", "gold": "D", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 1156, "output_tokens": 220}
+{"id": "g155", "gold": "D", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 1154, "output_tokens": 188}
+{"id": "g156", "gold": "D", "step": "Molecular Biology", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 543, "output_tokens": 89}
+{"id": "g156", "gold": "D", "step": "Molecular Biology", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 546, "output_tokens": 96}
+{"id": "g156", "gold": "D", "step": "Molecular Biology", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 544, "output_tokens": 90}
+{"id": "g157", "gold": "A", "step": "Genetics", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 808, "output_tokens": 102}
+{"id": "g157", "gold": "A", "step": "Genetics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 811, "output_tokens": 95}
+{"id": "g157", "gold": "A", "step": "Genetics", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 809, "output_tokens": 110}
+{"id": "g158", "gold": "D", "step": "Astrophysics", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 813, "output_tokens": 135}
+{"id": "g158", "gold": "D", "step": "Astrophysics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 816, "output_tokens": 136}
+{"id": "g158", "gold": "D", "step": "Astrophysics", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 814, "output_tokens": 141}
+{"id": "g159", "gold": "D", "step": "Optics and Acoustics", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 765, "output_tokens": 232}
+{"id": "g159", "gold": "D", "step": "Optics and Acoustics", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 768, "output_tokens": 157}
+{"id": "g159", "gold": "D", "step": "Optics and Acoustics", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 766, "output_tokens": 129}
+{"id": "g160", "gold": "A", "step": "Relativistic Mechanics", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 814, "output_tokens": 141}
+{"id": "g160", "gold": "A", "step": "Relativistic Mechanics", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 817, "output_tokens": 101}
+{"id": "g160", "gold": "A", "step": "Relativistic Mechanics", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 815, "output_tokens": 138}
+{"id": "g161", "gold": "D", "step": "Relativistic Mechanics", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 944, "output_tokens": 146}
+{"id": "g161", "gold": "D", "step": "Relativistic Mechanics", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 947, "output_tokens": 194}
+{"id": "g161", "gold": "D", "step": "Relativistic Mechanics", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 945, "output_tokens": 170}
+{"id": "g162", "gold": "C", "step": "Chemistry (general)", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 1249, "output_tokens": 152}
+{"id": "g162", "gold": "C", "step": "Chemistry (general)", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 1252, "output_tokens": 164}
+{"id": "g162", "gold": "C", "step": "Chemistry (general)", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 1250, "output_tokens": 221}
+{"id": "g163", "gold": "B", "step": "Astrophysics", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 867, "output_tokens": 149}
+{"id": "g163", "gold": "B", "step": "Astrophysics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 870, "output_tokens": 141}
+{"id": "g163", "gold": "B", "step": "Astrophysics", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 868, "output_tokens": 256}
+{"id": "g164", "gold": "D", "step": "Chemistry (general)", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 817, "output_tokens": 121}
+{"id": "g164", "gold": "D", "step": "Chemistry (general)", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 820, "output_tokens": 152}
+{"id": "g164", "gold": "D", "step": "Chemistry (general)", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 818, "output_tokens": 116}
+{"id": "g165", "gold": "B", "step": "High-energy particle physics", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1802, "output_tokens": 126}
+{"id": "g165", "gold": "B", "step": "High-energy particle physics", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1805, "output_tokens": 184}
+{"id": "g165", "gold": "B", "step": "High-energy particle physics", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1803, "output_tokens": 127}
+{"id": "g166", "gold": "B", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 891, "output_tokens": 143}
+{"id": "g166", "gold": "B", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 894, "output_tokens": 146}
+{"id": "g166", "gold": "B", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 892, "output_tokens": 174}
+{"id": "g167", "gold": "D", "step": "Genetics", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 608, "output_tokens": 117}
+{"id": "g167", "gold": "D", "step": "Genetics", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 611, "output_tokens": 100}
+{"id": "g167", "gold": "D", "step": "Genetics", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 609, "output_tokens": 102}
+{"id": "g168", "gold": "C", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 901, "output_tokens": 121}
+{"id": "g168", "gold": "C", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 904, "output_tokens": 130}
+{"id": "g168", "gold": "C", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 902, "output_tokens": 131}
+{"id": "g169", "gold": "B", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 1237, "output_tokens": 235}
+{"id": "g169", "gold": "B", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 1240, "output_tokens": 128}
+{"id": "g169", "gold": "B", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 1238, "output_tokens": 252}
+{"id": "g170", "gold": "B", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 1126, "output_tokens": 173}
+{"id": "g170", "gold": "B", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 1129, "output_tokens": 200}
+{"id": "g170", "gold": "B", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 1127, "output_tokens": 207}
+{"id": "g171", "gold": "B", "step": "Physics (general)", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1063, "output_tokens": 141}
+{"id": "g171", "gold": "B", "step": "Physics (general)", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1066, "output_tokens": 133}
+{"id": "g171", "gold": "B", "step": "Physics (general)", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1064, "output_tokens": 122}
+{"id": "g172", "gold": "A", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 837, "output_tokens": 198}
+{"id": "g172", "gold": "A", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 840, "output_tokens": 165}
+{"id": "g172", "gold": "A", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 838, "output_tokens": 165}
+{"id": "g173", "gold": "D", "step": "Physics (general)", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 858, "output_tokens": 142}
+{"id": "g173", "gold": "D", "step": "Physics (general)", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 861, "output_tokens": 121}
+{"id": "g173", "gold": "D", "step": "Physics (general)", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 859, "output_tokens": 168}
+{"id": "g174", "gold": "B", "step": "Electromagnetism and Photonics", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 924, "output_tokens": 148}
+{"id": "g174", "gold": "B", "step": "Electromagnetism and Photonics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 927, "output_tokens": 165}
+{"id": "g174", "gold": "B", "step": "Electromagnetism and Photonics", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 925, "output_tokens": 158}
+{"id": "g175", "gold": "C", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1362, "output_tokens": 309}
+{"id": "g175", "gold": "C", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1365, "output_tokens": 340}
+{"id": "g175", "gold": "C", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1363, "output_tokens": 338}
+{"id": "g176", "gold": "C", "step": "Physics (general)", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 868, "output_tokens": 147}
+{"id": "g176", "gold": "C", "step": "Physics (general)", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 871, "output_tokens": 158}
+{"id": "g176", "gold": "C", "step": "Physics (general)", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 869, "output_tokens": 131}
+{"id": "g177", "gold": "B", "step": "High-energy particle physics", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 977, "output_tokens": 133}
+{"id": "g177", "gold": "B", "step": "High-energy particle physics", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 980, "output_tokens": 164}
+{"id": "g177", "gold": "B", "step": "High-energy particle physics", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 978, "output_tokens": 141}
+{"id": "g178", "gold": "B", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1032, "output_tokens": 124}
+{"id": "g178", "gold": "B", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1035, "output_tokens": 138}
+{"id": "g178", "gold": "B", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1033, "output_tokens": 137}
+{"id": "g179", "gold": "B", "step": "Physics (general)", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 985, "output_tokens": 256}
+{"id": "g179", "gold": "B", "step": "Physics (general)", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 988, "output_tokens": 296}
+{"id": "g179", "gold": "B", "step": "Physics (general)", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 986, "output_tokens": 236}
+{"id": "g180", "gold": "D", "step": "Astrophysics", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 987, "output_tokens": 159}
+{"id": "g180", "gold": "D", "step": "Astrophysics", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 990, "output_tokens": 169}
+{"id": "g180", "gold": "D", "step": "Astrophysics", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 988, "output_tokens": 154}
+{"id": "g181", "gold": "A", "step": "Condensed Matter Physics", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 831, "output_tokens": 98}
+{"id": "g181", "gold": "A", "step": "Condensed Matter Physics", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 834, "output_tokens": 122}
+{"id": "g181", "gold": "A", "step": "Condensed Matter Physics", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 832, "output_tokens": 136}
+{"id": "g182", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 767, "output_tokens": 170}
+{"id": "g182", "gold": "D", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 770, "output_tokens": 161}
+{"id": "g182", "gold": "D", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 768, "output_tokens": 114}
+{"id": "g183", "gold": "C", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 994, "output_tokens": 111}
+{"id": "g183", "gold": "C", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 997, "output_tokens": 127}
+{"id": "g183", "gold": "C", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 995, "output_tokens": 160}
+{"id": "g184", "gold": "C", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 767, "output_tokens": 128}
+{"id": "g184", "gold": "C", "step": "Quantum Mechanics", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 770, "output_tokens": 160}
+{"id": "g184", "gold": "C", "step": "Quantum Mechanics", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 768, "output_tokens": 116}
+{"id": "g185", "gold": "A", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 849, "output_tokens": 132}
+{"id": "g185", "gold": "A", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 852, "output_tokens": 141}
+{"id": "g185", "gold": "A", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 850, "output_tokens": 170}
+{"id": "g186", "gold": "B", "step": "Astrophysics", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 1044, "output_tokens": 174}
+{"id": "g186", "gold": "B", "step": "Astrophysics", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 1047, "output_tokens": 176}
+{"id": "g186", "gold": "B", "step": "Astrophysics", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 1045, "output_tokens": 175}
+{"id": "g187", "gold": "C", "step": "Physics (general)", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 1400, "output_tokens": 318}
+{"id": "g187", "gold": "C", "step": "Physics (general)", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 1403, "output_tokens": 279}
+{"id": "g187", "gold": "C", "step": "Physics (general)", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 1401, "output_tokens": 399}
+{"id": "g188", "gold": "B", "step": "High-energy particle physics", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 753, "output_tokens": 95}
+{"id": "g188", "gold": "B", "step": "High-energy particle physics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 756, "output_tokens": 120}
+{"id": "g188", "gold": "B", "step": "High-energy particle physics", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 754, "output_tokens": 125}
+{"id": "g189", "gold": "D", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 1040, "output_tokens": 186}
+{"id": "g189", "gold": "D", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 1043, "output_tokens": 182}
+{"id": "g189", "gold": "D", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 1041, "output_tokens": 149}
+{"id": "g190", "gold": "C", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 1281, "output_tokens": 140}
+{"id": "g190", "gold": "C", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 1284, "output_tokens": 135}
+{"id": "g190", "gold": "C", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 1282, "output_tokens": 134}
+{"id": "g191", "gold": "B", "step": "Electromagnetism and Photonics", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 1028, "output_tokens": 131}
+{"id": "g191", "gold": "B", "step": "Electromagnetism and Photonics", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 1031, "output_tokens": 144}
+{"id": "g191", "gold": "B", "step": "Electromagnetism and Photonics", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 1029, "output_tokens": 119}
+{"id": "g192", "gold": "B", "step": "Astrophysics", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 608, "output_tokens": 104}
+{"id": "g192", "gold": "B", "step": "Astrophysics", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 611, "output_tokens": 115}
+{"id": "g192", "gold": "B", "step": "Astrophysics", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 609, "output_tokens": 124}
+{"id": "g193", "gold": "B", "step": "Physics (general)", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 825, "output_tokens": 241}
+{"id": "g193", "gold": "B", "step": "Physics (general)", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 828, "output_tokens": 245}
+{"id": "g193", "gold": "B", "step": "Physics (general)", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 826, "output_tokens": 203}
+{"id": "g194", "gold": "A", "step": "Astrophysics", "agent": 0, "role": "physicist", "pred": "D", "prompt_tokens": 815, "output_tokens": 158}
+{"id": "g194", "gold": "A", "step": "Astrophysics", "agent": 1, "role": "chemist", "pred": "D", "prompt_tokens": 818, "output_tokens": 136}
+{"id": "g194", "gold": "A", "step": "Astrophysics", "agent": 2, "role": "biologist", "pred": "D", "prompt_tokens": 816, "output_tokens": 177}
+{"id": "g195", "gold": "C", "step": "Physics (general)", "agent": 0, "role": "physicist", "pred": "C", "prompt_tokens": 901, "output_tokens": 140}
+{"id": "g195", "gold": "C", "step": "Physics (general)", "agent": 1, "role": "chemist", "pred": "C", "prompt_tokens": 904, "output_tokens": 139}
+{"id": "g195", "gold": "C", "step": "Physics (general)", "agent": 2, "role": "biologist", "pred": "C", "prompt_tokens": 902, "output_tokens": 139}
+{"id": "g196", "gold": "C", "step": "Organic Chemistry", "agent": 0, "role": "physicist", "pred": "B", "prompt_tokens": 1293, "output_tokens": 183}
+{"id": "g196", "gold": "C", "step": "Organic Chemistry", "agent": 1, "role": "chemist", "pred": "B", "prompt_tokens": 1296, "output_tokens": 144}
+{"id": "g196", "gold": "C", "step": "Organic Chemistry", "agent": 2, "role": "biologist", "pred": "B", "prompt_tokens": 1294, "output_tokens": 173}
+{"id": "g197", "gold": "D", "step": "Chemistry (general)", "agent": 0, "role": "physicist", "pred": "A", "prompt_tokens": 823, "output_tokens": 151}
+{"id": "g197", "gold": "D", "step": "Chemistry (general)", "agent": 1, "role": "chemist", "pred": "A", "prompt_tokens": 826, "output_tokens": 195}
+{"id": "g197", "gold": "D", "step": "Chemistry (general)", "agent": 2, "role": "biologist", "pred": "A", "prompt_tokens": 824, "output_tokens": 157}

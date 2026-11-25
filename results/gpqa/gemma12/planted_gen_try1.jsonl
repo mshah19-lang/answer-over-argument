@@ -1,0 +1,2 @@
+{"id": "g066", "gold": "B", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "target": "A", "attempt": 1, "pred": "A", "prompt_tokens": 322, "output_tokens": 178}
+{"id": "g108", "gold": "B", "step": "Quantum Mechanics", "agent": 0, "role": "physicist", "target": "A", "attempt": 1, "pred": "A", "prompt_tokens": 373, "output_tokens": 145}

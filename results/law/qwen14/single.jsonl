@@ -1,0 +1,300 @@
+{"id": "l000", "gold": "B", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 365, "output_tokens": 5}
+{"id": "l001", "gold": "B", "step": "professional_law", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 258, "output_tokens": 18}
+{"id": "l002", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 365, "output_tokens": 18}
+{"id": "l003", "gold": "B", "step": "professional_law", "pred": "B", "response": "B. The court will require a greater foundation to establish the reliability of the records.\n\nANSWER: B", "prompt_tokens": 225, "output_tokens": 22}
+{"id": "l004", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 242, "output_tokens": 18}
+{"id": "l005", "gold": "A", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B. Conspiracy.)", "prompt_tokens": 210, "output_tokens": 10}
+{"id": "l006", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 189, "output_tokens": 18}
+{"id": "l007", "gold": "C", "step": "professional_law", "pred": "D", "response": "D. The landlord's notice to terminate was improper, because it was given to the tenant more than one month before the required termination date.\n\nANSWER: D", "prompt_tokens": 317, "output_tokens": 33}
+{"id": "l008", "gold": "C", "step": "professional_law", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 175, "output_tokens": 18}
+{"id": "l009", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C. $14,000, the total cost expended by the builder ($10,000) plus the builder's expected profit ($5,000), minus the loss avoided by the resale of the unused materials ($1,000).", "prompt_tokens": 375, "output_tokens": 60}
+{"id": "l010", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 299, "output_tokens": 18}
+{"id": "l011", "gold": "A", "step": "professional_law", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 431, "output_tokens": 5}
+{"id": "l012", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 314, "output_tokens": 5}
+{"id": "l013", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 523, "output_tokens": 5}
+{"id": "l014", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 276, "output_tokens": 5}
+{"id": "l015", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 106, "output_tokens": 5}
+{"id": "l016", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 112, "output_tokens": 5}
+{"id": "l017", "gold": "B", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 278, "output_tokens": 5}
+{"id": "l018", "gold": "D", "step": "professional_law", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 170, "output_tokens": 18}
+{"id": "l019", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 346, "output_tokens": 5}
+{"id": "l020", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 147, "output_tokens": 5}
+{"id": "l021", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 172, "output_tokens": 5}
+{"id": "l022", "gold": "C", "step": "professional_law", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 171, "output_tokens": 18}
+{"id": "l023", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C. The description of the property was too indefinite to permit the remedy sought.", "prompt_tokens": 440, "output_tokens": 20}
+{"id": "l024", "gold": "C", "step": "professional_law", "pred": "B", "response": "B. There was an unaccountable break in the chain of custody from the time when the photographs were taken to the period when the negatives were processed.\n\nANSWER: B", "prompt_tokens": 339, "output_tokens": 36}
+{"id": "l025", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 237, "output_tokens": 5}
+{"id": "l026", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 272, "output_tokens": 5}
+{"id": "l027", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 256, "output_tokens": 5}
+{"id": "l028", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D. not guilty, because the clerk was justified in killing the friend.", "prompt_tokens": 293, "output_tokens": 19}
+{"id": "l029", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A. hear the case on its merits.", "prompt_tokens": 239, "output_tokens": 13}
+{"id": "l030", "gold": "B", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 276, "output_tokens": 5}
+{"id": "l031", "gold": "B", "step": "professional_law", "pred": "C", "response": "ANSWER: C. excluded, because the newspaper copy does not fit within any established exception to the hearsay rule.", "prompt_tokens": 165, "output_tokens": 25}
+{"id": "l032", "gold": "D", "step": "professional_law", "pred": "C", "response": "ANSWER: C. an accomplice.", "prompt_tokens": 251, "output_tokens": 10}
+{"id": "l033", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 331, "output_tokens": 5}
+{"id": "l034", "gold": "D", "step": "professional_law", "pred": "C", "response": "C. The commerce clause.\n\nANSWER: C", "prompt_tokens": 221, "output_tokens": 11}
+{"id": "l035", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D. The speech and debate clause of Article I, Section 6 of the Constitution wholly insulates members of Congress from tort liability for statements made on the floor of Congress.", "prompt_tokens": 294, "output_tokens": 39}
+{"id": "l036", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 116, "output_tokens": 18}
+{"id": "l037", "gold": "B", "step": "professional_law", "pred": "D", "response": "ANSWER: D. The Wharton Rule.", "prompt_tokens": 154, "output_tokens": 11}
+{"id": "l038", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 277, "output_tokens": 5}
+{"id": "l039", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 274, "output_tokens": 5}
+{"id": "l040", "gold": "A", "step": "professional_law", "pred": "C", "response": "ANSWER: C. Judgment for the mill, because their performance would be excused by impossibility.", "prompt_tokens": 281, "output_tokens": 22}
+{"id": "l041", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 608, "output_tokens": 18}
+{"id": "l042", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 324, "output_tokens": 5}
+{"id": "l043", "gold": "A", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 221, "output_tokens": 18}
+{"id": "l044", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 214, "output_tokens": 18}
+{"id": "l045", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 344, "output_tokens": 5}
+{"id": "l046", "gold": "D", "step": "professional_law", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 253, "output_tokens": 18}
+{"id": "l047", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C. to the daughter and her heirs and assigns.", "prompt_tokens": 195, "output_tokens": 15}
+{"id": "l048", "gold": "B", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 310, "output_tokens": 5}
+{"id": "l049", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C. No, legal impossibility is not a defense to the crime of conspiracy.", "prompt_tokens": 274, "output_tokens": 21}
+{"id": "l050", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 225, "output_tokens": 5}
+{"id": "l051", "gold": "B", "step": "professional_law", "pred": "C", "response": "ANSWER: C. The debt was already barred by the statute of limitations.", "prompt_tokens": 256, "output_tokens": 17}
+{"id": "l052", "gold": "C", "step": "professional_law", "pred": "C", "response": "C. reversed, because the jury might determine that the instruction in effect relieves the prosecutor of the burden of proof beyond a reasonable doubt.\n\nANSWER: C", "prompt_tokens": 329, "output_tokens": 33}
+{"id": "l053", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 415, "output_tokens": 5}
+{"id": "l054", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 359, "output_tokens": 18}
+{"id": "l055", "gold": "D", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 501, "output_tokens": 18}
+{"id": "l056", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D. not prevail, because the husband was acting reasonably in an emergency.", "prompt_tokens": 308, "output_tokens": 19}
+{"id": "l057", "gold": "C", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 248, "output_tokens": 5}
+{"id": "l058", "gold": "D", "step": "professional_law", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 478, "output_tokens": 5}
+{"id": "l059", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 227, "output_tokens": 5}
+{"id": "l060", "gold": "D", "step": "professional_law", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 535, "output_tokens": 5}
+{"id": "l061", "gold": "A", "step": "professional_law", "pred": "A", "response": "A. No, a bar of assignment does not apply to the right to receive the funds unless specifically stated.\n\nANSWER: A", "prompt_tokens": 209, "output_tokens": 27}
+{"id": "l062", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D. sustain the objection, as evidence of subsequent remedial repairs is inadmissible.", "prompt_tokens": 381, "output_tokens": 22}
+{"id": "l063", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 275, "output_tokens": 5}
+{"id": "l064", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 272, "output_tokens": 18}
+{"id": "l065", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 444, "output_tokens": 5}
+{"id": "l066", "gold": "B", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 588, "output_tokens": 5}
+{"id": "l067", "gold": "D", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 244, "output_tokens": 18}
+{"id": "l068", "gold": "D", "step": "professional_law", "pred": "C", "response": "ANSWER: C. The speech and debate clause.", "prompt_tokens": 339, "output_tokens": 12}
+{"id": "l069", "gold": "C", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 228, "output_tokens": 5}
+{"id": "l070", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 570, "output_tokens": 5}
+{"id": "l071", "gold": "D", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 289, "output_tokens": 5}
+{"id": "l072", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D. damages for the value of property used by the corporation.", "prompt_tokens": 287, "output_tokens": 17}
+{"id": "l073", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 317, "output_tokens": 5}
+{"id": "l074", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 488, "output_tokens": 5}
+{"id": "l075", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 352, "output_tokens": 5}
+{"id": "l076", "gold": "C", "step": "professional_law", "pred": "C", "response": "C. necessary and proper power\n\nANSWER: C", "prompt_tokens": 94, "output_tokens": 12}
+{"id": "l077", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 282, "output_tokens": 5}
+{"id": "l078", "gold": "D", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 326, "output_tokens": 5}
+{"id": "l079", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 205, "output_tokens": 5}
+{"id": "l080", "gold": "B", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 429, "output_tokens": 5}
+{"id": "l081", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A. enforceable.", "prompt_tokens": 320, "output_tokens": 9}
+{"id": "l082", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 223, "output_tokens": 18}
+{"id": "l083", "gold": "C", "step": "professional_law", "pred": "C", "response": "C. The man, because the gardener's part performance necessarily implied an acceptance and a promise that he would render complete performance.\n\nANSWER: C", "prompt_tokens": 366, "output_tokens": 31}
+{"id": "l084", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 414, "output_tokens": 5}
+{"id": "l085", "gold": "D", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 298, "output_tokens": 5}
+{"id": "l086", "gold": "C", "step": "professional_law", "pred": "D", "response": "ANSWER: D. It is an executory interest of a springing type that is void under the Rule against Perpetuities.", "prompt_tokens": 248, "output_tokens": 29}
+{"id": "l087", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C. unconstitutional, because it is vague and overbroad.", "prompt_tokens": 458, "output_tokens": 17}
+{"id": "l088", "gold": "B", "step": "professional_law", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 265, "output_tokens": 18}
+{"id": "l089", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 282, "output_tokens": 18}
+{"id": "l090", "gold": "C", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 609, "output_tokens": 5}
+{"id": "l091", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 286, "output_tokens": 5}
+{"id": "l092", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 580, "output_tokens": 5}
+{"id": "l093", "gold": "D", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 405, "output_tokens": 5}
+{"id": "l094", "gold": "B", "step": "professional_law", "pred": "D", "response": "D. Charlene, because she was the first to record her deed.\n\nANSWER: D", "prompt_tokens": 222, "output_tokens": 20}
+{"id": "l095", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C. overrule the objection, as a statement made for the purpose of diagnosis or treatment.", "prompt_tokens": 213, "output_tokens": 23}
+{"id": "l096", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 277, "output_tokens": 18}
+{"id": "l097", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 264, "output_tokens": 5}
+{"id": "l098", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 146, "output_tokens": 18}
+{"id": "l099", "gold": "A", "step": "professional_law", "pred": "C", "response": "ANSWER: C. harmless error, because the defendant's trial attorney failed to preserve the argument by timely objection.", "prompt_tokens": 261, "output_tokens": 24}
+{"id": "l100", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 388, "output_tokens": 18}
+{"id": "l101", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 245, "output_tokens": 18}
+{"id": "l102", "gold": "A", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 337, "output_tokens": 5}
+{"id": "l103", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D. The evidence is admissible due to the factual similarity with the present charge, which gives the evidence strong probative value.", "prompt_tokens": 259, "output_tokens": 30}
+{"id": "l104", "gold": "B", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 327, "output_tokens": 5}
+{"id": "l105", "gold": "D", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 297, "output_tokens": 5}
+{"id": "l106", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 253, "output_tokens": 18}
+{"id": "l107", "gold": "C", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 522, "output_tokens": 5}
+{"id": "l108", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 455, "output_tokens": 18}
+{"id": "l109", "gold": "A", "step": "professional_law", "pred": "B", "response": "B. the man, because there was no consideration to keep the offer open for an extended period of time.\n\nANSWER: B", "prompt_tokens": 257, "output_tokens": 27}
+{"id": "l110", "gold": "C", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 250, "output_tokens": 18}
+{"id": "l111", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 224, "output_tokens": 5}
+{"id": "l112", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 267, "output_tokens": 5}
+{"id": "l113", "gold": "B", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 350, "output_tokens": 5}
+{"id": "l114", "gold": "C", "step": "professional_law", "pred": "C", "response": "C. Yes, judicial fact-finding that increases the maximum sentence over what the jury's verdict allows is unconstitutional.\n\nANSWER: C", "prompt_tokens": 255, "output_tokens": 28}
+{"id": "l115", "gold": "C", "step": "professional_law", "pred": "C", "response": "C. Yes, because Congress could determine that the transportation of stolen boats affects interstate commerce.\n\nANSWER: C", "prompt_tokens": 269, "output_tokens": 23}
+{"id": "l116", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D. After the woman paid to have the kitchen remodeled, an option contract resulted, because the owner knew the woman was relying on the offer to her detriment.", "prompt_tokens": 326, "output_tokens": 37}
+{"id": "l117", "gold": "D", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 396, "output_tokens": 18}
+{"id": "l118", "gold": "A", "step": "professional_law", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 445, "output_tokens": 5}
+{"id": "l119", "gold": "D", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 280, "output_tokens": 5}
+{"id": "l120", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 229, "output_tokens": 5}
+{"id": "l121", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C. the jurisdiction recognizes that retaliatory actions are a defense.", "prompt_tokens": 609, "output_tokens": 17}
+{"id": "l122", "gold": "D", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 342, "output_tokens": 5}
+{"id": "l123", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D. the time for the veterinarian, as seller, to deliver marketable title has not yet arrived.", "prompt_tokens": 405, "output_tokens": 25}
+{"id": "l124", "gold": "D", "step": "professional_law", "pred": "A", "response": "ANSWER: A. factual impossibility.", "prompt_tokens": 244, "output_tokens": 10}
+{"id": "l125", "gold": "B", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 326, "output_tokens": 5}
+{"id": "l126", "gold": "B", "step": "professional_law", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 503, "output_tokens": 18}
+{"id": "l127", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 383, "output_tokens": 5}
+{"id": "l128", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 240, "output_tokens": 5}
+{"id": "l129", "gold": "C", "step": "professional_law", "pred": "C", "response": "C. The treaties and immigration laws of the United States.\n\nANSWER: C", "prompt_tokens": 368, "output_tokens": 17}
+{"id": "l130", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 290, "output_tokens": 5}
+{"id": "l131", "gold": "A", "step": "professional_law", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 187, "output_tokens": 18}
+{"id": "l132", "gold": "C", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 241, "output_tokens": 5}
+{"id": "l133", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 427, "output_tokens": 18}
+{"id": "l134", "gold": "A", "step": "professional_law", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 398, "output_tokens": 18}
+{"id": "l135", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 570, "output_tokens": 18}
+{"id": "l136", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D. The doctrine of equitable conversion requires such a result.", "prompt_tokens": 537, "output_tokens": 16}
+{"id": "l137", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 393, "output_tokens": 5}
+{"id": "l138", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 278, "output_tokens": 18}
+{"id": "l139", "gold": "D", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 105, "output_tokens": 18}
+{"id": "l140", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 273, "output_tokens": 5}
+{"id": "l141", "gold": "B", "step": "professional_law", "pred": "C", "response": "ANSWER: C. the friend, because the deed absolute effectuated an outright conveyance that extinguished the redemption interest sought to be retained by the investor.", "prompt_tokens": 509, "output_tokens": 33}
+{"id": "l142", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 364, "output_tokens": 5}
+{"id": "l143", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 271, "output_tokens": 5}
+{"id": "l144", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 254, "output_tokens": 18}
+{"id": "l145", "gold": "C", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 272, "output_tokens": 5}
+{"id": "l146", "gold": "C", "step": "professional_law", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 325, "output_tokens": 18}
+{"id": "l147", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D. unconstitutional, because it violates the right of privacy of contraceptive users.", "prompt_tokens": 181, "output_tokens": 19}
+{"id": "l148", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 372, "output_tokens": 18}
+{"id": "l149", "gold": "B", "step": "professional_law", "pred": "B", "response": "B. constitutional, because Congress has the power to regulate interstate commerce.\n\nANSWER: B", "prompt_tokens": 213, "output_tokens": 19}
+{"id": "l150", "gold": "B", "step": "professional_law", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 166, "output_tokens": 18}
+{"id": "l151", "gold": "C", "step": "professional_law", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 267, "output_tokens": 18}
+{"id": "l152", "gold": "C", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 249, "output_tokens": 5}
+{"id": "l153", "gold": "A", "step": "professional_law", "pred": "D", "response": "ANSWER: D. No, willfulness and knowledge are inferred by the habitual practice of transporting the cash.", "prompt_tokens": 313, "output_tokens": 23}
+{"id": "l154", "gold": "C", "step": "professional_law", "pred": "D", "response": "ANSWER: D. Yes, because the client's note and the attorney's performance created an implied-in-fact contract.", "prompt_tokens": 356, "output_tokens": 26}
+{"id": "l155", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 98, "output_tokens": 5}
+{"id": "l156", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 264, "output_tokens": 5}
+{"id": "l157", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D. Yes, as impeachment for prior inconsistency.", "prompt_tokens": 213, "output_tokens": 14}
+{"id": "l158", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 248, "output_tokens": 5}
+{"id": "l159", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 372, "output_tokens": 5}
+{"id": "l160", "gold": "A", "step": "professional_law", "pred": "C", "response": "ANSWER: C. excluded, because it is improper negative evidence.", "prompt_tokens": 285, "output_tokens": 15}
+{"id": "l161", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C. $75,000 only, because that was the contract price.", "prompt_tokens": 482, "output_tokens": 22}
+{"id": "l162", "gold": "B", "step": "professional_law", "pred": "B", "response": "B. The developer waived the condition of no alcohol use.\n\nANSWER: B", "prompt_tokens": 337, "output_tokens": 17}
+{"id": "l163", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C. The equal protection clause of the Fourteenth Amendment.", "prompt_tokens": 350, "output_tokens": 16}
+{"id": "l164", "gold": "C", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 429, "output_tokens": 18}
+{"id": "l165", "gold": "A", "step": "professional_law", "pred": "C", "response": "ANSWER: C. denied, because it is constitutionally permissible to place the burden on the defendant to prove mental incompetency by clear and convincing evidence.", "prompt_tokens": 373, "output_tokens": 32}
+{"id": "l166", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 280, "output_tokens": 18}
+{"id": "l167", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D. inadmissible, because an offer to pay medical bills is not admissible to prove negligence.", "prompt_tokens": 241, "output_tokens": 25}
+{"id": "l168", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 433, "output_tokens": 5}
+{"id": "l169", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 250, "output_tokens": 5}
+{"id": "l170", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D. excluded as substantially more unfairly prejudicial than probative.", "prompt_tokens": 253, "output_tokens": 17}
+{"id": "l171", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 241, "output_tokens": 5}
+{"id": "l172", "gold": "D", "step": "professional_law", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 296, "output_tokens": 18}
+{"id": "l173", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 299, "output_tokens": 5}
+{"id": "l174", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 405, "output_tokens": 5}
+{"id": "l175", "gold": "B", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 367, "output_tokens": 5}
+{"id": "l176", "gold": "A", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 147, "output_tokens": 5}
+{"id": "l177", "gold": "C", "step": "professional_law", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 152, "output_tokens": 18}
+{"id": "l178", "gold": "C", "step": "professional_law", "pred": "C", "response": "C. unconstitutional, because it is a prohibited bill of attainder.\n\nANSWER: C", "prompt_tokens": 322, "output_tokens": 19}
+{"id": "l179", "gold": "B", "step": "professional_law", "pred": "D", "response": "ANSWER: D. An administrative agency does not have the constitutional authority to require states to supervise federal regulatory guidelines such as those enumerated in Subsection (c).", "prompt_tokens": 342, "output_tokens": 33}
+{"id": "l180", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 266, "output_tokens": 18}
+{"id": "l181", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 324, "output_tokens": 5}
+{"id": "l182", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 423, "output_tokens": 18}
+{"id": "l183", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 307, "output_tokens": 5}
+{"id": "l184", "gold": "C", "step": "professional_law", "pred": "C", "response": "C. overturned, because his prosecution violates the right of consenting adults to view such films in private.\n\nANSWER: C", "prompt_tokens": 248, "output_tokens": 25}
+{"id": "l185", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 285, "output_tokens": 5}
+{"id": "l186", "gold": "A", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 408, "output_tokens": 18}
+{"id": "l187", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 280, "output_tokens": 18}
+{"id": "l188", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 275, "output_tokens": 18}
+{"id": "l189", "gold": "A", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 586, "output_tokens": 5}
+{"id": "l190", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 367, "output_tokens": 5}
+{"id": "l191", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D. excuse the condition and require the owner to pay damages to the contractor.", "prompt_tokens": 241, "output_tokens": 20}
+{"id": "l192", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D. sustained, because the defendant's statement was the product of a warrantless entry of his home.", "prompt_tokens": 390, "output_tokens": 25}
+{"id": "l193", "gold": "B", "step": "professional_law", "pred": "C", "response": "ANSWER: C. No, because the woman made no false representation of fact.", "prompt_tokens": 302, "output_tokens": 18}
+{"id": "l194", "gold": "D", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 295, "output_tokens": 5}
+{"id": "l195", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 136, "output_tokens": 5}
+{"id": "l196", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 295, "output_tokens": 18}
+{"id": "l197", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 270, "output_tokens": 5}
+{"id": "l198", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 326, "output_tokens": 5}
+{"id": "l199", "gold": "D", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 281, "output_tokens": 5}
+{"id": "l200", "gold": "B", "step": "professional_law", "pred": "B", "response": "B. landowner's duty of care to third parties cannot be shifted to a tenant by the terms of a lease.\n\nANSWER: B", "prompt_tokens": 385, "output_tokens": 29}
+{"id": "l201", "gold": "C", "step": "professional_law", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 384, "output_tokens": 5}
+{"id": "l202", "gold": "C", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 388, "output_tokens": 5}
+{"id": "l203", "gold": "D", "step": "professional_law", "pred": "D", "response": "The interest described in the scenario is a right-of-way granted in writing by the neighbor to the wedding planner. This is a clear example of an express easement, as it was created through a written agreement between the parties.\n\nANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 324, "output_tokens": 63}
+{"id": "l204", "gold": "A", "step": "professional_law", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 448, "output_tokens": 18}
+{"id": "l205", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 195, "output_tokens": 5}
+{"id": "l206", "gold": "A", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 138, "output_tokens": 18}
+{"id": "l207", "gold": "B", "step": "professional_law", "pred": "C", "response": "ANSWER: C. he can show that he was convicted before the effective date of the statute.", "prompt_tokens": 423, "output_tokens": 21}
+{"id": "l208", "gold": "B", "step": "professional_law", "pred": "C", "response": "ANSWER: C. not guilty, by reason of duress.", "prompt_tokens": 236, "output_tokens": 15}
+{"id": "l209", "gold": "A", "step": "professional_law", "pred": "D", "response": "ANSWER: D. not guilty, because the defendant cannot be charged with larceny of her own motor vehicle.", "prompt_tokens": 339, "output_tokens": 25}
+{"id": "l210", "gold": "C", "step": "professional_law", "pred": "C", "response": "C. Involuntary intoxication  \nANSWER: C", "prompt_tokens": 158, "output_tokens": 13}
+{"id": "l211", "gold": "D", "step": "professional_law", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 249, "output_tokens": 18}
+{"id": "l212", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 153, "output_tokens": 5}
+{"id": "l213", "gold": "A", "step": "professional_law", "pred": "B", "response": "B. The statement should be allowed, because the driver was not in custody for Miranda purposes when the admission was made.\n\nANSWER: B", "prompt_tokens": 336, "output_tokens": 29}
+{"id": "l214", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D. All three defendants.", "prompt_tokens": 256, "output_tokens": 10}
+{"id": "l215", "gold": "B", "step": "professional_law", "pred": "B", "response": "B. The interest created is a fee simple subject to a condition subsequent, and the original owner can get the property back only by taking affirmative steps to exercise his right of entry.\n\nANSWER: B", "prompt_tokens": 350, "output_tokens": 41}
+{"id": "l216", "gold": "A", "step": "professional_law", "pred": "D", "response": "ANSWER: D. The man, because the outside party received title to the house subject to the second mortgage.", "prompt_tokens": 374, "output_tokens": 24}
+{"id": "l217", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 184, "output_tokens": 18}
+{"id": "l218", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C. $230,000.00", "prompt_tokens": 332, "output_tokens": 17}
+{"id": "l219", "gold": "C", "step": "professional_law", "pred": "A", "response": "ANSWER: A. liable for battery.", "prompt_tokens": 247, "output_tokens": 10}
+{"id": "l220", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 248, "output_tokens": 18}
+{"id": "l221", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C. its power to regulate commerce.", "prompt_tokens": 147, "output_tokens": 12}
+{"id": "l222", "gold": "B", "step": "professional_law", "pred": "B", "response": "B. Yes, the defendant did not receive a fair trial; the testimony of the women only showed his bad character but because they were old incidents and not continuing, they did not allow a permissible inference that these affairs gave him a motive to kill his spouse.\n\nANSWER: B", "prompt_tokens": 462, "output_tokens": 57}
+{"id": "l223", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 318, "output_tokens": 5}
+{"id": "l224", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D. not guilty, because there was not a sufficient causal connection between her actions and the victim's death to impose criminal responsibility.", "prompt_tokens": 349, "output_tokens": 30}
+{"id": "l225", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 288, "output_tokens": 5}
+{"id": "l226", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 224, "output_tokens": 18}
+{"id": "l227", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 231, "output_tokens": 18}
+{"id": "l228", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C. murder.", "prompt_tokens": 258, "output_tokens": 8}
+{"id": "l229", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 303, "output_tokens": 5}
+{"id": "l230", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D. No, because the SPCA acted under the authority of the state statute and cooperated with state authorities to perform the authorized functions.", "prompt_tokens": 357, "output_tokens": 32}
+{"id": "l231", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 266, "output_tokens": 5}
+{"id": "l232", "gold": "D", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 276, "output_tokens": 5}
+{"id": "l233", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 184, "output_tokens": 5}
+{"id": "l234", "gold": "A", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 238, "output_tokens": 18}
+{"id": "l235", "gold": "B", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 261, "output_tokens": 5}
+{"id": "l236", "gold": "D", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 348, "output_tokens": 5}
+{"id": "l237", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D. The man and his brother are guilty of conspiracy and attempted murder, and the friend is guilty of criminal conspiracy.", "prompt_tokens": 290, "output_tokens": 28}
+{"id": "l238", "gold": "B", "step": "professional_law", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 458, "output_tokens": 18}
+{"id": "l239", "gold": "B", "step": "professional_law", "pred": "B", "response": "B. robbery.\n\nANSWER: B", "prompt_tokens": 192, "output_tokens": 9}
+{"id": "l240", "gold": "C", "step": "professional_law", "pred": "C", "response": "C. The skier, because the neighbor had already obtained an easement by prescription.\n\nANSWER: C", "prompt_tokens": 633, "output_tokens": 23}
+{"id": "l241", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 328, "output_tokens": 18}
+{"id": "l242", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 468, "output_tokens": 5}
+{"id": "l243", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 318, "output_tokens": 5}
+{"id": "l244", "gold": "C", "step": "professional_law", "pred": "C", "response": "C. Yes, because there is evidence that raises a material issue of fact whether the wife was in an emergency where she did not have time to deliberate on whether to move forward.\n\nANSWER: C", "prompt_tokens": 412, "output_tokens": 41}
+{"id": "l245", "gold": "C", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 821, "output_tokens": 5}
+{"id": "l246", "gold": "C", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 385, "output_tokens": 5}
+{"id": "l247", "gold": "B", "step": "professional_law", "pred": "A", "response": "ANSWER: A. Nothing.", "prompt_tokens": 393, "output_tokens": 8}
+{"id": "l248", "gold": "A", "step": "professional_law", "pred": "C", "response": "ANSWER: C. unconstitutional, as an undue burden on interstate commerce.", "prompt_tokens": 248, "output_tokens": 16}
+{"id": "l249", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 266, "output_tokens": 18}
+{"id": "l250", "gold": "A", "step": "professional_law", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 261, "output_tokens": 18}
+{"id": "l251", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B", "prompt_tokens": 376, "output_tokens": 5}
+{"id": "l252", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 229, "output_tokens": 18}
+{"id": "l253", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 229, "output_tokens": 18}
+{"id": "l254", "gold": "C", "step": "professional_law", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 503, "output_tokens": 18}
+{"id": "l255", "gold": "B", "step": "professional_law", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 393, "output_tokens": 18}
+{"id": "l256", "gold": "D", "step": "professional_law", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 222, "output_tokens": 18}
+{"id": "l257", "gold": "C", "step": "professional_law", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 202, "output_tokens": 18}
+{"id": "l258", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D. There was a voidable contract, because the purchasing agent should have known of the error.", "prompt_tokens": 307, "output_tokens": 24}
+{"id": "l259", "gold": "C", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 238, "output_tokens": 5}
+{"id": "l260", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C. arson and murder.", "prompt_tokens": 278, "output_tokens": 10}
+{"id": "l261", "gold": "C", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 380, "output_tokens": 5}
+{"id": "l262", "gold": "C", "step": "professional_law", "pred": "C", "response": "C. There is no sovereign immunity where the federal law provides a remedy to women in a civil rights law intended to apply the Fourteenth Amendment enforcement rights against the states.\n\nANSWER: C", "prompt_tokens": 282, "output_tokens": 39}
+{"id": "l263", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 288, "output_tokens": 5}
+{"id": "l264", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 343, "output_tokens": 5}
+{"id": "l265", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 336, "output_tokens": 18}
+{"id": "l266", "gold": "B", "step": "professional_law", "pred": "B", "response": "B. The Federal Rules of Evidence allow the admission of hearsay statements that were made for the purpose of medical diagnosis or treatment.\n\nANSWER: B", "prompt_tokens": 299, "output_tokens": 31}
+{"id": "l267", "gold": "A", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 400, "output_tokens": 18}
+{"id": "l268", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C. not relieve the architect of liability, because a personal service contract of this nature is non-delegable.", "prompt_tokens": 347, "output_tokens": 27}
+{"id": "l269", "gold": "A", "step": "professional_law", "pred": "D", "response": "ANSWER: D. not proper, because character cannot be proved by generalities.", "prompt_tokens": 245, "output_tokens": 18}
+{"id": "l270", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B. grant relief, because the primary would be proscribed by the Fifteenth Amendment.", "prompt_tokens": 359, "output_tokens": 22}
+{"id": "l271", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 477, "output_tokens": 18}
+{"id": "l272", "gold": "D", "step": "professional_law", "pred": "C", "response": "ANSWER: C. not succeed, because the resident's remarks were a matter of personal opinion rather than statements of fact.", "prompt_tokens": 338, "output_tokens": 26}
+{"id": "l273", "gold": "B", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 278, "output_tokens": 18}
+{"id": "l274", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 379, "output_tokens": 18}
+{"id": "l275", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C. inadmissible as an admission made in connection with settlement negotiations.", "prompt_tokens": 347, "output_tokens": 19}
+{"id": "l276", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C. The woman's counter offer terminated her power of acceptance.", "prompt_tokens": 283, "output_tokens": 17}
+{"id": "l277", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 261, "output_tokens": 5}
+{"id": "l278", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 415, "output_tokens": 18}
+{"id": "l279", "gold": "D", "step": "professional_law", "pred": "D", "response": "D. If plaintiff's proofs submitted in support of his motion for summary judgment are not contradicted and if plaintiff's proofs show that no genuine issue of material fact exists, summary judgment will be granted even if defendant's answer denied plaintiff's complaint.\n\nANSWER: D", "prompt_tokens": 207, "output_tokens": 54}
+{"id": "l280", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 396, "output_tokens": 5}
+{"id": "l281", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D. Yes, for the deaths of both the manager and the clerk.", "prompt_tokens": 228, "output_tokens": 19}
+{"id": "l282", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 302, "output_tokens": 5}
+{"id": "l283", "gold": "C", "step": "professional_law", "pred": "C", "response": "ANSWER: C", "prompt_tokens": 323, "output_tokens": 5}
+{"id": "l284", "gold": "C", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 267, "output_tokens": 5}
+{"id": "l285", "gold": "C", "step": "professional_law", "pred": "B", "response": "ANSWER: B (B is one of A, B, C, D).", "prompt_tokens": 251, "output_tokens": 18}
+{"id": "l286", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D", "prompt_tokens": 280, "output_tokens": 5}
+{"id": "l287", "gold": "D", "step": "professional_law", "pred": "A", "response": "ANSWER: A (A is one of A, B, C, D).", "prompt_tokens": 271, "output_tokens": 18}
+{"id": "l288", "gold": "D", "step": "professional_law", "pred": "D", "response": "D. No, the Court applied the bright-line test that forbids capital punishment of youth under the age of 18 because there are distinct differences between an adolescent and an adult.\n\nANSWER: D", "prompt_tokens": 342, "output_tokens": 42}
+{"id": "l289", "gold": "B", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 327, "output_tokens": 5}
+{"id": "l290", "gold": "B", "step": "professional_law", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 255, "output_tokens": 18}
+{"id": "l291", "gold": "A", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 285, "output_tokens": 5}
+{"id": "l292", "gold": "A", "step": "professional_law", "pred": "C", "response": "ANSWER: C (C is one of A, B, C, D).", "prompt_tokens": 218, "output_tokens": 18}
+{"id": "l293", "gold": "D", "step": "professional_law", "pred": "B", "response": "B. the ordinance violates the owner's rights of freedom of speech, because there is not valid interest to support the ordinance.\n\nANSWER: B", "prompt_tokens": 374, "output_tokens": 30}
+{"id": "l294", "gold": "D", "step": "professional_law", "pred": "D", "response": "ANSWER: D (D is one of A, B, C, D).", "prompt_tokens": 268, "output_tokens": 18}
+{"id": "l295", "gold": "B", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 303, "output_tokens": 5}
+{"id": "l296", "gold": "B", "step": "professional_law", "pred": "D", "response": "ANSWER: D. unconstitutional, as a discriminatory privilege tax.", "prompt_tokens": 361, "output_tokens": 14}
+{"id": "l297", "gold": "D", "step": "professional_law", "pred": "A", "response": "ANSWER: A", "prompt_tokens": 405, "output_tokens": 5}
+{"id": "l298", "gold": "B", "step": "professional_law", "pred": "B", "response": "B. She is entitled to damages based on a legal theory of fraudulent conversion.\n\nANSWER: B", "prompt_tokens": 314, "output_tokens": 21}
+{"id": "l299", "gold": "C", "step": "professional_law", "pred": "D", "response": "ANSWER: D. The evidence is irrelevant.", "prompt_tokens": 203, "output_tokens": 11}
